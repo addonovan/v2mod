@@ -18,7 +18,10 @@ political_decisions = {
         }
 
         effect = {
-            set_country_flag = correcting_the_record
+            add_country_modifier = {
+                name = correcting_the_record
+                duration = -1
+            }
         }
 
     }
@@ -41,7 +44,10 @@ political_decisions = {
         }
 
         effect = {
-            set_country_flag = correcting_the_record
+            add_country_modifier = {
+                name = correcting_the_record
+                duration = -1
+            }
         }
 
     }
@@ -56,7 +62,7 @@ political_decisions = {
 
         potential = {
             ai = no
-            has_country_flag = correcting_the_record
+            has_country_modifier = correcting_the_record
         }
 
         allow = {
@@ -64,7 +70,7 @@ political_decisions = {
         }
 
         effect = {
-            clr_country_flag = correcting_the_record
+            remove_country_modifier = correcting_the_record
         }
 
     }
