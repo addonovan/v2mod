@@ -3,6 +3,75 @@
 #
 # Effects are fully scriptable here.
 
+# Correct the Record
+
+# Great Powers:
+#   Costs 25% of their max tax income for the month
+#   Removes -2 infamy per month
+ctr_campaign_gp = {
+	
+	trigger = {
+		exist = yes
+		is_greater_power = yes
+		has_country_modifier = correcting_the_record
+	}
+
+	# 750% of daily tax income = 25% of the months
+	# god, I really hope this modifier is applied monthly
+	add_tax_relative_income = -7.5 
+	badboy = -2 
+}
+
+# Secondary Powers:
+#    Costs 15% of their max tax income for the month
+#    Removes -2.1 infamy per month (a little faster)
+ctr_campaign_sp = {
+
+	trigger = {
+		exists = yes
+		is_greater_power = no
+		rank = 16
+		has_country_modifier = correcting_the_record
+	}
+
+	add_tax_relative_income = -4.5
+	badboy = -2.1 # slightly more effect
+}
+
+# Civilized Countries:
+#     Costs 10% of their max tax income for the month
+#     Removes -2.3 infamy per month (faster than secondary powers)
+ctr_campaign_civ = {
+
+	trigger = {
+		exists = yes
+		is_greater_power = no
+		NOT = { rank = 16 }
+		civilized = yes
+		has_country_modifier = correcting_the_record
+	}
+
+	add_tax_relative_income = -3
+	badboy = -2.3
+}
+
+# Uncivilized Countries:
+#    Costs 8.33% of their max tax income for the month
+#    Removes -2.5 infamy per month (much faster than a great power)
+ctr_campaign_unciv = {
+
+	trigger = {
+		exists = yes
+		civilized = no
+		has_country_modifier = correcting_the_record
+	}
+
+	add_tax_relative_income = -2.5
+	badboy = -2.5
+}
+
+# Other shit
+
 the_british_raj = {
 	trigger = {
 		OR = {

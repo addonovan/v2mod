@@ -1,7 +1,7 @@
 political_decisions = {
 # North-American Minors
-	apply_for_USA_statehood = {
-		picture = apply_for_usa_statehood
+	apply_for_USA_statehood = { # hello
+		picture = apply_for_usa_statehood # hello
 		potential = {
 			exists = USA
 			USA = { government = democracy }

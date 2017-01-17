@@ -1,0 +1,26 @@
+political_decisions = {
+    
+    # This one will alert the user, that's the only difference
+    ctr_oh_boy = {
+
+        picture = build_the_kiel_canal
+
+        alert = yes
+        news = no
+
+        potential = {
+            ai = no   
+            badboy = 20
+        }
+
+        allow = {
+            ai = no
+        }
+
+        effect = {
+            set_country_flag = correcting_the_record
+        }
+
+    }
+
+}
