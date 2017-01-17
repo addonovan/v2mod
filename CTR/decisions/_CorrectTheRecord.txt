@@ -23,4 +23,50 @@ political_decisions = {
 
     }
 
+    # If you aren't near the infamy limit, then this won't alert the player
+    ctr = {
+
+        picture = build_the_panama_canal
+
+        alert = no
+        news = no
+
+        potential = {
+            ai = no
+            NOT = { badboy = 20 }
+        }
+
+        allow = {
+            ai = no
+        }
+
+        effect = {
+            set_country_flag = correcting_the_record
+        }
+
+    }
+
+    # Stop correcting the record
+    un_ctr = {
+
+        picture = build_the_suez_canal
+
+        alert = no
+        news = no
+
+        potential = {
+            ai = no
+            has_country_flag = correcting_the_record
+        }
+
+        allow = {
+            ai = no
+        }
+
+        effect = {
+            clr_country_flag = correcting_the_record
+        }
+
+    }
+
 }
