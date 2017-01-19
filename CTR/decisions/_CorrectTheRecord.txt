@@ -1,33 +1,6 @@
 political_decisions = {
-    
-    # This one will alert the user, that's the only difference
-    ctr_oh_boy = {
 
-        picture = build_the_kiel_canal
-
-        alert = yes
-        news = no
-
-        potential = {
-            ai = no   
-            badboy = 20
-            NOT = { has_country_modifier = correcting_the_record }
-        }
-
-        allow = {
-            ai = no
-        }
-
-        effect = {
-            add_country_modifier = {
-                name = correcting_the_record
-                duration = -1
-            }
-        }
-
-    }
-
-    # If you aren't near the infamy limit, then this won't alert the player
+    # allow the person to start a ctr campaign
     ctr = {
 
         picture = build_the_panama_canal
@@ -37,44 +10,25 @@ political_decisions = {
 
         potential = {
             ai = no
-            NOT = { badboy = 20 }
-            NOT = { has_country_modifier = correcting_the_record }
-        }
-
-        allow = {
-            ai = no
-        }
-
-        effect = {
-            add_country_modifier = {
-                name = correcting_the_record
-                duration = -1
+            NOT = {
+                has_country_modifier = correcting_the_record
             }
         }
 
-    }
-
-    # Stop correcting the record
-    un_ctr = {
-
-        picture = build_the_suez_canal
-
-        alert = no
-        news = no
-
-        potential = {
-            ai = no
-            has_country_modifier = correcting_the_record
-        }
-
         allow = {
             ai = no
+            money = 25000
         }
 
         effect = {
-            remove_country_modifier = correcting_the_record
-        }
+            badboy = -4 # immediately lose 4 infamy
+            treasury = -25000
 
+            add_country_modifier = {
+                name = correcting_the_record
+                duration = 365
+            }
+        }
     }
 
 }
