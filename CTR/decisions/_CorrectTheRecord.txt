@@ -28,6 +28,36 @@ political_decisions = {
                 name = correcting_the_record
                 duration = 365
             }
+
+            # target four random countries countries that aren't already targetted
+            random_country = {
+                limit = {
+                    is_greater_power = no
+                    NOT = { has_country_modifier = targetted_by_ctr }
+                }
+                country_event = 74000
+            }
+            random_country = {
+                limit = {
+                    is_greater_power = no
+                    NOT = { has_country_modifier = targetted_by_ctr }
+                }
+                country_event = 74000
+            }
+            random_country = {
+                limit = {
+                    is_greater_power = no
+                    NOT = { has_country_modifier = targetted_by_ctr }
+                }
+                country_event = 74000
+            }
+            random_country = {
+                limit = {
+                    is_greater_power = no
+                    NOT = { has_country_modifier = targetted_by_ctr }
+                }
+                country_event = 74000
+            }
         }
     }
 
