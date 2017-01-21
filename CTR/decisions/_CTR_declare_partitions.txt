@@ -17950,7 +17950,5 @@ political_decisions = {
         }
 
     }
-            
-
 
 }
