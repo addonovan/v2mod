@@ -60,26 +60,5 @@ political_decisions = {
             }
         }
     }
-
-    # Invite allied countries in this war to partition the target with you
-    invite_partitioners = {
-
-        alert = yes
-
-        potential = {
-            has_country_flag = leading_partition
-            NOT = {
-                has_country_flag = inviting_partitioners
-            }
-        }
-
-        allow = {
-        }
-
-        effect = {
-            set_country_flag = inviting_partitioners
-        }
-
-    }
-
+    
 }
