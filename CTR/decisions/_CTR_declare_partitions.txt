@@ -1,12 +1,11 @@
 political_decisions = {
 
-
     declare_partition_ABK = {
 
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ABK
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -38,7 +37,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ABU
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -70,7 +69,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = AFG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -102,7 +101,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = AGC
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -134,7 +133,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = AKH
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -166,7 +165,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ALB
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -198,7 +197,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ALD
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -230,7 +229,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ALS
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -262,7 +261,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ALT
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -294,7 +293,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ANG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -326,7 +325,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ANH
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -358,7 +357,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = AOT
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -390,7 +389,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ARA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -422,7 +421,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ARC
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -454,7 +453,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ARG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -486,7 +485,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ARM
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -518,7 +517,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ARO
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -550,7 +549,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ARU
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -582,7 +581,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ASH
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -614,7 +613,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ASM
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -646,7 +645,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = AST
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -678,7 +677,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ASY
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -710,7 +709,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ATJ
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -742,7 +741,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ATR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -774,7 +773,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = AUS
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -806,7 +805,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = AWA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -838,7 +837,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = AWS
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -870,7 +869,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = AZA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -902,7 +901,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = AZB
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -934,7 +933,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BAD
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -966,7 +965,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BAH
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -998,7 +997,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BAL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1030,7 +1029,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BAN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1062,7 +1061,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BAS
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1094,7 +1093,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BAV
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1126,7 +1125,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BDK
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1158,7 +1157,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BDN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1190,7 +1189,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BEL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1222,7 +1221,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BEN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1254,7 +1253,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BER
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1286,7 +1285,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BHO
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1318,7 +1317,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BHP
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1350,7 +1349,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BHR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1382,7 +1381,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BHT
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1414,7 +1413,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BHU
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1446,7 +1445,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BIH
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1478,7 +1477,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BIK
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1510,7 +1509,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BKV
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1542,7 +1541,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BLC
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1574,7 +1573,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BLZ
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1606,7 +1605,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BMK
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1638,7 +1637,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BNB
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1670,7 +1669,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BNG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1702,7 +1701,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BOH
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1734,7 +1733,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BOL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1766,7 +1765,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BOS
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1798,7 +1797,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BRA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1830,7 +1829,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BRD
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1862,7 +1861,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BRE
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1894,7 +1893,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BRT
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1926,7 +1925,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BRU
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1958,7 +1957,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BRY
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -1990,7 +1989,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BRZ
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2022,7 +2021,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BSH
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2054,7 +2053,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BSQ
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2086,7 +2085,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BTL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2118,7 +2117,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BUG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2150,7 +2149,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BUK
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2182,7 +2181,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BUL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2214,7 +2213,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BUN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2246,7 +2245,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BUR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2278,7 +2277,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BYE
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2310,7 +2309,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = BYZ
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2342,7 +2341,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CAL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2374,7 +2373,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CAM
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2406,7 +2405,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CAN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2438,7 +2437,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CAR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2470,7 +2469,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CAT
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2502,7 +2501,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CEQ
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2534,7 +2533,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CGO
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2566,7 +2565,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CHD
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2598,7 +2597,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CHE
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2630,7 +2629,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CHI
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2662,7 +2661,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CHK
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2694,7 +2693,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CHL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2726,7 +2725,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CHO
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2758,7 +2757,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CHP
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2790,7 +2789,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CHY
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2822,7 +2821,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CIR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2854,7 +2853,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CLA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2886,7 +2885,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CLC
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2918,7 +2917,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CLM
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2950,7 +2949,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CMR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -2982,7 +2981,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CNG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3014,7 +3013,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = COB
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3046,7 +3045,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = COL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3078,7 +3077,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = COS
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3110,7 +3109,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CPL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3142,7 +3141,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CRE
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3174,7 +3173,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CRI
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3206,7 +3205,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CRL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3238,7 +3237,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CRO
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3270,7 +3269,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CRS
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3302,7 +3301,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CRT
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3334,7 +3333,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CSA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3366,7 +3365,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CUB
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3398,7 +3397,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CYP
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3430,7 +3429,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CYR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3462,7 +3461,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = CZH
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3494,7 +3493,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D01
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3526,7 +3525,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D02
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3558,7 +3557,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D03
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3590,7 +3589,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D04
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3622,7 +3621,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D05
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3654,7 +3653,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D06
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3686,7 +3685,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D07
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3718,7 +3717,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D08
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3750,7 +3749,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D09
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3782,7 +3781,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D10
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3814,7 +3813,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D11
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3846,7 +3845,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D12
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3878,7 +3877,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D13
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3910,7 +3909,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D14
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3942,7 +3941,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D15
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -3974,7 +3973,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D16
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4006,7 +4005,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D17
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4038,7 +4037,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D18
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4070,7 +4069,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D19
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4102,7 +4101,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D20
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4134,7 +4133,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D21
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4166,7 +4165,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D22
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4198,7 +4197,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D23
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4230,7 +4229,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D24
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4262,7 +4261,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D25
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4294,7 +4293,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D26
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4326,7 +4325,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D27
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4358,7 +4357,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D28
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4390,7 +4389,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D29
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4422,7 +4421,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D30
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4454,7 +4453,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D31
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4486,7 +4485,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D32
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4518,7 +4517,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D33
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4550,7 +4549,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D34
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4582,7 +4581,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D35
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4614,7 +4613,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D36
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4646,7 +4645,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D37
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4678,7 +4677,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D38
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4710,7 +4709,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D39
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4742,7 +4741,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D40
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4774,7 +4773,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D41
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4806,7 +4805,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D42
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4838,7 +4837,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D43
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4870,7 +4869,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D44
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4902,7 +4901,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D45
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4934,7 +4933,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D46
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4966,7 +4965,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D47
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -4998,7 +4997,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D48
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5030,7 +5029,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D49
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5062,7 +5061,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = D50
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5094,7 +5093,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = DAG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5126,7 +5125,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = DAH
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5158,7 +5157,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = DAI
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5190,7 +5189,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = DAK
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5222,7 +5221,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = DAM
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5254,7 +5253,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = DAR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5286,7 +5285,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = DEN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5318,7 +5317,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = DES
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5350,7 +5349,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = DJA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5382,7 +5381,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = DLM
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5414,7 +5413,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = DNB
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5446,7 +5445,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = DND
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5478,7 +5477,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = DOM
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5510,7 +5509,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = DON
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5542,7 +5541,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = DRA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5574,7 +5573,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = DUR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5606,7 +5605,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = DZG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5638,7 +5637,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ECU
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5670,7 +5669,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = EGY
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5702,7 +5701,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ELS
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5734,7 +5733,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ENG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5766,7 +5765,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ENL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5798,7 +5797,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ENT
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5830,7 +5829,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = EST
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5862,7 +5861,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ETH
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5894,7 +5893,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = EZO
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5926,7 +5925,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = FDL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5958,7 +5957,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = FIJ
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -5990,7 +5989,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = FIN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6022,7 +6021,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = FIU
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6054,7 +6053,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = FJN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6086,7 +6085,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = FLA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6118,7 +6117,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = FRA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6150,7 +6149,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = FRM
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6182,7 +6181,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = FRO
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6214,7 +6213,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = FSA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6246,7 +6245,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = GAB
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6278,7 +6277,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = GAZ
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6310,7 +6309,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = GBU
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6342,7 +6341,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = GCO
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6374,7 +6373,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = GEL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6406,7 +6405,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = GEO
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6438,7 +6437,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = GER
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6470,7 +6469,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = GLC
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6502,7 +6501,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = GLM
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6534,7 +6533,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = GMB
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6566,7 +6565,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = GMJ
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6598,7 +6597,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = GNE
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6630,7 +6629,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = GNG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6662,7 +6661,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = GON
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6694,7 +6693,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = GRE
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6726,7 +6725,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = GRN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6758,7 +6757,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = GUA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6790,7 +6789,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = GUY
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6822,7 +6821,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = GWA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6854,7 +6853,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = GXI
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6886,7 +6885,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = HAI
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6918,7 +6917,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = HAL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6950,7 +6949,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = HAM
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -6982,7 +6981,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = HAN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7014,7 +7013,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = HAR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7046,7 +7045,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = HAW
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7078,7 +7077,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = HBY
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7110,7 +7109,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = HDJ
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7142,7 +7141,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = HEK
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7174,7 +7173,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = HES
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7206,7 +7205,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = HND
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7238,7 +7237,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = HNN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7270,7 +7269,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = HOL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7302,7 +7301,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = HON
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7334,7 +7333,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = HUI
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7366,7 +7365,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = HUN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7398,7 +7397,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = HYD
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7430,7 +7429,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ICL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7462,7 +7461,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = IND
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7494,7 +7493,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = INO
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7526,7 +7525,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ION
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7558,7 +7557,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = IRE
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7590,7 +7589,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = IRQ
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7622,7 +7621,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ISR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7654,7 +7653,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ITA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7686,7 +7685,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = IVC
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7718,7 +7717,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = IZH
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7750,7 +7749,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = JAI
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7782,7 +7781,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = JAL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7814,7 +7813,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = JAM
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7846,7 +7845,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = JAP
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7878,7 +7877,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = JAS
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7910,7 +7909,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = JAV
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7942,7 +7941,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = JOD
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -7974,7 +7973,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = JOH
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8006,7 +8005,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = JOR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8038,7 +8037,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KAF
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8070,7 +8069,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KAG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8102,7 +8101,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KAL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8134,7 +8133,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KAM
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8166,7 +8165,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KAR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8198,7 +8197,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KAS
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8230,7 +8229,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KAZ
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8262,7 +8261,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KBO
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8294,7 +8293,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KCH
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8326,7 +8325,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KDS
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8358,7 +8357,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KHI
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8390,7 +8389,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KLM
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8422,7 +8421,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KMK
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8454,7 +8453,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KML
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8486,7 +8485,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KMT
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8518,7 +8517,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KNG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8550,7 +8549,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KNY
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8582,7 +8581,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KOK
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8614,7 +8613,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KON
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8646,7 +8645,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KOR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8678,7 +8677,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KRA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8710,7 +8709,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KRL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8742,7 +8741,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KRN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8774,7 +8773,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KTH
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8806,7 +8805,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KTI
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8838,7 +8837,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KUB
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8870,7 +8869,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KUK
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8902,7 +8901,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KUT
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8934,7 +8933,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KWT
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8966,7 +8965,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KYR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -8998,7 +8997,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = KZB
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9030,7 +9029,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = LAD
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9062,7 +9061,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = LAN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9094,7 +9093,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = LAT
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9126,7 +9125,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = LBA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9158,7 +9157,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = LBG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9190,7 +9189,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = LBN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9222,7 +9221,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = LBY
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9254,7 +9253,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = LHJ
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9286,7 +9285,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = LIB
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9318,7 +9317,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = LIP
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9350,7 +9349,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = LIT
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9382,7 +9381,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = LOA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9414,7 +9413,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = LOM
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9446,7 +9445,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = LOR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9478,7 +9477,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = LOS
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9510,7 +9509,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = LPL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9542,7 +9541,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = LSK
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9574,7 +9573,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = LUA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9606,7 +9605,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = LUB
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9638,7 +9637,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = LUC
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9670,7 +9669,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = LUN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9702,7 +9701,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = LUX
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9734,7 +9733,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = LUZ
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9766,7 +9765,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = LXA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9798,7 +9797,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MAD
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9830,7 +9829,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MAH
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9862,7 +9861,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MAJ
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9894,7 +9893,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MAK
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9926,7 +9925,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MAL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9958,7 +9957,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MAS
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -9990,7 +9989,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MAT
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10022,7 +10021,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MCD
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10054,7 +10053,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MCK
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10086,7 +10085,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MDV
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10118,7 +10117,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MEC
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10150,7 +10149,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MEI
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10182,7 +10181,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MEW
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10214,7 +10213,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MEX
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10246,7 +10245,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MGH
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10278,7 +10277,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MGL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10310,7 +10309,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MHR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10342,7 +10341,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MKN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10374,7 +10373,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MLD
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10406,7 +10405,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MLI
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10438,7 +10437,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MLT
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10470,7 +10469,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MLW
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10502,7 +10501,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MLY
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10534,7 +10533,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MNG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10566,7 +10565,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MNP
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10598,7 +10597,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MOD
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10630,7 +10629,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MOL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10662,7 +10661,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MON
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10694,7 +10693,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MOR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10726,7 +10725,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MOS
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10758,7 +10757,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MOZ
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10790,7 +10789,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MRU
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10822,7 +10821,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MTC
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10854,7 +10853,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MUG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10886,7 +10885,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = MYS
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10918,7 +10917,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = NAG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10950,7 +10949,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = NAL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -10982,7 +10981,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = NAS
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11014,7 +11013,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = NCT
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11046,7 +11045,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = NEJ
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11078,7 +11077,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = NEN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11110,7 +11109,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = NEP
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11142,7 +11141,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = NET
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11174,7 +11173,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = NEW
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11206,7 +11205,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = NGF
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11238,7 +11237,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = NGR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11270,7 +11269,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = NIC
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11302,7 +11301,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = NIG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11334,7 +11333,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = NMB
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11366,7 +11365,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = NOR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11398,7 +11397,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = NYE
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11430,7 +11429,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = NZL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11462,7 +11461,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = OAX
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11494,7 +11493,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = OCC
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11526,7 +11525,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = OLD
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11558,7 +11557,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = OMA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11590,7 +11589,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ORA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11622,7 +11621,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ORI
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11654,7 +11653,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = OYO
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11686,7 +11685,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = PAK
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11718,7 +11717,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = PAP
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11750,7 +11749,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = PAR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11782,7 +11781,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = PBC
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11814,7 +11813,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = PER
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11846,7 +11845,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = PEU
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11878,7 +11877,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = PGG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11910,7 +11909,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = PHG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11942,7 +11941,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = PHL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -11974,7 +11973,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = PLC
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12006,7 +12005,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = PLS
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12038,7 +12037,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = PML
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12070,7 +12069,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = PNB
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12102,7 +12101,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = PNJ
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12134,7 +12133,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = PNM
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12166,7 +12165,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = PNT
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12198,7 +12197,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = POL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12230,7 +12229,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = POR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12262,7 +12261,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = PRG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12294,7 +12293,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = PRI
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12326,7 +12325,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = PRK
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12358,7 +12357,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = PRU
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12390,7 +12389,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = PTG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12422,7 +12421,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = PZN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12454,7 +12453,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = QAT
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12486,7 +12485,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = QNG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12518,7 +12517,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = QUE
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12550,7 +12549,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = RAJ
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12582,7 +12581,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = RDL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12614,7 +12613,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = REB
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12646,7 +12645,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = RGR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12678,7 +12677,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = RGS
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12710,7 +12709,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = RHI
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12742,7 +12741,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = RHO
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12774,7 +12773,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = RMG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12806,7 +12805,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ROM
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12838,7 +12837,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = RPL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12870,7 +12869,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = RUS
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12902,7 +12901,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = RUT
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12934,7 +12933,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = RWA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12966,7 +12965,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = RYU
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -12998,7 +12997,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SAF
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13030,7 +13029,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SAK
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13062,7 +13061,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SAR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13094,7 +13093,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SAT
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13126,7 +13125,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SAX
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13158,7 +13157,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SBA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13190,7 +13189,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SCA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13222,7 +13221,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SCH
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13254,7 +13253,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SCO
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13286,7 +13285,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SEG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13318,7 +13317,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SEN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13350,7 +13349,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SER
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13382,7 +13381,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SGF
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13414,7 +13413,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SGM
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13446,7 +13445,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SHA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13478,7 +13477,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SHI
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13510,7 +13509,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SHK
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13542,7 +13541,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SHO
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13574,7 +13573,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SHW
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13606,7 +13605,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SIA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13638,7 +13637,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SIB
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13670,7 +13669,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SIC
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13702,7 +13701,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SID
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13734,7 +13733,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SIE
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13766,7 +13765,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SIK
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13798,7 +13797,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SIN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13830,7 +13829,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SLE
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13862,7 +13861,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SLG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13894,7 +13893,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SLO
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13926,7 +13925,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SLS
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13958,7 +13957,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SLV
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -13990,7 +13989,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SLW
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14022,7 +14021,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SNG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14054,7 +14053,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SNZ
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14086,7 +14085,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SOK
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14118,7 +14117,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SOM
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14150,7 +14149,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SON
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14182,7 +14181,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SPA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14214,7 +14213,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SPC
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14246,7 +14245,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SPU
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14278,7 +14277,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SRD
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14310,7 +14309,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SRI
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14342,7 +14341,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SRN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14374,7 +14373,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SUA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14406,7 +14405,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SUD
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14438,7 +14437,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SUL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14470,7 +14469,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SVY
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14502,7 +14501,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SWE
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14534,7 +14533,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SWH
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14566,7 +14565,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SWI
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14598,7 +14597,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SWK
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14630,7 +14629,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SXI
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14662,7 +14661,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SYC
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14694,7 +14693,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SYR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14726,7 +14725,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = SZC
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14758,7 +14757,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TAI
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14790,7 +14789,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TAJ
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14822,7 +14821,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TAR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14854,7 +14853,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TCA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14886,7 +14885,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TEX
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14918,7 +14917,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TGA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14950,7 +14949,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TIB
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -14982,7 +14981,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TIG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15014,7 +15013,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TKG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15046,7 +15045,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TKM
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15078,7 +15077,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TKS
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15110,7 +15109,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TMR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15142,7 +15141,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TNT
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15174,7 +15173,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TNZ
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15206,7 +15205,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TOG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15238,7 +15237,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TOO
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15270,7 +15269,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TOS
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15302,7 +15301,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TOU
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15334,7 +15333,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TPG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15366,7 +15365,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TRA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15398,7 +15397,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TRE
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15430,7 +15429,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TRI
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15462,7 +15461,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TRN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15494,7 +15493,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TRS
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15526,7 +15525,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TRZ
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15558,7 +15557,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TSW
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15590,7 +15589,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TTB
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15622,7 +15621,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TUN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15654,7 +15653,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TUR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15686,7 +15685,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = TUS
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15718,7 +15717,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = UBD
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15750,7 +15749,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = UCA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15782,7 +15781,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = UIL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15814,7 +15813,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = UKR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15846,7 +15845,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = UNB
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15878,7 +15877,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = UNM
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15910,7 +15909,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = UOR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15942,7 +15941,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = URA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -15974,7 +15973,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = URU
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16006,7 +16005,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = USA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16038,7 +16037,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = UYG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16070,7 +16069,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = UZB
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16102,7 +16101,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = VEN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16134,7 +16133,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = VNZ
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16166,7 +16165,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = WAD
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16198,7 +16197,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = WAL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16230,7 +16229,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = WEI
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16262,7 +16261,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = WES
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16294,7 +16293,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = WHA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16326,7 +16325,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = WIA
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16358,7 +16357,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = WLL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16390,7 +16389,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = WOL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16422,7 +16421,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = WRI
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16454,7 +16453,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = WRL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16486,7 +16485,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = WUR
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16518,7 +16517,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = XBI
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16550,7 +16549,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = XHO
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16582,7 +16581,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = XIN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16614,7 +16613,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = YAK
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16646,7 +16645,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = YEM
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16678,7 +16677,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = YNN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16710,7 +16709,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = YUC
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16742,7 +16741,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = YUG
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16774,7 +16773,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = YZW
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16806,7 +16805,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ZAM
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16838,7 +16837,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ZAN
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16870,7 +16869,7 @@ political_decisions = {
         alert = yes
 
         potential = {
-            war = yes
+            war_with = ZUL
             year = 1900
             NOT = {
                 has_country_flag = leading_partition
@@ -16895,5 +16894,5 @@ political_decisions = {
         }
 
     }
-
+            
 }
