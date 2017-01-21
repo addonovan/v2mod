@@ -181,6 +181,14 @@ partition_state = {
 		}
 	}
 
+	# Remove the partition flags from the non-warring countries
+	on_po_accepted = {
+		# Remove the 'leading partition' flag from the winning country
+		# immediately
+		THIS = {
+			clr_country_flag = leading_partition
+		}
+	}
 }
 
 # 10% WS partition CB for acquiring a colonial state
@@ -250,10 +258,14 @@ partition_colony = {
 		}
 	}
 
+	# Remove the partition flags from the non-warring countries
 	on_po_accepted = {
-		
+		# Remove the 'leading partition' flag from the winning country
+		# immediately
+		THIS = {
+			clr_country_flag = leading_partition
+		}
 	}
-
 }
 
 ##################
