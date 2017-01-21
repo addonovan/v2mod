@@ -95,6 +95,9 @@ peace_order = {
 	demand_concession_BC_casus_belli
 	demand_concession_NI_casus_belli
 	demand_concession_casus_belli
+	partition_take_state_cb
+	partition_take_colony_cb
+	partition_cb
 	rude_boy
 	conquest
 	conquest_any
@@ -106,7 +109,9 @@ peace_order = {
 	status_quo
 }
 
-# CTR
+###########
+### CTR ###
+###########
 
 # 0-WS partition CB for acquiring a non-colonial state
 partition_take_state_cb = {
@@ -231,17 +236,17 @@ partition_take_colony_cb = {
 	}
 }
 
-# The General "We're gonna partition you lol" cb
 partition_cb = {
-	months = 12
-	construction_speed = 20
 	sprite_index = 20
 	is_triggered_only = yes
+	months = 12
 	crisis = yes
+
+	construction_speed = 10
 
 	badboy_factor = 25
 	prestige_factor = 0.4
-	peace_cost_factor = 35
+	peace_cost_factor = 100
 	penalty_factor = 0.10
 
 	break_truce_prestige_factor = 0.3
@@ -257,69 +262,52 @@ partition_cb = {
 		THIS = {
 			is_greater_power = yes
 			is_disarmed = no
-			mass_politics = yes
 		}
 		OR = {
 			is_greater_power = yes
 			is_secondary_power = yes
+			badboy = 25
 		}
 		is_vassal = no
 		NOT = {
-			relation = {
-				who = THIS
-				value = -175
-			}
-		}
-		NOT = {
 			has_country_flag = neutrality
-		}
-
-		# Only one country can be leading a partition at once
-		# (Only because I don't know how to deal with some complications)
-		NOT = {
-			any_country = {
-				has_country_flag = leading_partition
-			}
 		}
 	}
 
 	on_add = {
-
-		# The Aggressor gets marked as the parititon leader
 		THIS = {
 			set_country_flag = leading_partition
 		}
 
-		# The Defender gets marked as under partition
 		FROM = {
 			set_country_flag = under_partition
 		}
-
 	}
-
-	po_reparations = yes
-	po_disarmament = yes
 
 	war_name = WAR_PARTITION_NAME
 
+	# Defender loses 20% of their prestige
 	on_po_accepted = {
-		# remove the flags from all parties
-		any_greater_power = {
+		prestige_factor = -0.2
+
+		any_country = {
 			limit = {
-				war = no
 				OR = {
-					has_country_flag = under_partition
-					has_country_flag = participating_in_partition
 					has_country_flag = leading_partition
+					has_country_flag = participating_in_partition
+					has_country_flag = under_partition
+					has_country_flag = inviting_partitioners	
+					has_country_flag = denied_partition_request
 				}
 			}
-			clr_country_flag = under_partition
-			clr_country_flag = participating_in_partition	
 			clr_country_flag = leading_partition
+			clr_country_flag = participating_in_partition
+			clr_country_flag = under_partition
+			clr_country_flag = inviting_partitioners
+			clr_country_flag = denied_partition_request
 		}
 	}
 }
-
 
 ### OTHER CB's
 

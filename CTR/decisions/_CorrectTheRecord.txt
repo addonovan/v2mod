@@ -68,37 +68,16 @@ political_decisions = {
 
         potential = {
             has_country_flag = leading_partition
+            NOT = {
+                has_country_flag = inviting_partitioners
+            }
         }
 
         allow = {
-            has_country_flag = leading_partition
         }
 
         effect = {
-            
-            # Find all of our GP alliances that aren't participating
-            any_greater_power = {
-
-                # Allies that aren't allready participating
-                limit = {
-                    alliance_with = THIS
-                    NOT = {
-                        has_country_flag = participating_in_partition
-                    }
-                }
-
-                # The country must be at war with our allied country, and
-                # must be being partitioned (=> it's the same country)
-                any_country = {
-                    limit = {
-                        war_with = THIS
-                        has_country_flag = being_partitioned
-                    }
-
-                    country_event = 74001
-                }
-            }
-
+            set_country_flag = inviting_partitioners
         }
 
     }
