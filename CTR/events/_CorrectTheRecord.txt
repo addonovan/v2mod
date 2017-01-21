@@ -4,7 +4,7 @@ country_event = {
 	id = 74000
 	title = "ctr_74000_title"
 	desc = "ctr_74000_desc"
-	picture = "peele"
+	picture = "CTR_event"
 
 	# This will be triggered whenever the decision is taken
 	is_triggered_only = yes

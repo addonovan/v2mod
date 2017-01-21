@@ -3,7 +3,7 @@ political_decisions = {
     # allow the person to start a ctr campaign
     ctr = {
 
-        picture = build_the_panama_canal
+        picture = "CTR_decision"
 
         alert = no
         news = no
