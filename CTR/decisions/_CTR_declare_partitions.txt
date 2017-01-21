@@ -1,4 +1,5 @@
 political_decisions = {
+
     declare_partition_ABK = {
         alert = yes
         news = yes
@@ -17,6 +18,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ABK
             ABK = {
@@ -43,6 +45,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ABU
             ABU = {
@@ -69,6 +72,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_AFG
             AFG = {
@@ -95,6 +99,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_AGC
             AGC = {
@@ -121,6 +126,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_AKH
             AKH = {
@@ -147,6 +153,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ALB
             ALB = {
@@ -173,6 +180,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ALD
             ALD = {
@@ -199,6 +207,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ALS
             ALS = {
@@ -225,6 +234,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ALT
             ALT = {
@@ -251,6 +261,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ANG
             ANG = {
@@ -277,6 +288,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ANH
             ANH = {
@@ -303,6 +315,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_AOT
             AOT = {
@@ -329,6 +342,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ARA
             ARA = {
@@ -355,6 +369,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ARC
             ARC = {
@@ -381,6 +396,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ARG
             ARG = {
@@ -407,6 +423,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ARM
             ARM = {
@@ -433,6 +450,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ARO
             ARO = {
@@ -459,6 +477,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ARU
             ARU = {
@@ -485,6 +504,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ASH
             ASH = {
@@ -511,6 +531,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ASM
             ASM = {
@@ -537,6 +558,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_AST
             AST = {
@@ -563,6 +585,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ASY
             ASY = {
@@ -589,6 +612,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ATJ
             ATJ = {
@@ -615,6 +639,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ATR
             ATR = {
@@ -641,6 +666,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_AUS
             AUS = {
@@ -667,6 +693,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_AWA
             AWA = {
@@ -693,6 +720,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_AWS
             AWS = {
@@ -719,6 +747,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_AZA
             AZA = {
@@ -745,6 +774,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_AZB
             AZB = {
@@ -771,6 +801,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BAD
             BAD = {
@@ -797,6 +828,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BAH
             BAH = {
@@ -823,6 +855,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BAL
             BAL = {
@@ -849,6 +882,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BAN
             BAN = {
@@ -875,6 +909,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BAS
             BAS = {
@@ -901,6 +936,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BAV
             BAV = {
@@ -927,6 +963,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BDK
             BDK = {
@@ -953,6 +990,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BDN
             BDN = {
@@ -979,6 +1017,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BEL
             BEL = {
@@ -1005,6 +1044,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BEN
             BEN = {
@@ -1031,6 +1071,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BER
             BER = {
@@ -1057,6 +1098,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BHO
             BHO = {
@@ -1083,6 +1125,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BHP
             BHP = {
@@ -1109,6 +1152,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BHR
             BHR = {
@@ -1135,6 +1179,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BHT
             BHT = {
@@ -1161,6 +1206,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BHU
             BHU = {
@@ -1187,6 +1233,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BIH
             BIH = {
@@ -1213,6 +1260,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BIK
             BIK = {
@@ -1239,6 +1287,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BKV
             BKV = {
@@ -1265,6 +1314,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BLC
             BLC = {
@@ -1291,6 +1341,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BLZ
             BLZ = {
@@ -1317,6 +1368,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BMK
             BMK = {
@@ -1343,6 +1395,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BNB
             BNB = {
@@ -1369,6 +1422,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BNG
             BNG = {
@@ -1395,6 +1449,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BOH
             BOH = {
@@ -1421,6 +1476,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BOL
             BOL = {
@@ -1447,6 +1503,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BOS
             BOS = {
@@ -1473,6 +1530,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BRA
             BRA = {
@@ -1499,6 +1557,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BRD
             BRD = {
@@ -1525,6 +1584,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BRE
             BRE = {
@@ -1551,6 +1611,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BRT
             BRT = {
@@ -1577,6 +1638,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BRU
             BRU = {
@@ -1603,6 +1665,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BRY
             BRY = {
@@ -1629,6 +1692,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BRZ
             BRZ = {
@@ -1655,6 +1719,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BSH
             BSH = {
@@ -1681,6 +1746,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BSQ
             BSQ = {
@@ -1707,6 +1773,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BTL
             BTL = {
@@ -1733,6 +1800,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BUG
             BUG = {
@@ -1759,6 +1827,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BUK
             BUK = {
@@ -1785,6 +1854,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BUL
             BUL = {
@@ -1811,6 +1881,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BUN
             BUN = {
@@ -1837,6 +1908,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BUR
             BUR = {
@@ -1863,6 +1935,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BYE
             BYE = {
@@ -1889,6 +1962,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_BYZ
             BYZ = {
@@ -1915,6 +1989,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CAL
             CAL = {
@@ -1941,6 +2016,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CAM
             CAM = {
@@ -1967,6 +2043,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CAN
             CAN = {
@@ -1993,6 +2070,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CAR
             CAR = {
@@ -2019,6 +2097,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CAT
             CAT = {
@@ -2045,6 +2124,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CEQ
             CEQ = {
@@ -2071,6 +2151,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CGO
             CGO = {
@@ -2097,6 +2178,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CHD
             CHD = {
@@ -2123,6 +2205,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CHE
             CHE = {
@@ -2149,6 +2232,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CHI
             CHI = {
@@ -2175,6 +2259,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CHK
             CHK = {
@@ -2201,6 +2286,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CHL
             CHL = {
@@ -2227,6 +2313,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CHO
             CHO = {
@@ -2253,6 +2340,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CHP
             CHP = {
@@ -2279,6 +2367,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CHY
             CHY = {
@@ -2305,6 +2394,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CIR
             CIR = {
@@ -2331,6 +2421,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CLA
             CLA = {
@@ -2357,6 +2448,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CLC
             CLC = {
@@ -2383,6 +2475,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CLM
             CLM = {
@@ -2409,6 +2502,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CMR
             CMR = {
@@ -2435,6 +2529,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CNG
             CNG = {
@@ -2461,6 +2556,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_COB
             COB = {
@@ -2487,6 +2583,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_COL
             COL = {
@@ -2513,6 +2610,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_COS
             COS = {
@@ -2539,6 +2637,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CPL
             CPL = {
@@ -2565,6 +2664,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CRE
             CRE = {
@@ -2591,6 +2691,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CRI
             CRI = {
@@ -2617,6 +2718,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CRL
             CRL = {
@@ -2643,6 +2745,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CRO
             CRO = {
@@ -2669,6 +2772,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CRS
             CRS = {
@@ -2695,6 +2799,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CRT
             CRT = {
@@ -2721,6 +2826,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CSA
             CSA = {
@@ -2747,6 +2853,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CUB
             CUB = {
@@ -2773,6 +2880,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CYP
             CYP = {
@@ -2799,6 +2907,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CYR
             CYR = {
@@ -2825,6 +2934,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_CZH
             CZH = {
@@ -2851,6 +2961,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D01
             D01 = {
@@ -2877,6 +2988,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D02
             D02 = {
@@ -2903,6 +3015,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D03
             D03 = {
@@ -2929,6 +3042,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D04
             D04 = {
@@ -2955,6 +3069,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D05
             D05 = {
@@ -2981,6 +3096,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D06
             D06 = {
@@ -3007,6 +3123,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D07
             D07 = {
@@ -3033,6 +3150,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D08
             D08 = {
@@ -3059,6 +3177,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D09
             D09 = {
@@ -3085,6 +3204,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D10
             D10 = {
@@ -3111,6 +3231,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D11
             D11 = {
@@ -3137,6 +3258,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D12
             D12 = {
@@ -3163,6 +3285,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D13
             D13 = {
@@ -3189,6 +3312,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D14
             D14 = {
@@ -3215,6 +3339,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D15
             D15 = {
@@ -3241,6 +3366,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D16
             D16 = {
@@ -3267,6 +3393,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D17
             D17 = {
@@ -3293,6 +3420,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D18
             D18 = {
@@ -3319,6 +3447,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D19
             D19 = {
@@ -3345,6 +3474,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D20
             D20 = {
@@ -3371,6 +3501,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D21
             D21 = {
@@ -3397,6 +3528,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D22
             D22 = {
@@ -3423,6 +3555,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D23
             D23 = {
@@ -3449,6 +3582,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D24
             D24 = {
@@ -3475,6 +3609,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D25
             D25 = {
@@ -3501,6 +3636,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D26
             D26 = {
@@ -3527,6 +3663,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D27
             D27 = {
@@ -3553,6 +3690,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D28
             D28 = {
@@ -3579,6 +3717,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D29
             D29 = {
@@ -3605,6 +3744,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D30
             D30 = {
@@ -3631,6 +3771,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D31
             D31 = {
@@ -3657,6 +3798,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D32
             D32 = {
@@ -3683,6 +3825,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D33
             D33 = {
@@ -3709,6 +3852,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D34
             D34 = {
@@ -3735,6 +3879,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D35
             D35 = {
@@ -3761,6 +3906,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D36
             D36 = {
@@ -3787,6 +3933,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D37
             D37 = {
@@ -3813,6 +3960,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D38
             D38 = {
@@ -3839,6 +3987,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D39
             D39 = {
@@ -3865,6 +4014,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D40
             D40 = {
@@ -3891,6 +4041,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D41
             D41 = {
@@ -3917,6 +4068,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D42
             D42 = {
@@ -3943,6 +4095,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D43
             D43 = {
@@ -3969,6 +4122,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D44
             D44 = {
@@ -3995,6 +4149,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D45
             D45 = {
@@ -4021,6 +4176,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D46
             D46 = {
@@ -4047,6 +4203,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D47
             D47 = {
@@ -4073,6 +4230,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D48
             D48 = {
@@ -4099,6 +4257,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D49
             D49 = {
@@ -4125,6 +4284,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_D50
             D50 = {
@@ -4151,6 +4311,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_DAG
             DAG = {
@@ -4177,6 +4338,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_DAH
             DAH = {
@@ -4203,6 +4365,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_DAI
             DAI = {
@@ -4229,6 +4392,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_DAK
             DAK = {
@@ -4255,6 +4419,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_DAM
             DAM = {
@@ -4281,6 +4446,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_DAR
             DAR = {
@@ -4307,6 +4473,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_DEN
             DEN = {
@@ -4333,6 +4500,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_DES
             DES = {
@@ -4359,6 +4527,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_DJA
             DJA = {
@@ -4385,6 +4554,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_DLM
             DLM = {
@@ -4411,6 +4581,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_DNB
             DNB = {
@@ -4437,6 +4608,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_DND
             DND = {
@@ -4463,6 +4635,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_DOM
             DOM = {
@@ -4489,6 +4662,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_DON
             DON = {
@@ -4515,6 +4689,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_DRA
             DRA = {
@@ -4541,6 +4716,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_DUR
             DUR = {
@@ -4567,6 +4743,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_DZG
             DZG = {
@@ -4593,6 +4770,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ECU
             ECU = {
@@ -4619,6 +4797,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_EGY
             EGY = {
@@ -4645,6 +4824,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ELS
             ELS = {
@@ -4671,6 +4851,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ENG
             ENG = {
@@ -4697,6 +4878,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ENL
             ENL = {
@@ -4723,6 +4905,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ENT
             ENT = {
@@ -4749,6 +4932,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_EST
             EST = {
@@ -4775,6 +4959,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ETH
             ETH = {
@@ -4801,6 +4986,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_EZO
             EZO = {
@@ -4827,6 +5013,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_FDL
             FDL = {
@@ -4853,6 +5040,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_FIJ
             FIJ = {
@@ -4879,6 +5067,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_FIN
             FIN = {
@@ -4905,6 +5094,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_FIU
             FIU = {
@@ -4931,6 +5121,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_FJN
             FJN = {
@@ -4957,6 +5148,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_FLA
             FLA = {
@@ -4983,6 +5175,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_FRA
             FRA = {
@@ -5009,6 +5202,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_FRM
             FRM = {
@@ -5035,6 +5229,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_FRO
             FRO = {
@@ -5061,6 +5256,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_FSA
             FSA = {
@@ -5087,6 +5283,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_GAB
             GAB = {
@@ -5113,6 +5310,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_GAZ
             GAZ = {
@@ -5139,6 +5337,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_GBU
             GBU = {
@@ -5165,6 +5364,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_GCO
             GCO = {
@@ -5191,6 +5391,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_GEL
             GEL = {
@@ -5217,6 +5418,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_GEO
             GEO = {
@@ -5243,6 +5445,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_GER
             GER = {
@@ -5269,6 +5472,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_GLC
             GLC = {
@@ -5295,6 +5499,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_GLM
             GLM = {
@@ -5321,6 +5526,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_GMB
             GMB = {
@@ -5347,6 +5553,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_GMJ
             GMJ = {
@@ -5373,6 +5580,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_GNE
             GNE = {
@@ -5399,6 +5607,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_GNG
             GNG = {
@@ -5425,6 +5634,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_GON
             GON = {
@@ -5451,6 +5661,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_GRE
             GRE = {
@@ -5477,6 +5688,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_GRN
             GRN = {
@@ -5503,6 +5715,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_GUA
             GUA = {
@@ -5529,6 +5742,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_GUY
             GUY = {
@@ -5555,6 +5769,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_GWA
             GWA = {
@@ -5581,6 +5796,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_GXI
             GXI = {
@@ -5607,6 +5823,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_HAI
             HAI = {
@@ -5633,6 +5850,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_HAL
             HAL = {
@@ -5659,6 +5877,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_HAM
             HAM = {
@@ -5685,6 +5904,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_HAN
             HAN = {
@@ -5711,6 +5931,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_HAR
             HAR = {
@@ -5737,6 +5958,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_HAW
             HAW = {
@@ -5763,6 +5985,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_HBY
             HBY = {
@@ -5789,6 +6012,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_HDJ
             HDJ = {
@@ -5815,6 +6039,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_HEK
             HEK = {
@@ -5841,6 +6066,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_HES
             HES = {
@@ -5867,6 +6093,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_HND
             HND = {
@@ -5893,6 +6120,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_HNN
             HNN = {
@@ -5919,6 +6147,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_HOL
             HOL = {
@@ -5945,6 +6174,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_HON
             HON = {
@@ -5971,6 +6201,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_HUI
             HUI = {
@@ -5997,6 +6228,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_HUN
             HUN = {
@@ -6023,6 +6255,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_HYD
             HYD = {
@@ -6049,6 +6282,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ICL
             ICL = {
@@ -6075,6 +6309,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_IND
             IND = {
@@ -6101,6 +6336,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_INO
             INO = {
@@ -6127,6 +6363,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ION
             ION = {
@@ -6153,6 +6390,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_IRE
             IRE = {
@@ -6179,6 +6417,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_IRQ
             IRQ = {
@@ -6205,6 +6444,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ISR
             ISR = {
@@ -6231,6 +6471,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ITA
             ITA = {
@@ -6257,6 +6498,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_IVC
             IVC = {
@@ -6283,6 +6525,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_IZH
             IZH = {
@@ -6309,6 +6552,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_JAI
             JAI = {
@@ -6335,6 +6579,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_JAL
             JAL = {
@@ -6361,6 +6606,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_JAM
             JAM = {
@@ -6387,6 +6633,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_JAP
             JAP = {
@@ -6413,6 +6660,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_JAS
             JAS = {
@@ -6439,6 +6687,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_JAV
             JAV = {
@@ -6465,6 +6714,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_JOD
             JOD = {
@@ -6491,6 +6741,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_JOH
             JOH = {
@@ -6517,6 +6768,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_JOR
             JOR = {
@@ -6543,6 +6795,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KAF
             KAF = {
@@ -6569,6 +6822,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KAG
             KAG = {
@@ -6595,6 +6849,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KAL
             KAL = {
@@ -6621,6 +6876,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KAM
             KAM = {
@@ -6647,6 +6903,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KAR
             KAR = {
@@ -6673,6 +6930,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KAS
             KAS = {
@@ -6699,6 +6957,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KAZ
             KAZ = {
@@ -6725,6 +6984,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KBO
             KBO = {
@@ -6751,6 +7011,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KCH
             KCH = {
@@ -6777,6 +7038,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KDS
             KDS = {
@@ -6803,6 +7065,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KHI
             KHI = {
@@ -6829,6 +7092,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KLM
             KLM = {
@@ -6855,6 +7119,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KMK
             KMK = {
@@ -6881,6 +7146,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KML
             KML = {
@@ -6907,6 +7173,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KMT
             KMT = {
@@ -6933,6 +7200,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KNG
             KNG = {
@@ -6959,6 +7227,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KNY
             KNY = {
@@ -6985,6 +7254,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KOK
             KOK = {
@@ -7011,6 +7281,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KON
             KON = {
@@ -7037,6 +7308,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KOR
             KOR = {
@@ -7063,6 +7335,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KRA
             KRA = {
@@ -7089,6 +7362,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KRL
             KRL = {
@@ -7115,6 +7389,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KRN
             KRN = {
@@ -7141,6 +7416,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KTH
             KTH = {
@@ -7167,6 +7443,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KTI
             KTI = {
@@ -7193,6 +7470,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KUB
             KUB = {
@@ -7219,6 +7497,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KUK
             KUK = {
@@ -7245,6 +7524,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KUT
             KUT = {
@@ -7271,6 +7551,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KWT
             KWT = {
@@ -7297,6 +7578,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KYR
             KYR = {
@@ -7323,6 +7605,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_KZB
             KZB = {
@@ -7349,6 +7632,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_LAD
             LAD = {
@@ -7375,6 +7659,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_LAN
             LAN = {
@@ -7401,6 +7686,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_LAT
             LAT = {
@@ -7427,6 +7713,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_LBA
             LBA = {
@@ -7453,6 +7740,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_LBG
             LBG = {
@@ -7479,6 +7767,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_LBN
             LBN = {
@@ -7505,6 +7794,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_LBY
             LBY = {
@@ -7531,6 +7821,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_LHJ
             LHJ = {
@@ -7557,6 +7848,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_LIB
             LIB = {
@@ -7583,6 +7875,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_LIP
             LIP = {
@@ -7609,6 +7902,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_LIT
             LIT = {
@@ -7635,6 +7929,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_LOA
             LOA = {
@@ -7661,6 +7956,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_LOM
             LOM = {
@@ -7687,6 +7983,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_LOR
             LOR = {
@@ -7713,6 +8010,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_LOS
             LOS = {
@@ -7739,6 +8037,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_LPL
             LPL = {
@@ -7765,6 +8064,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_LSK
             LSK = {
@@ -7791,6 +8091,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_LUA
             LUA = {
@@ -7817,6 +8118,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_LUB
             LUB = {
@@ -7843,6 +8145,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_LUC
             LUC = {
@@ -7869,6 +8172,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_LUN
             LUN = {
@@ -7895,6 +8199,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_LUX
             LUX = {
@@ -7921,6 +8226,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_LUZ
             LUZ = {
@@ -7947,6 +8253,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_LXA
             LXA = {
@@ -7973,6 +8280,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MAD
             MAD = {
@@ -7999,6 +8307,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MAH
             MAH = {
@@ -8025,6 +8334,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MAJ
             MAJ = {
@@ -8051,6 +8361,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MAK
             MAK = {
@@ -8077,6 +8388,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MAL
             MAL = {
@@ -8103,6 +8415,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MAS
             MAS = {
@@ -8129,6 +8442,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MAT
             MAT = {
@@ -8155,6 +8469,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MCD
             MCD = {
@@ -8181,6 +8496,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MCK
             MCK = {
@@ -8207,6 +8523,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MDV
             MDV = {
@@ -8233,6 +8550,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MEC
             MEC = {
@@ -8259,6 +8577,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MEI
             MEI = {
@@ -8285,6 +8604,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MEW
             MEW = {
@@ -8311,6 +8631,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MEX
             MEX = {
@@ -8337,6 +8658,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MGH
             MGH = {
@@ -8363,6 +8685,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MGL
             MGL = {
@@ -8389,6 +8712,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MHR
             MHR = {
@@ -8415,6 +8739,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MKN
             MKN = {
@@ -8441,6 +8766,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MLD
             MLD = {
@@ -8467,6 +8793,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MLI
             MLI = {
@@ -8493,6 +8820,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MLT
             MLT = {
@@ -8519,6 +8847,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MLW
             MLW = {
@@ -8545,6 +8874,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MLY
             MLY = {
@@ -8571,6 +8901,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MNG
             MNG = {
@@ -8597,6 +8928,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MNP
             MNP = {
@@ -8623,6 +8955,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MOD
             MOD = {
@@ -8649,6 +8982,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MOL
             MOL = {
@@ -8675,6 +9009,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MON
             MON = {
@@ -8701,6 +9036,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MOR
             MOR = {
@@ -8727,6 +9063,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MOS
             MOS = {
@@ -8753,6 +9090,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MOZ
             MOZ = {
@@ -8779,6 +9117,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MRU
             MRU = {
@@ -8805,6 +9144,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MTC
             MTC = {
@@ -8831,6 +9171,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MUG
             MUG = {
@@ -8857,6 +9198,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_MYS
             MYS = {
@@ -8883,6 +9225,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_NAG
             NAG = {
@@ -8909,6 +9252,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_NAL
             NAL = {
@@ -8935,6 +9279,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_NAS
             NAS = {
@@ -8961,6 +9306,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_NCT
             NCT = {
@@ -8987,6 +9333,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_NEJ
             NEJ = {
@@ -9013,6 +9360,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_NEN
             NEN = {
@@ -9039,6 +9387,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_NEP
             NEP = {
@@ -9065,6 +9414,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_NET
             NET = {
@@ -9091,6 +9441,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_NEW
             NEW = {
@@ -9117,6 +9468,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_NGF
             NGF = {
@@ -9143,6 +9495,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_NGR
             NGR = {
@@ -9169,6 +9522,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_NIC
             NIC = {
@@ -9195,6 +9549,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_NIG
             NIG = {
@@ -9221,6 +9576,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_NMB
             NMB = {
@@ -9247,6 +9603,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_NOR
             NOR = {
@@ -9273,6 +9630,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_NYE
             NYE = {
@@ -9299,6 +9657,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_NZL
             NZL = {
@@ -9325,6 +9684,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_OAX
             OAX = {
@@ -9351,6 +9711,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_OCC
             OCC = {
@@ -9377,6 +9738,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_OLD
             OLD = {
@@ -9403,6 +9765,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_OMA
             OMA = {
@@ -9429,6 +9792,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ORA
             ORA = {
@@ -9455,6 +9819,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ORI
             ORI = {
@@ -9481,6 +9846,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_OYO
             OYO = {
@@ -9507,6 +9873,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_PAK
             PAK = {
@@ -9533,6 +9900,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_PAP
             PAP = {
@@ -9559,6 +9927,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_PAR
             PAR = {
@@ -9585,6 +9954,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_PBC
             PBC = {
@@ -9611,6 +9981,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_PER
             PER = {
@@ -9637,6 +10008,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_PEU
             PEU = {
@@ -9663,6 +10035,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_PGG
             PGG = {
@@ -9689,6 +10062,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_PHG
             PHG = {
@@ -9715,6 +10089,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_PHL
             PHL = {
@@ -9741,6 +10116,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_PLC
             PLC = {
@@ -9767,6 +10143,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_PLS
             PLS = {
@@ -9793,6 +10170,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_PML
             PML = {
@@ -9819,6 +10197,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_PNB
             PNB = {
@@ -9845,6 +10224,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_PNJ
             PNJ = {
@@ -9871,6 +10251,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_PNM
             PNM = {
@@ -9897,6 +10278,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_PNT
             PNT = {
@@ -9923,6 +10305,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_POL
             POL = {
@@ -9949,6 +10332,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_POR
             POR = {
@@ -9975,6 +10359,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_PRG
             PRG = {
@@ -10001,6 +10386,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_PRI
             PRI = {
@@ -10027,6 +10413,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_PRK
             PRK = {
@@ -10053,6 +10440,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_PRU
             PRU = {
@@ -10079,6 +10467,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_PTG
             PTG = {
@@ -10105,6 +10494,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_PZN
             PZN = {
@@ -10131,6 +10521,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_QAT
             QAT = {
@@ -10157,6 +10548,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_QNG
             QNG = {
@@ -10183,6 +10575,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_QUE
             QUE = {
@@ -10209,6 +10602,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_RAJ
             RAJ = {
@@ -10235,6 +10629,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_RDL
             RDL = {
@@ -10261,6 +10656,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_REB
             REB = {
@@ -10287,6 +10683,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_RGR
             RGR = {
@@ -10313,6 +10710,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_RGS
             RGS = {
@@ -10339,6 +10737,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_RHI
             RHI = {
@@ -10365,6 +10764,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_RHO
             RHO = {
@@ -10391,6 +10791,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_RMG
             RMG = {
@@ -10417,6 +10818,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ROM
             ROM = {
@@ -10443,6 +10845,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_RPL
             RPL = {
@@ -10469,6 +10872,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_RUS
             RUS = {
@@ -10495,6 +10899,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_RUT
             RUT = {
@@ -10521,6 +10926,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_RWA
             RWA = {
@@ -10547,6 +10953,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_RYU
             RYU = {
@@ -10573,6 +10980,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SAF
             SAF = {
@@ -10599,6 +11007,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SAK
             SAK = {
@@ -10625,6 +11034,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SAR
             SAR = {
@@ -10651,6 +11061,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SAT
             SAT = {
@@ -10677,6 +11088,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SAX
             SAX = {
@@ -10703,6 +11115,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SBA
             SBA = {
@@ -10729,6 +11142,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SCA
             SCA = {
@@ -10755,6 +11169,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SCH
             SCH = {
@@ -10781,6 +11196,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SCO
             SCO = {
@@ -10807,6 +11223,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SEG
             SEG = {
@@ -10833,6 +11250,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SEN
             SEN = {
@@ -10859,6 +11277,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SER
             SER = {
@@ -10885,6 +11304,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SGF
             SGF = {
@@ -10911,6 +11331,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SGM
             SGM = {
@@ -10937,6 +11358,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SHA
             SHA = {
@@ -10963,6 +11385,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SHI
             SHI = {
@@ -10989,6 +11412,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SHK
             SHK = {
@@ -11015,6 +11439,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SHO
             SHO = {
@@ -11041,6 +11466,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SHW
             SHW = {
@@ -11067,6 +11493,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SIA
             SIA = {
@@ -11093,6 +11520,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SIB
             SIB = {
@@ -11119,6 +11547,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SIC
             SIC = {
@@ -11145,6 +11574,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SID
             SID = {
@@ -11171,6 +11601,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SIE
             SIE = {
@@ -11197,6 +11628,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SIK
             SIK = {
@@ -11223,6 +11655,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SIN
             SIN = {
@@ -11249,6 +11682,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SLE
             SLE = {
@@ -11275,6 +11709,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SLG
             SLG = {
@@ -11301,6 +11736,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SLO
             SLO = {
@@ -11327,6 +11763,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SLS
             SLS = {
@@ -11353,6 +11790,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SLV
             SLV = {
@@ -11379,6 +11817,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SLW
             SLW = {
@@ -11405,6 +11844,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SNG
             SNG = {
@@ -11431,6 +11871,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SNZ
             SNZ = {
@@ -11457,6 +11898,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SOK
             SOK = {
@@ -11483,6 +11925,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SOM
             SOM = {
@@ -11509,6 +11952,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SON
             SON = {
@@ -11535,6 +11979,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SPA
             SPA = {
@@ -11561,6 +12006,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SPC
             SPC = {
@@ -11587,6 +12033,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SPU
             SPU = {
@@ -11613,6 +12060,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SRD
             SRD = {
@@ -11639,6 +12087,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SRI
             SRI = {
@@ -11665,6 +12114,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SRN
             SRN = {
@@ -11691,6 +12141,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SUA
             SUA = {
@@ -11717,6 +12168,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SUD
             SUD = {
@@ -11743,6 +12195,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SUL
             SUL = {
@@ -11769,6 +12222,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SVY
             SVY = {
@@ -11795,6 +12249,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SWE
             SWE = {
@@ -11821,6 +12276,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SWH
             SWH = {
@@ -11847,6 +12303,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SWI
             SWI = {
@@ -11873,6 +12330,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SWK
             SWK = {
@@ -11899,6 +12357,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SXI
             SXI = {
@@ -11925,6 +12384,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SYC
             SYC = {
@@ -11951,6 +12411,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SYR
             SYR = {
@@ -11977,6 +12438,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_SZC
             SZC = {
@@ -12003,6 +12465,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TAI
             TAI = {
@@ -12029,6 +12492,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TAJ
             TAJ = {
@@ -12055,6 +12519,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TAR
             TAR = {
@@ -12081,6 +12546,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TCA
             TCA = {
@@ -12107,6 +12573,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TEX
             TEX = {
@@ -12133,6 +12600,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TGA
             TGA = {
@@ -12159,6 +12627,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TIB
             TIB = {
@@ -12185,6 +12654,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TIG
             TIG = {
@@ -12211,6 +12681,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TKG
             TKG = {
@@ -12237,6 +12708,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TKM
             TKM = {
@@ -12263,6 +12735,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TKS
             TKS = {
@@ -12289,6 +12762,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TMR
             TMR = {
@@ -12315,6 +12789,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TNT
             TNT = {
@@ -12341,6 +12816,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TNZ
             TNZ = {
@@ -12367,6 +12843,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TOG
             TOG = {
@@ -12393,6 +12870,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TOO
             TOO = {
@@ -12419,6 +12897,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TOS
             TOS = {
@@ -12445,6 +12924,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TOU
             TOU = {
@@ -12471,6 +12951,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TPG
             TPG = {
@@ -12497,6 +12978,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TRA
             TRA = {
@@ -12523,6 +13005,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TRE
             TRE = {
@@ -12549,6 +13032,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TRI
             TRI = {
@@ -12575,6 +13059,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TRN
             TRN = {
@@ -12601,6 +13086,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TRS
             TRS = {
@@ -12627,6 +13113,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TRZ
             TRZ = {
@@ -12653,6 +13140,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TSW
             TSW = {
@@ -12679,6 +13167,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TTB
             TTB = {
@@ -12705,6 +13194,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TUN
             TUN = {
@@ -12731,6 +13221,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TUR
             TUR = {
@@ -12757,6 +13248,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_TUS
             TUS = {
@@ -12783,6 +13275,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_UBD
             UBD = {
@@ -12809,6 +13302,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_UCA
             UCA = {
@@ -12835,6 +13329,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_UIL
             UIL = {
@@ -12861,6 +13356,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_UKR
             UKR = {
@@ -12887,6 +13383,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_UNB
             UNB = {
@@ -12913,6 +13410,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_UNM
             UNM = {
@@ -12939,6 +13437,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_UOR
             UOR = {
@@ -12965,6 +13464,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_URA
             URA = {
@@ -12991,6 +13491,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_URU
             URU = {
@@ -13017,6 +13518,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_USA
             USA = {
@@ -13043,6 +13545,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_UYG
             UYG = {
@@ -13069,6 +13572,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_UZB
             UZB = {
@@ -13095,6 +13599,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_VEN
             VEN = {
@@ -13121,6 +13626,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_VNZ
             VNZ = {
@@ -13147,6 +13653,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_WAD
             WAD = {
@@ -13173,6 +13680,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_WAL
             WAL = {
@@ -13199,6 +13707,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_WEI
             WEI = {
@@ -13225,6 +13734,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_WES
             WES = {
@@ -13251,6 +13761,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_WHA
             WHA = {
@@ -13277,6 +13788,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_WIA
             WIA = {
@@ -13303,6 +13815,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_WLL
             WLL = {
@@ -13329,6 +13842,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_WOL
             WOL = {
@@ -13355,6 +13869,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_WRI
             WRI = {
@@ -13381,6 +13896,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_WRL
             WRL = {
@@ -13407,6 +13923,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_WUR
             WUR = {
@@ -13433,6 +13950,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_XBI
             XBI = {
@@ -13459,6 +13977,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_XHO
             XHO = {
@@ -13485,6 +14004,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_XIN
             XIN = {
@@ -13511,6 +14031,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_YAK
             YAK = {
@@ -13537,6 +14058,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_YEM
             YEM = {
@@ -13563,6 +14085,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_YNN
             YNN = {
@@ -13589,6 +14112,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_YUC
             YUC = {
@@ -13615,6 +14139,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_YUG
             YUG = {
@@ -13641,6 +14166,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_YZW
             YZW = {
@@ -13667,6 +14193,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ZAM
             ZAM = {
@@ -13693,6 +14220,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ZAN
             ZAN = {
@@ -13719,6 +14247,7 @@ political_decisions = {
             }
         }
         effect = {
+            badboy = 5
             set_country_flag = leading_partition
             set_country_flag = leading_partition_ZUL
             ZUL = {
