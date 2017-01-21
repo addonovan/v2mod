@@ -39,72 +39,289 @@
 
 # Order that CBs are executed in a peace treaty
 peace_order = {
-treaty_port_casus_belli
-become_independent
-dismantle_cb
-dismantle_cb_add
-dismantle_cb_add_new
-colonial_competition
-acquire_all_cores
-acquire_core_state
-restore_austrian_empire
-colonial_reconquest_cb
-restore_america
-claim_holy_land
-restore_british_raj
-unification_casus_belli
-civil_war
-unification_annex_casus_belli
-annex_core_country
-unification_add_to_sphere
-add_to_sphere
-unification_GP_humiliate
-great_war_install_democracy
-great_war_install_fascism
-great_war_install_communism
-uninstall_communist_gov_cb
-install_democracy
-install_fascism
-install_communism
-unification_humiliate_cb
-take_from_sphere
-liberate_country
-free_peoples
-free_allied_cores
-free_balkans
-monroe_doctrine
-oriental_crisis
-unification_release_puppet_cb
-release_puppet
-release_puppet_AI
-great_game_cb
-make_puppet
-install_fascism_make_puppet
-install_communism_make_puppet
-install_democracy_make_puppet
-gunboat
-cut_down_to_size
-cut_down_to_size_boxer
-humiliate
-place_in_the_sun
-dismantle_forts
-china_acquire_state
-acquire_state
-acquire_any_state
-acquire_substate_region
-demand_concession_BC_casus_belli
-demand_concession_NI_casus_belli
-demand_concession_casus_belli
-rude_boy
-conquest
-conquest_any
-annex_africa
-annex_africa_full
-establish_protectorate_BC_casus_belli
-establish_protectorate_NI_casus_belli
-establish_protectorate_casus_belli
-status_quo
+	treaty_port_casus_belli
+	become_independent
+	dismantle_cb
+	dismantle_cb_add
+	dismantle_cb_add_new
+	colonial_competition
+	acquire_all_cores
+	acquire_core_state
+	restore_austrian_empire
+	colonial_reconquest_cb
+	restore_america
+	claim_holy_land
+	restore_british_raj
+	unification_casus_belli
+	civil_war
+	unification_annex_casus_belli
+	annex_core_country
+	unification_add_to_sphere
+	add_to_sphere
+	unification_GP_humiliate
+	great_war_install_democracy
+	great_war_install_fascism
+	great_war_install_communism
+	uninstall_communist_gov_cb
+	install_democracy
+	install_fascism
+	install_communism
+	unification_humiliate_cb
+	take_from_sphere
+	liberate_country
+	free_peoples
+	free_allied_cores
+	free_balkans
+	monroe_doctrine
+	oriental_crisis
+	unification_release_puppet_cb
+	release_puppet
+	release_puppet_AI
+	great_game_cb
+	make_puppet
+	install_fascism_make_puppet
+	install_communism_make_puppet
+	install_democracy_make_puppet
+	gunboat
+	cut_down_to_size
+	cut_down_to_size_boxer
+	humiliate
+	place_in_the_sun
+	dismantle_forts
+	china_acquire_state
+	acquire_state
+	acquire_any_state
+	acquire_substate_region
+	demand_concession_BC_casus_belli
+	demand_concession_NI_casus_belli
+	demand_concession_casus_belli
+	rude_boy
+	conquest
+	conquest_any
+	annex_africa
+	annex_africa_full
+	establish_protectorate_BC_casus_belli
+	establish_protectorate_NI_casus_belli
+	establish_protectorate_casus_belli
+	status_quo
 }
+
+# CTR
+
+# 0-WS partition CB for acquiring a non-colonial state
+partition_take_state_cb = {
+	sprite_index = 6
+	is_triggered_only = yes
+	crisis = yes
+
+	badboy_factor = 0
+	prestige_factor = 2
+	peace_cost_factor = 0.01
+	penalty_factor = 0
+
+	break_truce_prestige_factor = 0
+	break_truce_infamy_factor = 0
+	break_truce_militancy_factor = 0
+	truce_months = 0
+
+	good_relation_prestige_factor = 0
+	good_relation_infamy_factor = 0
+	good_relation_militancy_factor = 0
+
+	can_use = {
+		# The Aggressor must be participating in the partition
+		THIS = {
+			is_greater_power = yes
+			OR = {
+				has_country_flag = participating_in_partition
+				has_country_flag = leading_partition
+			}
+		}
+
+		# The Defender must be the country being partitioned
+		is_greater_power = yes
+		has_country_flag = under_partition
+	}
+
+	# all non-colonial states are allowed
+	allowed_states = {
+		any_owned_province = {
+			is_colonial = no
+			controlled_by = THIS
+		}
+	}
+	allowed_states_in_crisis = {
+		any_owned_province = {
+			is_colonial = no
+			controlled_by = THIS
+		}
+	}
+
+	po_demand_state = yes
+
+	# 5% of pro military people in Aggressor's country become jingoistic
+	on_add = {
+		move_issue_percentage = {
+			from = pro_military
+			to = jingoism
+			value = 0.05
+		}
+	}
+
+}
+
+# 0-WS partition CB for acquiring a certain colonial state
+partition_take_colony_cb = {
+	sprite_index = 6
+	is_triggered_only = yes
+	crisis = yes
+
+	badboy_factor = 0
+	prestige_factor = 2
+	peace_cost_factor = 0.01
+	penalty_factor = 0
+
+	break_truce_prestige_factor = 0
+	break_truce_infamy_factor = 0
+	break_truce_militancy_factor = 0
+	truce_months = 0
+
+	good_relation_prestige_factor = 0
+	good_relation_infamy_factor = 0
+	good_relation_militancy_factor = 0
+
+	can_use = {
+		# The Aggressor must be participating in the partition
+		THIS = {
+			is_greater_power = yes
+			OR = {
+				has_country_flag = participating_in_partition
+				has_country_flag = leading_partition
+			}
+		}
+
+		# The Defender must be the country being partitioned
+		is_greater_power = yes
+		has_country_flag = under_partition
+	}
+
+	# all non-colonial states are allowed
+	allowed_states = {
+		any_owned_province = {
+			is_colonial = yes
+			controlled_by = THIS
+		}
+	}
+	allowed_states_in_crisis = {
+		any_owned_province = {
+			is_colonial = yes
+			controlled_by = THIS
+		}
+	}
+
+	po_demand_state = yes
+
+	# 5% of pro military people in Aggressor's country become jingoistic
+	on_add = {
+		move_issue_percentage = {
+			from = pro_military
+			to = jingoism
+			value = 0.05
+		}
+	}
+}
+
+# The General "We're gonna partition you lol" cb
+partition_cb = {
+	months = 12
+	construction_speed = 20
+	sprite_index = 20
+	is_triggered_only = yes
+	crisis = yes
+
+	badboy_factor = 25
+	prestige_factor = 0.4
+	peace_cost_factor = 35
+	penalty_factor = 0.10
+
+	break_truce_prestige_factor = 0.3
+	break_truce_infamy_factor = 10
+	break_truce_militancy_factor = 0
+	truce_months = 60
+
+	good_relation_prestige_factor = 0
+	good_relation_infamy_factor = 0
+	good_relation_militancy_factor = 0
+
+	can_use = {
+		THIS = {
+			is_greater_power = yes
+			is_disarmed = no
+			mass_politics = yes
+		}
+		OR = {
+			is_greater_power = yes
+			is_secondary_power = yes
+		}
+		is_vassal = no
+		NOT = {
+			relation = {
+				who = THIS
+				value = -175
+			}
+		}
+		NOT = {
+			has_country_flag = neutrality
+		}
+
+		# Only one country can be leading a partition at once
+		# (Only because I don't know how to deal with some complications)
+		NOT = {
+			any_country = {
+				has_country_flag = leading_partition
+			}
+		}
+	}
+
+	on_add = {
+
+		# The Aggressor gets marked as the parititon leader
+		THIS = {
+			set_country_flag = leading_partition
+		}
+
+		# The Defender gets marked as under partition
+		FROM = {
+			set_country_flag = under_partition
+		}
+
+	}
+
+	po_reparations = yes
+	po_disarmament = yes
+
+	war_name = WAR_PARTITION_NAME
+
+	on_po_accepted = {
+		# remove the flags from all parties
+		any_greater_power = {
+			limit = {
+				war = no
+				OR = {
+					has_country_flag = under_partition
+					has_country_flag = participating_in_partition
+					has_country_flag = leading_partition
+				}
+			}
+			clr_country_flag = under_partition
+			clr_country_flag = participating_in_partition	
+			clr_country_flag = leading_partition
+		}
+	}
+}
+
+
+### OTHER CB's
 
 # Great War CB's
 dismantle_cb = {
