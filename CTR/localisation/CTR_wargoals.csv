@@ -1,19 +1,12 @@
 ;;;;;;;;;;;;;;x
 NORMAL_WAR_PARTITION_NAME;$FIRST$ Partition of the $SECOND$ Nation;;;;;;;;;;;;;x
+AGGRESSION_WAR_PARTITION_NAME;$FIRST$ Partition of the $SECOND$ Nation;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;x
-partition_cb;Partition Country;;;;;;;;;;;;;x
-partition_cb_desc;Partition $RECIPIENT$ into any number of parts, acquiring any number of territories at no cost;;;;;;;;;;;;;x
-partition_cb_short;Partition $RECIPIENT$ into any number of parts, acquiring any number of territories at no cost;;;;;;;;;;;;;x
-partition_cb_setup;Partition a country into any number of parts, acquiring any number of territories at no cost;;;;;;;;;;;;;x
+acquire_state_rudeboi;Acquire state;Prendre un état;Region erobern;;Adquirir estado;;;;;;;;;x;;;;
+acquire_state_rudeboi_short;Acquire $STATE$; Prendre l'État de $STATE$;$STATE$ erobern;;Adquirir $STATE$;;;;;;;;;x;;;;
+acquire_state_rudeboi_setup;Acquire $STATE$ from $RECIPIENT$;Prendre $STATE$ à $RECIPIENT$;$STATE$ von $RECIPIENT$ erobern.;;Adquirir $STATE$ de manos de $RECIPIENT$;;;;;;;;;x;;;;
 ;;;;;;;;;;;;;;x
-partition_take_state_cb;Partition a State;;;;;;;;;;;;;x
-partition_take_state_cb_desc;Acquire $STATE$ from $RECIPIENT$;;;;;;;;;;;;;x
-partition_take_state_cb_short;Acquire a state from $RECIPIENT$;;;;;;;;;;;;;x
-partition_take_state_cb_setup;Acquire a state from $RECIPIENT$;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-partition_take_colony_cb;Partition a Colony;;;;;;;;;;;;;x
-partition_take_colony_cb_desc;Acquire the colonial state of $STATE$ from $RECIPIENT$;;;;;;;;;;;;;x
-partition_take_colony_cb_short;Acquire a colonial state from $RECIPIENT$;;;;;;;;;;;;;x
-partition_take_colony_cb_setup;Acquire a colonial state from $RECIPIENT$;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
+place_in_the_sun_rudeboi;Place in the sun;Une place au soleil;Ein Platz an der Sonne;;Un lugar bajo el sol;;;;;;;;;x;;;;
+place_in_the_sun_rudeboi_short;Acquire $STATE$; Prendre l'État de $STATE$;Kolonie $STATE$ erobern;;Adquirir $STATE$;;;;;;;;;x;;;;
+place_in_the_sun_rudeboi_setup;Acquire colony $STATE$ from $RECIPIENT$;Prendre colonie $STATE$ à $RECIPIENT$;Kolonie $STATE$ von $RECIPIENT$ erobern.;;Adquirir la colonia de $STATE$ de manos de $RECIPIENT$;;;;;;;;;x;;;;
 ;;;;;;;;;;;;;;x

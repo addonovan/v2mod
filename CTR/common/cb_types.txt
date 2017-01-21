@@ -109,207 +109,321 @@ peace_order = {
 	status_quo
 }
 
-###########
-### CTR ###
-###########
+################
+### CTR CB's ###
+################
 
-# 0-WS partition CB for acquiring a non-colonial state
-partition_take_state_cb = {
+# 0 infamy, 10% WS acquire state for infamous foes
+acquire_state_rudeboi = {
 	sprite_index = 6
-	is_triggered_only = yes
-	crisis = yes
-
-	badboy_factor = 0
-	prestige_factor = 2
-	peace_cost_factor = 0.01
-	penalty_factor = 0
-
-	break_truce_prestige_factor = 0
-	break_truce_infamy_factor = 0
-	break_truce_militancy_factor = 0
-	truce_months = 0
-
-	good_relation_prestige_factor = 0
-	good_relation_infamy_factor = 0
-	good_relation_militancy_factor = 0
-
-	can_use = {
-		# The Aggressor must be participating in the partition
-		THIS = {
-			is_greater_power = yes
-			OR = {
-				has_country_flag = participating_in_partition
-				has_country_flag = leading_partition
-			}
-		}
-
-		# The Defender must be the country being partitioned
-		is_greater_power = yes
-		has_country_flag = under_partition
-	}
-
-	# all non-colonial states are allowed
-	allowed_states = {
-		any_owned_province = {
-			is_colonial = no
-			controlled_by = THIS
-		}
-	}
-	allowed_states_in_crisis = {
-		any_owned_province = {
-			is_colonial = no
-			controlled_by = THIS
-		}
-	}
-
-	po_demand_state = yes
-
-	# 5% of pro military people in Aggressor's country become jingoistic
-	on_add = {
-		move_issue_percentage = {
-			from = pro_military
-			to = jingoism
-			value = 0.05
-		}
-	}
-
-}
-
-# 0-WS partition CB for acquiring a certain colonial state
-partition_take_colony_cb = {
-	sprite_index = 6
-	is_triggered_only = yes
-	crisis = yes
-
-	badboy_factor = 0
-	prestige_factor = 2
-	peace_cost_factor = 0.01
-	penalty_factor = 0
-
-	break_truce_prestige_factor = 0
-	break_truce_infamy_factor = 0
-	break_truce_militancy_factor = 0
-	truce_months = 0
-
-	good_relation_prestige_factor = 0
-	good_relation_infamy_factor = 0
-	good_relation_militancy_factor = 0
-
-	can_use = {
-		# The Aggressor must be participating in the partition
-		THIS = {
-			is_greater_power = yes
-			OR = {
-				has_country_flag = participating_in_partition
-				has_country_flag = leading_partition
-			}
-		}
-
-		# The Defender must be the country being partitioned
-		is_greater_power = yes
-		has_country_flag = under_partition
-	}
-
-	# all non-colonial states are allowed
-	allowed_states = {
-		any_owned_province = {
-			is_colonial = yes
-			controlled_by = THIS
-		}
-	}
-	allowed_states_in_crisis = {
-		any_owned_province = {
-			is_colonial = yes
-			controlled_by = THIS
-		}
-	}
-
-	po_demand_state = yes
-
-	# 5% of pro military people in Aggressor's country become jingoistic
-	on_add = {
-		move_issue_percentage = {
-			from = pro_military
-			to = jingoism
-			value = 0.05
-		}
-	}
-}
-
-partition_cb = {
-	sprite_index = 20
 	is_triggered_only = yes
 	months = 12
-	crisis = yes
+	
+	construction_speed = 0.5
 
-	construction_speed = 10
+	badboy_factor = 0 # no infamy, as they're over the infamy limit
+	prestige_factor = 2
+	peace_cost_factor = 0.10
+	penalty_factor = 1
 
-	badboy_factor = 25
-	prestige_factor = 0.4
-	peace_cost_factor = 100
-	penalty_factor = 0.10
-
-	break_truce_prestige_factor = 0.3
-	break_truce_infamy_factor = 10
-	break_truce_militancy_factor = 0
-	truce_months = 60
-
-	good_relation_prestige_factor = 0
-	good_relation_infamy_factor = 0
-	good_relation_militancy_factor = 0
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 48
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
 
 	can_use = {
-		THIS = {
-			is_greater_power = yes
-			is_disarmed = no
+		is_vassal = no
+		OR = {
+			AND = { 
+				THIS = { num_of_ports = 1 } 
+				num_of_ports = 1
+			}
+			neighbour = THIS
+			AND = { war_with = THIS ai = no }
+		}
+		NOT = { 
+			is_our_vassal = THIS
+			has_country_modifier = neutrality
+		}
+		badboy = 1 # must be over the infamy limit to use this cb
+		any_state = {
+			is_colonial = no
+			NOT = { any_owned_province = { is_capital = yes } }
 		}
 		OR = {
-			is_greater_power = yes
-			is_secondary_power = yes
-			badboy = 25
+			THIS = { civilized = no }
+			civilized = yes
 		}
-		is_vassal = no
-		NOT = {
-			has_country_flag = neutrality
+		THIS = { NOT = { has_country_modifier = neutrality } }
+		OR = {
+			war_with = THIS
+			THIS = { NOT = { has_country_modifier = no_more_war } }
 		}
-	}
-
-	on_add = {
-		THIS = {
-			set_country_flag = leading_partition
+		OR = {
+			THIS = { government = fascist_dictatorship }
+			THIS = { government = proletarian_dictatorship }
+			THIS = { civilized = no }
+			war_with = THIS
+			NOT = { relation = { who = THIS value = 0 } }
+			THIS = { ai = no }
 		}
-
-		FROM = {
-			set_country_flag = under_partition
+		#AI anti-military will not use this
+		OR = {
+			THIS = { ai = no }
+			THIS = { NOT = { war_policy = anti_military } }
 		}
-	}
-
-	war_name = WAR_PARTITION_NAME
-
-	# Defender loses 20% of their prestige
-	on_po_accepted = {
-		prestige_factor = -0.2
-
-		any_country = {
-			limit = {
-				OR = {
-					has_country_flag = leading_partition
-					has_country_flag = participating_in_partition
-					has_country_flag = under_partition
-					has_country_flag = inviting_partitioners	
-					has_country_flag = denied_partition_request
+		#AI will not use this CB when duking it out over hegemony
+		OR = {
+			THIS = { ai = no }
+			NOT = {
+				AND = {
+					culture_has_union_tag = yes
+					is_culture_group = THIS
+					cultural_union = { exists = no }
+					is_greater_power = yes
+					THIS = { is_greater_power = yes }
 				}
 			}
-			clr_country_flag = leading_partition
-			clr_country_flag = participating_in_partition
-			clr_country_flag = under_partition
-			clr_country_flag = inviting_partitioners
-			clr_country_flag = denied_partition_request
+		}
+	}
+	
+	allowed_states = {
+		#AI treats colonial states with only civilized cores as regular states
+		OR = {
+			is_colonial = no
+			AND = {
+				is_colonial = yes
+				THIS = { ai = yes }
+				any_owned_province = { any_core = { civilized = yes } }
+				NOT = { any_owned_province = { any_core = { civilized = no } } }
+			}
+		}
+		
+		NOT = {
+			any_owned_province = { is_core = THIS }
+			any_owned_province = { is_capital = yes }
+		}
+		
+		#AI can only grab neighboring states, coastal if it's a coastal GP
+		OR = {
+			THIS = { ai = no }
+			any_owned_province = { any_neighbor_province = { owned_by = THIS } }
+			AND = {
+				any_owned_province = { port = yes }
+				THIS = {
+					OR = {
+						is_greater_power = yes
+						is_secondary_power = yes
+					}
+					any_owned_province = { port = yes }
+				}
+			}
+		}
+
+		#AI will not grab cores of allies/spherelings
+		OR = {
+			THIS = { ai = no }
+			NOT = {
+				any_owned_province = {
+					any_core = {
+						exists = yes
+						OR = {
+							alliance_with = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		#AI will not try to grab cores of their union if they're sphere to a GP of their culture group
+		OR = {
+			THIS = { ai = no }
+			NOT = {
+				AND = {
+					THIS = {
+						is_greater_power = no
+						part_of_sphere = yes
+						culture_has_union_tag = yes
+						cultural_union = { exists = no }
+						sphere_owner = { is_culture_group = THIS }
+					}
+					any_owned_province = {
+						any_core = {
+							is_cultural_union = yes
+							this_culture_union = this_union
+						}
+					}
+				}
+			}
+		}
+		
+		#pro-military AI will not grab cores of non-existing, non-union countries
+		#unless they own some cores or it's part of their culture group and they're pro-military
+		#jingoistic countries will also take states with existing cores that they also own some of
+		#fascist & communist countries are exempt from this
+		OR = {
+			THIS = { ai = no }
+			THIS = { government = proletarian_dictatorship }
+			THIS = { government = fascist_dictatorship }
+			AND = {
+				THIS = { war_policy = pro_military }
+				any_owned_province = {
+					any_core = {
+						is_cultural_union = no
+						exists = no
+						OR = {
+							any_core = { owned_by = THIS }
+							is_culture_group = THIS
+						}
+					}
+				}
+			}
+			AND = {
+				THIS = { war_policy = jingoism }
+				any_owned_province = {
+					any_core = {
+						OR = {
+							any_core = { owned_by = THIS }
+							AND = {
+								exists = no
+								is_cultural_union = no
+								is_culture_group = THIS
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	allowed_states_in_crisis = {
+		NOT = { any_owned_province = { is_capital = yes } }
+		any_owned_province = {
+			any_neighbor_province = {
+				owner = { tag = THIS }
+			}
+		}
+	}
+
+	po_demand_state = yes
+	
+	war_name = WAR_PARTITION_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
 		}
 	}
 }
 
-### OTHER CB's
+# 0 infamy, 10% cost place in the sun, for infamous foes
+place_in_the_sun_rudeboi = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+	
+	badboy_factor = 0
+	prestige_factor = 2
+	peace_cost_factor = 0.10
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 48
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = {
+			is_our_vassal = THIS
+		}
+		badboy = 1 # must be above the infamy limit
+		is_vassal = no
+		any_owned_province = { is_colonial = yes }
+		THIS = {
+			NOT = { has_country_modifier = neutrality }
+			OR = {
+				num_of_ports = 1
+				any_owned_province = { any_neighbor_province = { NOT = { owned_by = THIS } is_colonial = yes } }
+			}
+		}
+		OR = {
+			war_with = THIS
+			THIS = { NOT = { has_country_modifier = no_more_war } }
+		}
+		OR = {
+			THIS = { government = fascist_dictatorship }
+			THIS = { government = proletarian_dictatorship }
+			THIS = { civilized = no }
+			war_with = THIS
+			NOT = { relation = { who = THIS value = 0 } }
+			THIS = { ai = no }
+		}
+	}
+	
+	allowed_states = {
+		any_owned_province = { is_colonial = yes }
+		OR = {
+			any_owned_province = {
+				NOT = {
+					OR = {
+					any_core = { exists = yes }
+					any_core = { exists = no }
+					}
+				}
+			}
+			any_owned_province = {
+				any_core = { civilized = no }
+			}
+			any_owned_province = { continent = africa }
+			THIS = { ai = no }
+		}
+		OR = {
+			THIS = { ai = no }
+			any_owned_province = { any_neighbor_province = { owned_by = THIS } }
+			AND = {
+				any_owned_province = { port = yes }
+				THIS = { any_owned_province = { port = yes } }
+			}
+		}
+	}
+	
+	allowed_states_in_crisis = {
+		any_owned_province = {
+			OR = {
+				port = yes
+				any_neighbor_province = { owner = { tag = THIS } }
+			}
+		}
+	}
+
+	po_demand_state = yes
+
+	war_name = WAR_COLONIAL_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
+##################
+### OTHER CB's ###
+##################
 
 # Great War CB's
 dismantle_cb = {
@@ -3504,7 +3618,10 @@ place_in_the_sun = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		NOT = { is_our_vassal = THIS }
+		NOT = {
+			is_our_vassal = THIS
+			badboy = 1 # must be below the infamy limit for this variant (see CTR cb's)
+		}
 		is_vassal = no
 		any_owned_province = { is_colonial = yes }
 		THIS = {
@@ -3612,6 +3729,7 @@ acquire_state = {
 		NOT = { 
 			is_our_vassal = THIS
 			has_country_modifier = neutrality
+			badboy = 1 # must have less than the infamy limit for this one (see CTR cb's)
 		}
 		any_state = {
 			is_colonial = no
