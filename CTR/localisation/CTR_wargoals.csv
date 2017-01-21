@@ -1,0 +1,19 @@
+;;;;;;;;;;;;;;x
+NORMAL_WAR_PARTITION_NAME;$FIRST$ Partition of the $SECOND$ Nation;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+partition_cb;Partition Country;;;;;;;;;;;;;x
+partition_cb_desc;Partition $RECIPIENT$ into any number of parts, acquiring any number of territories at no cost;;;;;;;;;;;;;x
+partition_cb_short;Partition $RECIPIENT$ into any number of parts, acquiring any number of territories at no cost;;;;;;;;;;;;;x
+partition_cb_setup;Partition a country into any number of parts, acquiring any number of territories at no cost;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+partition_take_state_cb;Partition a State;;;;;;;;;;;;;x
+partition_take_state_cb_desc;Acquire $STATE$ from $RECIPIENT$;;;;;;;;;;;;;x
+partition_take_state_cb_short;Acquire a state from $RECIPIENT$;;;;;;;;;;;;;x
+partition_take_state_cb_setup;Acquire a state from $RECIPIENT$;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+partition_take_colony_cb;Partition a Colony;;;;;;;;;;;;;x
+partition_take_colony_cb_desc;Acquire the colonial state of $STATE$ from $RECIPIENT$;;;;;;;;;;;;;x
+partition_take_colony_cb_short;Acquire a colonial state from $RECIPIENT$;;;;;;;;;;;;;x
+partition_take_colony_cb_setup;Acquire a colonial state from $RECIPIENT$;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x

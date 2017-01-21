@@ -1,0 +1,23 @@
+political_decisions = {
+
+    zz = {
+        
+        potential = {
+            ai = no
+        }
+
+        allow = {
+            is_greater_power = yes
+            has_country_flag = leading_partition
+            has_country_flag = under_partition
+            has_country_flag = participating_in_partition
+        }
+
+        effect = {
+            prestige_factor = 1.2
+        }
+
+    }
+
+    
+}

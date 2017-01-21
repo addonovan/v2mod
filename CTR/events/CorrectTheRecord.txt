@@ -1,0 +1,20 @@
+# a country was targetted by a CTR campaign
+country_event = {
+
+	is_triggered_only = yes
+
+	id = 74000
+	title = "CTR_74000_title"
+	desc = "CTR_74000_desc"
+
+	option = {
+		name = "CTR_74000_opt1"
+
+		relation = {
+			who = FROM
+			value = -100
+		}
+
+		badboy = 4
+	}
+}
