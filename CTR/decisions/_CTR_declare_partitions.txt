@@ -1,5 +1,4 @@
 political_decisions = {
-
     declare_partition_ABK = {
         alert = yes
         news = yes
@@ -20,10 +19,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ABK
-            ABK = {
-                set_country_flag = under_partition
-            }
+            ABK = { set_country_flag = under_partition }
         }
     }
 
@@ -47,10 +43,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ABU
-            ABU = {
-                set_country_flag = under_partition
-            }
+            ABU = { set_country_flag = under_partition }
         }
     }
 
@@ -74,10 +67,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_AFG
-            AFG = {
-                set_country_flag = under_partition
-            }
+            AFG = { set_country_flag = under_partition }
         }
     }
 
@@ -101,10 +91,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_AGC
-            AGC = {
-                set_country_flag = under_partition
-            }
+            AGC = { set_country_flag = under_partition }
         }
     }
 
@@ -128,10 +115,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_AKH
-            AKH = {
-                set_country_flag = under_partition
-            }
+            AKH = { set_country_flag = under_partition }
         }
     }
 
@@ -155,10 +139,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ALB
-            ALB = {
-                set_country_flag = under_partition
-            }
+            ALB = { set_country_flag = under_partition }
         }
     }
 
@@ -182,10 +163,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ALD
-            ALD = {
-                set_country_flag = under_partition
-            }
+            ALD = { set_country_flag = under_partition }
         }
     }
 
@@ -209,10 +187,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ALS
-            ALS = {
-                set_country_flag = under_partition
-            }
+            ALS = { set_country_flag = under_partition }
         }
     }
 
@@ -236,10 +211,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ALT
-            ALT = {
-                set_country_flag = under_partition
-            }
+            ALT = { set_country_flag = under_partition }
         }
     }
 
@@ -263,10 +235,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ANG
-            ANG = {
-                set_country_flag = under_partition
-            }
+            ANG = { set_country_flag = under_partition }
         }
     }
 
@@ -290,10 +259,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ANH
-            ANH = {
-                set_country_flag = under_partition
-            }
+            ANH = { set_country_flag = under_partition }
         }
     }
 
@@ -317,10 +283,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_AOT
-            AOT = {
-                set_country_flag = under_partition
-            }
+            AOT = { set_country_flag = under_partition }
         }
     }
 
@@ -344,10 +307,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ARA
-            ARA = {
-                set_country_flag = under_partition
-            }
+            ARA = { set_country_flag = under_partition }
         }
     }
 
@@ -371,10 +331,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ARC
-            ARC = {
-                set_country_flag = under_partition
-            }
+            ARC = { set_country_flag = under_partition }
         }
     }
 
@@ -398,10 +355,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ARG
-            ARG = {
-                set_country_flag = under_partition
-            }
+            ARG = { set_country_flag = under_partition }
         }
     }
 
@@ -425,10 +379,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ARM
-            ARM = {
-                set_country_flag = under_partition
-            }
+            ARM = { set_country_flag = under_partition }
         }
     }
 
@@ -452,10 +403,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ARO
-            ARO = {
-                set_country_flag = under_partition
-            }
+            ARO = { set_country_flag = under_partition }
         }
     }
 
@@ -479,10 +427,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ARU
-            ARU = {
-                set_country_flag = under_partition
-            }
+            ARU = { set_country_flag = under_partition }
         }
     }
 
@@ -506,10 +451,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ASH
-            ASH = {
-                set_country_flag = under_partition
-            }
+            ASH = { set_country_flag = under_partition }
         }
     }
 
@@ -533,10 +475,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ASM
-            ASM = {
-                set_country_flag = under_partition
-            }
+            ASM = { set_country_flag = under_partition }
         }
     }
 
@@ -560,10 +499,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_AST
-            AST = {
-                set_country_flag = under_partition
-            }
+            AST = { set_country_flag = under_partition }
         }
     }
 
@@ -587,10 +523,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ASY
-            ASY = {
-                set_country_flag = under_partition
-            }
+            ASY = { set_country_flag = under_partition }
         }
     }
 
@@ -614,10 +547,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ATJ
-            ATJ = {
-                set_country_flag = under_partition
-            }
+            ATJ = { set_country_flag = under_partition }
         }
     }
 
@@ -641,10 +571,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ATR
-            ATR = {
-                set_country_flag = under_partition
-            }
+            ATR = { set_country_flag = under_partition }
         }
     }
 
@@ -668,10 +595,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_AUS
-            AUS = {
-                set_country_flag = under_partition
-            }
+            AUS = { set_country_flag = under_partition }
         }
     }
 
@@ -695,10 +619,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_AWA
-            AWA = {
-                set_country_flag = under_partition
-            }
+            AWA = { set_country_flag = under_partition }
         }
     }
 
@@ -722,10 +643,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_AWS
-            AWS = {
-                set_country_flag = under_partition
-            }
+            AWS = { set_country_flag = under_partition }
         }
     }
 
@@ -749,10 +667,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_AZA
-            AZA = {
-                set_country_flag = under_partition
-            }
+            AZA = { set_country_flag = under_partition }
         }
     }
 
@@ -776,10 +691,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_AZB
-            AZB = {
-                set_country_flag = under_partition
-            }
+            AZB = { set_country_flag = under_partition }
         }
     }
 
@@ -803,10 +715,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BAD
-            BAD = {
-                set_country_flag = under_partition
-            }
+            BAD = { set_country_flag = under_partition }
         }
     }
 
@@ -830,10 +739,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BAH
-            BAH = {
-                set_country_flag = under_partition
-            }
+            BAH = { set_country_flag = under_partition }
         }
     }
 
@@ -857,10 +763,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BAL
-            BAL = {
-                set_country_flag = under_partition
-            }
+            BAL = { set_country_flag = under_partition }
         }
     }
 
@@ -884,10 +787,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BAN
-            BAN = {
-                set_country_flag = under_partition
-            }
+            BAN = { set_country_flag = under_partition }
         }
     }
 
@@ -911,10 +811,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BAS
-            BAS = {
-                set_country_flag = under_partition
-            }
+            BAS = { set_country_flag = under_partition }
         }
     }
 
@@ -938,10 +835,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BAV
-            BAV = {
-                set_country_flag = under_partition
-            }
+            BAV = { set_country_flag = under_partition }
         }
     }
 
@@ -965,10 +859,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BDK
-            BDK = {
-                set_country_flag = under_partition
-            }
+            BDK = { set_country_flag = under_partition }
         }
     }
 
@@ -992,10 +883,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BDN
-            BDN = {
-                set_country_flag = under_partition
-            }
+            BDN = { set_country_flag = under_partition }
         }
     }
 
@@ -1019,10 +907,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BEL
-            BEL = {
-                set_country_flag = under_partition
-            }
+            BEL = { set_country_flag = under_partition }
         }
     }
 
@@ -1046,10 +931,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BEN
-            BEN = {
-                set_country_flag = under_partition
-            }
+            BEN = { set_country_flag = under_partition }
         }
     }
 
@@ -1073,10 +955,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BER
-            BER = {
-                set_country_flag = under_partition
-            }
+            BER = { set_country_flag = under_partition }
         }
     }
 
@@ -1100,10 +979,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BHO
-            BHO = {
-                set_country_flag = under_partition
-            }
+            BHO = { set_country_flag = under_partition }
         }
     }
 
@@ -1127,10 +1003,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BHP
-            BHP = {
-                set_country_flag = under_partition
-            }
+            BHP = { set_country_flag = under_partition }
         }
     }
 
@@ -1154,10 +1027,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BHR
-            BHR = {
-                set_country_flag = under_partition
-            }
+            BHR = { set_country_flag = under_partition }
         }
     }
 
@@ -1181,10 +1051,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BHT
-            BHT = {
-                set_country_flag = under_partition
-            }
+            BHT = { set_country_flag = under_partition }
         }
     }
 
@@ -1208,10 +1075,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BHU
-            BHU = {
-                set_country_flag = under_partition
-            }
+            BHU = { set_country_flag = under_partition }
         }
     }
 
@@ -1235,10 +1099,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BIH
-            BIH = {
-                set_country_flag = under_partition
-            }
+            BIH = { set_country_flag = under_partition }
         }
     }
 
@@ -1262,10 +1123,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BIK
-            BIK = {
-                set_country_flag = under_partition
-            }
+            BIK = { set_country_flag = under_partition }
         }
     }
 
@@ -1289,10 +1147,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BKV
-            BKV = {
-                set_country_flag = under_partition
-            }
+            BKV = { set_country_flag = under_partition }
         }
     }
 
@@ -1316,10 +1171,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BLC
-            BLC = {
-                set_country_flag = under_partition
-            }
+            BLC = { set_country_flag = under_partition }
         }
     }
 
@@ -1343,10 +1195,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BLZ
-            BLZ = {
-                set_country_flag = under_partition
-            }
+            BLZ = { set_country_flag = under_partition }
         }
     }
 
@@ -1370,10 +1219,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BMK
-            BMK = {
-                set_country_flag = under_partition
-            }
+            BMK = { set_country_flag = under_partition }
         }
     }
 
@@ -1397,10 +1243,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BNB
-            BNB = {
-                set_country_flag = under_partition
-            }
+            BNB = { set_country_flag = under_partition }
         }
     }
 
@@ -1424,10 +1267,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BNG
-            BNG = {
-                set_country_flag = under_partition
-            }
+            BNG = { set_country_flag = under_partition }
         }
     }
 
@@ -1451,10 +1291,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BOH
-            BOH = {
-                set_country_flag = under_partition
-            }
+            BOH = { set_country_flag = under_partition }
         }
     }
 
@@ -1478,10 +1315,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BOL
-            BOL = {
-                set_country_flag = under_partition
-            }
+            BOL = { set_country_flag = under_partition }
         }
     }
 
@@ -1505,10 +1339,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BOS
-            BOS = {
-                set_country_flag = under_partition
-            }
+            BOS = { set_country_flag = under_partition }
         }
     }
 
@@ -1532,10 +1363,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BRA
-            BRA = {
-                set_country_flag = under_partition
-            }
+            BRA = { set_country_flag = under_partition }
         }
     }
 
@@ -1559,10 +1387,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BRD
-            BRD = {
-                set_country_flag = under_partition
-            }
+            BRD = { set_country_flag = under_partition }
         }
     }
 
@@ -1586,10 +1411,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BRE
-            BRE = {
-                set_country_flag = under_partition
-            }
+            BRE = { set_country_flag = under_partition }
         }
     }
 
@@ -1613,10 +1435,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BRT
-            BRT = {
-                set_country_flag = under_partition
-            }
+            BRT = { set_country_flag = under_partition }
         }
     }
 
@@ -1640,10 +1459,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BRU
-            BRU = {
-                set_country_flag = under_partition
-            }
+            BRU = { set_country_flag = under_partition }
         }
     }
 
@@ -1667,10 +1483,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BRY
-            BRY = {
-                set_country_flag = under_partition
-            }
+            BRY = { set_country_flag = under_partition }
         }
     }
 
@@ -1694,10 +1507,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BRZ
-            BRZ = {
-                set_country_flag = under_partition
-            }
+            BRZ = { set_country_flag = under_partition }
         }
     }
 
@@ -1721,10 +1531,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BSH
-            BSH = {
-                set_country_flag = under_partition
-            }
+            BSH = { set_country_flag = under_partition }
         }
     }
 
@@ -1748,10 +1555,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BSQ
-            BSQ = {
-                set_country_flag = under_partition
-            }
+            BSQ = { set_country_flag = under_partition }
         }
     }
 
@@ -1775,10 +1579,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BTL
-            BTL = {
-                set_country_flag = under_partition
-            }
+            BTL = { set_country_flag = under_partition }
         }
     }
 
@@ -1802,10 +1603,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BUG
-            BUG = {
-                set_country_flag = under_partition
-            }
+            BUG = { set_country_flag = under_partition }
         }
     }
 
@@ -1829,10 +1627,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BUK
-            BUK = {
-                set_country_flag = under_partition
-            }
+            BUK = { set_country_flag = under_partition }
         }
     }
 
@@ -1856,10 +1651,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BUL
-            BUL = {
-                set_country_flag = under_partition
-            }
+            BUL = { set_country_flag = under_partition }
         }
     }
 
@@ -1883,10 +1675,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BUN
-            BUN = {
-                set_country_flag = under_partition
-            }
+            BUN = { set_country_flag = under_partition }
         }
     }
 
@@ -1910,10 +1699,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BUR
-            BUR = {
-                set_country_flag = under_partition
-            }
+            BUR = { set_country_flag = under_partition }
         }
     }
 
@@ -1937,10 +1723,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BYE
-            BYE = {
-                set_country_flag = under_partition
-            }
+            BYE = { set_country_flag = under_partition }
         }
     }
 
@@ -1964,10 +1747,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_BYZ
-            BYZ = {
-                set_country_flag = under_partition
-            }
+            BYZ = { set_country_flag = under_partition }
         }
     }
 
@@ -1991,10 +1771,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CAL
-            CAL = {
-                set_country_flag = under_partition
-            }
+            CAL = { set_country_flag = under_partition }
         }
     }
 
@@ -2018,10 +1795,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CAM
-            CAM = {
-                set_country_flag = under_partition
-            }
+            CAM = { set_country_flag = under_partition }
         }
     }
 
@@ -2045,10 +1819,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CAN
-            CAN = {
-                set_country_flag = under_partition
-            }
+            CAN = { set_country_flag = under_partition }
         }
     }
 
@@ -2072,10 +1843,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CAR
-            CAR = {
-                set_country_flag = under_partition
-            }
+            CAR = { set_country_flag = under_partition }
         }
     }
 
@@ -2099,10 +1867,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CAT
-            CAT = {
-                set_country_flag = under_partition
-            }
+            CAT = { set_country_flag = under_partition }
         }
     }
 
@@ -2126,10 +1891,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CEQ
-            CEQ = {
-                set_country_flag = under_partition
-            }
+            CEQ = { set_country_flag = under_partition }
         }
     }
 
@@ -2153,10 +1915,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CGO
-            CGO = {
-                set_country_flag = under_partition
-            }
+            CGO = { set_country_flag = under_partition }
         }
     }
 
@@ -2180,10 +1939,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CHD
-            CHD = {
-                set_country_flag = under_partition
-            }
+            CHD = { set_country_flag = under_partition }
         }
     }
 
@@ -2207,10 +1963,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CHE
-            CHE = {
-                set_country_flag = under_partition
-            }
+            CHE = { set_country_flag = under_partition }
         }
     }
 
@@ -2234,10 +1987,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CHI
-            CHI = {
-                set_country_flag = under_partition
-            }
+            CHI = { set_country_flag = under_partition }
         }
     }
 
@@ -2261,10 +2011,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CHK
-            CHK = {
-                set_country_flag = under_partition
-            }
+            CHK = { set_country_flag = under_partition }
         }
     }
 
@@ -2288,10 +2035,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CHL
-            CHL = {
-                set_country_flag = under_partition
-            }
+            CHL = { set_country_flag = under_partition }
         }
     }
 
@@ -2315,10 +2059,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CHO
-            CHO = {
-                set_country_flag = under_partition
-            }
+            CHO = { set_country_flag = under_partition }
         }
     }
 
@@ -2342,10 +2083,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CHP
-            CHP = {
-                set_country_flag = under_partition
-            }
+            CHP = { set_country_flag = under_partition }
         }
     }
 
@@ -2369,10 +2107,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CHY
-            CHY = {
-                set_country_flag = under_partition
-            }
+            CHY = { set_country_flag = under_partition }
         }
     }
 
@@ -2396,10 +2131,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CIR
-            CIR = {
-                set_country_flag = under_partition
-            }
+            CIR = { set_country_flag = under_partition }
         }
     }
 
@@ -2423,10 +2155,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CLA
-            CLA = {
-                set_country_flag = under_partition
-            }
+            CLA = { set_country_flag = under_partition }
         }
     }
 
@@ -2450,10 +2179,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CLC
-            CLC = {
-                set_country_flag = under_partition
-            }
+            CLC = { set_country_flag = under_partition }
         }
     }
 
@@ -2477,10 +2203,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CLM
-            CLM = {
-                set_country_flag = under_partition
-            }
+            CLM = { set_country_flag = under_partition }
         }
     }
 
@@ -2504,10 +2227,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CMR
-            CMR = {
-                set_country_flag = under_partition
-            }
+            CMR = { set_country_flag = under_partition }
         }
     }
 
@@ -2531,10 +2251,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CNG
-            CNG = {
-                set_country_flag = under_partition
-            }
+            CNG = { set_country_flag = under_partition }
         }
     }
 
@@ -2558,10 +2275,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_COB
-            COB = {
-                set_country_flag = under_partition
-            }
+            COB = { set_country_flag = under_partition }
         }
     }
 
@@ -2585,10 +2299,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_COL
-            COL = {
-                set_country_flag = under_partition
-            }
+            COL = { set_country_flag = under_partition }
         }
     }
 
@@ -2612,10 +2323,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_COS
-            COS = {
-                set_country_flag = under_partition
-            }
+            COS = { set_country_flag = under_partition }
         }
     }
 
@@ -2639,10 +2347,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CPL
-            CPL = {
-                set_country_flag = under_partition
-            }
+            CPL = { set_country_flag = under_partition }
         }
     }
 
@@ -2666,10 +2371,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CRE
-            CRE = {
-                set_country_flag = under_partition
-            }
+            CRE = { set_country_flag = under_partition }
         }
     }
 
@@ -2693,10 +2395,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CRI
-            CRI = {
-                set_country_flag = under_partition
-            }
+            CRI = { set_country_flag = under_partition }
         }
     }
 
@@ -2720,10 +2419,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CRL
-            CRL = {
-                set_country_flag = under_partition
-            }
+            CRL = { set_country_flag = under_partition }
         }
     }
 
@@ -2747,10 +2443,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CRO
-            CRO = {
-                set_country_flag = under_partition
-            }
+            CRO = { set_country_flag = under_partition }
         }
     }
 
@@ -2774,10 +2467,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CRS
-            CRS = {
-                set_country_flag = under_partition
-            }
+            CRS = { set_country_flag = under_partition }
         }
     }
 
@@ -2801,10 +2491,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CRT
-            CRT = {
-                set_country_flag = under_partition
-            }
+            CRT = { set_country_flag = under_partition }
         }
     }
 
@@ -2828,10 +2515,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CSA
-            CSA = {
-                set_country_flag = under_partition
-            }
+            CSA = { set_country_flag = under_partition }
         }
     }
 
@@ -2855,10 +2539,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CUB
-            CUB = {
-                set_country_flag = under_partition
-            }
+            CUB = { set_country_flag = under_partition }
         }
     }
 
@@ -2882,10 +2563,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CYP
-            CYP = {
-                set_country_flag = under_partition
-            }
+            CYP = { set_country_flag = under_partition }
         }
     }
 
@@ -2909,10 +2587,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CYR
-            CYR = {
-                set_country_flag = under_partition
-            }
+            CYR = { set_country_flag = under_partition }
         }
     }
 
@@ -2936,10 +2611,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_CZH
-            CZH = {
-                set_country_flag = under_partition
-            }
+            CZH = { set_country_flag = under_partition }
         }
     }
 
@@ -2963,10 +2635,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D01
-            D01 = {
-                set_country_flag = under_partition
-            }
+            D01 = { set_country_flag = under_partition }
         }
     }
 
@@ -2990,10 +2659,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D02
-            D02 = {
-                set_country_flag = under_partition
-            }
+            D02 = { set_country_flag = under_partition }
         }
     }
 
@@ -3017,10 +2683,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D03
-            D03 = {
-                set_country_flag = under_partition
-            }
+            D03 = { set_country_flag = under_partition }
         }
     }
 
@@ -3044,10 +2707,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D04
-            D04 = {
-                set_country_flag = under_partition
-            }
+            D04 = { set_country_flag = under_partition }
         }
     }
 
@@ -3071,10 +2731,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D05
-            D05 = {
-                set_country_flag = under_partition
-            }
+            D05 = { set_country_flag = under_partition }
         }
     }
 
@@ -3098,10 +2755,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D06
-            D06 = {
-                set_country_flag = under_partition
-            }
+            D06 = { set_country_flag = under_partition }
         }
     }
 
@@ -3125,10 +2779,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D07
-            D07 = {
-                set_country_flag = under_partition
-            }
+            D07 = { set_country_flag = under_partition }
         }
     }
 
@@ -3152,10 +2803,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D08
-            D08 = {
-                set_country_flag = under_partition
-            }
+            D08 = { set_country_flag = under_partition }
         }
     }
 
@@ -3179,10 +2827,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D09
-            D09 = {
-                set_country_flag = under_partition
-            }
+            D09 = { set_country_flag = under_partition }
         }
     }
 
@@ -3206,10 +2851,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D10
-            D10 = {
-                set_country_flag = under_partition
-            }
+            D10 = { set_country_flag = under_partition }
         }
     }
 
@@ -3233,10 +2875,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D11
-            D11 = {
-                set_country_flag = under_partition
-            }
+            D11 = { set_country_flag = under_partition }
         }
     }
 
@@ -3260,10 +2899,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D12
-            D12 = {
-                set_country_flag = under_partition
-            }
+            D12 = { set_country_flag = under_partition }
         }
     }
 
@@ -3287,10 +2923,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D13
-            D13 = {
-                set_country_flag = under_partition
-            }
+            D13 = { set_country_flag = under_partition }
         }
     }
 
@@ -3314,10 +2947,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D14
-            D14 = {
-                set_country_flag = under_partition
-            }
+            D14 = { set_country_flag = under_partition }
         }
     }
 
@@ -3341,10 +2971,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D15
-            D15 = {
-                set_country_flag = under_partition
-            }
+            D15 = { set_country_flag = under_partition }
         }
     }
 
@@ -3368,10 +2995,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D16
-            D16 = {
-                set_country_flag = under_partition
-            }
+            D16 = { set_country_flag = under_partition }
         }
     }
 
@@ -3395,10 +3019,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D17
-            D17 = {
-                set_country_flag = under_partition
-            }
+            D17 = { set_country_flag = under_partition }
         }
     }
 
@@ -3422,10 +3043,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D18
-            D18 = {
-                set_country_flag = under_partition
-            }
+            D18 = { set_country_flag = under_partition }
         }
     }
 
@@ -3449,10 +3067,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D19
-            D19 = {
-                set_country_flag = under_partition
-            }
+            D19 = { set_country_flag = under_partition }
         }
     }
 
@@ -3476,10 +3091,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D20
-            D20 = {
-                set_country_flag = under_partition
-            }
+            D20 = { set_country_flag = under_partition }
         }
     }
 
@@ -3503,10 +3115,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D21
-            D21 = {
-                set_country_flag = under_partition
-            }
+            D21 = { set_country_flag = under_partition }
         }
     }
 
@@ -3530,10 +3139,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D22
-            D22 = {
-                set_country_flag = under_partition
-            }
+            D22 = { set_country_flag = under_partition }
         }
     }
 
@@ -3557,10 +3163,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D23
-            D23 = {
-                set_country_flag = under_partition
-            }
+            D23 = { set_country_flag = under_partition }
         }
     }
 
@@ -3584,10 +3187,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D24
-            D24 = {
-                set_country_flag = under_partition
-            }
+            D24 = { set_country_flag = under_partition }
         }
     }
 
@@ -3611,10 +3211,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D25
-            D25 = {
-                set_country_flag = under_partition
-            }
+            D25 = { set_country_flag = under_partition }
         }
     }
 
@@ -3638,10 +3235,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D26
-            D26 = {
-                set_country_flag = under_partition
-            }
+            D26 = { set_country_flag = under_partition }
         }
     }
 
@@ -3665,10 +3259,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D27
-            D27 = {
-                set_country_flag = under_partition
-            }
+            D27 = { set_country_flag = under_partition }
         }
     }
 
@@ -3692,10 +3283,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D28
-            D28 = {
-                set_country_flag = under_partition
-            }
+            D28 = { set_country_flag = under_partition }
         }
     }
 
@@ -3719,10 +3307,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D29
-            D29 = {
-                set_country_flag = under_partition
-            }
+            D29 = { set_country_flag = under_partition }
         }
     }
 
@@ -3746,10 +3331,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D30
-            D30 = {
-                set_country_flag = under_partition
-            }
+            D30 = { set_country_flag = under_partition }
         }
     }
 
@@ -3773,10 +3355,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D31
-            D31 = {
-                set_country_flag = under_partition
-            }
+            D31 = { set_country_flag = under_partition }
         }
     }
 
@@ -3800,10 +3379,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D32
-            D32 = {
-                set_country_flag = under_partition
-            }
+            D32 = { set_country_flag = under_partition }
         }
     }
 
@@ -3827,10 +3403,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D33
-            D33 = {
-                set_country_flag = under_partition
-            }
+            D33 = { set_country_flag = under_partition }
         }
     }
 
@@ -3854,10 +3427,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D34
-            D34 = {
-                set_country_flag = under_partition
-            }
+            D34 = { set_country_flag = under_partition }
         }
     }
 
@@ -3881,10 +3451,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D35
-            D35 = {
-                set_country_flag = under_partition
-            }
+            D35 = { set_country_flag = under_partition }
         }
     }
 
@@ -3908,10 +3475,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D36
-            D36 = {
-                set_country_flag = under_partition
-            }
+            D36 = { set_country_flag = under_partition }
         }
     }
 
@@ -3935,10 +3499,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D37
-            D37 = {
-                set_country_flag = under_partition
-            }
+            D37 = { set_country_flag = under_partition }
         }
     }
 
@@ -3962,10 +3523,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D38
-            D38 = {
-                set_country_flag = under_partition
-            }
+            D38 = { set_country_flag = under_partition }
         }
     }
 
@@ -3989,10 +3547,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D39
-            D39 = {
-                set_country_flag = under_partition
-            }
+            D39 = { set_country_flag = under_partition }
         }
     }
 
@@ -4016,10 +3571,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D40
-            D40 = {
-                set_country_flag = under_partition
-            }
+            D40 = { set_country_flag = under_partition }
         }
     }
 
@@ -4043,10 +3595,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D41
-            D41 = {
-                set_country_flag = under_partition
-            }
+            D41 = { set_country_flag = under_partition }
         }
     }
 
@@ -4070,10 +3619,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D42
-            D42 = {
-                set_country_flag = under_partition
-            }
+            D42 = { set_country_flag = under_partition }
         }
     }
 
@@ -4097,10 +3643,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D43
-            D43 = {
-                set_country_flag = under_partition
-            }
+            D43 = { set_country_flag = under_partition }
         }
     }
 
@@ -4124,10 +3667,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D44
-            D44 = {
-                set_country_flag = under_partition
-            }
+            D44 = { set_country_flag = under_partition }
         }
     }
 
@@ -4151,10 +3691,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D45
-            D45 = {
-                set_country_flag = under_partition
-            }
+            D45 = { set_country_flag = under_partition }
         }
     }
 
@@ -4178,10 +3715,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D46
-            D46 = {
-                set_country_flag = under_partition
-            }
+            D46 = { set_country_flag = under_partition }
         }
     }
 
@@ -4205,10 +3739,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D47
-            D47 = {
-                set_country_flag = under_partition
-            }
+            D47 = { set_country_flag = under_partition }
         }
     }
 
@@ -4232,10 +3763,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D48
-            D48 = {
-                set_country_flag = under_partition
-            }
+            D48 = { set_country_flag = under_partition }
         }
     }
 
@@ -4259,10 +3787,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D49
-            D49 = {
-                set_country_flag = under_partition
-            }
+            D49 = { set_country_flag = under_partition }
         }
     }
 
@@ -4286,10 +3811,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_D50
-            D50 = {
-                set_country_flag = under_partition
-            }
+            D50 = { set_country_flag = under_partition }
         }
     }
 
@@ -4313,10 +3835,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_DAG
-            DAG = {
-                set_country_flag = under_partition
-            }
+            DAG = { set_country_flag = under_partition }
         }
     }
 
@@ -4340,10 +3859,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_DAH
-            DAH = {
-                set_country_flag = under_partition
-            }
+            DAH = { set_country_flag = under_partition }
         }
     }
 
@@ -4367,10 +3883,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_DAI
-            DAI = {
-                set_country_flag = under_partition
-            }
+            DAI = { set_country_flag = under_partition }
         }
     }
 
@@ -4394,10 +3907,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_DAK
-            DAK = {
-                set_country_flag = under_partition
-            }
+            DAK = { set_country_flag = under_partition }
         }
     }
 
@@ -4421,10 +3931,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_DAM
-            DAM = {
-                set_country_flag = under_partition
-            }
+            DAM = { set_country_flag = under_partition }
         }
     }
 
@@ -4448,10 +3955,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_DAR
-            DAR = {
-                set_country_flag = under_partition
-            }
+            DAR = { set_country_flag = under_partition }
         }
     }
 
@@ -4475,10 +3979,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_DEN
-            DEN = {
-                set_country_flag = under_partition
-            }
+            DEN = { set_country_flag = under_partition }
         }
     }
 
@@ -4502,10 +4003,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_DES
-            DES = {
-                set_country_flag = under_partition
-            }
+            DES = { set_country_flag = under_partition }
         }
     }
 
@@ -4529,10 +4027,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_DJA
-            DJA = {
-                set_country_flag = under_partition
-            }
+            DJA = { set_country_flag = under_partition }
         }
     }
 
@@ -4556,10 +4051,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_DLM
-            DLM = {
-                set_country_flag = under_partition
-            }
+            DLM = { set_country_flag = under_partition }
         }
     }
 
@@ -4583,10 +4075,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_DNB
-            DNB = {
-                set_country_flag = under_partition
-            }
+            DNB = { set_country_flag = under_partition }
         }
     }
 
@@ -4610,10 +4099,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_DND
-            DND = {
-                set_country_flag = under_partition
-            }
+            DND = { set_country_flag = under_partition }
         }
     }
 
@@ -4637,10 +4123,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_DOM
-            DOM = {
-                set_country_flag = under_partition
-            }
+            DOM = { set_country_flag = under_partition }
         }
     }
 
@@ -4664,10 +4147,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_DON
-            DON = {
-                set_country_flag = under_partition
-            }
+            DON = { set_country_flag = under_partition }
         }
     }
 
@@ -4691,10 +4171,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_DRA
-            DRA = {
-                set_country_flag = under_partition
-            }
+            DRA = { set_country_flag = under_partition }
         }
     }
 
@@ -4718,10 +4195,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_DUR
-            DUR = {
-                set_country_flag = under_partition
-            }
+            DUR = { set_country_flag = under_partition }
         }
     }
 
@@ -4745,10 +4219,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_DZG
-            DZG = {
-                set_country_flag = under_partition
-            }
+            DZG = { set_country_flag = under_partition }
         }
     }
 
@@ -4772,10 +4243,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ECU
-            ECU = {
-                set_country_flag = under_partition
-            }
+            ECU = { set_country_flag = under_partition }
         }
     }
 
@@ -4799,10 +4267,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_EGY
-            EGY = {
-                set_country_flag = under_partition
-            }
+            EGY = { set_country_flag = under_partition }
         }
     }
 
@@ -4826,10 +4291,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ELS
-            ELS = {
-                set_country_flag = under_partition
-            }
+            ELS = { set_country_flag = under_partition }
         }
     }
 
@@ -4853,10 +4315,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ENG
-            ENG = {
-                set_country_flag = under_partition
-            }
+            ENG = { set_country_flag = under_partition }
         }
     }
 
@@ -4880,10 +4339,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ENL
-            ENL = {
-                set_country_flag = under_partition
-            }
+            ENL = { set_country_flag = under_partition }
         }
     }
 
@@ -4907,10 +4363,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ENT
-            ENT = {
-                set_country_flag = under_partition
-            }
+            ENT = { set_country_flag = under_partition }
         }
     }
 
@@ -4934,10 +4387,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_EST
-            EST = {
-                set_country_flag = under_partition
-            }
+            EST = { set_country_flag = under_partition }
         }
     }
 
@@ -4961,10 +4411,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ETH
-            ETH = {
-                set_country_flag = under_partition
-            }
+            ETH = { set_country_flag = under_partition }
         }
     }
 
@@ -4988,10 +4435,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_EZO
-            EZO = {
-                set_country_flag = under_partition
-            }
+            EZO = { set_country_flag = under_partition }
         }
     }
 
@@ -5015,10 +4459,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_FDL
-            FDL = {
-                set_country_flag = under_partition
-            }
+            FDL = { set_country_flag = under_partition }
         }
     }
 
@@ -5042,10 +4483,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_FIJ
-            FIJ = {
-                set_country_flag = under_partition
-            }
+            FIJ = { set_country_flag = under_partition }
         }
     }
 
@@ -5069,10 +4507,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_FIN
-            FIN = {
-                set_country_flag = under_partition
-            }
+            FIN = { set_country_flag = under_partition }
         }
     }
 
@@ -5096,10 +4531,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_FIU
-            FIU = {
-                set_country_flag = under_partition
-            }
+            FIU = { set_country_flag = under_partition }
         }
     }
 
@@ -5123,10 +4555,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_FJN
-            FJN = {
-                set_country_flag = under_partition
-            }
+            FJN = { set_country_flag = under_partition }
         }
     }
 
@@ -5150,10 +4579,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_FLA
-            FLA = {
-                set_country_flag = under_partition
-            }
+            FLA = { set_country_flag = under_partition }
         }
     }
 
@@ -5177,10 +4603,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_FRA
-            FRA = {
-                set_country_flag = under_partition
-            }
+            FRA = { set_country_flag = under_partition }
         }
     }
 
@@ -5204,10 +4627,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_FRM
-            FRM = {
-                set_country_flag = under_partition
-            }
+            FRM = { set_country_flag = under_partition }
         }
     }
 
@@ -5231,10 +4651,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_FRO
-            FRO = {
-                set_country_flag = under_partition
-            }
+            FRO = { set_country_flag = under_partition }
         }
     }
 
@@ -5258,10 +4675,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_FSA
-            FSA = {
-                set_country_flag = under_partition
-            }
+            FSA = { set_country_flag = under_partition }
         }
     }
 
@@ -5285,10 +4699,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_GAB
-            GAB = {
-                set_country_flag = under_partition
-            }
+            GAB = { set_country_flag = under_partition }
         }
     }
 
@@ -5312,10 +4723,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_GAZ
-            GAZ = {
-                set_country_flag = under_partition
-            }
+            GAZ = { set_country_flag = under_partition }
         }
     }
 
@@ -5339,10 +4747,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_GBU
-            GBU = {
-                set_country_flag = under_partition
-            }
+            GBU = { set_country_flag = under_partition }
         }
     }
 
@@ -5366,10 +4771,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_GCO
-            GCO = {
-                set_country_flag = under_partition
-            }
+            GCO = { set_country_flag = under_partition }
         }
     }
 
@@ -5393,10 +4795,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_GEL
-            GEL = {
-                set_country_flag = under_partition
-            }
+            GEL = { set_country_flag = under_partition }
         }
     }
 
@@ -5420,10 +4819,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_GEO
-            GEO = {
-                set_country_flag = under_partition
-            }
+            GEO = { set_country_flag = under_partition }
         }
     }
 
@@ -5447,10 +4843,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_GER
-            GER = {
-                set_country_flag = under_partition
-            }
+            GER = { set_country_flag = under_partition }
         }
     }
 
@@ -5474,10 +4867,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_GLC
-            GLC = {
-                set_country_flag = under_partition
-            }
+            GLC = { set_country_flag = under_partition }
         }
     }
 
@@ -5501,10 +4891,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_GLM
-            GLM = {
-                set_country_flag = under_partition
-            }
+            GLM = { set_country_flag = under_partition }
         }
     }
 
@@ -5528,10 +4915,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_GMB
-            GMB = {
-                set_country_flag = under_partition
-            }
+            GMB = { set_country_flag = under_partition }
         }
     }
 
@@ -5555,10 +4939,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_GMJ
-            GMJ = {
-                set_country_flag = under_partition
-            }
+            GMJ = { set_country_flag = under_partition }
         }
     }
 
@@ -5582,10 +4963,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_GNE
-            GNE = {
-                set_country_flag = under_partition
-            }
+            GNE = { set_country_flag = under_partition }
         }
     }
 
@@ -5609,10 +4987,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_GNG
-            GNG = {
-                set_country_flag = under_partition
-            }
+            GNG = { set_country_flag = under_partition }
         }
     }
 
@@ -5636,10 +5011,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_GON
-            GON = {
-                set_country_flag = under_partition
-            }
+            GON = { set_country_flag = under_partition }
         }
     }
 
@@ -5663,10 +5035,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_GRE
-            GRE = {
-                set_country_flag = under_partition
-            }
+            GRE = { set_country_flag = under_partition }
         }
     }
 
@@ -5690,10 +5059,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_GRN
-            GRN = {
-                set_country_flag = under_partition
-            }
+            GRN = { set_country_flag = under_partition }
         }
     }
 
@@ -5717,10 +5083,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_GUA
-            GUA = {
-                set_country_flag = under_partition
-            }
+            GUA = { set_country_flag = under_partition }
         }
     }
 
@@ -5744,10 +5107,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_GUY
-            GUY = {
-                set_country_flag = under_partition
-            }
+            GUY = { set_country_flag = under_partition }
         }
     }
 
@@ -5771,10 +5131,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_GWA
-            GWA = {
-                set_country_flag = under_partition
-            }
+            GWA = { set_country_flag = under_partition }
         }
     }
 
@@ -5798,10 +5155,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_GXI
-            GXI = {
-                set_country_flag = under_partition
-            }
+            GXI = { set_country_flag = under_partition }
         }
     }
 
@@ -5825,10 +5179,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_HAI
-            HAI = {
-                set_country_flag = under_partition
-            }
+            HAI = { set_country_flag = under_partition }
         }
     }
 
@@ -5852,10 +5203,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_HAL
-            HAL = {
-                set_country_flag = under_partition
-            }
+            HAL = { set_country_flag = under_partition }
         }
     }
 
@@ -5879,10 +5227,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_HAM
-            HAM = {
-                set_country_flag = under_partition
-            }
+            HAM = { set_country_flag = under_partition }
         }
     }
 
@@ -5906,10 +5251,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_HAN
-            HAN = {
-                set_country_flag = under_partition
-            }
+            HAN = { set_country_flag = under_partition }
         }
     }
 
@@ -5933,10 +5275,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_HAR
-            HAR = {
-                set_country_flag = under_partition
-            }
+            HAR = { set_country_flag = under_partition }
         }
     }
 
@@ -5960,10 +5299,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_HAW
-            HAW = {
-                set_country_flag = under_partition
-            }
+            HAW = { set_country_flag = under_partition }
         }
     }
 
@@ -5987,10 +5323,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_HBY
-            HBY = {
-                set_country_flag = under_partition
-            }
+            HBY = { set_country_flag = under_partition }
         }
     }
 
@@ -6014,10 +5347,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_HDJ
-            HDJ = {
-                set_country_flag = under_partition
-            }
+            HDJ = { set_country_flag = under_partition }
         }
     }
 
@@ -6041,10 +5371,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_HEK
-            HEK = {
-                set_country_flag = under_partition
-            }
+            HEK = { set_country_flag = under_partition }
         }
     }
 
@@ -6068,10 +5395,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_HES
-            HES = {
-                set_country_flag = under_partition
-            }
+            HES = { set_country_flag = under_partition }
         }
     }
 
@@ -6095,10 +5419,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_HND
-            HND = {
-                set_country_flag = under_partition
-            }
+            HND = { set_country_flag = under_partition }
         }
     }
 
@@ -6122,10 +5443,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_HNN
-            HNN = {
-                set_country_flag = under_partition
-            }
+            HNN = { set_country_flag = under_partition }
         }
     }
 
@@ -6149,10 +5467,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_HOL
-            HOL = {
-                set_country_flag = under_partition
-            }
+            HOL = { set_country_flag = under_partition }
         }
     }
 
@@ -6176,10 +5491,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_HON
-            HON = {
-                set_country_flag = under_partition
-            }
+            HON = { set_country_flag = under_partition }
         }
     }
 
@@ -6203,10 +5515,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_HUI
-            HUI = {
-                set_country_flag = under_partition
-            }
+            HUI = { set_country_flag = under_partition }
         }
     }
 
@@ -6230,10 +5539,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_HUN
-            HUN = {
-                set_country_flag = under_partition
-            }
+            HUN = { set_country_flag = under_partition }
         }
     }
 
@@ -6257,10 +5563,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_HYD
-            HYD = {
-                set_country_flag = under_partition
-            }
+            HYD = { set_country_flag = under_partition }
         }
     }
 
@@ -6284,10 +5587,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ICL
-            ICL = {
-                set_country_flag = under_partition
-            }
+            ICL = { set_country_flag = under_partition }
         }
     }
 
@@ -6311,10 +5611,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_IND
-            IND = {
-                set_country_flag = under_partition
-            }
+            IND = { set_country_flag = under_partition }
         }
     }
 
@@ -6338,10 +5635,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_INO
-            INO = {
-                set_country_flag = under_partition
-            }
+            INO = { set_country_flag = under_partition }
         }
     }
 
@@ -6365,10 +5659,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ION
-            ION = {
-                set_country_flag = under_partition
-            }
+            ION = { set_country_flag = under_partition }
         }
     }
 
@@ -6392,10 +5683,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_IRE
-            IRE = {
-                set_country_flag = under_partition
-            }
+            IRE = { set_country_flag = under_partition }
         }
     }
 
@@ -6419,10 +5707,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_IRQ
-            IRQ = {
-                set_country_flag = under_partition
-            }
+            IRQ = { set_country_flag = under_partition }
         }
     }
 
@@ -6446,10 +5731,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ISR
-            ISR = {
-                set_country_flag = under_partition
-            }
+            ISR = { set_country_flag = under_partition }
         }
     }
 
@@ -6473,10 +5755,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ITA
-            ITA = {
-                set_country_flag = under_partition
-            }
+            ITA = { set_country_flag = under_partition }
         }
     }
 
@@ -6500,10 +5779,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_IVC
-            IVC = {
-                set_country_flag = under_partition
-            }
+            IVC = { set_country_flag = under_partition }
         }
     }
 
@@ -6527,10 +5803,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_IZH
-            IZH = {
-                set_country_flag = under_partition
-            }
+            IZH = { set_country_flag = under_partition }
         }
     }
 
@@ -6554,10 +5827,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_JAI
-            JAI = {
-                set_country_flag = under_partition
-            }
+            JAI = { set_country_flag = under_partition }
         }
     }
 
@@ -6581,10 +5851,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_JAL
-            JAL = {
-                set_country_flag = under_partition
-            }
+            JAL = { set_country_flag = under_partition }
         }
     }
 
@@ -6608,10 +5875,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_JAM
-            JAM = {
-                set_country_flag = under_partition
-            }
+            JAM = { set_country_flag = under_partition }
         }
     }
 
@@ -6635,10 +5899,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_JAP
-            JAP = {
-                set_country_flag = under_partition
-            }
+            JAP = { set_country_flag = under_partition }
         }
     }
 
@@ -6662,10 +5923,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_JAS
-            JAS = {
-                set_country_flag = under_partition
-            }
+            JAS = { set_country_flag = under_partition }
         }
     }
 
@@ -6689,10 +5947,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_JAV
-            JAV = {
-                set_country_flag = under_partition
-            }
+            JAV = { set_country_flag = under_partition }
         }
     }
 
@@ -6716,10 +5971,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_JOD
-            JOD = {
-                set_country_flag = under_partition
-            }
+            JOD = { set_country_flag = under_partition }
         }
     }
 
@@ -6743,10 +5995,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_JOH
-            JOH = {
-                set_country_flag = under_partition
-            }
+            JOH = { set_country_flag = under_partition }
         }
     }
 
@@ -6770,10 +6019,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_JOR
-            JOR = {
-                set_country_flag = under_partition
-            }
+            JOR = { set_country_flag = under_partition }
         }
     }
 
@@ -6797,10 +6043,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KAF
-            KAF = {
-                set_country_flag = under_partition
-            }
+            KAF = { set_country_flag = under_partition }
         }
     }
 
@@ -6824,10 +6067,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KAG
-            KAG = {
-                set_country_flag = under_partition
-            }
+            KAG = { set_country_flag = under_partition }
         }
     }
 
@@ -6851,10 +6091,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KAL
-            KAL = {
-                set_country_flag = under_partition
-            }
+            KAL = { set_country_flag = under_partition }
         }
     }
 
@@ -6878,10 +6115,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KAM
-            KAM = {
-                set_country_flag = under_partition
-            }
+            KAM = { set_country_flag = under_partition }
         }
     }
 
@@ -6905,10 +6139,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KAR
-            KAR = {
-                set_country_flag = under_partition
-            }
+            KAR = { set_country_flag = under_partition }
         }
     }
 
@@ -6932,10 +6163,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KAS
-            KAS = {
-                set_country_flag = under_partition
-            }
+            KAS = { set_country_flag = under_partition }
         }
     }
 
@@ -6959,10 +6187,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KAZ
-            KAZ = {
-                set_country_flag = under_partition
-            }
+            KAZ = { set_country_flag = under_partition }
         }
     }
 
@@ -6986,10 +6211,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KBO
-            KBO = {
-                set_country_flag = under_partition
-            }
+            KBO = { set_country_flag = under_partition }
         }
     }
 
@@ -7013,10 +6235,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KCH
-            KCH = {
-                set_country_flag = under_partition
-            }
+            KCH = { set_country_flag = under_partition }
         }
     }
 
@@ -7040,10 +6259,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KDS
-            KDS = {
-                set_country_flag = under_partition
-            }
+            KDS = { set_country_flag = under_partition }
         }
     }
 
@@ -7067,10 +6283,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KHI
-            KHI = {
-                set_country_flag = under_partition
-            }
+            KHI = { set_country_flag = under_partition }
         }
     }
 
@@ -7094,10 +6307,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KLM
-            KLM = {
-                set_country_flag = under_partition
-            }
+            KLM = { set_country_flag = under_partition }
         }
     }
 
@@ -7121,10 +6331,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KMK
-            KMK = {
-                set_country_flag = under_partition
-            }
+            KMK = { set_country_flag = under_partition }
         }
     }
 
@@ -7148,10 +6355,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KML
-            KML = {
-                set_country_flag = under_partition
-            }
+            KML = { set_country_flag = under_partition }
         }
     }
 
@@ -7175,10 +6379,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KMT
-            KMT = {
-                set_country_flag = under_partition
-            }
+            KMT = { set_country_flag = under_partition }
         }
     }
 
@@ -7202,10 +6403,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KNG
-            KNG = {
-                set_country_flag = under_partition
-            }
+            KNG = { set_country_flag = under_partition }
         }
     }
 
@@ -7229,10 +6427,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KNY
-            KNY = {
-                set_country_flag = under_partition
-            }
+            KNY = { set_country_flag = under_partition }
         }
     }
 
@@ -7256,10 +6451,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KOK
-            KOK = {
-                set_country_flag = under_partition
-            }
+            KOK = { set_country_flag = under_partition }
         }
     }
 
@@ -7283,10 +6475,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KON
-            KON = {
-                set_country_flag = under_partition
-            }
+            KON = { set_country_flag = under_partition }
         }
     }
 
@@ -7310,10 +6499,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KOR
-            KOR = {
-                set_country_flag = under_partition
-            }
+            KOR = { set_country_flag = under_partition }
         }
     }
 
@@ -7337,10 +6523,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KRA
-            KRA = {
-                set_country_flag = under_partition
-            }
+            KRA = { set_country_flag = under_partition }
         }
     }
 
@@ -7364,10 +6547,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KRL
-            KRL = {
-                set_country_flag = under_partition
-            }
+            KRL = { set_country_flag = under_partition }
         }
     }
 
@@ -7391,10 +6571,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KRN
-            KRN = {
-                set_country_flag = under_partition
-            }
+            KRN = { set_country_flag = under_partition }
         }
     }
 
@@ -7418,10 +6595,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KTH
-            KTH = {
-                set_country_flag = under_partition
-            }
+            KTH = { set_country_flag = under_partition }
         }
     }
 
@@ -7445,10 +6619,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KTI
-            KTI = {
-                set_country_flag = under_partition
-            }
+            KTI = { set_country_flag = under_partition }
         }
     }
 
@@ -7472,10 +6643,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KUB
-            KUB = {
-                set_country_flag = under_partition
-            }
+            KUB = { set_country_flag = under_partition }
         }
     }
 
@@ -7499,10 +6667,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KUK
-            KUK = {
-                set_country_flag = under_partition
-            }
+            KUK = { set_country_flag = under_partition }
         }
     }
 
@@ -7526,10 +6691,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KUT
-            KUT = {
-                set_country_flag = under_partition
-            }
+            KUT = { set_country_flag = under_partition }
         }
     }
 
@@ -7553,10 +6715,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KWT
-            KWT = {
-                set_country_flag = under_partition
-            }
+            KWT = { set_country_flag = under_partition }
         }
     }
 
@@ -7580,10 +6739,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KYR
-            KYR = {
-                set_country_flag = under_partition
-            }
+            KYR = { set_country_flag = under_partition }
         }
     }
 
@@ -7607,10 +6763,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_KZB
-            KZB = {
-                set_country_flag = under_partition
-            }
+            KZB = { set_country_flag = under_partition }
         }
     }
 
@@ -7634,10 +6787,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_LAD
-            LAD = {
-                set_country_flag = under_partition
-            }
+            LAD = { set_country_flag = under_partition }
         }
     }
 
@@ -7661,10 +6811,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_LAN
-            LAN = {
-                set_country_flag = under_partition
-            }
+            LAN = { set_country_flag = under_partition }
         }
     }
 
@@ -7688,10 +6835,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_LAT
-            LAT = {
-                set_country_flag = under_partition
-            }
+            LAT = { set_country_flag = under_partition }
         }
     }
 
@@ -7715,10 +6859,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_LBA
-            LBA = {
-                set_country_flag = under_partition
-            }
+            LBA = { set_country_flag = under_partition }
         }
     }
 
@@ -7742,10 +6883,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_LBG
-            LBG = {
-                set_country_flag = under_partition
-            }
+            LBG = { set_country_flag = under_partition }
         }
     }
 
@@ -7769,10 +6907,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_LBN
-            LBN = {
-                set_country_flag = under_partition
-            }
+            LBN = { set_country_flag = under_partition }
         }
     }
 
@@ -7796,10 +6931,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_LBY
-            LBY = {
-                set_country_flag = under_partition
-            }
+            LBY = { set_country_flag = under_partition }
         }
     }
 
@@ -7823,10 +6955,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_LHJ
-            LHJ = {
-                set_country_flag = under_partition
-            }
+            LHJ = { set_country_flag = under_partition }
         }
     }
 
@@ -7850,10 +6979,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_LIB
-            LIB = {
-                set_country_flag = under_partition
-            }
+            LIB = { set_country_flag = under_partition }
         }
     }
 
@@ -7877,10 +7003,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_LIP
-            LIP = {
-                set_country_flag = under_partition
-            }
+            LIP = { set_country_flag = under_partition }
         }
     }
 
@@ -7904,10 +7027,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_LIT
-            LIT = {
-                set_country_flag = under_partition
-            }
+            LIT = { set_country_flag = under_partition }
         }
     }
 
@@ -7931,10 +7051,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_LOA
-            LOA = {
-                set_country_flag = under_partition
-            }
+            LOA = { set_country_flag = under_partition }
         }
     }
 
@@ -7958,10 +7075,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_LOM
-            LOM = {
-                set_country_flag = under_partition
-            }
+            LOM = { set_country_flag = under_partition }
         }
     }
 
@@ -7985,10 +7099,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_LOR
-            LOR = {
-                set_country_flag = under_partition
-            }
+            LOR = { set_country_flag = under_partition }
         }
     }
 
@@ -8012,10 +7123,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_LOS
-            LOS = {
-                set_country_flag = under_partition
-            }
+            LOS = { set_country_flag = under_partition }
         }
     }
 
@@ -8039,10 +7147,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_LPL
-            LPL = {
-                set_country_flag = under_partition
-            }
+            LPL = { set_country_flag = under_partition }
         }
     }
 
@@ -8066,10 +7171,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_LSK
-            LSK = {
-                set_country_flag = under_partition
-            }
+            LSK = { set_country_flag = under_partition }
         }
     }
 
@@ -8093,10 +7195,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_LUA
-            LUA = {
-                set_country_flag = under_partition
-            }
+            LUA = { set_country_flag = under_partition }
         }
     }
 
@@ -8120,10 +7219,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_LUB
-            LUB = {
-                set_country_flag = under_partition
-            }
+            LUB = { set_country_flag = under_partition }
         }
     }
 
@@ -8147,10 +7243,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_LUC
-            LUC = {
-                set_country_flag = under_partition
-            }
+            LUC = { set_country_flag = under_partition }
         }
     }
 
@@ -8174,10 +7267,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_LUN
-            LUN = {
-                set_country_flag = under_partition
-            }
+            LUN = { set_country_flag = under_partition }
         }
     }
 
@@ -8201,10 +7291,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_LUX
-            LUX = {
-                set_country_flag = under_partition
-            }
+            LUX = { set_country_flag = under_partition }
         }
     }
 
@@ -8228,10 +7315,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_LUZ
-            LUZ = {
-                set_country_flag = under_partition
-            }
+            LUZ = { set_country_flag = under_partition }
         }
     }
 
@@ -8255,10 +7339,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_LXA
-            LXA = {
-                set_country_flag = under_partition
-            }
+            LXA = { set_country_flag = under_partition }
         }
     }
 
@@ -8282,10 +7363,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MAD
-            MAD = {
-                set_country_flag = under_partition
-            }
+            MAD = { set_country_flag = under_partition }
         }
     }
 
@@ -8309,10 +7387,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MAH
-            MAH = {
-                set_country_flag = under_partition
-            }
+            MAH = { set_country_flag = under_partition }
         }
     }
 
@@ -8336,10 +7411,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MAJ
-            MAJ = {
-                set_country_flag = under_partition
-            }
+            MAJ = { set_country_flag = under_partition }
         }
     }
 
@@ -8363,10 +7435,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MAK
-            MAK = {
-                set_country_flag = under_partition
-            }
+            MAK = { set_country_flag = under_partition }
         }
     }
 
@@ -8390,10 +7459,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MAL
-            MAL = {
-                set_country_flag = under_partition
-            }
+            MAL = { set_country_flag = under_partition }
         }
     }
 
@@ -8417,10 +7483,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MAS
-            MAS = {
-                set_country_flag = under_partition
-            }
+            MAS = { set_country_flag = under_partition }
         }
     }
 
@@ -8444,10 +7507,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MAT
-            MAT = {
-                set_country_flag = under_partition
-            }
+            MAT = { set_country_flag = under_partition }
         }
     }
 
@@ -8471,10 +7531,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MCD
-            MCD = {
-                set_country_flag = under_partition
-            }
+            MCD = { set_country_flag = under_partition }
         }
     }
 
@@ -8498,10 +7555,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MCK
-            MCK = {
-                set_country_flag = under_partition
-            }
+            MCK = { set_country_flag = under_partition }
         }
     }
 
@@ -8525,10 +7579,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MDV
-            MDV = {
-                set_country_flag = under_partition
-            }
+            MDV = { set_country_flag = under_partition }
         }
     }
 
@@ -8552,10 +7603,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MEC
-            MEC = {
-                set_country_flag = under_partition
-            }
+            MEC = { set_country_flag = under_partition }
         }
     }
 
@@ -8579,10 +7627,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MEI
-            MEI = {
-                set_country_flag = under_partition
-            }
+            MEI = { set_country_flag = under_partition }
         }
     }
 
@@ -8606,10 +7651,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MEW
-            MEW = {
-                set_country_flag = under_partition
-            }
+            MEW = { set_country_flag = under_partition }
         }
     }
 
@@ -8633,10 +7675,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MEX
-            MEX = {
-                set_country_flag = under_partition
-            }
+            MEX = { set_country_flag = under_partition }
         }
     }
 
@@ -8660,10 +7699,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MGH
-            MGH = {
-                set_country_flag = under_partition
-            }
+            MGH = { set_country_flag = under_partition }
         }
     }
 
@@ -8687,10 +7723,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MGL
-            MGL = {
-                set_country_flag = under_partition
-            }
+            MGL = { set_country_flag = under_partition }
         }
     }
 
@@ -8714,10 +7747,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MHR
-            MHR = {
-                set_country_flag = under_partition
-            }
+            MHR = { set_country_flag = under_partition }
         }
     }
 
@@ -8741,10 +7771,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MKN
-            MKN = {
-                set_country_flag = under_partition
-            }
+            MKN = { set_country_flag = under_partition }
         }
     }
 
@@ -8768,10 +7795,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MLD
-            MLD = {
-                set_country_flag = under_partition
-            }
+            MLD = { set_country_flag = under_partition }
         }
     }
 
@@ -8795,10 +7819,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MLI
-            MLI = {
-                set_country_flag = under_partition
-            }
+            MLI = { set_country_flag = under_partition }
         }
     }
 
@@ -8822,10 +7843,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MLT
-            MLT = {
-                set_country_flag = under_partition
-            }
+            MLT = { set_country_flag = under_partition }
         }
     }
 
@@ -8849,10 +7867,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MLW
-            MLW = {
-                set_country_flag = under_partition
-            }
+            MLW = { set_country_flag = under_partition }
         }
     }
 
@@ -8876,10 +7891,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MLY
-            MLY = {
-                set_country_flag = under_partition
-            }
+            MLY = { set_country_flag = under_partition }
         }
     }
 
@@ -8903,10 +7915,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MNG
-            MNG = {
-                set_country_flag = under_partition
-            }
+            MNG = { set_country_flag = under_partition }
         }
     }
 
@@ -8930,10 +7939,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MNP
-            MNP = {
-                set_country_flag = under_partition
-            }
+            MNP = { set_country_flag = under_partition }
         }
     }
 
@@ -8957,10 +7963,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MOD
-            MOD = {
-                set_country_flag = under_partition
-            }
+            MOD = { set_country_flag = under_partition }
         }
     }
 
@@ -8984,10 +7987,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MOL
-            MOL = {
-                set_country_flag = under_partition
-            }
+            MOL = { set_country_flag = under_partition }
         }
     }
 
@@ -9011,10 +8011,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MON
-            MON = {
-                set_country_flag = under_partition
-            }
+            MON = { set_country_flag = under_partition }
         }
     }
 
@@ -9038,10 +8035,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MOR
-            MOR = {
-                set_country_flag = under_partition
-            }
+            MOR = { set_country_flag = under_partition }
         }
     }
 
@@ -9065,10 +8059,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MOS
-            MOS = {
-                set_country_flag = under_partition
-            }
+            MOS = { set_country_flag = under_partition }
         }
     }
 
@@ -9092,10 +8083,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MOZ
-            MOZ = {
-                set_country_flag = under_partition
-            }
+            MOZ = { set_country_flag = under_partition }
         }
     }
 
@@ -9119,10 +8107,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MRU
-            MRU = {
-                set_country_flag = under_partition
-            }
+            MRU = { set_country_flag = under_partition }
         }
     }
 
@@ -9146,10 +8131,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MTC
-            MTC = {
-                set_country_flag = under_partition
-            }
+            MTC = { set_country_flag = under_partition }
         }
     }
 
@@ -9173,10 +8155,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MUG
-            MUG = {
-                set_country_flag = under_partition
-            }
+            MUG = { set_country_flag = under_partition }
         }
     }
 
@@ -9200,10 +8179,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_MYS
-            MYS = {
-                set_country_flag = under_partition
-            }
+            MYS = { set_country_flag = under_partition }
         }
     }
 
@@ -9227,10 +8203,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_NAG
-            NAG = {
-                set_country_flag = under_partition
-            }
+            NAG = { set_country_flag = under_partition }
         }
     }
 
@@ -9254,10 +8227,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_NAL
-            NAL = {
-                set_country_flag = under_partition
-            }
+            NAL = { set_country_flag = under_partition }
         }
     }
 
@@ -9281,10 +8251,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_NAS
-            NAS = {
-                set_country_flag = under_partition
-            }
+            NAS = { set_country_flag = under_partition }
         }
     }
 
@@ -9308,10 +8275,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_NCT
-            NCT = {
-                set_country_flag = under_partition
-            }
+            NCT = { set_country_flag = under_partition }
         }
     }
 
@@ -9335,10 +8299,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_NEJ
-            NEJ = {
-                set_country_flag = under_partition
-            }
+            NEJ = { set_country_flag = under_partition }
         }
     }
 
@@ -9362,10 +8323,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_NEN
-            NEN = {
-                set_country_flag = under_partition
-            }
+            NEN = { set_country_flag = under_partition }
         }
     }
 
@@ -9389,10 +8347,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_NEP
-            NEP = {
-                set_country_flag = under_partition
-            }
+            NEP = { set_country_flag = under_partition }
         }
     }
 
@@ -9416,10 +8371,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_NET
-            NET = {
-                set_country_flag = under_partition
-            }
+            NET = { set_country_flag = under_partition }
         }
     }
 
@@ -9443,10 +8395,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_NEW
-            NEW = {
-                set_country_flag = under_partition
-            }
+            NEW = { set_country_flag = under_partition }
         }
     }
 
@@ -9470,10 +8419,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_NGF
-            NGF = {
-                set_country_flag = under_partition
-            }
+            NGF = { set_country_flag = under_partition }
         }
     }
 
@@ -9497,10 +8443,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_NGR
-            NGR = {
-                set_country_flag = under_partition
-            }
+            NGR = { set_country_flag = under_partition }
         }
     }
 
@@ -9524,10 +8467,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_NIC
-            NIC = {
-                set_country_flag = under_partition
-            }
+            NIC = { set_country_flag = under_partition }
         }
     }
 
@@ -9551,10 +8491,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_NIG
-            NIG = {
-                set_country_flag = under_partition
-            }
+            NIG = { set_country_flag = under_partition }
         }
     }
 
@@ -9578,10 +8515,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_NMB
-            NMB = {
-                set_country_flag = under_partition
-            }
+            NMB = { set_country_flag = under_partition }
         }
     }
 
@@ -9605,10 +8539,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_NOR
-            NOR = {
-                set_country_flag = under_partition
-            }
+            NOR = { set_country_flag = under_partition }
         }
     }
 
@@ -9632,10 +8563,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_NYE
-            NYE = {
-                set_country_flag = under_partition
-            }
+            NYE = { set_country_flag = under_partition }
         }
     }
 
@@ -9659,10 +8587,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_NZL
-            NZL = {
-                set_country_flag = under_partition
-            }
+            NZL = { set_country_flag = under_partition }
         }
     }
 
@@ -9686,10 +8611,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_OAX
-            OAX = {
-                set_country_flag = under_partition
-            }
+            OAX = { set_country_flag = under_partition }
         }
     }
 
@@ -9713,10 +8635,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_OCC
-            OCC = {
-                set_country_flag = under_partition
-            }
+            OCC = { set_country_flag = under_partition }
         }
     }
 
@@ -9740,10 +8659,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_OLD
-            OLD = {
-                set_country_flag = under_partition
-            }
+            OLD = { set_country_flag = under_partition }
         }
     }
 
@@ -9767,10 +8683,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_OMA
-            OMA = {
-                set_country_flag = under_partition
-            }
+            OMA = { set_country_flag = under_partition }
         }
     }
 
@@ -9794,10 +8707,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ORA
-            ORA = {
-                set_country_flag = under_partition
-            }
+            ORA = { set_country_flag = under_partition }
         }
     }
 
@@ -9821,10 +8731,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ORI
-            ORI = {
-                set_country_flag = under_partition
-            }
+            ORI = { set_country_flag = under_partition }
         }
     }
 
@@ -9848,10 +8755,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_OYO
-            OYO = {
-                set_country_flag = under_partition
-            }
+            OYO = { set_country_flag = under_partition }
         }
     }
 
@@ -9875,10 +8779,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_PAK
-            PAK = {
-                set_country_flag = under_partition
-            }
+            PAK = { set_country_flag = under_partition }
         }
     }
 
@@ -9902,10 +8803,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_PAP
-            PAP = {
-                set_country_flag = under_partition
-            }
+            PAP = { set_country_flag = under_partition }
         }
     }
 
@@ -9929,10 +8827,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_PAR
-            PAR = {
-                set_country_flag = under_partition
-            }
+            PAR = { set_country_flag = under_partition }
         }
     }
 
@@ -9956,10 +8851,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_PBC
-            PBC = {
-                set_country_flag = under_partition
-            }
+            PBC = { set_country_flag = under_partition }
         }
     }
 
@@ -9983,10 +8875,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_PER
-            PER = {
-                set_country_flag = under_partition
-            }
+            PER = { set_country_flag = under_partition }
         }
     }
 
@@ -10010,10 +8899,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_PEU
-            PEU = {
-                set_country_flag = under_partition
-            }
+            PEU = { set_country_flag = under_partition }
         }
     }
 
@@ -10037,10 +8923,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_PGG
-            PGG = {
-                set_country_flag = under_partition
-            }
+            PGG = { set_country_flag = under_partition }
         }
     }
 
@@ -10064,10 +8947,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_PHG
-            PHG = {
-                set_country_flag = under_partition
-            }
+            PHG = { set_country_flag = under_partition }
         }
     }
 
@@ -10091,10 +8971,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_PHL
-            PHL = {
-                set_country_flag = under_partition
-            }
+            PHL = { set_country_flag = under_partition }
         }
     }
 
@@ -10118,10 +8995,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_PLC
-            PLC = {
-                set_country_flag = under_partition
-            }
+            PLC = { set_country_flag = under_partition }
         }
     }
 
@@ -10145,10 +9019,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_PLS
-            PLS = {
-                set_country_flag = under_partition
-            }
+            PLS = { set_country_flag = under_partition }
         }
     }
 
@@ -10172,10 +9043,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_PML
-            PML = {
-                set_country_flag = under_partition
-            }
+            PML = { set_country_flag = under_partition }
         }
     }
 
@@ -10199,10 +9067,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_PNB
-            PNB = {
-                set_country_flag = under_partition
-            }
+            PNB = { set_country_flag = under_partition }
         }
     }
 
@@ -10226,10 +9091,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_PNJ
-            PNJ = {
-                set_country_flag = under_partition
-            }
+            PNJ = { set_country_flag = under_partition }
         }
     }
 
@@ -10253,10 +9115,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_PNM
-            PNM = {
-                set_country_flag = under_partition
-            }
+            PNM = { set_country_flag = under_partition }
         }
     }
 
@@ -10280,10 +9139,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_PNT
-            PNT = {
-                set_country_flag = under_partition
-            }
+            PNT = { set_country_flag = under_partition }
         }
     }
 
@@ -10307,10 +9163,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_POL
-            POL = {
-                set_country_flag = under_partition
-            }
+            POL = { set_country_flag = under_partition }
         }
     }
 
@@ -10334,10 +9187,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_POR
-            POR = {
-                set_country_flag = under_partition
-            }
+            POR = { set_country_flag = under_partition }
         }
     }
 
@@ -10361,10 +9211,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_PRG
-            PRG = {
-                set_country_flag = under_partition
-            }
+            PRG = { set_country_flag = under_partition }
         }
     }
 
@@ -10388,10 +9235,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_PRI
-            PRI = {
-                set_country_flag = under_partition
-            }
+            PRI = { set_country_flag = under_partition }
         }
     }
 
@@ -10415,10 +9259,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_PRK
-            PRK = {
-                set_country_flag = under_partition
-            }
+            PRK = { set_country_flag = under_partition }
         }
     }
 
@@ -10442,10 +9283,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_PRU
-            PRU = {
-                set_country_flag = under_partition
-            }
+            PRU = { set_country_flag = under_partition }
         }
     }
 
@@ -10469,10 +9307,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_PTG
-            PTG = {
-                set_country_flag = under_partition
-            }
+            PTG = { set_country_flag = under_partition }
         }
     }
 
@@ -10496,10 +9331,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_PZN
-            PZN = {
-                set_country_flag = under_partition
-            }
+            PZN = { set_country_flag = under_partition }
         }
     }
 
@@ -10523,10 +9355,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_QAT
-            QAT = {
-                set_country_flag = under_partition
-            }
+            QAT = { set_country_flag = under_partition }
         }
     }
 
@@ -10550,10 +9379,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_QNG
-            QNG = {
-                set_country_flag = under_partition
-            }
+            QNG = { set_country_flag = under_partition }
         }
     }
 
@@ -10577,10 +9403,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_QUE
-            QUE = {
-                set_country_flag = under_partition
-            }
+            QUE = { set_country_flag = under_partition }
         }
     }
 
@@ -10604,10 +9427,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_RAJ
-            RAJ = {
-                set_country_flag = under_partition
-            }
+            RAJ = { set_country_flag = under_partition }
         }
     }
 
@@ -10631,10 +9451,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_RDL
-            RDL = {
-                set_country_flag = under_partition
-            }
+            RDL = { set_country_flag = under_partition }
         }
     }
 
@@ -10658,10 +9475,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_REB
-            REB = {
-                set_country_flag = under_partition
-            }
+            REB = { set_country_flag = under_partition }
         }
     }
 
@@ -10685,10 +9499,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_RGR
-            RGR = {
-                set_country_flag = under_partition
-            }
+            RGR = { set_country_flag = under_partition }
         }
     }
 
@@ -10712,10 +9523,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_RGS
-            RGS = {
-                set_country_flag = under_partition
-            }
+            RGS = { set_country_flag = under_partition }
         }
     }
 
@@ -10739,10 +9547,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_RHI
-            RHI = {
-                set_country_flag = under_partition
-            }
+            RHI = { set_country_flag = under_partition }
         }
     }
 
@@ -10766,10 +9571,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_RHO
-            RHO = {
-                set_country_flag = under_partition
-            }
+            RHO = { set_country_flag = under_partition }
         }
     }
 
@@ -10793,10 +9595,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_RMG
-            RMG = {
-                set_country_flag = under_partition
-            }
+            RMG = { set_country_flag = under_partition }
         }
     }
 
@@ -10820,10 +9619,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ROM
-            ROM = {
-                set_country_flag = under_partition
-            }
+            ROM = { set_country_flag = under_partition }
         }
     }
 
@@ -10847,10 +9643,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_RPL
-            RPL = {
-                set_country_flag = under_partition
-            }
+            RPL = { set_country_flag = under_partition }
         }
     }
 
@@ -10874,10 +9667,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_RUS
-            RUS = {
-                set_country_flag = under_partition
-            }
+            RUS = { set_country_flag = under_partition }
         }
     }
 
@@ -10901,10 +9691,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_RUT
-            RUT = {
-                set_country_flag = under_partition
-            }
+            RUT = { set_country_flag = under_partition }
         }
     }
 
@@ -10928,10 +9715,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_RWA
-            RWA = {
-                set_country_flag = under_partition
-            }
+            RWA = { set_country_flag = under_partition }
         }
     }
 
@@ -10955,10 +9739,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_RYU
-            RYU = {
-                set_country_flag = under_partition
-            }
+            RYU = { set_country_flag = under_partition }
         }
     }
 
@@ -10982,10 +9763,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SAF
-            SAF = {
-                set_country_flag = under_partition
-            }
+            SAF = { set_country_flag = under_partition }
         }
     }
 
@@ -11009,10 +9787,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SAK
-            SAK = {
-                set_country_flag = under_partition
-            }
+            SAK = { set_country_flag = under_partition }
         }
     }
 
@@ -11036,10 +9811,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SAR
-            SAR = {
-                set_country_flag = under_partition
-            }
+            SAR = { set_country_flag = under_partition }
         }
     }
 
@@ -11063,10 +9835,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SAT
-            SAT = {
-                set_country_flag = under_partition
-            }
+            SAT = { set_country_flag = under_partition }
         }
     }
 
@@ -11090,10 +9859,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SAX
-            SAX = {
-                set_country_flag = under_partition
-            }
+            SAX = { set_country_flag = under_partition }
         }
     }
 
@@ -11117,10 +9883,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SBA
-            SBA = {
-                set_country_flag = under_partition
-            }
+            SBA = { set_country_flag = under_partition }
         }
     }
 
@@ -11144,10 +9907,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SCA
-            SCA = {
-                set_country_flag = under_partition
-            }
+            SCA = { set_country_flag = under_partition }
         }
     }
 
@@ -11171,10 +9931,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SCH
-            SCH = {
-                set_country_flag = under_partition
-            }
+            SCH = { set_country_flag = under_partition }
         }
     }
 
@@ -11198,10 +9955,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SCO
-            SCO = {
-                set_country_flag = under_partition
-            }
+            SCO = { set_country_flag = under_partition }
         }
     }
 
@@ -11225,10 +9979,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SEG
-            SEG = {
-                set_country_flag = under_partition
-            }
+            SEG = { set_country_flag = under_partition }
         }
     }
 
@@ -11252,10 +10003,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SEN
-            SEN = {
-                set_country_flag = under_partition
-            }
+            SEN = { set_country_flag = under_partition }
         }
     }
 
@@ -11279,10 +10027,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SER
-            SER = {
-                set_country_flag = under_partition
-            }
+            SER = { set_country_flag = under_partition }
         }
     }
 
@@ -11306,10 +10051,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SGF
-            SGF = {
-                set_country_flag = under_partition
-            }
+            SGF = { set_country_flag = under_partition }
         }
     }
 
@@ -11333,10 +10075,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SGM
-            SGM = {
-                set_country_flag = under_partition
-            }
+            SGM = { set_country_flag = under_partition }
         }
     }
 
@@ -11360,10 +10099,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SHA
-            SHA = {
-                set_country_flag = under_partition
-            }
+            SHA = { set_country_flag = under_partition }
         }
     }
 
@@ -11387,10 +10123,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SHI
-            SHI = {
-                set_country_flag = under_partition
-            }
+            SHI = { set_country_flag = under_partition }
         }
     }
 
@@ -11414,10 +10147,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SHK
-            SHK = {
-                set_country_flag = under_partition
-            }
+            SHK = { set_country_flag = under_partition }
         }
     }
 
@@ -11441,10 +10171,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SHO
-            SHO = {
-                set_country_flag = under_partition
-            }
+            SHO = { set_country_flag = under_partition }
         }
     }
 
@@ -11468,10 +10195,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SHW
-            SHW = {
-                set_country_flag = under_partition
-            }
+            SHW = { set_country_flag = under_partition }
         }
     }
 
@@ -11495,10 +10219,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SIA
-            SIA = {
-                set_country_flag = under_partition
-            }
+            SIA = { set_country_flag = under_partition }
         }
     }
 
@@ -11522,10 +10243,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SIB
-            SIB = {
-                set_country_flag = under_partition
-            }
+            SIB = { set_country_flag = under_partition }
         }
     }
 
@@ -11549,10 +10267,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SIC
-            SIC = {
-                set_country_flag = under_partition
-            }
+            SIC = { set_country_flag = under_partition }
         }
     }
 
@@ -11576,10 +10291,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SID
-            SID = {
-                set_country_flag = under_partition
-            }
+            SID = { set_country_flag = under_partition }
         }
     }
 
@@ -11603,10 +10315,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SIE
-            SIE = {
-                set_country_flag = under_partition
-            }
+            SIE = { set_country_flag = under_partition }
         }
     }
 
@@ -11630,10 +10339,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SIK
-            SIK = {
-                set_country_flag = under_partition
-            }
+            SIK = { set_country_flag = under_partition }
         }
     }
 
@@ -11657,10 +10363,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SIN
-            SIN = {
-                set_country_flag = under_partition
-            }
+            SIN = { set_country_flag = under_partition }
         }
     }
 
@@ -11684,10 +10387,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SLE
-            SLE = {
-                set_country_flag = under_partition
-            }
+            SLE = { set_country_flag = under_partition }
         }
     }
 
@@ -11711,10 +10411,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SLG
-            SLG = {
-                set_country_flag = under_partition
-            }
+            SLG = { set_country_flag = under_partition }
         }
     }
 
@@ -11738,10 +10435,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SLO
-            SLO = {
-                set_country_flag = under_partition
-            }
+            SLO = { set_country_flag = under_partition }
         }
     }
 
@@ -11765,10 +10459,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SLS
-            SLS = {
-                set_country_flag = under_partition
-            }
+            SLS = { set_country_flag = under_partition }
         }
     }
 
@@ -11792,10 +10483,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SLV
-            SLV = {
-                set_country_flag = under_partition
-            }
+            SLV = { set_country_flag = under_partition }
         }
     }
 
@@ -11819,10 +10507,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SLW
-            SLW = {
-                set_country_flag = under_partition
-            }
+            SLW = { set_country_flag = under_partition }
         }
     }
 
@@ -11846,10 +10531,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SNG
-            SNG = {
-                set_country_flag = under_partition
-            }
+            SNG = { set_country_flag = under_partition }
         }
     }
 
@@ -11873,10 +10555,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SNZ
-            SNZ = {
-                set_country_flag = under_partition
-            }
+            SNZ = { set_country_flag = under_partition }
         }
     }
 
@@ -11900,10 +10579,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SOK
-            SOK = {
-                set_country_flag = under_partition
-            }
+            SOK = { set_country_flag = under_partition }
         }
     }
 
@@ -11927,10 +10603,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SOM
-            SOM = {
-                set_country_flag = under_partition
-            }
+            SOM = { set_country_flag = under_partition }
         }
     }
 
@@ -11954,10 +10627,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SON
-            SON = {
-                set_country_flag = under_partition
-            }
+            SON = { set_country_flag = under_partition }
         }
     }
 
@@ -11981,10 +10651,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SPA
-            SPA = {
-                set_country_flag = under_partition
-            }
+            SPA = { set_country_flag = under_partition }
         }
     }
 
@@ -12008,10 +10675,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SPC
-            SPC = {
-                set_country_flag = under_partition
-            }
+            SPC = { set_country_flag = under_partition }
         }
     }
 
@@ -12035,10 +10699,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SPU
-            SPU = {
-                set_country_flag = under_partition
-            }
+            SPU = { set_country_flag = under_partition }
         }
     }
 
@@ -12062,10 +10723,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SRD
-            SRD = {
-                set_country_flag = under_partition
-            }
+            SRD = { set_country_flag = under_partition }
         }
     }
 
@@ -12089,10 +10747,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SRI
-            SRI = {
-                set_country_flag = under_partition
-            }
+            SRI = { set_country_flag = under_partition }
         }
     }
 
@@ -12116,10 +10771,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SRN
-            SRN = {
-                set_country_flag = under_partition
-            }
+            SRN = { set_country_flag = under_partition }
         }
     }
 
@@ -12143,10 +10795,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SUA
-            SUA = {
-                set_country_flag = under_partition
-            }
+            SUA = { set_country_flag = under_partition }
         }
     }
 
@@ -12170,10 +10819,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SUD
-            SUD = {
-                set_country_flag = under_partition
-            }
+            SUD = { set_country_flag = under_partition }
         }
     }
 
@@ -12197,10 +10843,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SUL
-            SUL = {
-                set_country_flag = under_partition
-            }
+            SUL = { set_country_flag = under_partition }
         }
     }
 
@@ -12224,10 +10867,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SVY
-            SVY = {
-                set_country_flag = under_partition
-            }
+            SVY = { set_country_flag = under_partition }
         }
     }
 
@@ -12251,10 +10891,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SWE
-            SWE = {
-                set_country_flag = under_partition
-            }
+            SWE = { set_country_flag = under_partition }
         }
     }
 
@@ -12278,10 +10915,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SWH
-            SWH = {
-                set_country_flag = under_partition
-            }
+            SWH = { set_country_flag = under_partition }
         }
     }
 
@@ -12305,10 +10939,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SWI
-            SWI = {
-                set_country_flag = under_partition
-            }
+            SWI = { set_country_flag = under_partition }
         }
     }
 
@@ -12332,10 +10963,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SWK
-            SWK = {
-                set_country_flag = under_partition
-            }
+            SWK = { set_country_flag = under_partition }
         }
     }
 
@@ -12359,10 +10987,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SXI
-            SXI = {
-                set_country_flag = under_partition
-            }
+            SXI = { set_country_flag = under_partition }
         }
     }
 
@@ -12386,10 +11011,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SYC
-            SYC = {
-                set_country_flag = under_partition
-            }
+            SYC = { set_country_flag = under_partition }
         }
     }
 
@@ -12413,10 +11035,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SYR
-            SYR = {
-                set_country_flag = under_partition
-            }
+            SYR = { set_country_flag = under_partition }
         }
     }
 
@@ -12440,10 +11059,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_SZC
-            SZC = {
-                set_country_flag = under_partition
-            }
+            SZC = { set_country_flag = under_partition }
         }
     }
 
@@ -12467,10 +11083,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TAI
-            TAI = {
-                set_country_flag = under_partition
-            }
+            TAI = { set_country_flag = under_partition }
         }
     }
 
@@ -12494,10 +11107,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TAJ
-            TAJ = {
-                set_country_flag = under_partition
-            }
+            TAJ = { set_country_flag = under_partition }
         }
     }
 
@@ -12521,10 +11131,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TAR
-            TAR = {
-                set_country_flag = under_partition
-            }
+            TAR = { set_country_flag = under_partition }
         }
     }
 
@@ -12548,10 +11155,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TCA
-            TCA = {
-                set_country_flag = under_partition
-            }
+            TCA = { set_country_flag = under_partition }
         }
     }
 
@@ -12575,10 +11179,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TEX
-            TEX = {
-                set_country_flag = under_partition
-            }
+            TEX = { set_country_flag = under_partition }
         }
     }
 
@@ -12602,10 +11203,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TGA
-            TGA = {
-                set_country_flag = under_partition
-            }
+            TGA = { set_country_flag = under_partition }
         }
     }
 
@@ -12629,10 +11227,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TIB
-            TIB = {
-                set_country_flag = under_partition
-            }
+            TIB = { set_country_flag = under_partition }
         }
     }
 
@@ -12656,10 +11251,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TIG
-            TIG = {
-                set_country_flag = under_partition
-            }
+            TIG = { set_country_flag = under_partition }
         }
     }
 
@@ -12683,10 +11275,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TKG
-            TKG = {
-                set_country_flag = under_partition
-            }
+            TKG = { set_country_flag = under_partition }
         }
     }
 
@@ -12710,10 +11299,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TKM
-            TKM = {
-                set_country_flag = under_partition
-            }
+            TKM = { set_country_flag = under_partition }
         }
     }
 
@@ -12737,10 +11323,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TKS
-            TKS = {
-                set_country_flag = under_partition
-            }
+            TKS = { set_country_flag = under_partition }
         }
     }
 
@@ -12764,10 +11347,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TMR
-            TMR = {
-                set_country_flag = under_partition
-            }
+            TMR = { set_country_flag = under_partition }
         }
     }
 
@@ -12791,10 +11371,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TNT
-            TNT = {
-                set_country_flag = under_partition
-            }
+            TNT = { set_country_flag = under_partition }
         }
     }
 
@@ -12818,10 +11395,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TNZ
-            TNZ = {
-                set_country_flag = under_partition
-            }
+            TNZ = { set_country_flag = under_partition }
         }
     }
 
@@ -12845,10 +11419,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TOG
-            TOG = {
-                set_country_flag = under_partition
-            }
+            TOG = { set_country_flag = under_partition }
         }
     }
 
@@ -12872,10 +11443,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TOO
-            TOO = {
-                set_country_flag = under_partition
-            }
+            TOO = { set_country_flag = under_partition }
         }
     }
 
@@ -12899,10 +11467,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TOS
-            TOS = {
-                set_country_flag = under_partition
-            }
+            TOS = { set_country_flag = under_partition }
         }
     }
 
@@ -12926,10 +11491,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TOU
-            TOU = {
-                set_country_flag = under_partition
-            }
+            TOU = { set_country_flag = under_partition }
         }
     }
 
@@ -12953,10 +11515,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TPG
-            TPG = {
-                set_country_flag = under_partition
-            }
+            TPG = { set_country_flag = under_partition }
         }
     }
 
@@ -12980,10 +11539,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TRA
-            TRA = {
-                set_country_flag = under_partition
-            }
+            TRA = { set_country_flag = under_partition }
         }
     }
 
@@ -13007,10 +11563,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TRE
-            TRE = {
-                set_country_flag = under_partition
-            }
+            TRE = { set_country_flag = under_partition }
         }
     }
 
@@ -13034,10 +11587,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TRI
-            TRI = {
-                set_country_flag = under_partition
-            }
+            TRI = { set_country_flag = under_partition }
         }
     }
 
@@ -13061,10 +11611,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TRN
-            TRN = {
-                set_country_flag = under_partition
-            }
+            TRN = { set_country_flag = under_partition }
         }
     }
 
@@ -13088,10 +11635,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TRS
-            TRS = {
-                set_country_flag = under_partition
-            }
+            TRS = { set_country_flag = under_partition }
         }
     }
 
@@ -13115,10 +11659,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TRZ
-            TRZ = {
-                set_country_flag = under_partition
-            }
+            TRZ = { set_country_flag = under_partition }
         }
     }
 
@@ -13142,10 +11683,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TSW
-            TSW = {
-                set_country_flag = under_partition
-            }
+            TSW = { set_country_flag = under_partition }
         }
     }
 
@@ -13169,10 +11707,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TTB
-            TTB = {
-                set_country_flag = under_partition
-            }
+            TTB = { set_country_flag = under_partition }
         }
     }
 
@@ -13196,10 +11731,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TUN
-            TUN = {
-                set_country_flag = under_partition
-            }
+            TUN = { set_country_flag = under_partition }
         }
     }
 
@@ -13223,10 +11755,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TUR
-            TUR = {
-                set_country_flag = under_partition
-            }
+            TUR = { set_country_flag = under_partition }
         }
     }
 
@@ -13250,10 +11779,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_TUS
-            TUS = {
-                set_country_flag = under_partition
-            }
+            TUS = { set_country_flag = under_partition }
         }
     }
 
@@ -13277,10 +11803,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_UBD
-            UBD = {
-                set_country_flag = under_partition
-            }
+            UBD = { set_country_flag = under_partition }
         }
     }
 
@@ -13304,10 +11827,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_UCA
-            UCA = {
-                set_country_flag = under_partition
-            }
+            UCA = { set_country_flag = under_partition }
         }
     }
 
@@ -13331,10 +11851,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_UIL
-            UIL = {
-                set_country_flag = under_partition
-            }
+            UIL = { set_country_flag = under_partition }
         }
     }
 
@@ -13358,10 +11875,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_UKR
-            UKR = {
-                set_country_flag = under_partition
-            }
+            UKR = { set_country_flag = under_partition }
         }
     }
 
@@ -13385,10 +11899,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_UNB
-            UNB = {
-                set_country_flag = under_partition
-            }
+            UNB = { set_country_flag = under_partition }
         }
     }
 
@@ -13412,10 +11923,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_UNM
-            UNM = {
-                set_country_flag = under_partition
-            }
+            UNM = { set_country_flag = under_partition }
         }
     }
 
@@ -13439,10 +11947,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_UOR
-            UOR = {
-                set_country_flag = under_partition
-            }
+            UOR = { set_country_flag = under_partition }
         }
     }
 
@@ -13466,10 +11971,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_URA
-            URA = {
-                set_country_flag = under_partition
-            }
+            URA = { set_country_flag = under_partition }
         }
     }
 
@@ -13493,10 +11995,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_URU
-            URU = {
-                set_country_flag = under_partition
-            }
+            URU = { set_country_flag = under_partition }
         }
     }
 
@@ -13520,10 +12019,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_USA
-            USA = {
-                set_country_flag = under_partition
-            }
+            USA = { set_country_flag = under_partition }
         }
     }
 
@@ -13547,10 +12043,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_UYG
-            UYG = {
-                set_country_flag = under_partition
-            }
+            UYG = { set_country_flag = under_partition }
         }
     }
 
@@ -13574,10 +12067,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_UZB
-            UZB = {
-                set_country_flag = under_partition
-            }
+            UZB = { set_country_flag = under_partition }
         }
     }
 
@@ -13601,10 +12091,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_VEN
-            VEN = {
-                set_country_flag = under_partition
-            }
+            VEN = { set_country_flag = under_partition }
         }
     }
 
@@ -13628,10 +12115,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_VNZ
-            VNZ = {
-                set_country_flag = under_partition
-            }
+            VNZ = { set_country_flag = under_partition }
         }
     }
 
@@ -13655,10 +12139,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_WAD
-            WAD = {
-                set_country_flag = under_partition
-            }
+            WAD = { set_country_flag = under_partition }
         }
     }
 
@@ -13682,10 +12163,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_WAL
-            WAL = {
-                set_country_flag = under_partition
-            }
+            WAL = { set_country_flag = under_partition }
         }
     }
 
@@ -13709,10 +12187,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_WEI
-            WEI = {
-                set_country_flag = under_partition
-            }
+            WEI = { set_country_flag = under_partition }
         }
     }
 
@@ -13736,10 +12211,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_WES
-            WES = {
-                set_country_flag = under_partition
-            }
+            WES = { set_country_flag = under_partition }
         }
     }
 
@@ -13763,10 +12235,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_WHA
-            WHA = {
-                set_country_flag = under_partition
-            }
+            WHA = { set_country_flag = under_partition }
         }
     }
 
@@ -13790,10 +12259,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_WIA
-            WIA = {
-                set_country_flag = under_partition
-            }
+            WIA = { set_country_flag = under_partition }
         }
     }
 
@@ -13817,10 +12283,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_WLL
-            WLL = {
-                set_country_flag = under_partition
-            }
+            WLL = { set_country_flag = under_partition }
         }
     }
 
@@ -13844,10 +12307,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_WOL
-            WOL = {
-                set_country_flag = under_partition
-            }
+            WOL = { set_country_flag = under_partition }
         }
     }
 
@@ -13871,10 +12331,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_WRI
-            WRI = {
-                set_country_flag = under_partition
-            }
+            WRI = { set_country_flag = under_partition }
         }
     }
 
@@ -13898,10 +12355,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_WRL
-            WRL = {
-                set_country_flag = under_partition
-            }
+            WRL = { set_country_flag = under_partition }
         }
     }
 
@@ -13925,10 +12379,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_WUR
-            WUR = {
-                set_country_flag = under_partition
-            }
+            WUR = { set_country_flag = under_partition }
         }
     }
 
@@ -13952,10 +12403,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_XBI
-            XBI = {
-                set_country_flag = under_partition
-            }
+            XBI = { set_country_flag = under_partition }
         }
     }
 
@@ -13979,10 +12427,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_XHO
-            XHO = {
-                set_country_flag = under_partition
-            }
+            XHO = { set_country_flag = under_partition }
         }
     }
 
@@ -14006,10 +12451,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_XIN
-            XIN = {
-                set_country_flag = under_partition
-            }
+            XIN = { set_country_flag = under_partition }
         }
     }
 
@@ -14033,10 +12475,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_YAK
-            YAK = {
-                set_country_flag = under_partition
-            }
+            YAK = { set_country_flag = under_partition }
         }
     }
 
@@ -14060,10 +12499,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_YEM
-            YEM = {
-                set_country_flag = under_partition
-            }
+            YEM = { set_country_flag = under_partition }
         }
     }
 
@@ -14087,10 +12523,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_YNN
-            YNN = {
-                set_country_flag = under_partition
-            }
+            YNN = { set_country_flag = under_partition }
         }
     }
 
@@ -14114,10 +12547,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_YUC
-            YUC = {
-                set_country_flag = under_partition
-            }
+            YUC = { set_country_flag = under_partition }
         }
     }
 
@@ -14141,10 +12571,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_YUG
-            YUG = {
-                set_country_flag = under_partition
-            }
+            YUG = { set_country_flag = under_partition }
         }
     }
 
@@ -14168,10 +12595,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_YZW
-            YZW = {
-                set_country_flag = under_partition
-            }
+            YZW = { set_country_flag = under_partition }
         }
     }
 
@@ -14195,10 +12619,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ZAM
-            ZAM = {
-                set_country_flag = under_partition
-            }
+            ZAM = { set_country_flag = under_partition }
         }
     }
 
@@ -14222,10 +12643,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ZAN
-            ZAN = {
-                set_country_flag = under_partition
-            }
+            ZAN = { set_country_flag = under_partition }
         }
     }
 
@@ -14249,10 +12667,7 @@ political_decisions = {
         effect = {
             badboy = 5
             set_country_flag = leading_partition
-            set_country_flag = leading_partition_ZUL
-            ZUL = {
-                set_country_flag = under_partition
-            }
+            ZUL = { set_country_flag = under_partition }
         }
     }
 }
