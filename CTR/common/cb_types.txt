@@ -250,6 +250,10 @@ partition_colony = {
 		}
 	}
 
+	on_po_accepted = {
+		
+	}
+
 }
 
 ##################
