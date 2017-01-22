@@ -140,24 +140,7 @@ partition_state = {
 			has_country_flag = leading_partition
 		}
 		has_country_flag = under_partition
-		
-		NOT = { is_our_vassal = THIS }
-		badboy = 1
-		is_disarmed = no
 		war_with = THIS
-
-		THIS = {
-			NOT = { has_country_modifier = neutrality }
-		}
-		OR = {
-			NOT = { has_country_flag = dismantle_declared }
-			THIS = { ai = no }
-		}
-
-		OR = {
-			is_greater_power = yes
-			is_secondary_power = yes
-		}
 	}
 
 	# all non-colonial states are allowed
@@ -219,22 +202,7 @@ partition_colony = {
 			has_country_flag = leading_partition
 		}
 		has_country_flag = under_partition
-
-		NOT = { is_our_vassal = THIS }
-		badboy = 1
-		is_disarmed = no 
-		THIS = {
-			NOT = { has_country_modifier = neutrality }
-
-			# the opponent controls absolutely none of their territories
-			any_owned_province = {
-				NOT = { controller = THIS }
-			}
-		}
-		OR = {
-			NOT = { has_country_flag = dismantle_declared }
-			THIS = { ai = no }
-		}
+		war_with = THIS
 	}
 
 	# all non-colonial states are allowed
