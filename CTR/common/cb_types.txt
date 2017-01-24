@@ -134,6 +134,8 @@ partition_state = {
 	good_relation_infamy_factor = 0
 	good_relation_militancy_factor = 0
 
+	always = yes
+
 	can_use = {
 		THIS = {
 			is_greater_power = yes
@@ -195,6 +197,8 @@ partition_colony = {
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
 	good_relation_militancy_factor = 0
+
+	always = yes
 
 	can_use = {
 		THIS = {
