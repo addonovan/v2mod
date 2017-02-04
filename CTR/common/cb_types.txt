@@ -149,7 +149,6 @@ partition_state = {
 	allowed_states = {
 		any_owned_province = {
 			is_colonial = no
-			controlled_by = THIS
 		}
 	}
 
@@ -213,7 +212,6 @@ partition_colony = {
 	allowed_states = {
 		any_owned_province = {
 			is_colonial = yes
-			controlled_by = THIS
 		}
 	}
 
