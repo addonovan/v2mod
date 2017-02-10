@@ -80,6 +80,7 @@ political_decisions = {
 			}
 			has_country_flag = neuchatel_crisis_escalated
 			NCT = { exists = yes }
+			SWI = { exists = yes } # had to add this for my NCT game (made no sense that SWI comes out of nowhere after conquest)
 		}
 		
 		allow = {
@@ -118,6 +119,7 @@ political_decisions = {
 				year = 1860
 			}
 			NCT = { exists = yes }
+			SWI = { exists = yes } # had to add this for when NCT conquers SWI (i.e. my own game)
 		}
 		
 		allow = {

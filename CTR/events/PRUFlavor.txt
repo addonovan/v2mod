@@ -917,6 +917,12 @@ country_event = {
 			}
 			war = no
 		}
+
+		# had to add this during my Neuchatel game
+		SWI = {
+			exists = yes
+		}
+		
 		owns = 549
 		year = 1845
 		608 = { is_core = THIS }
