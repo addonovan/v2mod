@@ -3,6 +3,7 @@
 #
 # Effects are fully scriptable here.
 
+### Other stuff
 
 the_british_raj = {
 	trigger = {
