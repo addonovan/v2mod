@@ -1,0 +1,290 @@
+# acquire state on a random neighboring country
+country_event = {
+	id = 75000
+	title = "bgs_75000_title"
+	desc = "bgs_75000_desc"
+
+	trigger = {
+		war = no
+		civilized = yes
+		NOT = { constructing_cb_type = acquire_state }
+	}
+
+	# mean time to happen
+	mean_time_to_happen = {
+		years = 1
+
+		# 200% as likely to get it if they have unclaimed cores
+		modifier = {
+			factor = 2
+
+			has_unclaimed_cores = yes
+		}
+
+		# 50% more likely if poor relations with a neighbor country
+		modifier = {
+			factor = 0.5
+
+			any_neighbor_country = {
+				NOT = { 
+					relation = {
+						who = THIS
+						value = -100
+					}
+				}
+			}
+		}
+
+		# 100% more likely if terrible relations iwth a neighboring country
+		modifier = {
+			factor = 1.0
+
+			any_neighbor_country = {
+				NOT = {
+					relation = {
+						who = THIS
+						value = -200
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "bgs_75000_opt1"
+
+		random_country = {
+			limit = {
+				civilized = yes
+				number_of_states = 2
+				neighbour = THIS
+				NOT = {
+					relation = {
+						who = THIS
+						value = 0
+					}
+				}
+			}
+			add_casus_belli = {
+				target = THIS
+				type = acquire_state
+				duration = 12
+			}
+		}
+	}
+}
+
+# acquire state on a random non-neighboring country
+country_event = {
+	id = 75001
+	title = "bgs_75000_title"
+	desc = "bgs_75000_desc"
+
+	trigger = {
+		war = no
+		civilized = yes
+		NOT = { constructing_cb_type = acquire_state }
+	}
+
+	# mean time to happen
+	mean_time_to_happen = {
+		years = 2
+	}
+
+	option = {
+		name = "bgs_75000_opt1"
+
+		random_country = {
+			limit = {
+				civilized = yes
+				number_of_states = 2
+				NOT = {
+					relation = {
+						who = THIS
+						value = 0
+					}
+				}
+			}
+			add_casus_belli = {
+				target = THIS
+				type = acquire_state
+				duration = 12
+			}
+		}
+	}
+}
+
+# conquest on a random uncivilized country (for uncivs)
+country_event = {
+	id = 75002
+	title = "bgs_75000_title"
+	desc = "bgs_75000_desc"
+
+	trigger = {
+		war = no
+		civilized = yes
+		NOT = { constructing_cb_type = conquest }
+	}
+
+	# mean time to happen
+	mean_time_to_happen = {
+		years = 1
+
+		# 200% as likely to get it if they have unclaimed cores
+		modifier = {
+			factor = 2
+
+			has_unclaimed_cores = yes
+		}
+
+		# 50% more likely if poor relations with a neighbor country
+		modifier = {
+			factor = 0.5
+
+			any_neighbor_country = {
+				NOT = { 
+					relation = {
+						who = THIS
+						value = -100
+					}
+				}
+			}
+		}
+
+		# 100% more likely if terrible relations iwth a neighboring country
+		modifier = {
+			factor = 1.0
+
+			any_neighbor_country = {
+				NOT = {
+					relation = {
+						who = THIS
+						value = -200
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "bgs_75000_opt1"
+
+		random_country = {
+			limit = {
+				civilized = yes
+				NOT = { number_of_states = 4 }
+				neighbour = THIS
+			}
+			add_casus_belli = {
+				target = THIS
+				type = conquest
+				duration = 12
+			}
+		}
+	}
+}
+
+# conquest on a random neighboring country (with 2 or fewer states)
+country_event = {
+	id = 75003
+	title = "bgs_75000_title"
+	desc = "bgs_75000_desc"
+
+	trigger = {
+		war = no
+		NOT = { constructing_cb_type = conquest }
+		
+		# there is a country with at most 2 states neighboring us
+		any_neighbor_country = {
+			NOT = { number_of_states = 3 }
+		}
+	}
+
+	# mean time to happen
+	mean_time_to_happen = {
+		years = 1
+	}
+
+	option = {
+		name = "bgs_75000_opt1"
+
+		random_country = {
+			limit = {
+				civilized = yes
+				NOT = { number_of_states = 3 }
+				neighbour = THIS
+			}
+			add_casus_belli = {
+				target = THIS
+				type = acquire_state
+				duration = 12
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 75004
+	title = "bgs_75004_title"
+	desc = "bgs_75004_desc"
+
+	# strenuous conditions, I know
+	trigger = {
+		exists = yes
+	}
+
+	mean_time_to_happen = {
+		years = 2
+
+		# 200% more likely if has unclaimed cores
+		modifier = {
+			factor = 2
+			has_unclaimed_cores = yes
+		}
+
+		# 40% more likely if you have shitty relations with a neighboring country
+		modifier = {
+			factor = 0.40
+			any_neighbor_country = {
+				NOT = {
+					relation = {
+						who = THIS
+						value = -100
+					}
+				}
+			}
+		}
+	}
+
+	# To war by the Jingo!
+	option = {
+		name = "bgs_75004_opt1"
+
+		any_pop = {
+			limit = {
+				OR = {
+					is_primary_culture = yes
+					is_accepted_culture = yes
+				}
+			}
+			dominant_issue = {
+				value = jingoism
+				factor = 0.25
+			}
+		}
+
+		any_pop = {
+			limit = {
+				AND = {
+					is_primary_culture = no
+					is_accepted_culture = no
+				}
+			}
+			dominant_issue = {
+				value = jingoism
+				factor = 0.03
+			}
+		}
+	}
+
+}
