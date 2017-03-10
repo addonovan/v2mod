@@ -53,6 +53,11 @@ political_decisions = {
 					}
 				}
 			}
+
+			OR = {
+				ai = no
+				NCT = { ai = yes }
+			}
 		}
 		
 		effect = {
@@ -92,6 +97,11 @@ political_decisions = {
 					in_sphere = THIS
 					NOT = { part_of_sphere = yes }
 				}
+			}
+
+			OR = {
+				ai = no
+				NCT = { ai = yes }
 			}
 		}
 		

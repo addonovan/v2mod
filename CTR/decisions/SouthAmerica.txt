@@ -139,6 +139,11 @@ political_decisions = {
 			is_sphere_leader_of = BRZ
 			BAH = { war = no OR = { is_vassal = no vassal_of = THIS } }
 			BRZ = { war = no OR = { is_vassal = no vassal_of = THIS } }
+
+			OR = {
+				ai = no
+				BAH = { ai = yes }
+			}
 		}
 		
 		effect = {
@@ -165,6 +170,11 @@ political_decisions = {
 			BRZ = { war = no OR = { is_vassal = no vassal_of = THIS } }
 			is_sphere_leader_of = PNB
 			is_sphere_leader_of = BRZ
+
+			OR = {
+				ai = no
+				PNB = { ai = yes }
+			}
 		}
 		
 		effect = {
@@ -192,6 +202,11 @@ political_decisions = {
 			BRZ = { war = no OR = { is_vassal = no vassal_of = THIS } }
 			is_sphere_leader_of = RGS
 			is_sphere_leader_of = BRZ
+
+			OR = {
+				ai = no
+				RGS = { ai = yes }
+			}
 		}
 		
 		effect = {

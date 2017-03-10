@@ -824,10 +824,18 @@ country_event = {
 		prestige = -5
 		badboy = -1
 		leave_alliance = NCT
-		SWI = {
-			release_vassal = NCT
+		random_country = {
+			limit = {
+				tag = SWI
+				exists = yes
+				OR = { 
+					ai = no
+					NCT = { ai = yes }
+				}
+			}
 			inherit = NCT
 		}
+			
 		608 = { remove_core = NCT }
 		relation = { who = SWI value = 75 }
 		diplomatic_influence = { who = SWI value = 50 }

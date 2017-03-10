@@ -3401,6 +3401,11 @@ country_event = {
 			is_vassal = no
 			part_of_sphere = no		
 		}
+
+		OR = {
+			ai = no
+			HAW = { ai = yes }
+		}
 	}
 
 	fire_only_once = yes

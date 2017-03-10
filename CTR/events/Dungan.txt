@@ -176,6 +176,11 @@ country_event = {
 		tag = QNG
 		has_global_flag = panthay_rebellion
 		is_our_vassal = PGG
+
+		OR = {
+			ai = no
+			YNN = { ai = yes }
+		}
 	}
 	
 	mean_time_to_happen = {

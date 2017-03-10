@@ -700,6 +700,11 @@ political_decisions = {
 					SUL = { part_of_sphere = no }
 				}
 			}
+
+			OR = {
+				ai = no
+				SUL = { ai = yes }
+			}
 		}
 
 		effect = {
@@ -805,6 +810,11 @@ political_decisions = {
 					is_vassal = no
 					vassal_of = FRA
 				}
+			}
+
+			OR = {
+				ai = no
+				CAM = { ai = yes }
 			}
 		}
 		
@@ -949,6 +959,11 @@ political_decisions = {
 			has_recently_lost_war = no
 			truce_with = SIA
 			SIA = { neighbour = FRA has_recently_lost_war = yes }
+
+			OR = {
+				ai = no
+				CHK = { ai = yes }
+			}
 		}
 		
 		effect = {

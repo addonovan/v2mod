@@ -240,6 +240,11 @@ political_decisions = {
 					LBG = { part_of_sphere = no }
 				}
 			}
+			
+			OR = {
+				ai = no
+				LBG = { ai = yes }
+			}
 		}
 		
 		effect = {

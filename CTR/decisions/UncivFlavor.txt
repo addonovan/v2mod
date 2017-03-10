@@ -58,6 +58,11 @@ political_decisions = {
 			civilized = yes
 			is_our_vassal = CHK
 			CHK = { OR = { NOT = { part_of_sphere = yes } in_sphere = THIS } }
+
+			OR = {
+				ai = no
+				CHK = { ai = yes }
+			}
 		}
 		
 		effect = {

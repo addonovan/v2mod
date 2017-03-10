@@ -136,6 +136,11 @@ political_decisions = {
 		allow = {
 			state_n_government = 1
 			war = no
+
+			OR = {
+				ai = no
+				ION = { ai = yes }
+			}
 		}
 		
 		effect = {
@@ -825,6 +830,11 @@ political_decisions = {
 					}
 				}
 			}
+
+			OR = {
+				ai = no
+				NYE = { ai = yes }
+			}
 		}
 		
 		effect = {
@@ -948,6 +958,11 @@ political_decisions = {
 				JOH = { average_militancy = 5 }
 				}
 			}
+
+			OR = {
+				ai = no
+				JOH = { ai = yes }
+			}
 		}
 		
 		effect = { 
@@ -986,6 +1001,11 @@ political_decisions = {
 					PHG = { average_militancy = 2 }
 				}
 			}
+
+			OR = {
+				ai = no
+				PHG = { ai = yes }
+			}
 		}
 		
 		effect = { 
@@ -1023,6 +1043,11 @@ political_decisions = {
 					SLG = { average_militancy = 2 }
 				}
 			}
+
+			OR = {
+				ai = no
+				SLG = { ai = no }
+			}
 		}
 		
 		effect = {
@@ -1059,6 +1084,11 @@ political_decisions = {
 					PRK = { average_militancy = 2 }
 				}
 			}
+				
+			OR = {
+				ai = no
+				PRK = { ai = yes }
+			}		
 		}
 		
 		effect = {

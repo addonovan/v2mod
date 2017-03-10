@@ -1121,6 +1121,11 @@ political_decisions = {
 				GER = { exists = yes }
 				is_greater_power = no
 			}
+			
+			OR = {
+				ai = no
+				UBD = { ai = yes }
+			}
 		}
 		
 		effect = {
@@ -1369,6 +1374,11 @@ political_decisions = {
 					owns = 2608
 				}
 			}
+
+			OR = {
+				ai = no
+				TNT = { ai = yes }
+			}
 		}
 		
 		effect = {
@@ -1547,6 +1557,11 @@ political_decisions = {
 		allow = {
 			nationalism_n_imperialism = 1
 			is_sphere_leader_of = KAZ
+
+			OR = {
+				ai = no
+				KAZ = { ai = yes }
+			}
 		}
 		
 		effect = {

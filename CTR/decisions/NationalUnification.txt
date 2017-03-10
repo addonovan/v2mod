@@ -735,6 +735,11 @@ political_decisions = {
 					vassal_of = THIS
 				}
 			}
+
+			OR = {
+				ai = no
+				SGF = { ai = yes }
+			}
 		}
 		
 		effect = {

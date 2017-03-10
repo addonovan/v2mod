@@ -576,6 +576,11 @@ country_event = {
 		}
 		NOT = { has_country_modifier = the_congo_reform_association }
 		check_variable = { which = exploited_congo value = 7.99 }
+
+		OR = {
+			ai = no
+			CNG = { ai = yes }
+		}
 	}
 
 	fire_only_once = yes
@@ -678,6 +683,11 @@ country_event = {
 		NOT = { check_variable = { which = exploited_congo value = 7.99 } }
 		NOT = { check_variable = { which = philantropic_congo value = 7.99 } }
 		check_variable = { which = congo_destiny value = 5.99 }
+
+		OR = {
+			ai = no
+			CNG = { ai = yes }
+		}
 	}
 
 	fire_only_once = yes
@@ -776,6 +786,11 @@ country_event = {
 		CNG = {
 			exists = yes
 			vassal_of = THIS
+		}
+
+		OR = {
+			ai = no
+			CNG = { ai = yes }
 		}
 	}
 

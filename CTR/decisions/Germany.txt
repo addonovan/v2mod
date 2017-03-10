@@ -827,6 +827,11 @@ political_decisions = {
 				exists = yes
 				is_vassal = no
 			}
+
+			OR = {
+				ai = no
+				LBG = { ai = yes }
+			}
 		}
 		
 		effect = {
@@ -868,6 +873,11 @@ political_decisions = {
 						}
 					}
 				}
+			}
+
+			OR = {
+				ai = no
+				SGM = { ai = yes }
 			}
 		}
 		

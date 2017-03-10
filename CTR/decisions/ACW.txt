@@ -998,6 +998,14 @@ political_decisions = {
 		allow = {
 			revolution_n_counterrevolution = 1
 			is_sphere_leader_of = HAW
+
+			# Allowed if either:
+			# - The USA is the player
+			# - Hawaii isn't the player
+			OR = {
+				ai = no
+				HAW = { ai = yes }
+			}
 		}
 		
 		effect = {

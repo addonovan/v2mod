@@ -3201,6 +3201,7 @@ country_event = {
 			limit = {
 				tag = UKR
 				vassal_of = RUS
+				ai = yes
 			}
 			THIS = { inherit = UKR }
 		}

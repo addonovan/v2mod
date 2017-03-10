@@ -296,6 +296,11 @@ political_decisions = {
 					national_provinces_occupied = .50
 				}
 			}
+			
+			OR = {
+				ai = no
+				HUN = { ai = yes }
+			}
 		}
 
 		effect = {
@@ -458,6 +463,11 @@ political_decisions = {
 				BOS = { num_of_revolts = 1 }
 				BOS = { average_militancy = 6 }
 				year = 1908
+			}
+
+			OR = {
+				ai = no
+				BOS = { ai = yes }
 			}
 		}
 		
