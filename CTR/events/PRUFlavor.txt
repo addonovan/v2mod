@@ -898,8 +898,9 @@ country_event = {
 					vassal_of = SWI
 					is_vassal = no
 				}
+				NOT = { has_country_flag = eliminated_foreign_cores }
 			}
-		annex_to = SWI
+			annex_to = SWI
 		}
 	}
 }
@@ -946,6 +947,11 @@ country_event = {
 				NOT = { exists = PRU }
 				NOT = { exists = NGF }
 			}
+		}
+
+		NOT = {
+			ai = no
+			NCT = { ai = yes }
 		}
 	}
 	
