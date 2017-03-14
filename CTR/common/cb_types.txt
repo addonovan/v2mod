@@ -121,7 +121,7 @@ partition_state = {
 	crisis = no
 	
 	badboy_factor = 0
-	prestige_factor = 0.5
+	prestige_factor = 0.0 # yeah, apparently putting anything here will just cause prestige to go beserk
 	peace_cost_factor = 0.10
 	penalty_factor = 1
 
@@ -184,7 +184,7 @@ partition_colony = {
 	crisis = no
 	
 	badboy_factor = 0
-	prestige_factor = 0.5
+	prestige_factor = 0.0
 	peace_cost_factor = 0.10
 	penalty_factor = 1
 
