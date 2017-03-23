@@ -17,46 +17,16 @@ political_decisions = {
 
         allow = {
             ai = no
-            money = 25000
+            money = 50000
         }
 
         effect = {
             badboy = -4 # immediately lose 4 infamy
-            treasury = -25000
+            treasury = -50000
 
             add_country_modifier = {
                 name = correcting_the_record
                 duration = 365
-            }
-
-            # target four random countries countries that aren't already targetted
-            random_country = {
-                limit = {
-                    is_greater_power = no
-                    NOT = { has_country_modifier = targetted_by_ctr }
-                }
-                country_event = 74000
-            }
-            random_country = {
-                limit = {
-                    is_greater_power = no
-                    NOT = { has_country_modifier = targetted_by_ctr }
-                }
-                country_event = 74000
-            }
-            random_country = {
-                limit = {
-                    is_greater_power = no
-                    NOT = { has_country_modifier = targetted_by_ctr }
-                }
-                country_event = 74000
-            }
-            random_country = {
-                limit = {
-                    is_greater_power = no
-                    NOT = { has_country_modifier = targetted_by_ctr }
-                }
-                country_event = 74000
             }
         }
     }

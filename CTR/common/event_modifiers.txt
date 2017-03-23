@@ -8,21 +8,13 @@
 #    -10% tax efficiency
 #     -5% casus belli genration rate
 # For
-#    -1.2 infamy/month
+#    -0.2 infamy/month
 correcting_the_record = {
 	tax_efficiency = -0.10
 	cb_generation_speed_modifier = -0.05
-	badboy = -1.2
+	badboy = -0.7
 
 	icon = 5 # green paper
-}
-
-# Getting targetted by Correct The Record causes:
-#     0.3 infamy/month
-targetted_by_ctr = {
-	badboy = 0.3
-
-	icon = 6 # red paper
 }
 
 ###HPM Modifiers
