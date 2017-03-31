@@ -1,13 +1,7 @@
 ;;;;;;;;;;;;;;x
-NORMAL_WAR_PARTITION_NAME;$FIRST$ Partition of the $SECOND$ Nation;;;;;;;;;;;;;x
+fascist_annex_cb;Annex;;;;;;;;;;;;;x
+fascist_annex_cb_desc;Annex $RECIPIENT$;;;;;;;;;;;;;x
+fascist_annex_cb_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+fascist_annex_cb_setup;Annex $RECIPIENT$;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;x
-partition_state;Partition a State;;;;;;;;;;;;;x
-partition_state_desc;Acquire $STATE$ from $RECIPIENT$;;;;;;;;;;;;;x
-partition_state_short;Acquire a state from $RECIPIENT$;;;;;;;;;;;;;x
-partition_state_setup;Acquire a state from $RECIPIENT$;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-partition_colony;Partition a Colony;;;;;;;;;;;;;x
-partition_colony_desc;Acquire the colonial state of $STATE$ from $RECIPIENT$;;;;;;;;;;;;;x
-partition_colony_short;Acquire a colonial state from $RECIPIENT$;;;;;;;;;;;;;x
-partition_colony_setup;Acquire a colonial state from $RECIPIENT$;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
+NORMAL_WAR_ANNEX_NAME;$FIRST$ Annexation of $SECOND$;;;;;;;;;;;;;x

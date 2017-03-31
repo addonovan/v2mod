@@ -1,1 +1,131 @@
-# This will eventaully be used again
+country_event = {
+	id = 78000
+	title = "ctr_78000_title" # "She will be ours!"
+	desc = "ctr_78000_desc"
+	picture = "greatwar"
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = "ctr_78000_opt1" # "To war!"
+
+		set_country_flag = annexing_country
+		any_pop = {
+			militancy = -2
+
+			dominant_issue = {
+				factor = 0.15
+				value = jingoism
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 78001
+	title = "ctr_78001_title" # Our Capitulation
+	desc = "ctr_78001_desc"
+	picture = "greatpowers"
+
+	is_triggered_only = yes
+	major = yes
+
+	# "So be it"
+	# - If hasColonies
+	#   - Fire off event 78002. The Colonial Question
+	# - Else
+	#   - Fire off event 78003, Our Demands Met
+	option = {
+		name = "ctr_78001_opt1"
+
+		random_country = {
+			limit = {
+				truce_with = THIS
+				has_country_flag = annexing_country
+			}
+			country_event = 78002
+		}
+	}
+}
+
+country_event = {
+	id = 78002
+	title = "ctr_78002_title" # The Colonial Question
+	desc = "ctr_78002_desc" # somethign about what we should do with their colonies
+	picture = "treaty"
+
+	is_triggered_only = yes
+	major = yes
+
+	# "We will have them for ourselves"
+	# - Annex all of the colonial provinces
+	# - Fires event 78003, Our Demands Met
+	option = {
+		name = "ctr_78002_opt1"
+
+		FROM = {
+			any_owned = {
+				limit = {
+					is_colonial = yes
+				}
+				secede_province = THIS
+			}
+		}
+
+		country_event = 78003
+	}
+
+	# "Let them be free"
+	# - Lose 2 infamy
+	# - Releases all colonial states similar to dismantling
+	#   - Each will have 200 relations with you
+	# - Fires event 78003, Our Demands Met
+	option = {
+		name = "ctr_78002_opt2"
+
+		badboy = -2
+
+		FROM = {
+			any_owned = {
+				limit = {
+					is_colonial = yes
+				}
+			}
+		}
+
+		country_event = 78003
+	}
+}
+
+country_event = {
+	id = 78003
+	title = "ctr_78003_title" # Our Demands Met
+	desc = "ctr_78003_desc"
+	picture = "treaty"
+
+	is_triggered_only = yes
+	major = yes
+
+	# "Huzzah"
+	# - Annex any country we have a truce with who submitted to annexation
+	# - Gain 30 prestige
+	option = {
+		any_country = {
+			limit = {
+				truce_with = THIS
+				exists = yes
+				has_country_flag = submitted_to_annexation
+			}
+
+			annex_to = THIS
+
+			clr_country_flag = submitted_to_annexation
+			clr_country_flag = declared_annexation
+		}
+
+		clr_country_flag = annexing_country
+
+		prestige = 30
+	}
+}
