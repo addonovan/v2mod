@@ -22,7 +22,7 @@ correcting_the_record = {
 failed_annexation = {
 	pop_consciousness_modifier = 0.2
 	pop_militancy_modifier = 0.3
-	mobilization_size = -0.200
+	mobilisation_size = -0.80
 
 	icon = 16 # red guns
 }

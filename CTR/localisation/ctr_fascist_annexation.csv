@@ -23,6 +23,9 @@ ctr_78005_title;Our Failed Attempts;;;;;;;;;;;;;x
 ctr_78005_desc;Our attempts at glory have failed, and our countrymen now realize the faults of our regime. We should be careful and appease our citizens to prevent them from rebelling;;;;;;;;;;;;;x
 ctr_78005_opt1;We have failed $COUNTRY$;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;x
+failed_annexation;Failed Annexation;;;;;;;;;;;;;x
+failed_annexation_desc;Our annexation attempt has backfired on us, and now our population resents us for our failures.;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;x
 ctr_78006_title;Failures of the Past;;;;;;;;;;;;;x
 ctr_78006_desc;The failures of our previous regime no long haunt our people!;;;;;;;;;;;;;x
