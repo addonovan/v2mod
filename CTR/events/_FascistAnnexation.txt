@@ -226,96 +226,29 @@ country_event = {
 		any_pop = {
 			consciousness = 3
 		}
-	}
-}
 
-country_event = {
-	id = 78006
-	title = "ctr_78006_title" # "Protests in $CAPITAL$"
-	desc = "ctr_78006_desc"
-
-	trigger = {
-		has_country_flag = failed_annexation
-	}
-
-	mean_time_to_happen = {
-		days = 30
-	}
-
-	# Put down these revolts with force
-	option = {
-		name = "ctr_78006_opt1"
-
-		# kill off half of the people who would be in the protests
-		capital_scope = {
-			any_pop = {
-				limit = {
-					militancy = 5
-				}
-
-				reduce_pop = -0.50
+		# soldiers become things that aren't fascist
+		any_pop = {
+			limit = {
+				type = soldiers
 			}
 
-			# 10% of the soldiers from this province die putting down the revolt
-			any_pop = {
-				limit = {
-					type = soldiers
-				}
+			militancy = 10
 
-				reduce_pop = -0.10
+			ideology = {
+				factor = 0.95
+				value = fascist
 			}
-		}
 
-		# increase the consciousness and militancy across the country 
-		any_pop = {
-			consciousness = 3
-			militancy = -0.2
-		}
-	}
+			ideology = {
+				factor = 0.5
+				value = liberal
+			}
 
-	# Let them speak their minds
-	option = {
-		name = "ctr_78006_opt2"
-
-		public_meetings = yes_meeting
-
-		any_pop = {
-			consciousness = 2
-			militancy = -0.5
-		}
-	}
-}
-
-province_event = {
-	id = 78007
-	title = "ctr_78007_title" # The Murmurs of Revolution
-	desc = "ctr_78007_desc"
-
-	trigger = {
-		has_country_flag = failed_annexation
-	}
-
-	mean_time_to_happen = {
-		days = 25
-	}
-
-	# Do nothing
-	option = {
-		name = "ctr_78007_opt1"
-
-		add_province_modifier = {
-			name = murmurs_of_revolution
-			duration = 365
-		}
-	}
-
-	# Send in the military
-	option = {
-		name = "ctr_78007_opt2"
-
-		add_province_modifier = {
-			name = military_occupation
-			duration = 365
+			ideology = {
+				factor = 0.5
+				value = communist
+			}
 		}
 	}
 }

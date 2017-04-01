@@ -17,24 +17,6 @@ correcting_the_record = {
 	icon = 5 # green paper
 }
 
-# Added when a fascist fails to annex a neighboring country
-#    0.5 militancy/month
-#    0.5 consciousness/month
-murmurs_of_revolution = {
-	pop_militancy_modifier = 0.5
-	pop_consciousness_modifier = 0.5
-}
-
-# Added when a fascist fails to annex a neighboring country
-#    0.10 militancy/month
-#    0.60 consciouness/month
-#    25% reduction in rgo output
-military_occupation = {
-	rgo_output = -0.25
-	pop_militancy_modifier = 0.10
-	pop_consciousness_modifier = 0.60
-}	
-
 ###HPM Modifiers
 
 plantation = {

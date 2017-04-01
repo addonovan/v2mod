@@ -4443,6 +4443,20 @@ conquest = {
 	crisis = no
 		
 	can_use = {
+
+		# added by CTR
+		# This can only be used by fascists if the country doesn't border you
+		OR = {
+			NOT = {
+				THIS = { government = fascist_dictatorship }
+			}
+
+			AND = {
+				THIS = { government = fascist_dictatorship }
+				NOT = { neighbour = THIS }
+			}
+		}
+
 		NOT = { is_our_vassal = THIS }
 		OR = {
 			AND = { 
