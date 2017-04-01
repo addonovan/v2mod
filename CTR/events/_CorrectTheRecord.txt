@@ -186,7 +186,7 @@ country_event = {
 
 		# There's no country that was successfully annexed by us
 		NOT = {
-			any_country = {
+			any_neighbor_country = {
 				has_country_flag = declared_annexation
 				has_country_flag = submitted_to_annexation
 				truce_with = THIS
@@ -213,9 +213,6 @@ country_event = {
 			limit = {
 				type = soldiers
 			}
-
-			scaled_militancy = 5
-			scaled_consciousness = 5
 
 			random_list = {
 				75 = {
