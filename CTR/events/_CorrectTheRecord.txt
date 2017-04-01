@@ -2,7 +2,6 @@ country_event = {
 	id = 78000
 	title = "ctr_78000_title" # "She will be ours!"
 	desc = "ctr_78000_desc"
-	picture = "greatwar"
 
 	is_triggered_only = yes
 	major = yes
@@ -13,6 +12,7 @@ country_event = {
 		set_country_flag = annexing_country
 		any_pop = {
 			militancy = -2
+			consciousness = -3
 
 			dominant_issue = {
 				factor = 0.15
@@ -26,7 +26,6 @@ country_event = {
 	id = 78001
 	title = "ctr_78001_title" # Our Capitulation
 	desc = "ctr_78001_desc"
-	picture = "greatpowers"
 
 	is_triggered_only = yes
 	major = yes
@@ -53,7 +52,6 @@ country_event = {
 	id = 78002
 	title = "ctr_78002_title" # The Colonial Question
 	desc = "ctr_78002_desc" # somethign about what we should do with their colonies
-	picture = "treaty"
 
 	is_triggered_only = yes
 	major = yes
@@ -104,7 +102,6 @@ country_event = {
 	id = 78003
 	title = "ctr_78003_title" # Our Demands Met
 	desc = "ctr_78003_desc"
-	picture = "treaty"
 
 	is_triggered_only = yes
 	
@@ -139,7 +136,6 @@ country_event = {
 	id = 78004
 	title = "ctr_78004_title"
 	desc = "ctr_78004_desc"
-	picture = "treaty"
 
 	allow_multiple_instances = yes
 
