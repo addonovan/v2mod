@@ -17,6 +17,16 @@ correcting_the_record = {
 	icon = 5 # green paper
 }
 
+# Failed to annex a country will make your country very
+# likely to rebel and you can't mobilize nearly as much as you would have previously been able to
+failed_annexation = {
+	pop_consciousness_modifier = 0.2
+	pop_militancy_modifier = 0.3
+	mobilization_size = -0.200
+
+	icon = 16 # red guns
+}
+
 ###HPM Modifiers
 
 plantation = {

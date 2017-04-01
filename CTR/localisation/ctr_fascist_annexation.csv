@@ -24,6 +24,11 @@ ctr_78005_desc;Our attempts at glory have failed, and our countrymen now realize
 ctr_78005_opt1;We have failed $COUNTRY$;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;x
+ctr_78006_title;Failures of the Past;;;;;;;;;;;;;x
+ctr_78006_desc;The failures of our previous regime no long haunt our people!;;;;;;;;;;;;;x
+ctr_78006_opt1;Huzzah!;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
 fascist_annex_cb;Annex;;;;;;;;;;;;;x
 fascist_annex_cb_desc;Annex $RECIPIENT$;;;;;;;;;;;;;x
 fascist_annex_cb_short;Annex $RECIPIENT$;;;;;;;;;;;;;x

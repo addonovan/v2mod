@@ -203,8 +203,7 @@ country_event = {
 	option = {
 		name = "ctr_78005_opt1"
 
-		# Remove the flag and add a new one for failing
-		set_country_flag = failed_annexation
+		# Remove the flag
 		clr_country_flag = annexing_country
 
 		# Remove the declared_annexation flag from any country which has a truce with
@@ -219,36 +218,45 @@ country_event = {
 			clr_country_flag = declared_annexation
 		}
 
-		# lose 40% of prestige
-		prestige_factor = -0.4
+		# lose 30% of prestige
+		prestige_factor = -0.3
 
-		# Gain 7 militancy and counsciousness
+		# Gain 5 militancy and counsciousness
 		any_pop = {
-			consciousness = 3
+			militancy = 5
+			consciousness = 5
 		}
 
-		# soldiers become things that aren't fascist
+		add_country_modifier = {
+			name = failed_annexation
+			duration = 1825
+		}
+	}
+}
+
+country_event = {
+	id = 78006
+	title = "ctr_78006_title" # Failures of the Past
+	desc = "ctr_78006_desc"
+
+	# happens to any country which has the failed annexation modifier and is no longer a fascist_dictatorship
+	trigger = {
+		has_country_modifier = failed_annexation
+		NOT = { government = fascist_dictatorship }
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	option = {
+		name = "ctr_78006_opt1"
+
+		remove_country_modifier = failed_annexation
+
 		any_pop = {
-			limit = {
-				type = soldiers
-			}
-
-			militancy = 10
-
-			ideology = {
-				factor = 0.95
-				value = fascist
-			}
-
-			ideology = {
-				factor = 0.5
-				value = liberal
-			}
-
-			ideology = {
-				factor = 0.5
-				value = communist
-			}
+			militancy = -5
+			consciousness = -5
 		}
 	}
 }
