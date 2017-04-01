@@ -1,7 +1,0 @@
-;;;;;;;;;;;;;;x
-fascist_annex_cb;Annex;;;;;;;;;;;;;x
-fascist_annex_cb_desc;Annex $RECIPIENT$;;;;;;;;;;;;;x
-fascist_annex_cb_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
-fascist_annex_cb_setup;Annex another country in one go;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-NORMAL_WAR_ANNEX_NAME;$FIRST$ Annexation of $SECOND$;;;;;;;;;;;;;x

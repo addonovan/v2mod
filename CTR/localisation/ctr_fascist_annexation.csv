@@ -1,0 +1,51 @@
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+ctr_78000_title;She will be ours!;;;;;;;;;;;;;x
+ctr_78000_desc;The time has come to annex our neighbor. Everyone should have already seen this coming long ago, however we must now act and secure the holdings which are rightfully ours!;;;;;;;;;;;;;x
+ctr_78000_opt1;To war!;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+ctr_78001_title;Our Capitulation;;;;;;;;;;;;;x
+ctr_78001_desc;We have yielded, and allowed ourselves to be annexed. The war proved to be too much for us to handle and now we have no choice.;;;;;;;;;;;;;x
+ctr_78001_opt1;So be it;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+ctr_78002_title;The Colonial Question;;;;;;;;;;;;;x
+ctr_78002_desc;$FROMCOUNTRY$ has capitulated and agreed to be annex, however, now we must decided what to do with her colonies. Do we keep them for ourselves, or release them to their own self governance?;;;;;;;;;;;;;x
+ctr_78002_opt1;We will have them for ourselves;;;;;;;;;;;;;x
+ctr_78002_opt2;Let them be free;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+ctr_78003_title;Our Demands Met;;;;;;;;;;;;;x
+ctr_78003_desc;Our demands are now met. It is time to extend our empire and show the world her glory!;;;;;;;;;;;;;x
+ctr_78003_opt1;Huzzah!;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+ctr_78005_title;Our Failed Attempts;;;;;;;;;;;;;x
+ctr_78005_desc;Our attempts at glory have failed, and our countrymen now realize the faults of our regime. We should be careful and appease our citizens to prevent them from rebelling;;;;;;;;;;;;;x
+ctr_78005_opt1;We have failed $COUNTRY$;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+ctr_78006_title;Protests in $CAPITAL$;;;;;;;;;;;;;x
+ctr_78006_desc;Protests have risen up against us in our capital! We must quickly put these down before anything comes of it.;;;;;;;;;;;;;x
+ctr_78006_opt1;Put down these revolts with force;;;;;;;;;;;;;x
+ctr_78006_opt2;Let them speak their minds;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+ctr_78007_title;The Murmurs of Revolution;;;;;;;;;;;;;x
+ctr_78007_desc;We have heard rumors that $FROMCOUNTRY$ has recently become rife with whispers of revolution. The people there wish to overthrow our beloved dictatorship.;;;;;;;;;;;;;x
+ctr_78007_opt1;Do nothing;;;;;;;;;;;;;x
+ctr_78007_opt2;Send in the military;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+murmurs_of_revolution;Murmurs of Revolution;;;;;;;;;;;;;x
+murmurs_of_revolution_desc;The people here have been speaking of revolting against the government.;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+military_occupation;Military Occupation;;;;;;;;;;;;;x
+military_occupation_desc;We must keep a close eye on these people in order to prevent any possible revolts.;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+fascist_annex_cb;Annex;;;;;;;;;;;;;x
+fascist_annex_cb_desc;Annex $RECIPIENT$;;;;;;;;;;;;;x
+fascist_annex_cb_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
+fascist_annex_cb_setup;Annex another country in one go;;;;;;;;;;;;;x
+NORMAL_WAR_ANNEX_NAME;$FIRST$ Annexation of $SECOND$;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
