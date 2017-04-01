@@ -163,25 +163,17 @@ country_event = {
 				secede_province = THIS
 			}
 		}
-	}
-}
 
-country_event = {
-	id = 78005
-	title = "ctr_78005_title"
-	desc = "ctr_78005_desc"
-
-	allow_multiple_instances = yes
-
-	is_triggered_only = yes
-
-	option = {
-		name = "ayy"
-
+		# give relations and influence to the one who released us
 		FROM = {
-			relation = {
+			relations = {
 				who = THIS
-				value = 200
+				value = 400
+			}
+
+			diplomatic_influence = {
+				who = THIS
+				value = 100
 			}
 		}
 	}
