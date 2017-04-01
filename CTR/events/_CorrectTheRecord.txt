@@ -87,10 +87,12 @@ country_event = {
 		badboy = -2
 
 		FROM = {
-			any_owned = {
+			any_country = {
 				limit = {
-					is_colonial = yes
+					have_cores_in = FROM
 				}
+
+				country_event = 78004
 			}
 		}
 
@@ -105,12 +107,15 @@ country_event = {
 	picture = "treaty"
 
 	is_triggered_only = yes
+	
 	major = yes
 
 	# "Huzzah"
 	# - Annex any country we have a truce with who submitted to annexation
 	# - Gain 30 prestige
 	option = {
+		name = "ctr_78003_opt1"
+
 		any_country = {
 			limit = {
 				truce_with = THIS
@@ -127,5 +132,57 @@ country_event = {
 		clr_country_flag = annexing_country
 
 		prestige = 30
+	}
+}
+
+country_event = {
+	id = 78004
+	title = "ctr_78004_title"
+	desc = "ctr_78004_desc"
+	picture = "treaty"
+
+	allow_multiple_instances = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "ctr_78004_opt1"
+
+		any_country = {
+			limit = {
+				exists = yes
+				has_country_flag = submitted_to_annexation
+			}
+
+			any_owned = {
+				limit = {
+					is_colonial = yes
+					is_core = THIS
+				}
+
+				secede_province = THIS
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 78005
+	title = "ctr_78005_title"
+	desc = "ctr_78005_desc"
+
+	allow_multiple_instances = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "ayy"
+
+		FROM = {
+			relation = {
+				who = THIS
+				value = 200
+			}
+		}
 	}
 }
