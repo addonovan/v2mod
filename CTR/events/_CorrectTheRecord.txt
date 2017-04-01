@@ -174,3 +174,64 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = 78005
+	title = "ctr_78005_title"
+	desc = "ctr_78005_desc"
+
+	trigger = {
+		# we tried to annex a country
+		has_country_flag = annexing_country
+
+		# There's no country that was successfully annexed by us
+		NOT = {
+			any_country = {
+				has_country_flag = declared_annexation
+				has_country_flag = submitted_to_annexation
+				truce_with = THIS
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 5
+	}
+
+	# "We have failed $COUNTRY$"
+	option = {
+		name = "ctr_78005_opt1"
+
+		# Gain 7 militancy and counsciousness
+		militancy = 7
+		consciousness = 7
+
+		# lose 40% of prestige
+		prestige_factor = -0.4
+
+		any_pop = {
+			limit = {
+				type = soldiers
+			}
+
+			scaled_militancy = 5
+			scaled_consciousness = 5
+
+			random_list = {
+				75 = {
+					ideology = {
+						factor = 0.50
+						value = liberal
+					}
+				}
+
+				25 = {
+					ideology = {
+						factor = 0.50
+						value = communist
+					}
+				}
+			}
+		}
+	}
+}
