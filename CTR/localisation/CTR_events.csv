@@ -16,3 +16,7 @@ ctr_78003_title;Our Demands Met;;;;;;;;;;;;;x
 ctr_78003_desc;Our demands are now met. It is time to extend our empire and show the world her glory!;;;;;;;;;;;;;x
 ctr_78003_opt1;Huzzah!;;;;;;;;;;;;;x
 ;;;;;;;;;;;;;;x
+ctr_78004_title;Our Failed Attempts;;;;;;;;;;;;;x
+ctr_78004_desc;Our attempts at glory have failed, and our countrymen now realize the faults of our regime. We should be careful and appease our citizens to prevent them from rebelling;;;;;;;;;;;;;x
+ctr_78004_opt1;We have failed $COUNTRY$;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x

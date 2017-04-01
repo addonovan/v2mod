@@ -177,7 +177,7 @@ country_event = {
 
 country_event = {
 	id = 78005
-	title = "ctr_78005_title"
+	title = "ctr_78005_title" # "Our Failed Attempts"
 	desc = "ctr_78005_desc"
 
 	trigger = {
