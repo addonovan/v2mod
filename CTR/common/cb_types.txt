@@ -130,7 +130,8 @@ fascist_annex_cb = {
 		# an exception is made for straits
 		OR = {
 			neighbour = THIS
-			# TODO make exception for straits
+
+			# TODO make exception for straits?
 		}
 
 		# must be civilized and cannot be a great power
@@ -209,8 +210,8 @@ fascist_annex_cb = {
 	}
 
 	badboy_factor = 15
-	prestige_factor = 5
-	peace_cost_factor = 2 # 2 * 50% (for disarmament)
+	prestige_factor = 15
+	peace_cost_factor = 90
 	penalty_factor = 1
 	
 	break_truce_prestige_factor = 5
