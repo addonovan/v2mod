@@ -1172,10 +1172,14 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 180
+		months = 144
 		modifier = {
 			factor = 0.75
 			owner = { nationalism_n_imperialism = 1 }
+		}
+		modifier = {
+			factor = 2.0
+			is_primary_culture = yes
 		}
 		modifier = {
 			factor = 1.5
