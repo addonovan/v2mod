@@ -88,6 +88,7 @@ country_event = {
 			any_country = {
 				limit = {
 					have_cores_in = FROM
+					NOT = { tag = THIS }
 				}
 
 				country_event = 78004
@@ -170,6 +171,17 @@ country_event = {
 			diplomatic_influence = {
 				who = THIS
 				value = 100
+			}
+		}
+
+		any_greater_power = {
+			limit = {
+				NOT = { tag = FROM }
+			}
+
+			relations = {
+				who = THIS
+				value = -400
 			}
 		}
 	}
