@@ -1,0 +1,51 @@
+political_decisions = {
+
+	remove_foreign_cores = {
+
+		potential = {
+			tag = NCT
+			NOT = { has_country_flag = eliminated_foreign_cores }
+		}
+
+		allow = {
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
+			}
+
+			is_vassal = no
+		}
+
+		effect = {
+			608 = {
+				any_core = {
+					limit = {
+						NOT = { tag = NCT }
+					}
+
+					casus_belli = {
+						target = THIS
+
+						type = humiliate
+						months = 4
+					}
+
+					relation = {
+						who = THIS
+						value = -100
+					}
+				}
+
+				remove_core = SWI
+				remove_core = PRU
+				remove_core = NGF
+				remove_core = GER
+			}
+			prestige = 25
+			badboy = 1
+			set_country_flag = eliminated_foreign_cores
+		}
+
+	}
+
+}

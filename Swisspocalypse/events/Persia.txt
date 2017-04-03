@@ -1,0 +1,1777 @@
+################## FOREIGN COUNTRIES ##################
+# Funding of the Anglo-Persian Oil Company
+country_event = {
+	id = 110011
+	title = "EVTNAME110011"
+	desc = "EVTDESC110011"
+	picture = "irish_home_rule"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVT110011OPTA"
+		treasury = 20000
+		prestige = 5
+		relation = { who = ENG value = 50 }
+		any_pop = {
+			militancy = 1
+		}
+	}	
+
+	option = {
+		name = "EVT110011OPTB"
+		relation = { who = ENG value = -50 }
+		any_pop = {
+			militancy = -0.5
+		}
+	}
+}
+
+#Topple the Qajar dynasty
+country_event = {
+	id = 110016
+	title = "EVTNAME110016"
+	desc = "EVTDESC110016"
+	picture = "cyprus_convention"
+
+	trigger = {
+		is_sphere_leader_of = PER
+		relation = { who = PER value = 180 }
+		revolution_n_counterrevolution = 1
+		PER = { ai = yes }
+		PER = {
+			average_militancy = 4
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+				} 
+			}
+		}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 120
+	}
+
+	option = {
+		name = "EVT110016OPTA" #"An occasion we can't afford to miss."
+		badboy = 2
+		treasury = -25000
+		create_vassal = PER
+		diplomatic_influence = { who = PER value = -50 }
+		relation = { who = PER value = -80 }
+		any_country = {
+			limit = { neighbour = PER is_greater_power = yes NOT = { tag = THIS } }
+			relation = { who = THIS value = -50 }
+		}
+		any_country = {
+			limit = { neighbour = PER OR = { is_greater_power = yes tag = TUR tag = RUS NOT = { tag = THIS } } }
+			casus_belli = {
+				target = THIS
+				type = release_puppet
+				months = 12
+			}
+		}
+		ai_chance = {
+			factor = 100
+				modifier = {
+				factor = 0
+				badboy = 0.98
+			}
+		}
+	}
+		
+	option = {
+		name = "EVT110016OPTB" #"Not worth it."
+		relation = { who = PER value = 20 }
+		ai_chance = {
+			factor = 0
+				modifier = {
+				factor = 100
+				badboy = 0.98
+			}
+		}
+	}
+}
+
+#A Silver Age
+country_event = {
+	id = 900020
+	title = "EVTNAME900020"
+	desc = "EVTDESC900020"
+	picture = "delhi_sultan"
+
+	trigger = {
+		tag = PER
+		year = 1848
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+			}
+		}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "EVT900020OPTA"
+		prestige = 5
+		any_pop	= {
+			consciousness = -0.50
+			militancy = -0.50
+			}
+		add_country_modifier = {
+			name = "silver_age"
+			duration = -1
+			}
+		set_country_flag = silver_age
+		}
+		
+	}
+
+
+#Assassination of the Shah
+country_event = {
+	id = 900021
+	title = "EVTNAME900021"
+	desc = "EVTDESC900021"
+	picture = "franz_ferdinand_assassination"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = PER
+		year = 1896
+		OR = {
+			militancy = 2
+			consciousness = 4
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 5
+	}
+	
+	option = {
+		name = "EVT900021OPTA"
+		any_pop = {
+			militancy = 1
+			consciousness = 1 
+			}
+		prestige = -15
+		remove_country_modifier = silver_age
+		clr_country_flag = silver_age
+	}
+}
+
+# The role of the clergy / Tobacco Protest 
+country_event = {
+	id = 110020
+	title = "EVTNAME110020" # "The role of the clergy"
+	desc = "EVTDESC110020" 
+	picture = "ulama"
+	
+	trigger = {
+		tag = PER
+		has_country_modifier = western_influences
+		civilization_progress = 0.6
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	option = {
+		name = "EVT110020OPTA" # "Let's build the Persia of tomorrow together."
+		set_country_flag = ulama_yes
+		clergymen = { consciousness = 5 } 
+		any_pop = {  ideology = { value = reactionary factor = 0.1 } }
+		upper_house = { ideology = reactionary value = 0.3 }
+	}
+	option = {
+		name = "EVT110020OPTB" # "The state must be independent."
+		set_country_flag = ulama_no
+		any_pop = { scaled_militancy = { factor = 6 ideology = reactionary } }
+	}
+	
+}
+
+
+# The role of the clergy / Tobacco Protest 2A
+country_event = {
+	id = 110021
+	title = "EVTNAME110021" # "The ulama agree!"
+	desc = "EVTDESC110021" 
+	picture = "ulama"
+	
+	trigger = {
+		tag = PER
+		has_country_flag = ulama_yes
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 14
+	}
+	
+	option = {
+		name = "EVT110021OPTA" # "In the name of the Prophet, we agree."
+		set_country_flag = made_deal_with_ulama
+		set_country_flag = islamic_law
+		clr_country_flag = ulama_yes
+		add_country_modifier = { name = islamic_law duration = -1 }
+		remove_country_modifier = western_influences
+		clergymen = { consciousness = 5 }
+		any_pop = { scaled_militancy = { factor = -3 ideology = reactionary } }
+		any_pop = { ideology = { value = reactionary factor = 0.10 } }
+		upper_house = { ideology = reactionary value = 0.2 }
+	}
+	option = {
+		name = "EVT110021OPTB" # "We do not abide to their pressure!"
+		set_country_flag = refused_deal_with_ulama
+		clr_country_flag = ulama_yes
+		any_pop = {
+			scaled_militancy = { factor = 8 ideology = reactionary }
+		}
+	}	
+	
+}
+
+# The role of the clergy / Tobacco Protest 2B
+country_event = {
+	id = 110022
+	title = "EVTNAME110022" # "The ulama propose compromise!"
+	desc = "EVTDESC110022" 
+	picture = "ulama"
+	
+	trigger = {
+		has_country_flag = ulama_no
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 14
+	}
+	
+	option = {
+		name = "EVT110022OPTA" # "This is for the greater good. "
+		set_country_flag = made_deal_with_ulama
+		set_country_flag = islamic_law
+		clr_country_flag = ulama_no
+		add_country_modifier = {
+			name = islamic_law
+			duration = -1
+		}
+		remove_country_modifier = western_influences
+		clergymen = { consciousness = 5 } 
+		any_pop = { 
+		ideology = {
+			value = reactionary
+			factor = 0.10
+			}
+		}
+		upper_house = {
+			ideology = reactionary
+			value = 0.6
+		}
+		any_pop = {
+			scaled_militancy = {
+			factor = -3
+			ideology = reactionary
+			}
+		}
+	}
+	
+	option = {
+		name = "EVT110022OPTB" # "We cannot be bought!"
+		set_country_flag = refused_deal_with_ulama
+		clr_country_flag = ulama_no
+		any_pop = {
+			scaled_militancy = {
+			factor = 8
+			ideology = reactionary
+			}
+		}
+	}
+	
+	option = {
+		name = "EVT110022OPTC" # "They shall submit or pay the price."
+		set_country_flag = refused_deal_with_ulama
+		clr_country_flag = ulama_no
+		clergymen = {
+			reduce_pop = 0.85
+		}
+		bureaucrats = {
+			reduce_pop = 0.85
+		}
+		any_pop = {
+			scaled_militancy = {
+			factor = -3
+			ideology = reactionary
+			}
+		}
+		any_pop = {
+			scaled_consciousness = {
+			factor = 8
+			ideology = reactionary
+			}
+		}
+	}
+}
+
+# The bazaari support the ulama!
+country_event = {
+	id = 110028
+	title = "EVTNAME110028" # "The bazaari support the ulama!"
+	desc = "EVTDESC110028" 
+	picture = "PER_bazaari"
+	
+	trigger = {
+		has_country_flag = refused_deal_with_ulama
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = "EVT110028OPTA" # "We cannot take it..."
+		clr_country_flag = refused_deal_with_ulama		
+		years_of_research = -0.5
+		remove_country_modifier = western_influences
+	}
+	
+	option = {
+		name = "EVT110028OPTB" # "We can take it!"
+		clr_country_flag = refused_deal_with_ulama
+		any_pop = {
+			scaled_militancy = {
+			factor = 8
+			ideology = conservative
+			}
+		}
+		add_country_modifier = {
+			name = bazaari_strike
+			duration = 547
+			#18 months
+		}
+	}
+	
+	option = {
+		name = "EVT110028OPTC" # "Put. This. Down."
+		clr_country_flag = refused_deal_with_ulama
+		capitalists = {
+			reduce_pop = 0.85
+		}
+		artisans = {
+			reduce_pop = 0.85
+		}
+		clerks = {
+			reduce_pop = 0.85
+		}
+		any_pop = {
+			scaled_militancy = {
+			factor = -3
+			ideology = conservative
+			}
+		}
+		any_pop = {
+			scaled_consciousness = {
+			factor = 8
+			ideology = conservative
+			}
+		}
+	}
+}
+
+# The Persian Cossack Brigade
+country_event = {
+	id = 110029
+	title = "EVTNAME110029"
+	desc = "EVTDESC110029"
+	picture = "PER_persian_cossack_brigade"
+
+	trigger = {
+		tag = PER
+		year = 1870
+		has_global_flag = dagestani_caucasian_war_ended
+		has_global_flag = 2nd_caucasian_war
+	}
+		
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 48
+	}
+
+	option = {
+		name = "EVT110029OPTA" #Wonderful!
+		prestige = 5
+		relation = { who = RUS value = 50 }
+		add_country_modifier = {
+			name = exemplary_troops
+			duration = 1825
+		}
+		any_pop = { 
+			limit = { 
+				OR = {
+					culture = circassian
+					culture = dagestani
+					culture = chechen
+				}
+			}
+		militancy = -5
+		}
+	}
+}
+
+
+#########################################################
+#														#
+# 		 					PCR							#
+#														#
+#########################################################
+
+##### Overall plan
+#Crush
+#	Protests (Mosque or Insurrection)
+#		Embassy
+#		Persecution
+#			March on the palace
+#Negotiate
+#	Establish a new Majiles (election)
+#		Concessions *6
+#			Constitution
+#				Change capital?
+#				Dissolve the PCossackB
+
+# Persian Constitutional Revolution - Start-up
+country_event = {
+	id = 110030
+	title = "EVTNAME110030"
+	desc = "EVTDESC110030"
+	major = yes
+
+	trigger = {
+		tag = PER
+		civilized = yes
+		year = 1900
+		average_consciousness = 7
+		average_militancy = 7
+		war = no
+		OR = {
+			government = absolute_monarchy
+			government = proletarian_dictatorship
+			government = presidential_dictatorship
+			government = bourgeois_dictatorship
+			government = fascist_dictatorship
+			vote_franschise = none_voting
+		}
+	}
+		
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 60
+		modifier = {
+			has_country_modifier = in_bankrupcy
+			factor = 0.25
+		}
+		modifier = {
+			is_disarmed = yes
+			factor = 0.25
+		}
+		modifier = {
+			is_greater_power = yes
+			factor = 1.50
+		}
+		modifier = {
+			is_secondary_power = yes
+			factor = 1.25
+		}
+		modifier = {
+			is_independant = no
+			factor = 0.25
+		}
+		modifier = {
+			nationalvalue = nv_liberty
+			factor = 0.75
+		}
+		modifier = {
+			NOT = { middle_strata_everyday_needs = 0.90 }
+			factor = 0.75
+		}
+		modifier = {
+			part_of_sphere = yes
+			factor = 0.75
+		}
+		modifier = {
+			political_reform_want = 0.25
+			factor = 0.50
+		}
+		modifier = {
+			ENG = { has_country_flag = apoc } #Anglo-Persian Oil Company
+			factor = 0.50
+		}
+	}
+
+	option = {
+		name = "EVT110030OPTA" #Suppress this. Now!
+		badboy = 1
+		add_country_modifier = {
+			name = bazaari_strike
+			duration = -1
+		}
+		set_country_flag = pcr_no
+	}
+	
+	option = {
+		name = "EVT110030OPTB" #Let's hear what they have to say.
+		prestige = -5
+		set_country_flag = pcr_yes
+	}
+}
+
+#####NO
+# PCR - Protests, strikes and fights.
+country_event = {
+	id = 110031
+	title = "EVTNAME110031"
+	desc = "EVTDESC110031"
+	picture = "PER_pcr_insurrection"
+
+	trigger = {
+		tag = PER
+		has_country_flag = pcr_no
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 60
+	}
+
+	option = {
+		name = "EVT110031OPTA" #Noone can hide!
+		clr_country_flag = pcr_no
+		set_country_flag = pcr_mosque
+		badboy = 1
+		any_pop = {
+			limit = {
+				has_pop_religion = shiite
+			}
+			consciousness = 5
+			militancy = 3
+		}	
+	}
+	
+	option = {
+		name = "EVT110031OPTB" #Focus on the insurrection.
+		clr_country_flag = pcr_no
+		set_country_flag = pcr_insurrections
+		badboy = 1
+		any_pop = {
+			limit = {
+				militancy = 5
+			}
+			reduce_pop = 0.99
+			militancy = -1
+		}
+		any_pop = {
+			limit = {
+				NOT = { militancy = 5 }
+			}
+			consciousness = 1
+		}
+	}
+	
+	option = {
+		name = "EVT110031OPTC" #It's time for negotiations.
+		prestige = -10
+		clr_country_flag = pcr_no
+		set_country_flag = pcr_yes
+	}
+}
+
+# PCR - Persecutions
+country_event = {
+	id = 110032
+	title = "EVTNAME110032"
+	desc = "EVTDESC110032"
+	picture = "PER_pcr_persecutions"
+
+	trigger = {
+		tag = PER
+		OR = {
+			has_country_flag = pcr_insurrections
+			has_country_flag = pcr_harrasment
+		}
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 60
+	}
+
+	option = {
+		name = "EVT110032OPTA" #Grand Scale Massacre.
+		clr_country_flag = pcr_insurrections
+		clr_country_flag = pcr_harassment
+		set_country_flag = pcr_persecutions
+		badboy = 3
+		any_pop = {
+			limit = {
+				militancy = 7
+			}
+			reduce_pop = 0.90
+			militancy = -1
+		}
+	}
+	
+	option = {
+		name = "EVT110032OPTB" #Surgical strikes.
+		clr_country_flag = pcr_insurrections
+		clr_country_flag = pcr_harassment
+		set_country_flag = pcr_persecutions
+		badboy = 1
+		any_pop = {
+			limit = {
+				militancy = 8
+			}
+			reduce_pop = 0.95
+			militancy = -1
+		}
+	}
+	
+	option = {
+		name = "EVT110032OPTC" #It's time for negotiations.
+		prestige = -15
+		clr_country_flag = pcr_insurrections
+		clr_country_flag = pcr_harassment
+		set_country_flag = pcr_yes
+	}
+}
+	
+#PCR - Embassy
+country_event = {
+	id = 110033
+	title = "EVTNAME110033"
+	desc = "EVTDESC110033"
+	picture = "PER_pcr_embassy"
+
+	trigger = {
+		tag = PER
+		OR = {
+			has_country_flag = pcr_persecutions
+			has_country_flag = pcr_mosque
+		}
+	}
+	
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 60
+	}
+
+	option = {
+		name = "EVT110033OPTA" #Break down the gates. Seize the diplomats. Kill everyone else.
+		clr_country_flag = pcr_persecutions
+		clr_country_flag = pcr_mosque
+		set_country_flag = pcr_embassy
+		badboy = 5
+		random_country = {
+			limit = { 
+				exists = yes
+				is_greater_power = yes
+				OR = {
+					tag = ENG
+					tag = RUS
+					tag = FRA
+					tag = GER
+					tag = TUR
+				}
+			}
+			casus_belli = {
+			target = PER
+			type = dismantle_cb
+			months = 60
+			}
+		}
+	}
+	
+	option = {
+		name = "EVT110033OPTB" #It's time for negotiations.
+		prestige = -20
+		clr_country_flag = pcr_persecutions
+		clr_country_flag = pcr_mosque
+		set_country_flag = pcr_yes
+	}
+}
+
+# PCR - March
+country_event = {
+	id = 110034
+	title = "EVTNAME110034"
+	desc = "EVTDESC110034"
+	picture = "PER_pcr_embassy"
+
+	trigger = {
+		tag = PER
+		has_country_flag = pcr_embassy
+	}
+	
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 60
+	}
+
+	option = {
+		name = "EVT110034OPTA" #Shoot! Shoot them all down!
+		badboy = 3
+		remove_country_modifier = bazaari_strike
+		clr_country_flag = pcr_embassy
+		set_country_flag = pcr_march
+		
+	}
+	
+	option = {
+		name = "EVT110034OPTB" #It has gone too far.
+		prestige = -25
+		clr_country_flag = pcr_embassy
+		set_country_flag = pcr_yes
+	}
+}
+
+#####YES
+# A New Majiles!
+country_event = {
+	id = 110035
+	title = "EVTNAME110035"
+	desc = "EVTDESC110035"
+	picture = "PER_pcr_embassy"
+	
+	trigger = {
+		tag = PER
+		has_country_flag = pcr_yes
+	}
+	
+	mean_time_to_happen = { months = 1 }
+	fire_only_once = yes
+	
+	option = {
+		name = "EVT110035OPTA" #We have no choice but too accept...
+		prestige = -15
+		plurality = 15
+		political_reform = yes_meeting
+		election = yes
+		set_country_flag = majles_established #Flag for the decision if it hasn't been fired yet.
+		clr_country_flag = pcr_yes
+		set_country_flag = pcr_majiles
+		remove_country_modifier = bazaari_strike
+		PER = {
+			set_variable = {
+				which = pcr_negotiations
+				value = 0
+			}
+		}
+		upper_house = {
+			ideology = reactionary #Ulama
+			value = 0.4
+		} 	
+		upper_house = {
+			ideology = anarcho_liberal #Bazaari
+			value = 0.4
+		} 		
+		upper_house = {
+			ideology = socialist
+			value = 0.2
+		} 		
+		upper_house = {
+			ideology = liberal
+			value = 0.2
+		}
+	}
+	
+	option = {
+		name = "EVT110035OPTB" #Unacceptable! 
+		badboy = 1
+		plurality = -5
+		add_country_modifier = {
+			name = bazaari_strike
+			duration = -1
+		}
+		clr_country_flag = pcr_yes
+		set_country_flag = pcr_no
+	}
+}
+	
+# Negotiations - Ulama (Sharia law)
+country_event = {
+	id = 110036
+	title = "EVTNAME110036"
+	desc = "EVTDESC110036"
+	picture = "PER_pcr_embassy"
+	
+	trigger = {
+		has_country_flag = pcr_majiles
+		NOT = { 
+			has_country_flag = islamic_law
+			has_country_modifier = islamic_law
+		}
+	}
+	
+	mean_time_to_happen = { months = 24 }
+	fire_only_once = yes
+	
+	option = {
+		name = "EVT110036OPTA" #Accept.
+		PER = {
+			change_variable = {
+				which = pcr_negotiations
+				value = 1
+			}
+		}
+		treasury = -50000 #No way to put a minimun on administrative spending sadly...
+		set_country_flag = islamic_law
+		add_country_modifier = {
+			name = "islamic_law"
+			duration = -1
+		}
+		any_pop = {
+			scaled_militancy = {
+				factor = -5
+				ideology = reactionary
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				factor = -3
+				ideology = conservative
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				factor = 5
+				ideology = socialist
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				factor = 3
+				ideology = liberal
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				factor = 3
+				ideology = anarcho_liberal
+			}
+		}
+	}
+	
+	option = {
+		name = "EVT110036OPTB" #Refuse.
+		PER = {
+			change_variable = {
+				which = pcr_negotiations
+				value = 1
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				factor = 5
+				ideology = reactionary
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				factor = 3
+				ideology = conservative
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				factor = -3
+				ideology = socialist
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				factor = -1
+				ideology = liberal
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				factor = -1
+				ideology = anarcho_liberal
+			}
+		}
+	}
+}
+	
+# Negotiations - Bazaari (trade unions)
+country_event = {
+	id = 110037
+	title = "EVTNAME110037"
+	desc = "EVTDESC110037"
+	picture = "PER_bazaari"
+	
+	trigger = {
+		has_country_flag = pcr_majiles
+		NOT = {
+			OR = {
+				trade_unions = non_socialist
+				trade_unions = all_trade_unions
+			}
+		}
+	}
+		
+	mean_time_to_happen = { months = 24 }
+	fire_only_once = yes
+	
+	option = {
+		name = "EVT110037OPTA" #Accept.
+		PER = {
+			change_variable = {
+				which = pcr_negotiations
+				value = 1
+			}
+		}
+		political_reform = non_socialist
+		any_pop = {
+			scaled_militancy = {
+				factor = 3
+				ideology = reactionary
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				factor = 1
+				ideology = conservative
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				factor = -3
+				ideology = socialist
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				factor = -5
+				ideology = anarcho_liberal
+			}
+		}
+	}
+	
+	option = {
+		name = "EVT110037OPTB" #Compromise.
+		PER = {
+			change_variable = {
+				which = pcr_negotiations
+				value = 1
+			}
+		}
+		political_reform = state_controlled
+		any_pop = {
+			scaled_militancy = {
+				factor = 1
+				ideology = reactionary
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				factor = -1
+				ideology = socialist
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				factor = 1
+				ideology = liberal
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				factor = -3
+				ideology = anarcho_liberal
+			}
+		}
+	}
+	
+	option = {
+		name = "EVT110037OPTC" #Refuse.
+		PER = {
+			change_variable = {
+				which = pcr_negotiations
+				value = 1
+			}
+		}
+		political_reform = no_trade_unions
+		any_pop = {
+			scaled_militancy = {
+				factor = -3
+				ideology = reactionary
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				factor = -1
+				ideology = conservative
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				factor = 3
+				ideology = socialist
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				factor = 5
+				ideology = anarcho_liberal
+			}
+		}
+	}
+	
+	option = {
+		name = "EVT110037OPTD" #Put the foot down.
+		PER = {
+			change_variable = {
+				which = pcr_negotiations
+				value = 1
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				factor = 1
+				ideology = reactionary
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				factor = 1
+				ideology = conservative
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				factor = 3
+				ideology = socialist
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				factor = 1
+				ideology = liberal
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				factor = 5
+				ideology = anarcho_liberal
+			}
+		}
+	}
+}
+
+# Negotiations - Socialists ( )
+country_event = {
+	id = 110038
+	title = "EVTNAME110038"
+	desc = "EVTDESC110038"
+	picture = "PER_pcr_embassy"
+	
+	trigger = {
+		has_country_flag = pcr_majiles
+		NOT = { public_meetings = yes_meeting }
+	}
+	
+	mean_time_to_happen = { months = 24 }
+	fire_only_once = yes
+	
+	option = {
+		name = "EVT110038OPTA" #Accept.
+		PER = {
+			change_variable = {
+				which = pcr_negotiations
+				value = 1
+			}
+		}
+		political_reform = yes_meeting
+	}
+	
+	option = {
+		name = "EVT110038OPTB" #Refuse.
+		PER = {
+			change_variable = {
+				which = pcr_negotiations
+				value = 1
+			}
+		}
+		political_reform = no_meeting
+	}
+}
+
+# Negotiations - Liberals (press)
+country_event = {
+	id = 110039
+	title = "EVTNAME110039"
+	desc = "EVTDESC110039"
+	picture = "PER_pcr_embassy"
+	
+	trigger = {
+		has_country_flag = pcr_majiles
+		NOT = { press_rights = free_press }
+	}
+	
+	mean_time_to_happen = { months = 24 }
+	fire_only_once = yes
+	
+	option = {
+		name = "EVT110039OPTA" #Accept.
+		PER = {
+			change_variable = {
+				which = pcr_negotiations
+				value = 1
+			}
+		}
+		political_reform = free_press
+	}
+	
+	option = {
+		name = "EVT110039OPTB" #Compromise.
+		PER = {
+			change_variable = {
+				which = pcr_negotiations
+				value = 1
+			}
+		}
+		political_reform = censored_press
+	}
+	
+	option = {
+		name = "EVT110039OPTC" #Refuse.
+		PER = {
+			change_variable = {
+				which = pcr_negotiations
+				value = 1
+			}
+		}
+		political_reform = state_press
+	}
+	
+	option = {
+		name = "EVT110039OPTD" #Put the foot down.
+		PER = {
+			change_variable = {
+				which = pcr_negotiations
+				value = 1
+			}
+		}
+	}
+}
+
+# Negotiations - Separatists (minority rights + centralization)
+country_event = {
+	id = 110040
+	title = "EVTNAME110040"
+	desc = "EVTDESC110040"
+	picture = "PER_pcr_embassy"
+	
+	trigger = {
+		has_country_flag = pcr_majiles
+	}
+	
+	mean_time_to_happen = { months = 24 }
+	fire_only_once = yes
+	
+	option = {
+		name = "EVT110040OPTA" #Accept.
+		PER = {
+			change_variable = {
+				which = pcr_negotiations
+				value = 1
+			}
+		}
+		political_reform = all_voting_pops
+#		political_reform = confederal
+	}
+	
+	option = {
+		name = "EVT110040OPTB" #Compromise.
+		PER = {
+			change_variable = {
+				which = pcr_negotiations
+				value = 1
+			}
+		}
+		political_reform = culture_voting_only
+	}
+	
+	option = {
+		name = "EVT110040OPTC" #Refuse.
+		PER = {
+			change_variable = {
+				which = pcr_negotiations
+				value = 1
+			}
+		}
+		political_reform = primary_culture_only
+	}
+	
+	option = {
+		name = "EVT110040OPTD" #Put the foot down.
+		PER = {
+			change_variable = {
+				which = pcr_negotiations
+				value = 1
+			}
+		}
+
+		# Azeri revolt
+		any_owned = {
+			limit = { is_core = AZB }
+			secede_province = AZB
+		}
+		AZB = {
+			civilized = yes
+			government = democracy
+		}
+		war = {
+			target = AZB
+			attacker_goal = { casus_belli = conquest_any }
+		}
+		any_pop = {
+			limit = { culture = azerbaijani }
+			militancy = 5		
+		}
+		
+		# Kurd revolt
+		any_owned = {
+			limit = { is_core = KDS }
+			secede_province = KDS
+		}
+		KDS = {
+			civilized = yes
+			government = democracy
+		}
+		war = {
+			target = KDS
+			attacker_goal = { casus_belli = conquest_any }
+		}
+		any_pop = {
+			limit = { culture = kurdish }
+			militancy = 5			
+		}
+		
+		# Baluchi revolt
+		any_owned = {
+			limit = { is_core = MAK }
+			secede_province = MAK
+		}
+		MAK = {
+			civilized = yes
+			government = democracy
+		}
+		war = {
+			target = MAK
+			attacker_goal = { casus_belli = conquest_any }
+		}
+		any_pop = {
+			limit = { culture = baluchi }
+			militancy = 5			
+		}
+	}
+}
+
+# Negotiations - Nationalists (nationalize)
+country_event = {
+	id = 110041
+	title = "EVTNAME110041"
+	desc = "EVTDESC110041"
+	picture = "PER_pcr_embassy"
+	
+	trigger = {
+		has_country_flag = pcr_majiles
+		NOT = { 
+			has_country_flag = islamic_law
+			has_country_modifier = islamic_law
+		}
+	}
+	
+	mean_time_to_happen = { months = 24 }
+	fire_only_once = yes
+	
+	option = {
+		name = "EVT110041OPTA" #Accept.
+		PER = {
+			change_variable = {
+				which = pcr_negotiations
+				value = 1
+			}
+		}
+		nationalize = yes
+	}
+	
+	option = {
+		name = "EVT110041OPTB" #Refuse.
+		PER = {
+			change_variable = {
+				which = pcr_negotiations
+				value = 1
+			}
+		}
+	}
+}
+
+# The Constitution of $YEAR$
+country_event = {
+	id = 110042
+	title = "EVTNAME110042"
+	desc = "EVTDESC110042"
+	picture = "PER_pcr_constitution"
+	major = yes
+	news = yes
+	news_title = "EVTNAME110042_NEWS_TITLE"
+	news_desc_long = "EVTDESC110042_NEWS_LONG"
+	news_desc_medium = "EVTDESC110042_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC110042_NEWS_SHORT"
+	
+	trigger = {
+		tag = PER
+		has_country_flag = pcr_majiles
+		check_variable = { which = pcr_negotiations value = 1 }
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+		modifier = {
+			factor = 0.80
+			PER = {
+				check_variable = {
+					which = pcr_negotiations
+					value = 2
+				}
+			}
+		}
+		modifier = {
+			factor = 0.60
+			PER = {
+				check_variable = {
+					which = pcr_negotiations
+					value = 3
+				}
+			}
+		}
+		modifier = {
+			factor = 0.40
+			PER = {
+				check_variable = {
+					which = pcr_negotiations
+					value = 4
+				}
+			}
+		}
+		modifier = {
+			factor = 0.20
+			PER = {
+				check_variable = {
+					which = pcr_negotiations
+					value = 5
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			PER = {
+				check_variable = {
+					which = pcr_negotiations
+					value = 6
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EVT110042OPTA" #The aristocrats and the Shah! This is Persia!
+		prestige = 5
+		any_pop = {
+			consciousness = -9
+		}		
+		government = prussian_constitutionalism
+		add_country_modifier = {
+		name = "new_constitution"
+		duration = 1800 
+		#Five years
+		}
+		clr_country_flag = pcr_majiles
+		set_country_flag = pcr_constitution
+	}
+	
+	option = {
+		name = "EVT110042OPTB" #The ulamas will keep our values and traditions.
+		prestige = 5
+		any_pop = {
+			consciousness = -9
+		}
+		government = theocracy
+		add_country_modifier = {
+		name = "new_constitution"
+		duration = 1800 
+		#Five years
+		}
+		clr_country_flag = pcr_majiles
+		set_country_flag = pcr_constitution
+	}
+	
+	option = {
+		name = "EVT110042OPTC" #The bazaari are the economic heart of our nation.
+		prestige = 5
+		any_pop = {
+			consciousness = -9
+		}
+		government = bourgeois_dictatorship
+		add_country_modifier = {
+		name = "new_constitution"
+		duration = 1800 
+		#Five years
+		}
+		clr_country_flag = pcr_majiles
+		set_country_flag = pcr_constitution
+	}
+	
+	option = {
+		name = "EVT110042OPTD" #The radicals know you cannnot stop progress.
+		prestige = 5
+		any_pop = {
+			consciousness = -9
+		}
+		government = democracy
+		add_country_modifier = { name = "new_constitution" duration = 1800 }
+		clr_country_flag = pcr_majiles
+		set_country_flag = pcr_constitution
+	}
+	
+	option = {
+		name = "EVT110042OPTE" #The current regime will maintain stability.
+		prestige = 5
+		any_pop = {
+			consciousness = -9
+		}
+		add_country_modifier = {
+		name = "new_constitution"
+		duration = 1800
+		#Five years
+		}
+		clr_country_flag = pcr_majiles
+		set_country_flag = pcr_constitution
+	}
+}
+
+# PCR - A New Capital For A New Persia
+country_event = {
+	id = 110043
+	title = "EVTNAME110043"
+	desc = "EVTDESC110043"
+	picture = "PER_pcr_embassy"
+	
+	trigger = {
+		tag = PER
+		war = no
+		OR = {
+			has_country_flag = pcr_march
+			has_country_flag = pcr_constitution	
+		}
+		owns = 1121
+		owns = 1125
+		owns = 1108
+		owns = 1127
+		owns = 1135
+	}
+		
+	mean_time_to_happen = { days = 365 }
+	fire_only_once = yes
+	
+	option = {
+		name = "EVT110043OPTA" #Tehran has served us well.
+		prestige = 5
+		capital = 1121
+		1121 = {
+			any_pop = {
+				consciousness = -1
+				militancy = -1
+			}
+		}
+	}
+	
+	option = {
+		name = "EVT110043OPTB" #Qom, the religious capital of our faith.
+		prestige = 5
+		capital = 1125
+		1125 = {
+			any_pop = {
+				consciousness = -1
+				militancy = -1
+			}
+		}
+	}
+	
+	option = {
+		name = "EVT110043OPTC" #Tabriz, its wealth will assure prosperity.
+		prestige = 5
+		capital = 1108
+		1108 = {
+			any_pop = {
+				consciousness = -1
+				militancy = -1
+			}
+		}
+	}
+		
+	option = {
+		name = "EVT110043OPTD" #Isfahan, our population center.
+		prestige = 5
+		capital = 1127
+		1127 = {
+			any_pop = {
+				consciousness = -1
+				militancy = -1
+			}
+		}
+	}
+		
+	option = {
+		name = "EVT110043OPTE" #Shiraz, the cultural heart of our nation.
+		prestige = 5
+		capital = 1135
+		1135 = {
+			any_pop = {
+				consciousness = -1
+				militancy = -1
+			}
+		}
+	}
+}
+
+# PCR - Disband the Persian Cossack Brigade.
+country_event = {
+	id = 110044
+	title = "EVTNAME110044"
+	desc = "EVTDESC110044"
+	picture = "PER_persian_cossack_brigade"
+	
+	trigger = {
+		tag = PER
+		war = no
+		OR = {
+			has_country_flag = pcr_march
+			has_country_flag = pcr_constitution	
+		}
+	}
+		
+	mean_time_to_happen = { days = 365 }
+	fire_only_once = yes
+	
+	option = {
+		name = "EVT110044OPTA" #They cannot be forgiven.
+		prestige = 5
+		soldiers = {
+			consciousness = 1
+			militancy = 1
+		}
+		officers = {
+			consciousness = 3
+			militancy = 5
+		}
+		remove_country_modifier = exemplary_troops
+	}
+}
+
+#The Báb
+country_event = {
+	id = 900022
+	title = "EVTNAME900022"
+	desc = "EVTDESC900022"
+	picture = "siyyid"
+	
+	trigger = {
+		owns = 1135
+		year = 1844
+		month = 5
+	}
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 8 }
+	
+	option = {
+		name = "EVT900022OPTA"
+		1135 = { random_pop = { limit = { has_pop_religion = shiite } militancy = 1 } }
+		set_global_flag = the_bab
+	}
+}
+
+#The Báb's Execution
+country_event = {
+	id = 900023
+	title = "EVTNAME900023"
+	desc = "EVTDESC900023"
+	picture = "martyrdomofthebab"
+	
+	trigger = {
+		owns = 1135
+		has_global_flag = the_bab
+	}
+	
+	fire_only_once = yes
+	mean_time_to_happen = { months = 8 }
+	
+	option = {
+		name = "EVT900023OPTA"
+		random_list = {
+			25 = { 1135 = { any_pop = { limit = { has_pop_religion = shiite type = clergymen } militancy = 1 } } }
+			25 = { 1135 = { any_pop = { limit = { has_pop_religion = shiite type = bureaucrats } militancy = 1 } } }
+			25 = { 1135 = { any_pop = { limit = { has_pop_religion = shiite type = aristocrats } militancy = 1 } } }
+			25 = { 1135 = { any_pop = { limit = { has_pop_religion = shiite type = soldiers } militancy = 1 } } }
+			}
+		random_list = {
+			25 = { 1135 = { any_pop = { limit = { has_pop_religion = shiite type = artisans } militancy = 1 } } }
+			25 = { 1135 = { any_pop = { limit = { has_pop_religion = shiite type = farmers } militancy = 1 } } }
+			25 = { 1135 = { any_pop = { limit = { has_pop_religion = shiite type = officers } militancy = 1 } } }
+			25 = { 1135 = { any_pop = { limit = { has_pop_religion = shiite type = clergymen } militancy = 1 } } }
+			}
+		random_list = {
+			25 = { 1108 = { any_pop = { limit = { has_pop_religion = shiite type = aristocrats } militancy = 1 } } }
+			25 = { 1108 = { any_pop = { limit = { has_pop_religion = shiite type = bureaucrats } militancy = 1 } } }
+			25 = { 1108 = { any_pop = { limit = { has_pop_religion = shiite type = officers } militancy = 1 } } }
+			25 = { 1108 = { any_pop = { limit = { has_pop_religion = shiite type = clergymen } militancy = 1 } } }
+			}
+		clr_global_flag = the_bab
+		ai_chance = { factor = 0.95 }
+	}
+	
+	option = {
+		name = "EVT900023OPTB"
+		any_pop = { limit = { type = clergymen has_pop_religion = shiite } militancy = 1 }
+		ai_chance = { factor = 0.05 }
+	}
+}
+	
+#Kevah
+country_event = {
+	id = 100018
+	title = "EVTNAME100018"
+	desc = "EVTDESC100018"
+	picture = "PER_kaveh"
+
+	trigger = {
+		tag = PER
+		civilized = yes
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+
+	option = {
+		name = "EVT100018OPTA" #"They'll write what we tell them to write."
+		political_reform = state_press
+		ai_chance = { factor = 0.9 }
+	}
+	
+	option = {
+		name = "EVT100018OPTB" #"Just keep an eye on it."
+		political_reform = censored_press
+		ai_chance = { factor = 0.05 }
+	}
+	
+	option = {
+		name = "EVT100018OPTC" #"Freedom is the heart of a great country."
+		political_reform = free_press
+		ai_chance = { factor = 0.05 }
+	}
+}
+
+# Takht-i Tavus, The Peacock Throne
+#country_event = {
+#	id = 110023
+#	news = yes
+#	news_desc_long = "EVTDESC110023_NEWS_LONG"
+#	news_desc_medium = "EVTDESC110023_NEWS_MEDIUM"
+#	news_desc_short = "EVTDESC110023_NEWS_SHORT"
+#	title = "EVTNAME110023"
+#	desc = "EVTDESC110023"
+#	picture = "PER_peacock_throne"
+#
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = "EVTOPTA110023"
+#		prestige = 2
+#		any_pop = { militancy = -3 }
+#	}
+#}
+
+#Treaty of Akhal
+country_event = {
+	id = 100019
+	title = "EVTNAME100019"
+	desc = "EVTDESC100019"
+	picture = "capturing_khiva"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVT100019OPTA"
+		prestige_factor = -0.25
+		1204 = { secede_province = FROM remove_core = THIS }
+		random_owned = { limit = { province_id = 686 } secede_province = FROM remove_core = THIS }
+		relation = { who = FROM value = 100 }
+		any_pop = { limit = { is_primary_culture = yes } militancy = 1 }
+		ai_chance = {
+			factor = 80
+			modifier = { factor = 1.5 in_sphere = FROM }
+			modifier = { factor = 10 vassal_of = FROM }
+		}
+	}
+	
+	option = {
+		name = "EVT100019OPTB"
+		relation = { who = FROM value = -400 }
+		FROM = { diplomatic_influence = { who = THIS value = -400 } }
+		random_country = { limit = { tag = FROM is_our_vassal = THIS } release_vassal = THIS }
+		FROM = {
+			war = {
+				target = THIS
+				attacker_goal = {
+					casus_belli = acquire_any_state
+					state_province_id = 1204
+				}
+			}
+		}
+		
+		ai_chance = {
+			factor = 20
+			modifier = { factor = 1.5 part_of_sphere = yes NOT = { in_sphere = FROM } }
+			modifier = { factor = 1.25 civilized = yes }
+			modifier = { factor = 2 military_score = FROM }
+			modifier = { factor = 0.1 part_of_sphere = no }
+		}
+	}
+}
+

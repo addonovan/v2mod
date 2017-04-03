@@ -1,0 +1,67 @@
+political_decisions = {
+
+    # allow the person to start a ctr campaign
+    ctr = {
+
+        picture = "CTR_decision"
+
+        alert = no
+        news = no
+
+        potential = {
+            ai = no
+            NOT = {
+                has_country_modifier = correcting_the_record
+            }
+        }
+
+        allow = {
+            ai = no
+            money = 50000
+        }
+
+        effect = {
+            badboy = -4 # immediately lose 4 infamy
+            treasury = -50000
+
+            add_country_modifier = {
+                name = correcting_the_record
+                duration = 365
+            }
+        }
+    }
+
+    # Remove the partitioning flags from this country, if we have them and
+    # aren't at war.
+    end_partition = {
+
+        picture = build_the_kiel_canal
+        alert = yes
+        news = no
+
+        # If we still have the leading partition flag for some reason,
+        # let's do something about it
+        potential = {
+            OR = {
+                has_country_flag = leading_partition
+                has_country_flag = under_partition
+            }
+            war = no
+        }
+
+        allow = {}
+
+        # Remove the under partition flag from us
+        effect = {
+            clr_country_flag = leading_partition
+            clr_country_flag = under_partition
+        }
+
+        # The AI will always choose this decision
+        ai_will_do = {
+            factor = 1
+        }
+
+    }
+
+}

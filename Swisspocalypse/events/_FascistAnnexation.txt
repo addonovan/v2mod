@@ -1,0 +1,274 @@
+country_event = {
+	id = 78000
+	title = "ctr_78000_title" # "She will be ours!"
+	desc = "ctr_78000_desc"
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = "ctr_78000_opt1" # "To war!"
+
+		set_country_flag = annexing_country
+		any_pop = {
+			militancy = -2
+			consciousness = -3
+
+			dominant_issue = {
+				factor = 0.15
+				value = jingoism
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 78001
+	title = "ctr_78001_title" # Our Capitulation
+	desc = "ctr_78001_desc"
+
+	is_triggered_only = yes
+	major = yes
+
+	# "So be it"
+	# - If hasColonies
+	#   - Fire off event 78002. The Colonial Question
+	# - Else
+	#   - Fire off event 78003, Our Demands Met
+	option = {
+		name = "ctr_78001_opt1"
+
+		random_country = {
+			limit = {
+				truce_with = THIS
+				has_country_flag = annexing_country
+			}
+			country_event = 78002
+		}
+	}
+}
+
+country_event = {
+	id = 78002
+	title = "ctr_78002_title" # The Colonial Question
+	desc = "ctr_78002_desc" # somethign about what we should do with their colonies
+
+	is_triggered_only = yes
+	major = yes
+
+	# "We will have them for ourselves"
+	# - Annex all of the colonial provinces
+	# - Fires event 78003, Our Demands Met
+	option = {
+		name = "ctr_78002_opt1"
+
+		FROM = {
+			any_owned = {
+				limit = {
+					is_colonial = yes
+				}
+				secede_province = THIS
+			}
+		}
+
+		country_event = 78003
+	}
+
+	# "Let them be free"
+	# - Lose 2 infamy
+	# - Releases all colonial states similar to dismantling
+	#   - Each will have 200 relations with you
+	# - Fires event 78003, Our Demands Met
+	option = {
+		name = "ctr_78002_opt2"
+
+		badboy = -2
+
+		FROM = {
+			any_country = {
+				limit = {
+					have_cores_in = FROM
+					NOT = { tag = THIS }
+				}
+
+				country_event = 78004
+			}
+		}
+
+		country_event = 78003
+	}
+}
+
+country_event = {
+	id = 78003
+	title = "ctr_78003_title" # Our Demands Met
+	desc = "ctr_78003_desc"
+
+	is_triggered_only = yes
+	
+	major = yes
+
+	# "Huzzah"
+	# - Annex any country we have a truce with who submitted to annexation
+	# - Gain 30 prestige
+	option = {
+		name = "ctr_78003_opt1"
+
+		any_country = {
+			limit = {
+				truce_with = THIS
+				exists = yes
+				has_country_flag = submitted_to_annexation
+			}
+
+			annex_to = THIS
+
+			clr_country_flag = submitted_to_annexation
+			clr_country_flag = declared_annexation
+		}
+
+		clr_country_flag = annexing_country
+
+		prestige = 30
+	}
+}
+
+country_event = {
+	id = 78004
+	title = "ctr_78004_title"
+	desc = "ctr_78004_desc"
+
+	allow_multiple_instances = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "ctr_78004_opt1"
+
+		any_country = {
+			limit = {
+				exists = yes
+				has_country_flag = submitted_to_annexation
+			}
+
+			any_owned = {
+				limit = {
+					is_colonial = yes
+					is_core = THIS
+				}
+
+				secede_province = THIS
+			}
+		}
+
+		# give relations and influence to the one who released us
+		FROM = {
+			relations = {
+				who = THIS
+				value = 400
+			}
+
+			diplomatic_influence = {
+				who = THIS
+				value = 100
+			}
+		}
+
+		any_greater_power = {
+			limit = {
+				NOT = { tag = FROM }
+			}
+
+			relations = {
+				who = THIS
+				value = -400
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 78005
+	title = "ctr_78005_title" # "Our Failed Attempts"
+	desc = "ctr_78005_desc"
+
+	trigger = {
+		# we tried to annex a country
+		has_country_flag = annexing_country
+		NOT = { has_country_flag = failed_annexation }
+
+		# There's no country that was successfully annexed by us
+		NOT = {
+			any_neighbor_country = {
+				has_country_flag = declared_annexation
+				has_country_flag = submitted_to_annexation
+				truce_with = THIS
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 5
+	}
+
+	# "We have failed $COUNTRY$"
+	option = {
+		name = "ctr_78005_opt1"
+
+		# Remove the flag
+		clr_country_flag = annexing_country
+
+		# Remove the declared_annexation flag from any country which has a truce with
+		# us and didn't submit to annexation
+		any_country = {
+			limit = {
+				has_country_flag = declared_annexation
+				NOT = { has_country_flag = submitted_to_annexation }
+				truce_with = THIS
+			}
+
+			clr_country_flag = declared_annexation
+		}
+
+		# lose 30% of prestige
+		prestige_factor = -0.3
+
+		# Gain 5 militancy and counsciousness
+		any_pop = {
+			militancy = 5
+			consciousness = 5
+		}
+
+		add_country_modifier = {
+			name = failed_annexation
+			duration = 1825
+		}
+	}
+}
+
+country_event = {
+	id = 78006
+	title = "ctr_78006_title" # Failures of the Past
+	desc = "ctr_78006_desc"
+
+	# happens to any country which has the failed annexation modifier and is no longer a fascist_dictatorship
+	trigger = {
+		has_country_modifier = failed_annexation
+		NOT = { government = fascist_dictatorship }
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	option = {
+		name = "ctr_78006_opt1"
+
+		remove_country_modifier = failed_annexation
+
+		any_pop = {
+			militancy = -5
+			consciousness = -5
+		}
+	}
+}
