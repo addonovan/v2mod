@@ -10,6 +10,8 @@ on_yearly_pulse = {
 	#100 = 22510 # Some event
 	#100 = 22520 # Some event
 	#100 = 22530 # Some event
+
+	100 = 79000
 }
 
 on_quarterly_pulse = {
@@ -38,7 +40,6 @@ on_quarterly_pulse = {
 	#100 = 10190
 	#100 = 10200
 	#100 = 10210
-
 }
 
 on_battle_won = {
@@ -48,19 +49,16 @@ on_battle_lost = {
 }
 
 #country, from = occupier.
-on_surrender = 
-{
+on_surrender = {
 
 }
 
-on_new_great_nation = 
-{
+on_new_great_nation = {
 	10 = 19310
 	10 = 19320
 }
 
-on_lost_great_nation = 
-{
+on_lost_great_nation = {
 }
 
 on_election_tick = {
@@ -95,47 +93,41 @@ on_election_tick = {
 # Note: remember to use tag (allow_multiple_instances = yes)
 # in events specified below, so can be executed several times
 # for each acquired state.
-on_colony_to_state = 
-{
+on_colony_to_state = {
 	100 = 70000
 	100 = 70001
 }
+
 on_state_conquest = {
 	100 = 70000
 }
 
-on_colony_to_state_free_slaves =
-{
+on_colony_to_state_free_slaves = {
 }
 
-on_debtor_default =
-{
+on_debtor_default = {
+
 	100 = 70002
 }
 
-on_debtor_default_small =
-{
+on_debtor_default_small = {
 	100 = 70004
 }
 
-on_debtor_default_second =
-{
+on_debtor_default_second = {
 	100 = 70003
 }
 
-on_civilize =
-{
+on_civilize = {
 	100 = 90900 # CHI
 	100 = 90903 # CHI substates
 	100 = 90910 # RotW
 }
 
-on_my_factories_nationalized = 
-{
+on_my_factories_nationalized = {
 	100 = 90950
 }
 
-on_crisis_declare_interest =
-{
+on_crisis_declare_interest = {
 	100 = 20000
 }
