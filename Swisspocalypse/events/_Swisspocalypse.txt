@@ -1,4 +1,31 @@
 country_event = {
+	id = 78999
+	title = "swi_78999_title"
+	desc = "swi_78999_desc"
+	major = yes
+	allow_multiple_instances = yes
+
+	trigger = {
+		ai = no
+		NOT = { has_country_flag = read_instructions }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "swi_78999_opt1"
+		set_country_flag = read_instructions
+	}
+
+	option = {
+		name = "swi_78999_opt2"
+		country_event = 78999
+	}
+}
+
+country_event = {
 	
 	id = 79000
 	title = "swi_79000_title"
