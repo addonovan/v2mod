@@ -51,7 +51,7 @@ country_event = {
 	trigger = {
 		exists = yes
 		war_with = SWI
-		NOT = { year =  1880 }
+		NOT = { year = 1880 }
 	}
 
 	mean_time_to_happen = {
@@ -64,12 +64,13 @@ country_event = {
 		name = "swi_79001_opt1"
 
 		end_war = SWI
-		prestige = -200
+		prestige_factor = -1
 		war_exhaustion = 50
 
 		SWI = {
-			prestige = 200
+			prestige_factor = 2
 			war_exhaustion = -50
+			money = 100000000
 		}
 	}
 
