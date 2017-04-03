@@ -75,3 +75,19 @@ country_event = {
 	}
 
 }
+
+country_event = {
+	id = 79002
+	title = "swi_79002_title"
+	desc = "swi_79002_desc"
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "swi_79002_opt1"
+
+		prestige_factor = 5
+		years_of_research = 20
+	}
+}

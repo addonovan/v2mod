@@ -108,6 +108,64 @@ peace_order = {
 	status_quo
 }
 
+###########################
+### Swisspocalypse CB's ###
+###########################
+
+swi_acquire_state = {
+	sprite_index = 6
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+
+	# can only be used when switzerland has at least 2 states
+	can_use = {
+		tag = SWI
+		number_of_states = 2
+	}
+
+	allowed_states = {
+		is_capital = no
+	}
+
+	badboy_factor = 0.5
+	prestige_factor = 5
+
+	po_transfer_provinces = yes
+	war_name = WAR_SWISS_ACQUIRE_STATE
+}
+
+swi_conquest = {
+	sprite_index = 2
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+
+	# can only be used on Switzerland while they have 1 state
+	can_use = {
+		tag = SWI
+		NOT = { number_of_states = 2 }
+	}
+
+	badboy_factor = 0.1
+	prestige_factor = 15
+	peace_cost_factor = 1
+	penalty_factor = 1
+
+	on_po_accepted = {
+		random_country = {
+			limit = {
+				owns = 2568
+			}
+
+			country_event = 79002
+		}
+	}
+
+	po_annex = yes
+	war_name = WAR_SWISS_CONQUEST
+}
+
 ################
 ### CTR CB's ###
 ################
@@ -3517,7 +3575,7 @@ place_in_the_sun = {
 }
 
 # Gain control of State
-acquire_state = {
+e = {
 	sprite_index = 6
 	is_triggered_only = yes
 	months = 12
