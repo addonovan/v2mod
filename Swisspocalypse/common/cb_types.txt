@@ -119,7 +119,7 @@ fascist_annex_cb = {
 	months = 12
 	crisis = no
 		
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		THIS = {
 			government = fascist_dictatorship
 		}
@@ -273,7 +273,7 @@ dismantle_cb = {
 	good_relation_infamy_factor = 0
 	good_relation_militancy_factor = 0
 	
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		OR = {
 			is_greater_power = yes
 			is_secondary_power = yes
@@ -348,7 +348,7 @@ dismantle_cb_add = {
 	good_relation_infamy_factor = 0
 	good_relation_militancy_factor = 0
 	
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		NOT = { has_country_modifier = neutrality }
 		NOT = { has_country_flag = dismantle_declared }
@@ -417,7 +417,7 @@ dismantle_cb_add_new = {
 	good_relation_infamy_factor = 0
 	good_relation_militancy_factor = 0
 	
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		NOT = { has_country_flag = dismantle_declared }
 		NOT = { has_country_modifier = neutrality }
@@ -488,7 +488,7 @@ great_war_penalty_cb = {
 
 	war_name = WAR_NAME
 	
-	#can_use = {
+	#can_use = { NOT = { tag = SWI }
 	#	NOT = { is_our_vassal = THIS }
 	#	is_disarmed = no
 	#}
@@ -524,7 +524,7 @@ acquire_core_state = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		OR = {
 			AND = { THIS = { num_of_ports = 1 } num_of_ports = 1 }
 			neighbour = THIS
@@ -600,7 +600,7 @@ acquire_all_cores = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		always = no
 		NOT = { is_our_vassal = THIS }
 		number_of_states = 2 # annex if you want their last state		
@@ -677,7 +677,7 @@ restore_austrian_empire = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		war_policy = jingoism
 		NOT = { is_our_vassal = THIS }
 		THIS = {
@@ -771,7 +771,7 @@ colonial_reconquest_cb = {
 	
 	always = yes
 	
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		OR = {
 			AND = {
 				THIS = {
@@ -867,7 +867,7 @@ restore_america = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		war_policy = jingoism
 		NOT = { is_our_vassal = THIS }
 		THIS = {
@@ -953,7 +953,7 @@ claim_holy_land = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 	
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			is_greater_power = yes
@@ -1059,7 +1059,7 @@ unification_casus_belli = {
 	
 	always = yes
 	
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		is_vassal = no
 		NOT = { is_our_vassal = THIS }
 		NOT = { tag = PRU }
@@ -1140,7 +1140,7 @@ civil_war = {
 	constructing_cb = no
 	crisis = no
 	
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		always = no
 	}
@@ -1195,7 +1195,7 @@ unification_annex_casus_belli = {
 	
 	always = yes
 	
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		is_vassal = no
 		NOT = { is_our_vassal = THIS }
 		THIS = {
@@ -1264,7 +1264,7 @@ annex_core_country = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		is_vassal = no
 		any_owned_province = { is_core = THIS }
@@ -1322,7 +1322,7 @@ add_to_sphere = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		NOT = { total_pops = 11000000 }
 		THIS = { is_greater_power = yes }
@@ -1390,7 +1390,7 @@ unification_humiliate_cb = {
 	
 	always = yes
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			culture_has_union_tag = yes
@@ -1450,7 +1450,7 @@ unification_GP_humiliate = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 	
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		culture_has_union_tag = yes
 		is_culture_group = THIS
@@ -1520,7 +1520,7 @@ unification_release_puppet_cb = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		num_of_vassals_no_substates = 1
 		THIS = {
@@ -1588,7 +1588,7 @@ unification_add_to_sphere = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		is_greater_power = no
 		is_vassal = no
@@ -1644,7 +1644,7 @@ take_from_sphere = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		THIS = { is_greater_power = yes }
 		is_greater_power = yes
@@ -1732,7 +1732,7 @@ free_peoples = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		OR = {
 			AND = { THIS = { num_of_ports = 1 } num_of_ports = 1 }
 			neighbour = THIS
@@ -2090,7 +2090,7 @@ liberate_country = {
 	good_relation_militancy_factor = 1
 	
 	
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = {
 			is_our_vassal = THIS
 			has_country_modifier = neutrality
@@ -2363,7 +2363,7 @@ free_allied_cores = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		is_vassal = no
 		number_of_states = 2
@@ -2461,7 +2461,7 @@ free_balkans = {
 	
 	always = yes
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		is_vassal = no
 		number_of_states = 2
@@ -2604,7 +2604,7 @@ monroe_doctrine = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		THIS = {
 			tag = USA
 			government = democracy
@@ -2753,7 +2753,7 @@ oriental_crisis = {
 	
 	always = yes
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		is_vassal = no
 		number_of_states = 2
@@ -2831,7 +2831,7 @@ release_puppet = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		OR = {
 			AND = { THIS = { num_of_ports = 1 } num_of_ports = 1 }
 			neighbour = THIS
@@ -2896,7 +2896,7 @@ release_puppet_AI = {
 
 	always = yes
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		num_of_vassals_no_substates = 1
 		OR = {
@@ -2977,7 +2977,7 @@ gunboat = {
 	
 	always = yes
 	
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		OR = {
 			has_country_modifier = in_bankrupcy
@@ -3038,7 +3038,7 @@ cut_down_to_size = {
 
 	war_name = CUT_DOWN_TO_SIZE_WAR_NAME
 	
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		OR = {
 			AND = { THIS = { num_of_ports = 1 } num_of_ports = 1 }
@@ -3158,7 +3158,7 @@ great_game_cb = {
 
 	war_name = WAR_PUPPET_NAME
 	
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		is_vassal = no
 		civilized = no
 		NOT = {
@@ -3261,7 +3261,7 @@ restore_british_raj = {
 
 	war_name = WAR_BRITISH_RAJ_NAME
 	
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		is_vassal = no
 		is_disarmed = no
 		civilized = no
@@ -3347,7 +3347,7 @@ humiliate = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 	
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		has_recently_lost_war = no
 		THIS = { NOT = { has_country_modifier = neutrality } }
@@ -3442,7 +3442,7 @@ place_in_the_sun = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		is_vassal = no
 		any_owned_province = { is_colonial = yes }
@@ -3538,7 +3538,7 @@ acquire_state = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		is_vassal = no
 		OR = {
 			AND = { 
@@ -3749,7 +3749,7 @@ china_acquire_state = {
 	
 	always = yes
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		neighbour = THIS
 		OR = {
@@ -3881,7 +3881,7 @@ sahel_jihad_cb = {
 	good_relation_infamy_factor = 0
 	good_relation_militancy_factor = 0
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		OR = {
 			AND = { 
 				THIS = { num_of_ports = 1 } 
@@ -3965,7 +3965,7 @@ demand_concession_casus_belli = {
 	
 	always = no
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		OR = {
 			AND = { 
@@ -4120,7 +4120,7 @@ demand_concession_NI_casus_belli = {
 	
 	always = no
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		OR = {
 			AND = { 
 				THIS = { num_of_ports = 1 } 
@@ -4264,7 +4264,7 @@ demand_concession_BC_casus_belli = {
 	
 	always = no
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		OR = {
 			AND = { 
 				THIS = { num_of_ports = 1 } 
@@ -4403,7 +4403,7 @@ rude_boy = {
 	
 	always = yes
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		badboy = 1
 		is_disarmed = no
@@ -4439,7 +4439,7 @@ conquest = {
 	months = 12
 	crisis = no
 		
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 
 		# added by CTR
 		# This can only be used by fascists if the country doesn't border you
@@ -4668,7 +4668,7 @@ annex_africa = {
 	
 	always = yes
 	
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		OR = {
 			AND = { 
 				THIS = { num_of_ports = 1 } 
@@ -4760,7 +4760,7 @@ annex_africa_full = {
 	
 	always = yes
 	
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		OR = {
 			AND = { 
 				THIS = { num_of_ports = 1 } 
@@ -4845,7 +4845,7 @@ establish_protectorate_casus_belli = {
 	
 	always = no
 	
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		civilized = no
 		is_vassal = no
 		OR = {
@@ -4972,7 +4972,7 @@ establish_protectorate_NI_casus_belli = {
 	
 	always = no
 	
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		OR = {
 			any_owned_province = { any_neighbor_province = { owned_by = THIS } }
 			AND = {
@@ -5085,7 +5085,7 @@ establish_protectorate_BC_casus_belli = {
 	
 	always = no
 	
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		OR = {
 			any_owned_province = { any_neighbor_province = { owned_by = THIS } }
 			AND = {
@@ -5179,7 +5179,7 @@ status_quo = {
 	months = 12
 	constructing_cb = no
 	
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		always = no
 	}
@@ -5215,7 +5215,7 @@ cut_down_to_size_boxer = {
 	constructing_cb = no
 	crisis = no
 	
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		tag = QNG
 		civilized = no
 		has_country_flag = boxers_appeared
@@ -5277,7 +5277,7 @@ make_puppet = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = {
 			is_our_vassal = THIS
 			has_country_modifier = neutrality
@@ -5349,7 +5349,7 @@ become_independent = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		is_our_vassal = THIS
 		THIS = { is_substate = no }
 	}
@@ -5408,7 +5408,7 @@ uninstall_communist_gov_cb = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		THIS = { NOT = { ruling_party_ideology = communist } }
 		government = proletarian_dictatorship
 		is_vassal = no
@@ -5460,7 +5460,7 @@ great_war_install_democracy = {
 	good_relation_militancy_factor = 1
 	always = yes
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		THIS = {
 			has_country_flag = in_great_war
 			is_greater_power = yes
@@ -5520,7 +5520,7 @@ great_war_install_fascism = {
 	good_relation_militancy_factor = 1
 	always = yes
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		THIS = {
 			has_country_flag = in_great_war
 			is_greater_power = yes
@@ -5574,7 +5574,7 @@ great_war_install_communism = {
 	good_relation_militancy_factor = 1
 	always = yes
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		THIS = {
 			has_country_flag = in_great_war
 			is_greater_power = yes
@@ -5628,7 +5628,7 @@ install_democracy = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		THIS = {
 			NOT = { has_country_flag = in_great_war }
 			is_greater_power = yes
@@ -5707,7 +5707,7 @@ install_fascism = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		THIS = {
 			NOT = { has_country_flag = in_great_war }
 			government = fascist_dictatorship
@@ -5781,7 +5781,7 @@ install_communism = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		THIS = {
 			NOT = { has_country_flag = in_great_war }
 			government = proletarian_dictatorship
@@ -5859,7 +5859,7 @@ acquire_substate_region = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		OR = {
 			AND = { 
 				THIS = { num_of_ports = 1 } 
@@ -5964,7 +5964,7 @@ dismantle_forts = {
 	good_relation_militancy_factor = 1
 	
 	
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = {
 			is_our_vassal = THIS
 			has_country_modifier = neutrality
@@ -6047,7 +6047,7 @@ call_allies_cb = {
 	good_relation_infamy_factor = 0
 	good_relation_militancy_factor = 0
 	
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		THIS = { ai = yes }
 		always = no
 	}
@@ -6082,7 +6082,7 @@ acquire_any_state = {
 	good_relation_infamy_factor = 0
 	good_relation_militancy_factor = 0
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		is_vassal = no
 		NOT = { is_our_vassal = THIS }
 		always = no
@@ -6133,7 +6133,7 @@ conquest_any = {
 	constructing_cb = no
 	crisis = no
 	
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		is_vassal = no
 		always = no
@@ -6207,7 +6207,7 @@ treaty_port_casus_belli = {
 	
 	always = no
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			num_of_ports = 1
@@ -6332,7 +6332,7 @@ install_fascism_make_puppet = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		is_vassal = no
 	}
@@ -6373,7 +6373,7 @@ install_communism_make_puppet = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		is_vassal = no
 	}
@@ -6414,7 +6414,7 @@ install_democracy_make_puppet = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	can_use = {
+	can_use = { NOT = { tag = SWI }
 		NOT = { is_our_vassal = THIS }
 		is_vassal = no
 	}
