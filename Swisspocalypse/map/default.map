@@ -24,7 +24,7 @@ sea_starts = {
 	3284
 }
     
-definitions = "../mod/CTR/map/definition.csv"
+definitions = "../mod/Swisspocalypse/map/definition.csv"
 provinces = "provinces.bmp"
 positions = "positions.txt"
 terrain = "terrain.bmp"
