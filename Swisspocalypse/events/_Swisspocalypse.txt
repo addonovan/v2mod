@@ -40,3 +40,33 @@ country_event = {
 	}
 
 }
+
+country_event = {
+
+	id = 79001
+	title = "swi_79001_title"
+	desc = "swi_79001_desc"
+	major = yes
+
+	trigger = {
+		exists = yes
+		war_with = SWI
+		NOT = { year =  1880 }
+	}
+
+	allow_multiple_instances = yes
+
+	option = {
+		name = "swi_79001_opt1"
+
+		end_war = SWI
+		prestige = -200
+		war_exhaustion = 50
+
+		SWI = {
+			prestige = 200
+			war_exhaustion = -50
+		}
+	}
+
+}
