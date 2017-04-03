@@ -36,28 +36,17 @@ political_decisions = {
 		}
 		
 		allow = {
-			prestige = 20
 		}
 		
 		effect = {
 			set_country_flag = abandoned_neutrality
-			prestige = -20
-			badboy = 5
+			prestige = 500
+			badboy = -100
 			remove_country_modifier = neutrality
 		}
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0
-				NOT = {
-					OR = {
-						badboy = 0.75
-						government = fascist_dictatorship
-						government = proletarian_dictatorship
-					}
-				}
-			}
 		}
 	}
 	
