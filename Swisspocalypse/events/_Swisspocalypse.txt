@@ -7,6 +7,7 @@ country_event = {
 
 	trigger = {
 		ai = no
+		NOT = { tag = SWI }
 		NOT = { has_country_flag = read_instructions }
 	}
 
@@ -116,5 +117,49 @@ country_event = {
 
 		prestige_factor = 5
 		years_of_research = 20
+	}
+}
+
+country_event = {
+	id = 79003
+	title = "swi_79003_title"
+	desc = "swi_79003_desc"
+	major = yes
+	allow_multiple_instances = yes
+
+	trigger = {
+		ai = no
+		tag = SWI
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		option = "swi_79003_opt1"
+
+		# change them to a random shit tier country
+		random_list = {
+			1 = { change_tag_no_core_switch = HAW }
+			1 = { change_tag_no_core_switch = HDJ }
+			1 = { change_tag_no_core_switch = WUR }
+			1 = { change_tag_no_core_switch = BRE }
+			1 = { change_tag_no_core_switch = UCA }
+			1 = { change_tag_no_core_switch = MEX }
+			1 = { change_tag_no_core_switch = PEU }
+			1 = { change_tag_no_core_switch = CHL }
+			1 = { change_tag_no_core_switch = VNZ }
+			1 = { change_tag_no_core_switch = DAI }
+			1 = { change_tag_no_core_switch = JAP }
+			1 = { change_tag_no_core_switch = HAI }
+			1 = { change_tag_no_core_switch = POR }
+			1 = { change_tag_no_core_switch = PAP }
+			1 = { change_tag_no_core_switch = KRA }
+			1 = { change_tag_no_core_switch = UBD }
+			1 = { change_tag_no_core_switch = TIB }
+			1 = { change_tag_no_core_switch = MGL }
+			1 = { change_tag_no_core_switch = NCT } # maximum kek
+		}
 	}
 }
