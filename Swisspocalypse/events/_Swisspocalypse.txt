@@ -160,6 +160,22 @@ country_event = {
 			1 = { change_tag_no_core_switch = TIB }
 			1 = { change_tag_no_core_switch = MGL }
 			1 = { change_tag_no_core_switch = NCT } # maximum kek
+
+			# Tag to a dumpster fire after releasing it from Russia
+			1 = { RUS = { release = KAM } change_tag_no_core_switch = KAM }
+			1 = { RUS = { release = URA } change_tag_no_core_switch = URA }
+			1 = { RUS = { release = SIB } change_tag_no_core_switch = SIB }
+			1 = { RUS = { release = UKR } change_tag_no_core_switch = UKR }
+			1 = { RUS = { release = CPL } change_tag_no_core_switch = CPL }
+
+			# tag to an unciv dumpster fire in africa
+			1 = { change_tag_no_core_switch = SOK }
+			1 = { change_tag_no_core_switch = OYO }
+			1 = { change_tag_no_core_switch = LOA }
+			1 = { change_tag_no_core_switch = KON }
+			1 = { change_tag_no_core_switch = MAS }
+			1 = { change_tag_no_core_switch = GON }
+			1 = { change_tag_no_core_switch = SHW }
 		}
 	}
 }
