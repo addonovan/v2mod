@@ -1091,12 +1091,12 @@ guiTypes = {
 				iconType = {
 					name ="colonial_power_icon"
 					spriteType = "GFX_pops_colonial_state_icon"
-					position = { x= 99 y = 137 }
+					position = { x= 105 y = 137 }
 					Orientation = "UPPER_LEFT"
 				}
 				instantTextBoxType = {
 					name = "country_colonial_power"
-					position = { x = 87 y = 139 }
+					position = { x = 105 y = 139 }
 					textureFile = ""
 					font = "Arial12_bold"
 					text = "12/45"	
