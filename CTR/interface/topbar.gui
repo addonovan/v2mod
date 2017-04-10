@@ -1113,7 +1113,7 @@ guiTypes = {
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
-			position = { x = 361 y = 87 }
+			position = { x = 395 y = 87 }
 		}
 
 		guiButtonType = {
@@ -1122,26 +1122,26 @@ guiTypes = {
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
-			position = { x = 384 y = 87 }
+			position = { x = 418 y = 87 }
 		}
 		
 		guiButtonType = {
 			name = "pause_bg"
 			quadTextureSprite ="GFX_pause_bg"
-			position = { x= 159 y =87 }
+			position = { x= 193 y =87 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		guiButtonType = {
 			name = "speed_indicator"
 			quadTextureSprite = "GFX_speed_indicator"
-			position = { x= 333 y = 87 }
+			position = { x= 367 y = 87 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = { 
 			name = "DateText"
-			position = { x = 170 y = 86 }
+			position = { x = 204 y = 86 }
 			font = "vic_22_black"
 			maxWidth = 160
 			maxHeight = 32	
@@ -1150,7 +1150,7 @@ guiTypes = {
 		
 		instantTextBoxType = { 
 			name = "CountryName"
-			position = { x = 170 y = 106 }
+			position = { x = 204 y = 106 }
 			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 300
