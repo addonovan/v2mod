@@ -985,12 +985,13 @@ guiTypes = {
 		iconType = {
 					name ="rank_bg"
 					spriteType = "GFX_frontend_rank_bg"
-					position = { x= 104 y = 146 }
+					position = { x= 162 y = 146 }
 					Orientation = "UPPER_LEFT"
 				}
+
 				instantTextBoxType = {
 					name = "nation_totalrank"
-					position = { x = 105 y = 154 }
+					position = { x = 163 y = 154 }
 					textureFile = ""
 					font = "Arial12"
 					borderSize = {x = 0 y = 0}
