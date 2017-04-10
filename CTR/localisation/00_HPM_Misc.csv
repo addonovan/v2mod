@@ -1,4 +1,13 @@
 ;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+rail_focus;Colonial Policy;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+colonial_immigration;Encourage Colonial Migration;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+encourage_agriculture;Encourage Agriculture;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+encourage_mining;Encourage Mining;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+encourage_business;Encourage Business;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+militancy_appeasement;Colonial Appeasement;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+consciousness_appeasement;Colonial Propaganda;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+native_enslavement;Native Enslavement;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+NO_RAIL_YET;We can not encourage railroad building when we do not know how to build them yet.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 CAN_NOT_BUILD_FACTORY;Can not build factory.\n;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 CAN_BUILD_FACTORY;Can build factory.\n;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 no_safety;No Safety Regulations;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
