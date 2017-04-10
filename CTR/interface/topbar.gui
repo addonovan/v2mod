@@ -1004,12 +1004,12 @@ guiTypes = {
 				iconType = {
 					name ="selected_prestige_icon"
 					spriteType = "GFX_topbar_prestige"
-					position = { x= 100 y = 85 }
+					position = { x= 106 y = 85 }
 					Orientation = "UPPER_LEFT"
 				}
 				instantTextBoxType = { 
 					name = "country_prestige"
-					position = { x = 120 y = 88}
+					position = { x = 127 y = 88}
 					font = "Arial12"
 					text = "1372"	
 					maxWidth = 100
@@ -1017,7 +1017,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "selected_prestige_rank"
-					position = { x = 73 y = 88 }
+					position = { x = 102 y = 88 }
 					textureFile = ""
 					font = "Arial12_bold"
 					text = "3"	
@@ -1031,20 +1031,24 @@ guiTypes = {
 				iconType = {
 					name ="selected_industry_icon"
 					spriteType = "GFX_topbar_production"
-					position = { x= 97 y = 101 }
+					position = { x= 105 y = 101 }
 					Orientation = "UPPER_LEFT"
 				}
+
+				# raw score (left)
 				instantTextBoxType = { 
 					name = "country_economic"
-					position = { x = 120 y = 107 }
+					position = { x = 127 y = 107 }
 					font = "Arial12"
 					text = "1372"	
 					maxWidth = 100
 					maxHeight = 20	
 				}
+
+				# rank (right aligned)
 				instantTextBoxType = {
 					name = "selected_industry_rank"
-					position = { x = 73 y = 107 }
+					position = { x = 102 y = 107 }
 					textureFile = ""
 					font = "Arial12_bold"
 					text = "12"	
@@ -1057,20 +1061,24 @@ guiTypes = {
 				iconType = {
 					name ="selected_military_icon"
 					spriteType = "GFX_army_icon_2"
-					position = { x= 98 y = 118 }
+					position = { x= 106 y = 118 }
 					Orientation = "UPPER_LEFT"
 				}
+
+				# raw score (left column)
 				instantTextBoxType = { 
 					name = "country_military"
-					position = { x = 120 y = 124 }
+					position = { x = 127 y = 124 }
 					font = "Arial12"
 					text = "1372"	
 					maxWidth = 100
 					maxHeight = 20	
 				}
+
+				# rank (right aligned)
 				instantTextBoxType = {
 					name = "selected_military_rank"
-					position = { x = 73 y = 124 }
+					position = { x = 102 y = 124 }
 					textureFile = ""
 					font = "Arial12_bold"
 					text = "139"	
