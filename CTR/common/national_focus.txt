@@ -113,7 +113,7 @@ immigration_focus = { # now called Social Focus
 	}
 
 	assimilation = {
-		immigration_attract = 0.075
+		immigrant_attract = 0.075
 		assimilation_rate = 0.15
 		icon = 37
 		limit = {
