@@ -87,7 +87,7 @@ guiTypes = {
 
 		guiButtonType = {
 				name = "diplomessageicon_button"
-				position = { x = 14 y = -26 }
+				position = { x = -281 y = 17 }
 				quadTextureSprite ="GFX_diplo_message_icons"	
 				tooltip = ""
 				tooltipText =""
@@ -98,7 +98,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "flag"
-			position = { x = 18 y =-2 }
+			position = { x = -277 y =41 }
 			format = centre
 			textureFile = ""
 
@@ -116,7 +116,7 @@ guiTypes = {
 			{
 				name ="messageicon_bg_overlay"
 				spriteType = "GFX_messageicon_bg_overlay"
-				position = { x= 22 y = -1 }
+				position = { x= -273 y = 42 }
 				Orientation = "UPPER_LEFT"
 			}
 		}
