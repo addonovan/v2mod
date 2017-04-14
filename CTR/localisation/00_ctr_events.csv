@@ -1,41 +1,32 @@
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
 ctr_78000_title;She will be ours!;;;;;;;;;;;;;x
 ctr_78000_desc;The time has come to annex our neighbor. Everyone should have already seen this coming long ago, however we must now act and secure the holdings which are rightfully ours!;;;;;;;;;;;;;x
 ctr_78000_opt1;To war!;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
 ctr_78001_title;Our Capitulation;;;;;;;;;;;;;x
 ctr_78001_desc;We have yielded, and allowed ourselves to be annexed. The war proved to be too much for us to handle and now we have no choice.;;;;;;;;;;;;;x
 ctr_78001_opt1;So be it;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
 ctr_78002_title;The Colonial Question;;;;;;;;;;;;;x
 ctr_78002_desc;$FROMCOUNTRY$ has capitulated and agreed to be annex, however, now we must decided what to do with her colonies. Do we keep them for ourselves, or release them to their own self governance?;;;;;;;;;;;;;x
 ctr_78002_opt1;We will have them for ourselves;;;;;;;;;;;;;x
 ctr_78002_opt2;Let them be free;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
 ctr_78003_title;Our Demands Met;;;;;;;;;;;;;x
 ctr_78003_desc;Our demands are now met. It is time to extend our empire and show the world her glory!;;;;;;;;;;;;;x
 ctr_78003_opt1;Huzzah!;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
 ctr_78005_title;Our Failed Attempts;;;;;;;;;;;;;x
 ctr_78005_desc;Our attempts at glory have failed, and our countrymen now realize the faults of our regime. We should be careful and appease our citizens to prevent them from rebelling;;;;;;;;;;;;;x
 ctr_78005_opt1;We have failed $COUNTRY$;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-failed_annexation;Failed Annexation;;;;;;;;;;;;;x
-failed_annexation_desc;Our annexation attempt has backfired on us, and now our population resents us for our failures.;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
 ctr_78006_title;Failures of the Past;;;;;;;;;;;;;x
 ctr_78006_desc;The failures of our previous regime no long haunt our people!;;;;;;;;;;;;;x
 ctr_78006_opt1;Huzzah!;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-fascist_annex_cb;Annex;;;;;;;;;;;;;x
-fascist_annex_cb_desc;Annex $RECIPIENT$;;;;;;;;;;;;;x
-fascist_annex_cb_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
-fascist_annex_cb_setup;Annex another country in one go;;;;;;;;;;;;;x
-NORMAL_WAR_ANNEX_NAME;$FIRST$ Annexation of $SECOND$;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
-;;;;;;;;;;;;;;x
+ctr_78500_title;The Republic’s Capital;;;;;;;;;;;;;x
+ctr_78500_desc;With our war for independence won, we must now address the question of our nation’s capital. Our current provisional capital is in Columbia, but there have been suggestions of founding the capital city of Houston, to honor the war hero and now president.;;;;;;;;;;;;;x
+ctr_78500_opt1;That’s a splendid idea!;;;;;;;;;;;;;x
+ctr_78500_opt2;The capital is fine where it is;;;;;;;;;;;;;x
+ctr_78501_title;The New Capital;;;;;;;;;;;;;x
+ctr_78501_desc;The question has arisen in our politics about whether we should move the capital to Waterloo, and rename the province to Austin, to honor the father of our nation, Stephen F. Austin.;;;;;;;;;;;;;x
+ctr_78501_opt1;This is a splendid idea!;;;;;;;;;;;;;x
+ctr_78501_opt2;We shall honor him, but the capital is fine as it is.;;;;;;;;;;;;;x
+ctr_78501_opt3;No, our capital is fine, as is Waterloo’s name;;;;;;;;;;;;;x
+ctr_78502_title;The New Capital;;;;;;;;;;;;;x
+ctr_78502_desc;Discussion has arisen yet again about the country’s capital. There are those who want to move it back to Houston, honoring the first president of our republic, while there are others who believe Austin is more central to the land our country administers, much like the spokes of a wheel.;;;;;;;;;;;;;x
+ctr_78502_opt1;This capital suits Texas well;;;;;;;;;;;;;x
+ctr_78502_opt2;No! Back to Houston!;;;;;;;;;;;;;x

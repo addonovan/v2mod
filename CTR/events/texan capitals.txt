@@ -1,7 +1,7 @@
 # The New Capital
 country_event = {
 	id = 78500
-	name = "ctr_78500_title"
+	title = "ctr_78500_title"
 	desc = "ctr_78500_desc"
 
 	trigger = {
@@ -40,7 +40,7 @@ country_event = {
 # The New Capital
 country_event = {
 	id = 78501
-	name = "ctr_78501_title"
+	title = "ctr_78501_title"
 	desc = "ctr_78501_desc"
 
 	trigger = {
@@ -70,7 +70,7 @@ country_event = {
 
 		add_country_modifier = {
 			name = national_confusion
-			duration = 180
+			duration = 120
 		}
 	}
 
@@ -111,15 +111,17 @@ country_event = {
 		name = "ctr_78502_opt1"
 
 		set_country_flag = capital_final
+		prestige = 3
 	}
 
 	# No! It shall be in Houston!
 	option = {
 		name = "ctr_78502_opt2"
 
+		capital = 132
 		add_country_modifier = {
 			name = national_confusion
-			duration = 180
+			duration = 120
 		}
 	}
 }
