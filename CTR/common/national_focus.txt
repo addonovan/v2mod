@@ -112,7 +112,7 @@ immigration_focus = { # now called Population Focus
 		}
 	}
 
-	assimilation_focus = {
+	assimilation = {
 		immigrant_attract = 0.075
 		assimilation_rate = 0.15
 		pop_militancy_modifier = 0.01
