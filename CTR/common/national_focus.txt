@@ -87,7 +87,7 @@ rail_focus = { #Now called Colonial Policy
 	}
 }
 
-immigration_focus = {
+immigration_focus = { # now called Population Focus
 	immigration = {
 		immigrant_attract = 0.5 #increases attractiveness to immigrants by 50 %
 		icon = 8
@@ -109,6 +109,20 @@ immigration_focus = {
 			is_colonial = no
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
 			NOT = { state_scope = { any_owned_province = { NOT = { is_core = THIS } } } }
+		}
+	}
+
+	assimilation = {
+		immigrant_attract = 0.10
+		assimilation_rate = 0.15
+		pop_militancy_modifier = 0.01
+		icon = 39
+		limit = {
+			# every province in the state must be owned by us
+			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
+
+			# we must have at least 2 states
+			owner = { number_of_states = 2 }
 		}
 	}
 }
