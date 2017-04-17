@@ -2,5 +2,6 @@ owner = MEX
 controller = MEX
 terrain = semidesert
 add_core = MEX
+add_core = SON
 trade_goods = fish
 life_rating = 30
