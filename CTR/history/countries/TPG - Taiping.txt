@@ -31,7 +31,8 @@ school_reforms = no_schools
 conscription = no_draft
 debt_law = peonage
 penal_system = capital_punishment
-child_labor = child_labor_legalcitizens_rights = culture_voting_only
+child_labor = child_labor_legal
+citizens_rights = culture_voting_only
 border_policy = closed_borders
 
 ruling_party = TPG_conservative
@@ -54,9 +55,4 @@ set_country_flag = theocratic_government
 consciousness = 0
 nonstate_consciousness = 0
 
-1861.1.1 = {
-	oob = "/1861/TPG_oob.txt"
-	literacy = 0.07
-	non_state_culture_literacy = 0.04
-	set_country_flag = theocratic_government
-}
+

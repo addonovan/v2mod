@@ -31,7 +31,8 @@ school_reforms = no_schools
 conscription = no_draft
 debt_law = peonage
 penal_system = capital_punishment
-child_labor = child_labor_legalcitizens_rights = culture_voting_only
+child_labor = child_labor_legal
+citizens_rights = culture_voting_only
 border_policy = open_borders
 
 ruling_party = RYU_reactionary
@@ -56,17 +57,4 @@ consciousness = 0
 nonstate_consciousness = 0
 
 oob = "RYU_oob.txt"
-1861.1.1 = {
-	oob = "/1861/RYU_oob.txt"
-}
-1861.1.1 = {
 
-foreign_weapons = yes_foreign_weapons
-army_schools = yes_army_schools
-land_reform = yes_land_reform
-education_reform = yes_education_reform
-
-# Technologies
-flintlock_rifles = 1
-
-}

@@ -29,13 +29,7 @@ foreign_weapons = yes_foreign_weapons
 flintlock_rifles = 1
 
 oob = "PAN_oob.txt"
-1861.1.1 = {
-	literacy = 0.12
-	non_state_culture_literacy = 0.05
-	
-	army_schools = yes_army_schools
-	foreign_officers = yes_foreign_officers
-}
+
 
 
 slavery = no_slavery
@@ -59,5 +53,6 @@ school_reforms = no_schools
 conscription = two_year_draft
 debt_law = peonage
 penal_system = capital_punishment
-child_labor = child_labor_legalcitizens_rights = culture_voting_only
+child_labor = child_labor_legal
+citizens_rights = culture_voting_only
 border_policy = open_borders

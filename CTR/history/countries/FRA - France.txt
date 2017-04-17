@@ -37,7 +37,8 @@ school_reforms = no_schools
 conscription = one_year_draft
 debt_law = debtors_prisons
 penal_system = capital_punishment
-child_labor = child_labor_legalcitizens_rights = culture_voting_only
+child_labor = child_labor_legal
+citizens_rights = culture_voting_only
 border_policy = open_borders
 
 # Technologies
@@ -112,49 +113,7 @@ foreign_investment = {
 	SAR = 4000
 }
 
-1861.1.1 = {
-	oob = "/1861/FRA_oob.txt"
-	prestige = 140
-	plurality = 65
-	literacy = 0.65
-	non_state_culture_literacy = 0.15
 
-	
-	decision = support_french_foreign_legion
-	set_country_flag = cochinchina_campaign
-	set_country_flag = claimed_authority_over_holy_land
-	set_global_flag = liberal_revolutions_should_now_fire
-	
-# Political reforms
-slavery = no_slavery
-upper_house_composition = appointed
-vote_franschise = none_voting
-public_meetings = yes_meeting
-press_rights = state_press
-trade_unions = state_controlled
-voting_system = first_past_the_post
-political_parties = underground_parties	
-	
-# Social Reforms
-wage_reform = no_minimum_wage
-work_hours = twelve_hours
-safety_regulations = no_safety
-health_care = no_health_care
-unemployment_subsidies = no_subsidies
-pensions = no_pensions 
-school_reforms = no_schools	
-
-ruling_party = FRA_reactionary
-government = presidential_dictatorship
-upper_house = {
-	fascist = 0
-	liberal = 30
-	conservative = 25
-	reactionary = 45
-	anarcho_liberal = 0
-	socialist = 0
-	communist = 0
-}
 	
 # Technologies
 	post_napoleonic_thought = 1

@@ -31,7 +31,8 @@ school_reforms = no_schools
 conscription = no_draft
 debt_law = serfdom
 penal_system = capital_punishment
-child_labor = child_labor_legalcitizens_rights = primary_culture_only
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
 border_policy = closed_borders
 
 ruling_party = FJN_conservative
@@ -56,16 +57,5 @@ consciousness = 0
 nonstate_consciousness = 0
 
 
-1861.1.1 = {
 
-foreign_weapons = yes_foreign_weapons
-foreign_officers = yes_foreign_officers
-
-# Technologies
-flintlock_rifles = 1
-military_staff_system = 1
-
-# Inventions
-
-}
 

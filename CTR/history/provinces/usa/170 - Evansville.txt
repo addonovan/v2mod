@@ -13,15 +13,10 @@ party_loyalty = {
 	loyalty_value = 40
 }
 
-1861.1.1 = {
-	state_building = {
-		level = 1
-		building = furniture_factory
-		upgrade = yes
-	}
+
 	party_loyalty = {
 		ideology = liberal
 		loyalty_value = 25
 	}
 }
-1861.1.1 = { railroad = 3 }
+

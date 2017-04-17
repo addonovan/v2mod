@@ -15,9 +15,4 @@ party_loyalty = {
 	loyalty_value = 40
 }
 
-1861.1.1 = {
-	colonial = 0
-	controller = CSA
-	owner = CSA
-	add_core = CSA
-}
+
