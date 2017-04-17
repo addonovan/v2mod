@@ -31,8 +31,7 @@ school_reforms = no_schools
 conscription = two_year_draft
 debt_law = serfdom
 penal_system = capital_punishment
-child_labor = child_labor_legal
-citizens_rights = primary_culture_only
+child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = open_borders
 
 ruling_party = AFG_conservative
@@ -59,6 +58,11 @@ consciousness = 0
 nonstate_consciousness = 0
 
 oob = "AFG_oob.txt"
+1861.1.1 = {
+	oob = "/1861/AFG_oob.txt"
+}
 
-
-
+1861.1.1 = {
+	#Military Reforms
+	military_constructions = yes_military_constructions
+}

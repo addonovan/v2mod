@@ -5,7 +5,12 @@ add_core = WES
 add_core = GER
 trade_goods = coal
 life_rating = 40
-
+1861.1.1 = {
+	state_building = {
+		level = 1
+		building = steel_factory
+		upgrade = yes
+	}
 	state_building = {
 		level = 1
 		building = explosives_factory
@@ -17,4 +22,4 @@ life_rating = 40
 		upgrade = yes
 	}
 }
-
+1861.1.1 = { railroad = 3 }

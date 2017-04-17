@@ -5,4 +5,11 @@ add_core = MAT
 terrain = mountain
 trade_goods = grain
 life_rating = 15
-
+1861.1.1 = {
+	owner = TRN
+	controller = TRN
+	add_core = TRN
+	add_core = SAF
+	remove_core = MAT
+	life_rating = 35
+}

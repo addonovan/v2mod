@@ -14,4 +14,4 @@ party_loyalty = {
 	loyalty_value = 90
 }
 
-
+1861.1.1 = { railroad = 1 }

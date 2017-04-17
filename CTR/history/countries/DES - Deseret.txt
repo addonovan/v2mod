@@ -23,8 +23,7 @@ political_parties = gerrymandering
 conscription = two_year_draft
 debt_law = debtors_prisons
 penal_system = capital_punishment
-child_labor = child_labor_legal
-citizens_rights = culture_voting_only
+child_labor = child_labor_legalcitizens_rights = culture_voting_only
 border_policy = open_borders
 
 # Social Reforms
@@ -86,4 +85,8 @@ traditionalism = yes
 political_religion = yes
 paternalism = yes
 
+1861.1.1 = {
+# Technologies
 
+#Inventions
+}

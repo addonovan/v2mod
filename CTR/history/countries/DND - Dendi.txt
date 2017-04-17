@@ -32,8 +32,7 @@ school_reforms = no_schools
 conscription = no_draft
 debt_law = serfdom
 penal_system = capital_punishment
-child_labor = child_labor_legal
-citizens_rights = primary_culture_only
+child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = open_borders
 
 ruling_party = DND_conservative
@@ -60,4 +59,6 @@ consciousness = 0
 nonstate_consciousness = 0
 
 oob = "DND_oob.txt"
-
+1861.1.1 = {
+	oob = "/1861/DND_oob.txt"
+}

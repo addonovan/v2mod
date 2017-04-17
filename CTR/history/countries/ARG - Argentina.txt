@@ -32,8 +32,7 @@ school_reforms = no_schools
 conscription = one_year_draft
 debt_law = peonage
 penal_system = capital_punishment
-child_labor = child_labor_legal
-citizens_rights = culture_voting_only
+child_labor = child_labor_legalcitizens_rights = culture_voting_only
 border_policy = open_borders
 
 ruling_party = ARG_conservative
@@ -70,8 +69,50 @@ consciousness = 2
 nonstate_consciousness = 0
 
 oob = "ARG_oob.txt"
+1861.1.1 = {
+	oob = "/1861/ARG_oob.txt"
+}
+1861.1.1 = {
+capital = 2348
+primary_culture = platinean
+religion = catholic
+government = democracy
+plurality = 60
+nationalvalue = nv_order
+literacy = 0.17
+non_state_culture_literacy = 0.02
+civilized = yes
+prestige = 12
 
+# Political reforms
+slavery = no_slavery
+upper_house_composition = state_equal_weight
+vote_franschise = universal_weighted_voting
+public_meetings = yes_meeting
+press_rights = censored_press
+trade_unions = no_trade_unions
+voting_system = jefferson_method
+political_parties = gerrymandering
 
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
+school_reforms = no_schools
+
+ruling_party = ARG_conservative
+upper_house = {
+	fascist = 0
+	liberal = 20
+	conservative = 70
+	reactionary = 10
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
 
 
 # Technologies
