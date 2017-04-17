@@ -11,6 +11,7 @@ country_event = {
 		capital = 132
 
 		NOT = { has_country_flag = columbia_not_renamed }
+		NOT = { has_country_flag = columbia_renamed }
 		NOT = { has_country_flag = capital_final }
 	}
 
@@ -27,6 +28,8 @@ country_event = {
 		}
 
 		prestige = 5
+
+		set_country_flag = columbia_renamed
 	}
 
 	# Keep it in Columbia
@@ -51,7 +54,7 @@ country_event = {
 		year = 1838
 
 		NOT = { has_country_flag = columbia_not_renamed }
-		NOT = { has_country_flag = capital_final }
+		NOT = { has_country_flag = capital_moved_to_austin }
 	}
 
 	mean_time_to_happen = {
@@ -124,4 +127,37 @@ country_event = {
 			duration = 120
 		}
 	}
+}
+
+country_event = {
+	id = 78503
+	title = "ctr_78501_title"
+	desc = "ctr_78501_desc"
+
+	trigger = {
+		tag = TEX
+		exists = yes
+		war = no
+		capital = 132
+		year = 1842
+
+		NOT = { has_country_flag = cpaital_final }
+	}
+
+	option = {
+		name = "ctr_78501_opt1"
+
+		capital = 133
+		add_country_modifier = {
+			name = national_confusion
+			duration = 120
+		}
+	}
+
+	option = {
+		name = "ctr_78501_opt3"
+
+		set_country_flag = capital_final
+	}
+
 }
