@@ -58,11 +58,6 @@ political_decisions = {
 			civilized = yes
 			is_our_vassal = CHK
 			CHK = { OR = { NOT = { part_of_sphere = yes } in_sphere = THIS } }
-
-			OR = {
-				ai = no
-				CHK = { ai = yes }
-			}
 		}
 		
 		effect = {
@@ -410,6 +405,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
+	
 	become_toucouleur = {
 		picture = become_toucouleur
 		potential = {
@@ -453,6 +449,99 @@ political_decisions = {
 			MAS = { all_core = { add_core = TOU } }
 			change_tag = TOU
 			capital = 1800		
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	become_mali_empire = {
+		
+		potential = {
+			OR = {
+				tag = MAS
+				tag = TOO
+				tag = JAL
+				tag = KNG
+				tag = WOL
+				tag = DND
+				tag = DAM
+				tag = SOK
+				tag = TOU
+			}
+			NOT = { has_global_flag = mali_empire_created }
+		}
+
+		allow = {
+			war = no
+			government = absolute_monarchy
+			owns = 1794
+			owns = 1786
+			owns = 1789
+			owns = 1800
+			owns = 1804
+			owns = 1808
+			owns = 1878
+			owns = 1880
+			OR = {
+				owns = 1898
+				KNG = { alliance_with = THIS }
+			}
+			OR = {
+				owns = 1901
+				MOS = { alliance_with = THIS }
+			}
+		}
+
+		effect = {
+			set_global_flag = mali_empire_created
+			prestige = 20
+			add_accepted_culture = fulbe
+			add_accepted_culture = bambara
+			add_accepted_culture = songhai
+			add_accepted_culture = tuareg
+			add_accepted_culture = wolof
+			add_accepted_culture = mande
+			add_accepted_culture = dyula
+			add_accepted_culture = senufo
+			add_accepted_culture = mossi
+			add_accepted_culture = african_minor
+			random_country = {
+				limit = {
+					tag = KNG
+					ai = yes
+					NOT = { tag = THIS }
+				}
+				annex_to = THIS
+			}
+			random_country = {
+				limit = {
+					tag = MOS
+					ai = yes
+				}
+				annex_to = THIS
+			}
+			all_core = { add_core = MLI }
+			SEG = { all_core = { add_core = MLI } }
+			DND = { all_core = { add_core = MLI } }
+			MAS = { all_core = { add_core = MLI } }
+			JAL = { all_core = { add_core = MLI } }
+			TOO = { all_core = { add_core = MLI } }
+			KNG = { all_core = { add_core = MLI } }
+			GBU = { all_core = { add_core = MLI } }
+			MOS = { all_core = { add_core = MLI } }
+			WOL = { all_core = { add_core = MLI } }
+			random_owned = {
+				limit = {
+					owner = { tag = TOU }
+				}
+				owner = {
+					all_core = { remove_core = TOU }
+				}
+			}
+			capital = 1794
+			change_tag = MLI		
 		}
 
 		ai_will_do = {
@@ -634,91 +723,5 @@ political_decisions = {
 		}
 		
 		ai_will_do = { factor = 1 }
-	}
-	
-	request_missionaries = {
-		picture = request_missionaries
-		potential = {
-			NOT = { is_culture_group = east_asian }
-			NOT = { primary_culture = japanese }
-			NOT = { tag = HYD }
-			NOT = { tag = MUG }
-			NOT = { capital_scope = { pop_majority_religion = sunni } }
-			NOT = { capital_scope = { pop_majority_religion = shiite } }
-			NOT = { capital_scope = { pop_majority_religion = jewish } }
-			NOT = { capital_scope = { pop_majority_religion = catholic } }
-			NOT = { capital_scope = { pop_majority_religion = orthodox } }
-			NOT = { capital_scope = { pop_majority_religion = protestant } }
-			NOT = { capital_scope = { pop_majority_religion = ibadi } }
-			NOT = { capital_scope = { pop_majority_religion = coptic } }
-			NOT = { has_country_modifier = missionary_activity }
-			civilized = no
-			OR = {
-				any_owned_province = { port = yes }
-				any_owned_province = { any_neighbor_province = { owner = { civilized = yes capital_scope = { continent = europe } } } }
-			}
-			NOT = { has_country_modifier = law_changed_by_force }
-		}
-		
-		allow = {
-			war = no
-			prestige = 5
-			NOT = { has_country_modifier = uncivilized_isolationism }
-			any_greater_power = { invention = mission_to_civilize }
-			OR = {
-				ai = no
-				upper_house = { ideology = liberal value = 0.35 }
-				secularized = 20
-				AND = {
-					religious_policy = pluralism
-					pluralism = 30
-				}
-			}
-			#is_vassal = no
-		}
-		
-		effect = {
-			add_country_modifier = { name = law_changed_by_force duration = 1825 }
-			prestige = -5
-			any_pop = {
-				limit = { is_state_religion = yes }
-				scaled_consciousness = { factor = 2 issue = moralism }
-				scaled_militancy = { factor = 1 issue = moralism }
-			}
-			random_owned = {
-				limit = { owner = { part_of_sphere = yes } }
-				owner = { sphere_owner = { country_event = 90961 } }
-			}
-			
-			random_owned = {
-				limit = {
-					owner = {
-						part_of_sphere = no
-						OR = {
-							NOT = { has_country_flag = lacking_writing_system }
-							has_country_flag = changed_religion
-						}
-					}
-				}
-				owner = { add_country_modifier = { name = missionary_activity duration = 1825 } }
-			}
-			
-			random_owned = {
-				limit = {
-					owner = {
-						part_of_sphere = no
-						has_country_flag = lacking_writing_system
-						capital_scope = { pop_majority_religion = animist }
-						NOT = { has_country_flag = changed_religion }
-					}
-				}
-				owner = { country_event = 90960 }
-			}
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = { factor = 0 average_militancy = 4 }
-		}
 	}
 }
