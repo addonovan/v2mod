@@ -2,6 +2,7 @@ owner = BRZ
 controller = BRZ
 add_core = BRZ
 add_core = BAH
+add_core = CEQ
 trade_goods = coffee
 terrain = dryhills
 life_rating = 35
