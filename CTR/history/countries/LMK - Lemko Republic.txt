@@ -1,0 +1,9 @@
+capital = 704
+primary_culture = ukrainian
+culture = polish
+religion = catholic
+government = democracy
+plurality = 25.0
+nationalvalue = nv_productivity
+civilized = yes
+prestige = 5
