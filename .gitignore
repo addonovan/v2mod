@@ -1,2 +1,3 @@
 *.sublime-workspace
 scripts/.ipynb_checkpoints/*
+.~lock*
