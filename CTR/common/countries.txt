@@ -3,8 +3,8 @@
 # Special countries...
 REB 	= 	"countries/rebels.txt"
 
-### NEW NATIONS MOD ###
-
+## CTR
+LMK     ="countries/Lemko Republic.txt"
 
 ##HPM
 MNP		="countries/Manipur.txt"
