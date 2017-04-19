@@ -2,5 +2,6 @@ owner = AUS
 controller = AUS
 add_core = POL
 add_core = GLM
+add_core = LMK
 trade_goods = grain
 life_rating = 35
