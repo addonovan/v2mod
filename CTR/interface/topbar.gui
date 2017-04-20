@@ -1008,22 +1008,25 @@ guiTypes = {
 					position = { x= 106 y = 85 }
 					Orientation = "UPPER_LEFT"
 				}
+
+				# raw score
 				instantTextBoxType = { 
 					name = "country_prestige"
 					position = { x = 127 y = 88}
 					font = "Arial12"
 					text = "1372"	
-					maxWidth = 100
-					maxHeight = 20	
+					maxWidth = 40
+					maxHeight = 15	
 				}
+
 				instantTextBoxType = {
 					name = "selected_prestige_rank"
-					position = { x = 102 y = 88 }
+					position = { x = 162 y = 88 }
 					textureFile = ""
 					font = "Arial12_bold"
 					text = "3"	
-					maxWidth = 80
-					maxHeight = 30	
+					maxWidth = 20
+					maxHeight = 15	
 					format = right
 				}
 
@@ -1042,19 +1045,19 @@ guiTypes = {
 					position = { x = 127 y = 107 }
 					font = "Arial12"
 					text = "1372"	
-					maxWidth = 100
-					maxHeight = 20	
+					maxWidth = 40
+					maxHeight = 15	
 				}
 
 				# rank (right aligned)
 				instantTextBoxType = {
 					name = "selected_industry_rank"
-					position = { x = 102 y = 107 }
+					position = { x = 162 y = 107 }
 					textureFile = ""
 					font = "Arial12_bold"
 					text = "12"	
-					maxWidth = 80
-					maxHeight = 30	
+					maxWidth = 20
+					maxHeight = 15	
 					format = right
 				}
 			
@@ -1072,18 +1075,18 @@ guiTypes = {
 					position = { x = 127 y = 124 }
 					font = "Arial12"
 					text = "1372"	
-					maxWidth = 60
+					maxWidth = 40
 					maxHeight = 10	
 				}
 
 				# rank (right aligned)
 				instantTextBoxType = {
 					name = "selected_military_rank"
-					position = { x = 102 y = 124 }
+					position = { x = 162 y = 124 }
 					textureFile = ""
 					font = "Arial12_bold"
 					text = "139"	
-					maxWidth = 60
+					maxWidth = 20
 					maxHeight = 15	
 					format = right
 				}
@@ -1097,7 +1100,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "country_colonial_power"
-					position = { x = 105 y = 139 }
+					position = { x = 126 y = 139 }
 					textureFile = ""
 					font = "Arial12_bold"
 					text = "12/45"	
