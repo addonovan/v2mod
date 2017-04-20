@@ -1157,8 +1157,8 @@ guiTypes = {
 			position = { x = 204 y = 106 }
 			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
-			maxWidth = 300
-			maxHeight = 32	
+			maxWidth = 200
+			maxHeight = 20	
 			format = left
 		}
 
