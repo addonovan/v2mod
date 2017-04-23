@@ -1,4 +1,5 @@
 color = { 229 150 87 }
+fascist_dictatorship = { 87 0 127 }
 graphical_culture = ItalianGC
 
 party = {
