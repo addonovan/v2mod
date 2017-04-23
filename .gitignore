@@ -1,2 +1,3 @@
 *.sublime-workspace
+*.swp
 scripts/.ipynb_checkpoints/*
