@@ -6,7 +6,13 @@
 	aristocrats = {
 		culture = maori
 		religion = animist
-		size = 40
+		size = 50
+	}
+
+	clergymen = {
+		culture = maori
+		religion = animist
+		size = 75
 	}
 
 	artisans = {
@@ -20,57 +26,19 @@
 		religion = animist
 		size = 100
 	}
-	
+
 	farmers = {
 		culture = maori
 		religion = animist
-		size = 4975
-	}
-	
-	aristocrats = {
-		culture = australian
-		religion = protestant
-		size = 30
+		size = 3525
 	}
 
-	artisans = {
-		culture = australian
-		religion = protestant
-		size = 200
-	}
-
-	bureaucrats = {
-		culture = australian
-		religion = protestant
-		size = 10
-	}
-	
-	clergymen = {
-		culture = australian
-		religion = protestant
-		size = 75
-	}
-	
-	officers = {
-		culture = australian
-		religion = protestant
-		size = 25
-	}
-	
-	soldiers = {
-		culture = australian
-		religion = protestant
-		size = 200
-	}
-	
 	farmers = {
 		culture = australian
 		religion = protestant
-		size = 1000
+		size = 250
 	}
-	
 }
-
 #New Plymouth (8000/2000 POPS)
 2510 = {
 	aristocrats = {
@@ -96,35 +64,16 @@
 		religion = animist
 		size = 50
 	}
-	
+
 	farmers = {
 		culture = maori
 		religion = animist
-		size = 2580
+		size = 1525
 	}
-
-	artisans = {
-		culture = australian
-		religion = protestant
-		size = 50
-	}
-	
-	clergymen = {
-		culture = australian
-		religion = protestant
-		size = 50
-	}
-	
-	soldiers = {
-		culture = australian
-		religion = protestant
-		size = 30
-	}
-	
 	farmers = {
 		culture = australian
 		religion = protestant
-		size = 200
+		size = 250
 	}
 }
 #Napier (12000/3000 POPS)
@@ -153,12 +102,6 @@
 		size = 75
 	}
 
-	farmers = {
-		culture = australian
-		religion = protestant
-		size = 5
-	}
-	
 	farmers = {
 		culture = maori
 		religion = animist
@@ -190,17 +133,17 @@
 		religion = animist
 		size = 75
 	}
-	
-	farmers = {
-		culture = australian
-		religion = protestant
-		size = 5
-	}
 
 	farmers = {
 		culture = maori
 		religion = animist
-		size = 2675
+		size = 2425
+	}
+	
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 250
 	}
 }
 #Tauranga (12000/3000 POPS)
@@ -214,7 +157,7 @@
 	clergymen = {
 		culture = maori
 		religion = animist
-		size = 50
+		size = 75
 	}
 
 	artisans = {
@@ -228,91 +171,20 @@
 		religion = animist
 		size = 75
 	}
-	
+
 	farmers = {
 		culture = maori
 		religion = animist
-		size = 1487
-	}
-	
-	artisans = {
-		culture = australian
-		religion = protestant
-		size = 50
-	}
-	
-	clergymen = {
-		culture = australian
-		religion = protestant
-		size = 50
-	}
-	
-	soldiers = {
-		culture = australian
-		religion = protestant
-		size = 50
+		size = 2425
 	}
 	
 	farmers = {
 		culture = australian
 		religion = protestant
-		size = 50
+		size = 250
 	}
 
 }
-
-#Kirikiriroa or Hamilton - Former Wake
-2524 = {
-
-	clergymen = {
-		culture = maori
-		religion = animist
-		size = 50
-	}
-
-	artisans = {
-		culture = maori
-		religion = animist
-		size = 50
-	}
-
-	soldiers = {
-		culture = maori
-		religion = animist
-		size = 75
-	}
-	
-	farmers = {
-		culture = maori
-		religion = animist
-		size = 1488
-	}
-	
-	artisans = {
-		culture = australian
-		religion = protestant
-		size = 50
-	}
-	
-	clergymen = {
-		culture = australian
-		religion = protestant
-		size = 50
-	}
-	
-	soldiers = {
-		culture = australian
-		religion = protestant
-		size = 50
-	}
-	
-	farmers = {
-		culture = australian
-		religion = protestant
-		size = 50
-	}
-}
-
 #South Island Region (24000)
 #Dunedin (4000/1000 POPS)
 2513 = {
@@ -340,12 +212,6 @@
 		size = 15
 	}
 
-	farmers = {
-		culture = australian
-		religion = protestant
-		size = 5
-	}
-	
 	farmers = {
 		culture = maori
 		religion = animist
@@ -379,12 +245,6 @@
 	}
 
 	farmers = {
-		culture = australian
-		religion = protestant
-		size = 5
-	}
-	
-	farmers = {
 		culture = maori
 		religion = animist
 		size = 900
@@ -416,12 +276,6 @@
 		size = 50
 	}
 
-	farmers = {
-		culture = australian
-		religion = protestant
-		size = 5
-	}
-	
 	farmers = {
 		culture = maori
 		religion = animist
@@ -455,14 +309,14 @@
 	}
 
 	farmers = {
-		culture = australian
-		religion = protestant
-		size = 5
-	}
-	
-	farmers = {
 		culture = maori
 		religion = animist
-		size = 2675
+		size = 2425
+	}
+
+	farmers = {
+		culture = australian
+		religion = protestant
+		size = 250
 	}
 }

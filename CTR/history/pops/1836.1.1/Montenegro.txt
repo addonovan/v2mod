@@ -3,33 +3,33 @@
 #Ulcinj (36000/9000 POPS) 
 800 = {
 	clergymen = {
-		culture = serb
+		culture = montenegrin
 		religion = orthodox
 		size = 50
 	}
 	
 	bureaucrats = {
-		culture = serb
+		culture = montenegrin
 		religion = orthodox
 		size = 20
 	}
 
 	artisans = {
-		culture = serb
+		culture = montenegrin
 		religion = orthodox
 		size = 400
 	}
 
 	farmers = {
-		culture = serb
+		culture = montenegrin
 		religion = orthodox
-		size = 7050
+		size = 6550
 	}
 	
 	farmers = {
 		culture = serb
-		religion = sunni
-		size = 600
+		religion = orthodox
+		size = 1000
 	}
 
 	clergymen = {
@@ -53,33 +53,45 @@
 	serfs = {
 		culture = albanian
 		religion = sunni
-		size = 725
+		size = 825
 	}
 }
 #Niksic (52000/13000 POPS) 
 2569 = {
 	clergymen = {
-		culture = serb
+		culture = montenegrin
 		religion = orthodox
 		size = 100
 	}
 	
 	bureaucrats = {
-		culture = serb
+		culture = montenegrin
 		religion = orthodox
 		size = 50
 	}
 
 	artisans = {
-		culture = serb
+		culture = montenegrin
 		religion = orthodox
 		size = 500
 	}
-
-	serfs = {
+	
+	farmers = {
 		culture = serb
 		religion = orthodox
-		size = 11400
+		size = 1000
+	}
+	
+	farmers = {
+		culture = montenegrin
+		religion = orthodox
+		size = 1000
+	}
+
+	serfs = {
+		culture = montenegrin
+		religion = orthodox
+		size = 9400
 	}
 
 	aristocrats = {
@@ -116,45 +128,51 @@
 #Cetinje (104000/26000 POPS) 
 2583 = {
 	aristocrats = {
-		culture = serb
+		culture = montenegrin
 		religion = orthodox
 		size = 100
 	}
 	
 	bureaucrats = {
-		culture = serb
+		culture = montenegrin
 		religion = orthodox
 		size = 100
 	}
 
 	officers = {
-		culture = serb
+		culture = montenegrin
 		religion = orthodox
 		size = 25
 	}
 
 	clergymen = {
-		culture = serb
+		culture = montenegrin
 		religion = orthodox
 		size = 275
 	}
 
 	artisans = {
-		culture = serb
+		culture = montenegrin
 		religion = orthodox
 		size = 1300
 	}
 
 	soldiers = {
-		culture = serb
+		culture = montenegrin
 		religion = orthodox
-		size = 3000
+		size = 1100
 	}
 
 	farmers = {
+		culture = montenegrin
+		religion = orthodox
+		size = 22375
+	}
+	
+	farmers = {
 		culture = serb
 		religion = orthodox
-		size = 21375
+		size = 1000
 	}
 	
 	farmers = {
@@ -168,21 +186,27 @@
 #Pljevlja (52000/13000 POPS) #now part of Montenegro
 2577 = {
 	clergymen = {
-		culture = serb
+		culture = montenegrin
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = serb
+		culture = montenegrin
 		religion = orthodox
 		size = 250
 	}
-
-	serfs = {
+	
+	farmers = {
 		culture = serb
 		religion = orthodox
-		size = 8175
+		size = 1000
+	}
+
+	serfs = {
+		culture = montenegrin
+		religion = orthodox
+		size = 7175
 	}
 
 	aristocrats = {
@@ -212,19 +236,7 @@
 	farmers = {
 		culture = bosniak
 		religion = sunni
-		size = 3000
-	}
-	
-	farmers = {
-		culture = serb
-		religion = sunni
-		size = 650
-	}
-	
-	farmers = {
-		culture = gypsy
-		religion = sunni
-		size = 200
+		size = 3650
 	}
 }
 #Dalmatia Region (64000) #see Croatia.txt for balance of region 
@@ -249,44 +261,32 @@
 		size = 50
 	}
 
-	farmers = {
+	serfs = {
 		culture = croat
 		religion = catholic
-		size = 4000
-	}
-	
-	farmers = {
-		culture = albanian
-		religion = catholic
-		size = 350
-	}
-	
-	farmers = {
-		culture = serb
-		religion = catholic
-		size = 350
+		size = 4650
 	}
 
 	clergymen = {
-		culture = serb
+		culture = montenegrin
 		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = serb
+		culture = montenegrin
 		religion = orthodox
 		size = 550
 	}
 
 	soldiers = {
-		culture = serb
+		culture = montenegrin
 		religion = orthodox
 		size = 125
 	}
 
 	farmers = {
-		culture = serb
+		culture = montenegrin
 		religion = orthodox
 		size = 10225
 	}
