@@ -30,8 +30,7 @@ school_reforms = no_schools
 conscription = no_draft
 debt_law = peonage
 penal_system = capital_punishment
-child_labor = child_labor_legal
-citizens_rights = primary_culture_only
+child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = open_borders
 
 ruling_party = JAV_conservative
@@ -53,3 +52,8 @@ set_country_flag = lacking_writing_system
 consciousness = 0
 nonstate_consciousness = 0
 oob = "SLW_oob.txt"
+1861.1.1 = {
+	oob = "/1861/SLW_oob.txt"
+	foreign_weapons = yes_foreign_weapons
+	flintlock_rifles = 1
+}

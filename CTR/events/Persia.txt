@@ -13,17 +13,16 @@ country_event = {
 		treasury = 20000
 		prestige = 5
 		relation = { who = ENG value = 50 }
-		any_pop = {
-			militancy = 1
-		}
+		1132 = { trade_goods = oil } #Abadan
+		any_pop = { militancy = 1 }
+		ai_chance = { factor = 80 }
 	}	
 
 	option = {
 		name = "EVT110011OPTB"
 		relation = { who = ENG value = -50 }
-		any_pop = {
-			militancy = -0.5
-		}
+		any_pop = { militancy = -0.5 }
+		ai_chance = { factor = 20 }
 	}
 }
 
@@ -1482,91 +1481,6 @@ country_event = {
 	}
 }
 
-# PCR - A New Capital For A New Persia
-country_event = {
-	id = 110043
-	title = "EVTNAME110043"
-	desc = "EVTDESC110043"
-	picture = "PER_pcr_embassy"
-	
-	trigger = {
-		tag = PER
-		war = no
-		OR = {
-			has_country_flag = pcr_march
-			has_country_flag = pcr_constitution	
-		}
-		owns = 1121
-		owns = 1125
-		owns = 1108
-		owns = 1127
-		owns = 1135
-	}
-		
-	mean_time_to_happen = { days = 365 }
-	fire_only_once = yes
-	
-	option = {
-		name = "EVT110043OPTA" #Tehran has served us well.
-		prestige = 5
-		capital = 1121
-		1121 = {
-			any_pop = {
-				consciousness = -1
-				militancy = -1
-			}
-		}
-	}
-	
-	option = {
-		name = "EVT110043OPTB" #Qom, the religious capital of our faith.
-		prestige = 5
-		capital = 1125
-		1125 = {
-			any_pop = {
-				consciousness = -1
-				militancy = -1
-			}
-		}
-	}
-	
-	option = {
-		name = "EVT110043OPTC" #Tabriz, its wealth will assure prosperity.
-		prestige = 5
-		capital = 1108
-		1108 = {
-			any_pop = {
-				consciousness = -1
-				militancy = -1
-			}
-		}
-	}
-		
-	option = {
-		name = "EVT110043OPTD" #Isfahan, our population center.
-		prestige = 5
-		capital = 1127
-		1127 = {
-			any_pop = {
-				consciousness = -1
-				militancy = -1
-			}
-		}
-	}
-		
-	option = {
-		name = "EVT110043OPTE" #Shiraz, the cultural heart of our nation.
-		prestige = 5
-		capital = 1135
-		1135 = {
-			any_pop = {
-				consciousness = -1
-				militancy = -1
-			}
-		}
-	}
-}
-
 # PCR - Disband the Persian Cossack Brigade.
 country_event = {
 	id = 110044
@@ -1624,7 +1538,7 @@ country_event = {
 	}
 }
 
-#The Báb's Execution
+# The Báb's Execution
 country_event = {
 	id = 900023
 	title = "EVTNAME900023"
@@ -1634,6 +1548,7 @@ country_event = {
 	trigger = {
 		owns = 1135
 		has_global_flag = the_bab
+		has_country_flag = amir_kabir
 	}
 	
 	fire_only_once = yes
@@ -1727,7 +1642,7 @@ country_event = {
 #	}
 #}
 
-#Treaty of Akhal
+# Treaty of Akhal
 country_event = {
 	id = 100019
 	title = "EVTNAME100019"
@@ -1772,6 +1687,438 @@ country_event = {
 			modifier = { factor = 2 military_score = FROM }
 			modifier = { factor = 0.1 part_of_sphere = no }
 		}
+	}
+}
+
+# A New Capital For A New Persia
+country_event = {
+	id = 110043
+	title = "EVTNAME110043"
+	desc = "EVTDESC110043"
+	picture = "PER_pcr_constitution"
+	
+	trigger = {
+		tag = PER
+		war = no
+		civilized = yes
+		owns = 1121
+		owns = 1125
+		owns = 1108
+		owns = 1127
+		owns = 1135
+	}
+		
+	mean_time_to_happen = { days = 365 }
+	fire_only_once = yes
+	
+	option = {
+		name = "EVT110043OPTA" #Tehran has served us well.
+		prestige = 5
+		capital = 1121
+		1121 = {
+			any_pop = {
+				consciousness = -1
+				militancy = -1
+			}
+		}
+	}
+	
+	option = {
+		name = "EVT110043OPTB" #Qom, the religious capital of our faith.
+		prestige = 5
+		capital = 1125
+		1125 = {
+			any_pop = {
+				consciousness = -1
+				militancy = -1
+			}
+		}
+	}
+	
+	option = {
+		name = "EVT110043OPTC" #Tabriz, its wealth will assure prosperity.
+		prestige = 5
+		capital = 1108
+		1108 = {
+			any_pop = {
+				consciousness = -1
+				militancy = -1
+			}
+		}
+	}
+		
+	option = {
+		name = "EVT110043OPTD" #Isfahan, our population center.
+		prestige = 5
+		capital = 1127
+		1127 = {
+			any_pop = {
+				consciousness = -1
+				militancy = -1
+			}
+		}
+	}
+		
+	option = {
+		name = "EVT110043OPTE" #Shiraz, the cultural heart of our nation.
+		prestige = 5
+		capital = 1135
+		1135 = {
+			any_pop = {
+				consciousness = -1
+				militancy = -1
+			}
+		}
+	}
+}
+
+# Bring Tea to Iran
+province_event = {
+	id = 110082
+	title = "EVTNAME110082"
+	desc = "EVTDESC110082"
+	
+	trigger = {
+		year = 1900
+		OR = { 
+			province_id = 1113
+			province_id = 1114
+			province_id = 1115
+			province_id = 1116
+			province_id = 1121
+		}
+		owner = { 
+			tag = PER
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+			}
+		}
+		NOT = { trade_goods = tea }
+		NOT = { has_province_flag = tea_boom }
+	}
+	
+	allow_multiple_instances = yes
+	
+	mean_time_to_happen = {
+		months = 240
+		modifier = {
+			factor = 0.75
+			owner = { relation = { who = ENG value = 100 } }
+		}
+		modifier = {
+			factor = 0.5
+			owner = { in_sphere = ENG }
+		}
+		modifier = {
+			factor = 0.5
+			management_strategy = 1
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA110082" #Wonderful initiative!
+		owner = { prestige = 1 }
+		trade_goods = tea 
+		owner = { relation = {	who = ENG value = -10 } }
+		add_province_modifier = {
+			name = switched_production
+			duration = 1825
+		}		
+	}
+	
+	option = {
+		name = "EVTOPTB110082" #No thanks.
+	}
+}
+
+# The Treaty of Erzurum of $YEAR$
+country_event = {
+	id = 110084
+	title = "EVTNAME110084"
+	desc = "EVTDESC110084"
+	picture = "cyprus_convention"
+	
+	trigger = {
+		war = no
+		OR = { 
+			tag = PER
+			tag = TUR
+		}
+		OR ={
+			PER = { ai = yes }
+			TUR = { ai = yes }
+		}
+		NOT = {
+			exists = RDL
+			exists = MKN
+			exists = BNB
+			exists = BTL
+			exists = BHT
+			exists = BDN
+		}
+	}
+		
+	mean_time_to_happen = { months = 1 }
+	fire_only_once = yes
+
+	option = {
+		name = "EVT110084OPTA" #This seems fair.
+		prestige = 5
+		all_core = { 
+			limit = { is_core = PER }
+			remove_core = TUR 
+		}
+		TUR = {
+			all_core = { 
+				limit = { is_core = TUR } 
+				remove_core = PER
+			}
+		}
+		1118 = { secede_province = PER }
+		1109 = { secede_province = PER }
+		1110 = { secede_province = PER }
+		1111 = { secede_province = PER }
+		924 = { secede_province = TUR }
+		925 = { secede_province = TUR }
+		924 = { secede_province = TUR }
+		890 = { secede_province = TUR }
+		891 = { secede_province = TUR }
+		892 = { secede_province = TUR }
+		2414 = { secede_province = TUR }
+		THIS = { 
+			relation = {
+				who = TUR
+				value = 50
+			}
+			relation = {
+				who = PER
+				value = 50
+			}
+			relation = {
+				who = ENG
+				value = 50
+			}
+			relation = {
+				who = RUS
+				value = 50
+			}
+		}
+		
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVT110084OPTB" #We will resolve the issue our own way!
+		badboy = 3
+		THIS = { 
+			relation = {
+				who = TUR
+				value = -100
+			}
+			relation = {
+				who = PER
+				value = -100
+			}
+			relation = {
+				who = ENG
+				value = -100
+			}
+			relation = {
+				who = RUS
+				value = -100
+			}
+		}
+		ENG = { diplomatic_influence = { who = THIS value = -100 } }
+		RUS = { diplomatic_influence = { who = THIS value = -100 } }
+		TUR = {
+			add_casus_belli = {
+				target = PER
+				type = acquire_all_cores
+				months = 12
+			}
+		}
+		PER = {
+			add_casus_belli = {
+				target = TUR
+				type = acquire_all_cores
+				months = 12
+			}
+		}
+		
+		ai_chance = { factor = 0 }
+	}
+}
+
+# A Rise To Power
+country_event = {
+	id = 110085
+	title = "EVTNAME110085"
+	desc = "EVTDESC110085"
+	picture = "PER_amir_kabir_execution"
+	
+	trigger = {
+		tag = PER
+		OR = { 
+			year = 1852
+			average_militancy = 5
+		}
+		has_country_modifier = amir_kabir
+	}
+		
+	mean_time_to_happen = { months = 48 }
+	fire_only_once = yes
+
+	option = {
+		name = "EVT110085OPTA" #The Shah demands his head.
+		remove_country_modifier = amir_kabir
+		prestige = 5
+		PER = { 
+			relation = {
+				who = ENG
+				value = 25
+			}
+			relation = {
+				who = RUS
+				value = 25
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberal
+				factor = 5
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = -1
+			}
+			scaled_militancy = {
+				ideology = reactionary
+				factor = -3
+			}
+		}
+		ai_chance = { factor = 50 }
+	}
+	
+	option = {
+		name = "EVT110085OPTB" #His life is safe: exile him.
+		remove_country_modifier = amir_kabir
+		set_global_flag = amir_kabir_exiled
+		
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberal
+				factor = 1
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = -1
+			}
+			scaled_militancy = {
+				ideology = reactionary
+				factor = -3
+			}
+		}
+		
+		ai_chance = { factor = 25 }
+	}
+	
+	option = {
+		name = "EVT110085OPTC" #He is our friend and advisor.
+		set_country_flag = amir_kabir_remain
+		any_pop = {
+			scaled_militancy = {
+				ideology = conservative
+				factor = 1
+			}
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 3
+			}
+		}
+		
+		ai_chance = { factor = 25 }
+	}
+}
+
+# Assassination of Amir Kabir
+country_event = {
+	id = 110086
+	title = "EVTNAME110086"
+	desc = "EVTDESC110086"
+	picture = "PER_amir_kabir_assassination"
+	
+	trigger = {
+		tag = PER
+		year = 1852
+		has_country_modifier = amir_kabir
+		has_country_flag = amir_kabir_remains
+	}
+		
+	mean_time_to_happen = { months = 12 }
+	fire_only_once = yes
+
+	option = {
+		name = "EVT110086OPTA" #We mourn his loss.
+		remove_country_modifier = amir_kabir
+		prestige = -5
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberal
+				factor = 3
+			}
+			scaled_militancy = {
+				ideology = reactionary
+				factor = -1
+			}
+		}
+		
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+		name = "EVT110086OPTB" #We shall find whoever is guilty!
+		remove_country_modifier = amir_kabir
+		set_global_flag = amir_kabir_exiled
+		prestige = -3
+		
+		clergymen = {
+			reduce_pop = 0.99
+		}
+		bureaucrats = {
+			reduce_pop = 0.99
+		}
+		aristocrats = {
+			reduce_pop = 0.99
+		}
+		officers = {
+			reduce_pop = 0.99
+		}
+		
+		any_pop = {
+			scaled_militancy = {
+				ideology = conservative
+				factor = 3
+			}
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 3
+			}
+		}
+		
+		PER = { 
+			relation = {
+				who = ENG
+				value = -25
+			}
+			relation = {
+				who = RUS
+				value = -25
+			}
+		}
+		
+		ai_chance = { factor = 10 }
 	}
 }
 

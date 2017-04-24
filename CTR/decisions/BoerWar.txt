@@ -122,11 +122,6 @@ political_decisions = {
 					all_core = { owned_by = THIS }
 				}
 			}
-
-			OR = {
-				ai = no
-				TRN = { ai = yes }
-			}
 		}
 		
 		effect = {
@@ -170,11 +165,6 @@ political_decisions = {
 					all_core = { owned_by = THIS }
 				}
 			}
-
-			OR = {
-				ai = no
-				ORA = { ai = yes }
-			}
 		}
 		
 		effect = {
@@ -217,11 +207,6 @@ political_decisions = {
 				NAL = {
 					all_core = { owned_by = THIS }
 				}
-			}
-
-			OR = {
-				ai = no
-				NAL = { ai = yes }
 			}
 		}
 		

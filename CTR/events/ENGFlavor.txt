@@ -2409,7 +2409,7 @@ country_event = {
 		war = {
 			target = FROM
 			attacker_goal = {
-				casus_belli = acquire_core_state
+				casus_belli = acquire_any_state
 				state_province_id = 1923
 			}
 			call_ally = yes
@@ -3400,11 +3400,6 @@ country_event = {
 			exists = yes 
 			is_vassal = no
 			part_of_sphere = no		
-		}
-
-		OR = {
-			ai = no
-			HAW = { ai = yes }
 		}
 	}
 

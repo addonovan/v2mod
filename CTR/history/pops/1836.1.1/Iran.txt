@@ -650,7 +650,7 @@
 	farmers = {
 		culture = persian
 		religion = shiite
-		size = 21050
+		size =21050
 	}
 }
 #Sari (52000/13000 POPS)
@@ -1383,10 +1383,16 @@
 		size = 150
 	}
 
-	farmers = {
+	labourers = {
 		culture = persian
 		religion = shiite
 		size = 13700
+	}
+
+	farmers = {
+		culture = persian
+		religion = shiite
+		size = 100
 	}
 }
 #Kashan (112000/28000 POPS)
@@ -1409,6 +1415,12 @@
 		size = 1400
 	}
 
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 200
+	}
+
 	soldiers = {
 		culture = persian
 		religion = shiite
@@ -1419,6 +1431,18 @@
 		culture = persian
 		religion = shiite
 		size = 24775
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 175
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = jewish
+		size = 25
 	}
 }
 #Yazd (140000/35000 POPS)
@@ -1740,13 +1764,13 @@
 	clergymen = {
 		culture = sephardic
 		religion = jewish
-		size = 5
+		size = 50
 	}
 
 	artisans = {
 		culture = sephardic
 		religion = jewish
-		size = 245
+		size = 700
 	}
 
 	slaves = {
@@ -1791,6 +1815,12 @@
 		culture = persian
 		religion = shiite
 		size = 22800
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = jewish
+		size = 200
 	}
 }
 #Yasuj (144000/36000 POPS)

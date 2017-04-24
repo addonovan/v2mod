@@ -32,8 +32,7 @@ school_reforms = no_schools
 conscription = four_year_draft
 debt_law = debtors_prisons
 penal_system = capital_punishment
-child_labor = child_labor_legal
-citizens_rights = all_voting_pops
+child_labor = child_labor_legalcitizens_rights = all_voting_pops
 border_policy = open_borders
 
 ruling_party = SAR_conservative
@@ -86,3 +85,8 @@ schools = army_tech_school
 
 oob = "SAR_oob.txt"
 
+1861.1.1 = {
+# Technologies
+
+#Inventions
+}

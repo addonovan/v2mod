@@ -1,6 +1,6 @@
 #Rebels
 
-color = { 0  0  0 } # black, this way it's easier to see them against all backgrounds
+color = { 154  132  126 }
 	
 graphical_culture = Generic
 

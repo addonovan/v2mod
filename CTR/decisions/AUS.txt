@@ -208,7 +208,6 @@ political_decisions = {
 				militancy = -4
 			}
 			primary_culture = hungarian
-			add_accepted_culture = south_german
 			clr_country_flag = dual_monarchy
 			change_tag = HUN
 		}
@@ -295,11 +294,6 @@ political_decisions = {
 					capital_scope = { NOT = { controlled_by = THIS } }
 					national_provinces_occupied = .50
 				}
-			}
-			
-			OR = {
-				ai = no
-				HUN = { ai = yes }
 			}
 		}
 
@@ -463,11 +457,6 @@ political_decisions = {
 				BOS = { num_of_revolts = 1 }
 				BOS = { average_militancy = 6 }
 				year = 1908
-			}
-
-			OR = {
-				ai = no
-				BOS = { ai = yes }
 			}
 		}
 		

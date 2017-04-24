@@ -122,21 +122,21 @@ greater_iran = {
 	}
 
 
+# Establish the Dar ul-Funun
 establish_the_dar_al_funun = {
 		picture = suezcanalcompany
 		potential = {
 			tag = PER
 			civilized = no
-			NOT = {
-				has_country_flag = dar_al_funun_built
-			}
+			has_country_modifier = silver_age
+			NOT = {	has_country_flag = dar_al_funun_built }
 		}
 		allow = {
-			literacy = 0.10
+			has_country_modifier = amir_kabir
 		}
 		effect = {
 			years_of_research = 0.5
-			any_pop = { consciousness = 0.5 }
+			any_pop = { consciousness = 1 }
 			set_country_flag = dar_al_funun_built
 			add_country_modifier = {
 				name = dar_al_funun
@@ -235,12 +235,11 @@ establish_the_majles = {
 	ai_will_do = { factor = 1 }
 }
 
-#End the bazaari strike.
+# End the bazaari strike.
 end_bazaari_strike = {
 	picture = PER_bazaari_strike
 	potential = {
 		has_country_modifier = bazaari_strike
-		has_country_flag = ulama_no
 	}
 			
 	allow = {
@@ -249,6 +248,7 @@ end_bazaari_strike = {
 			
 	effect = {
 		set_country_flag = islamic_law
+		add_country_modifier = { name = islamic_law duration = -1 }
 		prestige = -5
 		remove_country_modifier = bazaari_strike
 		remove_country_modifier = western_influences
@@ -257,6 +257,43 @@ end_bazaari_strike = {
 	}
 	ai_will_do = { factor = 1 }
 }
+
+# Appoint Amir Kabir Mirza Taghi Khan
+appoint_amir_kabir = {
+	picture = amir_kabir
+	potential = {
+		tag = PER
+		NOT = { year = 1852 }
+		NOT = {	has_country_flag = amir_kabir }
+		has_country_modifier = silver_age
+	}
+
+	allow = {
+		has_country_modifier = silver_age
+	}
+
+	effect = {
+		set_country_flag = amir_kabir
+		add_country_modifier = { name = amir_kabir duration = -1 }
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberal
+				factor = -3
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = 1
+			}
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 3
+			}
+		}
+	}
+
+	ai_will_do = { factor = 1 }
+}
+
 
 #Bring Tea to Iran
 bring_tea_to_iran = {

@@ -547,11 +547,6 @@ country_event = {
 		is_our_vassal = LBG
 		LBG = { exists = yes }
 		any_neighbor_country = { is_culture_group = germanic NOT = { casus_belli = LBG } }
-
-		OR = {
-			ai = no
-			LBG = { ai = yes }
-		}
 	}
 	
 	fire_only_once = yes

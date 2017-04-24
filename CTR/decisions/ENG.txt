@@ -136,11 +136,6 @@ political_decisions = {
 		allow = {
 			state_n_government = 1
 			war = no
-
-			OR = {
-				ai = no
-				ION = { ai = yes }
-			}
 		}
 		
 		effect = {
@@ -830,11 +825,6 @@ political_decisions = {
 					}
 				}
 			}
-
-			OR = {
-				ai = no
-				NYE = { ai = yes }
-			}
 		}
 		
 		effect = {
@@ -896,21 +886,22 @@ political_decisions = {
 		
 		potential = { 
 			tag = ENG
+			year = 1900
 			NOT = {	has_country_flag = apoc	}
-			OR = {
-				invention = daimlers_automobile
-				invention = cracking
-				invention = protected_cruisers
-			}
+			invention = cracking
+			invention = oil_pumping_machinery
 			PER = { exists = yes }
 		}
 		
-		allow = { money = 21000	}
+		allow = { 
+			money = 20000
+			PER = { in_sphere = THIS }
+		}
 		
 		effect = { 
 			set_country_flag = apoc
 			treasury = -20000
-			prestige = 15
+			prestige = 5
 			research_points = 1000
 			PER = { country_event = 110011 }
 		}
@@ -958,11 +949,6 @@ political_decisions = {
 				JOH = { average_militancy = 5 }
 				}
 			}
-
-			OR = {
-				ai = no
-				JOH = { ai = yes }
-			}
 		}
 		
 		effect = { 
@@ -1001,11 +987,6 @@ political_decisions = {
 					PHG = { average_militancy = 2 }
 				}
 			}
-
-			OR = {
-				ai = no
-				PHG = { ai = yes }
-			}
 		}
 		
 		effect = { 
@@ -1043,11 +1024,6 @@ political_decisions = {
 					SLG = { average_militancy = 2 }
 				}
 			}
-
-			OR = {
-				ai = no
-				SLG = { ai = no }
-			}
 		}
 		
 		effect = {
@@ -1084,11 +1060,6 @@ political_decisions = {
 					PRK = { average_militancy = 2 }
 				}
 			}
-				
-			OR = {
-				ai = no
-				PRK = { ai = yes }
-			}		
 		}
 		
 		effect = {
@@ -1112,10 +1083,10 @@ political_decisions = {
 			CAN = { exists = yes vassal_of = THIS }
 			any_owned_province = { 
 				OR = {
-					region = ENG_6
+					#region = ENG_6
 					region = ENG_9
 					region = CAN_13
-					region = CAN_18
+					#region = CAN_18
 					region = ENG_22
 					region = ENG_30
 					region = ENG_36
@@ -1140,10 +1111,10 @@ political_decisions = {
 			any_owned = {
 				limit = { 
 				OR = {
-					region = ENG_6
+					#region = ENG_6
 					region = ENG_9
 					region = CAN_13
-					region = CAN_18
+					#region = CAN_18
 					region = ENG_22
 					region = ENG_30
 					region = ENG_36

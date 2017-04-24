@@ -13,3 +13,13 @@ party_loyalty = {
 	loyalty_value = 40
 }
 
+1861.1.1 = {
+	party_loyalty = {
+	ideology = conservative
+	loyalty_value = 20
+}
+	controller = CSA
+	owner = CSA
+	add_core = CSA
+}
+1861.1.1 = { railroad = 3 }

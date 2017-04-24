@@ -1804,11 +1804,6 @@ political_decisions = {
 					}
 				}
 			}
-
-			OR = {
-				ai = no
-				BUL = { ai = yes }
-			}
 		}
 		effect = {
 			set_global_flag = bulgaria_in_yugoslavia

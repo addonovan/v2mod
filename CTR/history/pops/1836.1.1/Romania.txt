@@ -2107,7 +2107,7 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 40950 
+		size = 55950 
 	}
 	
 	slaves = {
@@ -2145,7 +2145,7 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 40025
+		size = 52025
 	}
 
 	slaves = {
@@ -2183,7 +2183,7 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 56075
+		size = 62075
 	}
 
 	slaves = {
@@ -2329,7 +2329,7 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 36050 
+		size = 52050 
 	}
 	
 	slaves = {
@@ -2405,7 +2405,7 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 53525
+		size = 59525
 	}
 	
 	slaves = {

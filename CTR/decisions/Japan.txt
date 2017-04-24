@@ -1202,11 +1202,6 @@ political_decisions = {
 				RYU = { part_of_sphere = no }
 				RYU = { in_sphere = THIS }
 			}
-
-			OR = {
-				ai = no
-				RYU = { ai = yes }
-			}
 		}
 
 		effect = {

@@ -31,8 +31,7 @@ school_reforms = no_schools
 conscription = four_year_draft
 debt_law = peonage
 penal_system = capital_punishment
-child_labor = child_labor_legal
-citizens_rights = culture_voting_only
+child_labor = child_labor_legalcitizens_rights = culture_voting_only
 border_policy = open_borders
 
 ruling_party = AUS_conservative
@@ -46,3 +45,8 @@ upper_house = {
 	communist = 0
 }
 
+1861.1.1 = {
+# Technologies
+
+#Inventions
+}

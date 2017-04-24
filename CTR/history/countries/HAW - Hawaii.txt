@@ -28,8 +28,7 @@ school_reforms = no_schools
 conscription = no_draft
 debt_law = peonage
 penal_system = capital_punishment
-child_labor = child_labor_legal
-citizens_rights = primary_culture_only
+child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = open_borders
 
 ruling_party = HAW_conservative
@@ -49,3 +48,18 @@ consciousness = 0
 nonstate_consciousness = 0
 
 oob = "HAW_oob.txt"
+1861.1.1 = {
+	
+	literacy = 0.83
+
+	#Economic Reforms
+	land_reform = yes_land_reform
+	admin_reform = yes_admin_reform
+	
+	#Military Reforms
+	foreign_weapons = yes_foreign_weapons
+
+	#Technologies
+	piston_steam_engine = 1
+	flintlock_rifles = 1
+}

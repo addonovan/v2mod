@@ -471,7 +471,6 @@ country_event = {
 		name = "EVT90907OPTA"
 		1498 = { remove_core = THIS }
 		1498 = { remove_core = CHI }
-		1498 = { remove_core = GNG }
 		relation = { who = FROM value = 400 }
 		prestige = -5
 		FROM = { set_country_flag = sino_portuguese_treaty_of_peking_signataire }

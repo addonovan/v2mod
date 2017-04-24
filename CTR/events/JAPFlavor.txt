@@ -1555,11 +1555,6 @@ country_event = {
 				truce_with = TKG
 			}
 		}
-
-		OR = {
-			ai = no
-			TKG = { ai = yes }
-		}
 	}
 	
 	mean_time_to_happen = {
@@ -2929,6 +2924,7 @@ country_event = {
 	
 	trigger = {
 		tag = JAP
+		crisis_exist = no
 		has_country_modifier = line_of_advantage
 		is_greater_power = yes
 		is_disarmed = no

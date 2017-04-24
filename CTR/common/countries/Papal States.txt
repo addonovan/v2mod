@@ -1,5 +1,4 @@
 color = { 229 150 87 }
-fascist_dictatorship = { 102 2 60 } # Tyrian Purple for Rome
 graphical_culture = ItalianGC
 
 party = {

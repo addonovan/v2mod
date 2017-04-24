@@ -30,8 +30,7 @@ school_reforms = no_schools
 conscription = two_year_draft
 debt_law = peonage
 penal_system = capital_punishment
-child_labor = child_labor_legal
-citizens_rights = primary_culture_only
+child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = closed_borders
 
 ruling_party = GXI_reactionary
@@ -61,3 +60,18 @@ nonstate_consciousness = 0
 
 
 
+1861.1.1 = {
+	
+	literacy = 0.07
+	non_state_culture_literacy = 0.04
+
+	foreign_weapons = yes_foreign_weapons
+	foreign_officers = yes_foreign_officers
+
+	# Technologies
+	flintlock_rifles = 1
+	military_staff_system = 1
+
+	# Inventions
+
+}

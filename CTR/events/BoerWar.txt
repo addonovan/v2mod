@@ -1356,12 +1356,37 @@ country_event = {
 	option = {
 		name = "EVT98235OPTA"
 		random_country = {
-			limit = { has_country_modifier = witwatersrand_gold_rush }
+			limit = {
+				has_country_modifier = witwatersrand_gold_rush
+				is_greater_power = no
+				is_vassal = no
+				part_of_sphere = no
+			}
 			add_casus_belli = {
 				target = THIS
 				type = add_to_sphere
 				months = 24
 			}
+		}
+		
+		random_country = {
+			limit = {
+				has_country_modifier = witwatersrand_gold_rush
+				is_greater_power = no
+				is_vassal = no
+				part_of_sphere = yes
+			}
+			sphere_owner = {
+				add_casus_belli = {
+					target = THIS
+					type = take_from_sphere
+					months = 24
+				}
+			}
+		}
+		
+		random_country = {
+			limit = { has_country_modifier = witwatersrand_gold_rush }
 			relation = {
 				who = THIS
 				value = -100

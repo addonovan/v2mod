@@ -433,6 +433,7 @@ political_decisions = {
 					1636 = { trade_goods = tea }
 					1255 = { trade_goods = tea }
 					1275 = { trade_goods = iron }
+					1515 = { trade_goods = fruit }
 					1276 = { trade_goods = fruit }
 					1277 = { trade_goods = fruit }
 					set_global_flag = tea_monopoly_broken

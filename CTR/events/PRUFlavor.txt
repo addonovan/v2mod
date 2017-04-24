@@ -824,18 +824,10 @@ country_event = {
 		prestige = -5
 		badboy = -1
 		leave_alliance = NCT
-		random_country = {
-			limit = {
-				tag = SWI
-				exists = yes
-				OR = { 
-					ai = no
-					NCT = { ai = yes }
-				}
-			}
+		SWI = {
+			release_vassal = NCT
 			inherit = NCT
 		}
-			
 		608 = { remove_core = NCT }
 		relation = { who = SWI value = 75 }
 		diplomatic_influence = { who = SWI value = 50 }
@@ -898,9 +890,8 @@ country_event = {
 					vassal_of = SWI
 					is_vassal = no
 				}
-				NOT = { has_country_flag = eliminated_foreign_cores }
 			}
-			annex_to = SWI
+		annex_to = SWI
 		}
 	}
 }
@@ -926,12 +917,6 @@ country_event = {
 			}
 			war = no
 		}
-
-		# had to add this during my Neuchatel game
-		SWI = {
-			exists = yes
-		}
-		
 		owns = 549
 		year = 1845
 		608 = { is_core = THIS }
@@ -947,11 +932,6 @@ country_event = {
 				NOT = { exists = PRU }
 				NOT = { exists = NGF }
 			}
-		}
-
-		NOT = {
-			ai = no
-			NCT = { ai = yes }
 		}
 	}
 	

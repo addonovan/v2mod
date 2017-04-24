@@ -399,7 +399,7 @@ mechanized_fishing_vessels = {
 		}
 	}
 	effect = {
-		rgo_goods_output = { fish = 0.75 }
+		rgo_goods_output = { fish = 0.9 }
 	}
 }
 steamer_automatic_construction_plants = {

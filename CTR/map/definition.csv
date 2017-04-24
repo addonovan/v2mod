@@ -130,8 +130,8 @@ province;red;green;blue;x;x
 129;144;192;192;Oklahoma City;x
 130;122;112;123;Tahlequah;x
 131;192;48;64;Okmulgee;x
-132;128;48;64;Columbia;x
-133;0;176;64;Waterloo;x
+132;128;48;64;Houston;x
+133;0;176;64;Austin;x
 134;128;176;192;Dallas;x
 135;0;176;192;Lubbock;x
 136;208;128;112;El Paso;x
@@ -3281,7 +3281,7 @@ province;red;green;blue;x;x
 3280;1;222;226;Sevan Lake;x
 3281;1;222;227;Therthar Lake;x
 3282;1;222;228;Razazza Lake;x
-3283;17;20;233;Lake Geneva;x
+3283;17;20;233;Lake Geneva
 3284;1;222;229;Lake Constance;x
 ;54;14;244;x;
 ;55;14;248;x;

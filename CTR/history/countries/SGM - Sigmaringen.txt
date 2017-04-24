@@ -76,7 +76,6 @@ army_professionalism = 1
 interchangeable_parts = 1
 romanticism = 1
 #hot_blast = 1
-puddling = 1
 
 
 #Inventions

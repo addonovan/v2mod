@@ -15,7 +15,6 @@ country_event = {
 		name = "EVT44122OPTA"
 		prestige = 10
 		250 = { add_core = THIS secede_province = THIS }
-		158 = { add_core = USA secede_province = USA }
 		250 = { remove_core = CAN }
 		158 = { remove_core = CAN }
 		250 = { remove_core = QUE }
@@ -582,7 +581,7 @@ country_event = {
 		prestige = -10
 		USA = { country_event = 44152 }
 		CAN_13 = { add_core = ENG }
-		CAN_18 = { add_core = ENG }
+		#CAN_18 = { add_core = ENG }
 		ENG_22 = { add_core = ENG }
 		USA_78 = {
 			remove_core = COL
@@ -602,7 +601,7 @@ country_event = {
 		111 = {
 			remove_core = COL
 		}
-		CAN_18 = {
+		CAN_13 = {
 			add_core = COL
 			remove_core = RPL
 		}
@@ -692,7 +691,7 @@ country_event = {
 			limit = {
 				OR = {
 					region = CAN_13
-					region = CAN_18
+					#region = CAN_18
 					region = ENG_22
 				}
 			}
@@ -927,7 +926,6 @@ country_event = {
 		78 = { add_core = ENG }
 		79 = { add_core = ENG }
 		CAN_13 = { add_core = ENG }
-		CAN_18 = { add_core = ENG }
 		ENG_22 = { add_core = ENG }
 		USA_81 = {
 			add_core = USA

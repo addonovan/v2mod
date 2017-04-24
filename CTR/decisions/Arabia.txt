@@ -627,11 +627,6 @@ political_decisions = {
 					owner = { in_sphere = THIS }
 				}
 			}
-
-			OR = {
-				ai = no
-				BHR = { ai = yes }
-			}
 		}
 
 		effect = {
@@ -676,11 +671,6 @@ political_decisions = {
 					owned_by = THIS
 					owner = { in_sphere = THIS }
 				}
-			}
-
-			OR = {
-				ai = no
-				QAT = { ai = yes }
 			}
 		}
 

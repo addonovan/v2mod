@@ -707,17 +707,7 @@ province_event = {
 	option = {
 		name = "EVT60168OPTA"
 		any_country = {
-
-			limit = {
-				OR = {
-					NOT = { tag = NCT }
-					AND = {
-						tag = NCT
-						has_country_flag = eliminated_foreign_cores
-					}
-				}
-			}
-
+			limit = { NOT = { tag = NCT } }
 			any_state  = {
 				limit = {
 					has_flashpoint = yes

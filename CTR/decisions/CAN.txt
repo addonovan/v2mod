@@ -99,19 +99,9 @@ political_decisions = {
 		effect = {
 			set_country_flag = british_columbia_organized
 			prestige = 5
-			CAN_18 = {
+			CAN_13 = {
 				add_core = COL
 				remove_core = RPL
-			}
-			13 = {
-				state_scope = {
-					change_region_name = "Southern British Columbia"
-				}
-			}
-			18 = {
-				state_scope = {
-					change_region_name = "Northern British Columbia"
-				}
 			}			
 		}
 		ai_will_do = {
@@ -375,11 +365,19 @@ political_decisions = {
 				}
 				infrastructure = 1 owner = { treasury = -2000 }
 			}
-			26 = { 
+			25 = { 
 				change_province_name = "Calgary"
 				life_rating = 12
 				add_province_modifier = { name = gateway_to_harbor duration = 365 }
 			}
+			69 = { change_province_name = "Edmundston" }
+			41 = { change_province_name = "Brandon" }
+			30 = { change_province_name = "Regina" }
+			34 = { change_province_name = "Saskatoon" }
+			35 = { change_province_name = "Maple Creek" }
+			22 = { change_province_name = "Bonnyville" }
+			26 = { change_province_name = "Red Deer" }
+			24 = { change_province_name = "Medicine Hat" }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -444,6 +442,10 @@ political_decisions = {
 				infrastructure = 1 owner = { treasury = -2000 }
 			}
 			13 = { add_province_modifier = { name = gateway_to_harbor duration = 1825 } }
+			52 = { change_province_name = "Sudbury" }
+			49 = { change_province_name = "Kenora" }
+			2594 = { change_province_name = "Osnaburgh" }
+			6 = { change_province_name = "Whitehorse" }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -502,6 +504,28 @@ political_decisions = {
 		
 		effect = {
 			57 = { change_province_name = "Ottawa" life_rating = 4 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	alaskan_frontier = {
+		picture = fort_selkirk
+		potential = {
+			owns = 17
+			6 = { empty = yes }
+		}
+		
+		allow = {
+			war = no
+			invention = mission_to_civilize
+		}
+		
+		effect = {
+			6 = {
+				secede_province = THIS
+				add_core = RPL
+				change_province_name = "Fort Selkirk"
+			}
 		}
 		ai_will_do = { factor = 1 }
 	}

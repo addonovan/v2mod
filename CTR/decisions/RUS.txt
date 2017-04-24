@@ -1121,11 +1121,6 @@ political_decisions = {
 				GER = { exists = yes }
 				is_greater_power = no
 			}
-			
-			OR = {
-				ai = no
-				UBD = { ai = yes }
-			}
 		}
 		
 		effect = {
@@ -1374,11 +1369,6 @@ political_decisions = {
 					owns = 2608
 				}
 			}
-
-			OR = {
-				ai = no
-				TNT = { ai = yes }
-			}
 		}
 		
 		effect = {
@@ -1557,11 +1547,6 @@ political_decisions = {
 		allow = {
 			nationalism_n_imperialism = 1
 			is_sphere_leader_of = KAZ
-
-			OR = {
-				ai = no
-				KAZ = { ai = yes }
-			}
 		}
 		
 		effect = {
@@ -1743,14 +1728,19 @@ political_decisions = {
 			}
 			NOT = { owns = 1204 }
 			NOT = { has_global_flag = treaty_of_akhal }
-			1204 = { owner = { is_greater_power = no } }
+			1204 = { 
+				owner = { 
+					is_greater_power = no
+					NOT = { is_our_vassal = THIS }
+				}
+			 }
 			is_vassal = no
 			capital_scope = { continent = europe }
 		}
 		
 		allow = {
 			war = no
-			1204 = { owner = { NOT = { truce_with = THIS military_score = THIS is_greater_power = yes } } }
+			1204 = { owner = { NOT = { truce_with = THIS military_score = THIS is_our_vassal = THIS } } }
 			OR = {
 				is_greater_power = yes
 				AND = {

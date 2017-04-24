@@ -1342,11 +1342,6 @@ political_decisions = {
 		
 		allow = {
 			war = no
-
-			OR = {
-				ai = no
-				KML = { ai = yes }
-			}
 		}
 		
 		effect = {

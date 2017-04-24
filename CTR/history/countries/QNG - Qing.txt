@@ -9,7 +9,7 @@ non_state_culture_literacy = 0.04
 prestige = 1
 
 # Political reforms
-slavery = yes_slavery
+slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting
@@ -31,8 +31,7 @@ school_reforms = no_schools
 conscription = no_draft
 debt_law = serfdom
 penal_system = capital_punishment
-child_labor = child_labor_legal
-citizens_rights = primary_culture_only
+child_labor = child_labor_legalcitizens_rights = primary_culture_only
 border_policy = closed_borders
 
 ruling_party = CHI_conservative
@@ -62,3 +61,15 @@ consciousness = 0
 nonstate_consciousness = 0
 
 oob = "CHI_oob.txt"
+1861.1.1 = {
+	oob = "/1861/CHI_oob.txt"
+}
+1861.1.1 = {
+# Inventions
+
+
+	set_global_flag = taiping_has_happened
+	set_global_flag = hong
+	set_global_flag = yang
+	decision = clear_out_the_manchu_elite
+}

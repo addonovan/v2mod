@@ -2,5 +2,10 @@ owner = TRI
 controller = TUR
 add_core = TRI
 trade_goods = fruit
-life_rating = 37
+life_rating = 35
 terrain = plains
+naval_base = 1
+1861.1.1 = {
+	owner = TUR
+	colonial = 2
+}

@@ -1,7 +1,7 @@
 political_decisions = {
 # North-American Minors
-	apply_for_USA_statehood = { # hello
-		picture = apply_for_usa_statehood # hello
+	apply_for_USA_statehood = {
+		picture = apply_for_usa_statehood
 		potential = {
 			exists = USA
 			USA = { government = democracy }
@@ -998,14 +998,6 @@ political_decisions = {
 		allow = {
 			revolution_n_counterrevolution = 1
 			is_sphere_leader_of = HAW
-
-			# Allowed if either:
-			# - The USA is the player
-			# - Hawaii isn't the player
-			OR = {
-				ai = no
-				HAW = { ai = yes }
-			}
 		}
 		
 		effect = {
@@ -1549,7 +1541,7 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = iron_ranges
-			158 = { trade_goods = iron }
+			158 = { trade_goods = iron change_province_name = "Duluth" }
 			177 = { trade_goods = iron }
 			157 = { trade_goods = iron }
 			232 = { trade_goods = iron }
@@ -1675,8 +1667,8 @@ political_decisions = {
 				}
 				life_rating = 5
 			}
-			43 = { change_province_name = "Tyler" }
-			134 = { change_province_name = "Dallas" life_rating = 5 }
+			43 = { change_province_name = "Dallas" life_rating = 5 }
+			134 = { change_province_name = "Abilene" }
 			135 = { change_province_name = "Lubbock" }
 			92 = { change_province_name = "Coeur D'Alene" }
 			93 = { change_province_name = "Pocatello" }

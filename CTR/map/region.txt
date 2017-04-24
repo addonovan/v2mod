@@ -2,19 +2,19 @@
 
 USA_1 = { 1 2 3 4 5 2599 2630 2631 } #Alaska
 
-ENG_6 = { 6 7 8 } #Yukon
+#ENG_6 = { 6 7 8 } #Yukon
 
-ENG_9 = { 10 11 12 2595 2596 2598 } #Northwest Territories
+ENG_9 = { 10 11 12 2595 2596 2598 6 7 8 } #Northwest Territories
 
-CAN_13 = { 13 14 20 21 15 19 16 } #Columbia
+CAN_13 = { 13 14 20 21 15 19 16 18 17 2629 } #Columbia
 
-CAN_18 = { 18 17 2629 } #New Caledonia
+#CAN_18 = { 18 17 2629 } #New Caledonia
 
-ENG_22 = { 26 22 23 24 25 27 28 29 2597 } #Alberta
+ENG_22 = { 27 26 22 23 24 25 28 2597 } #Alberta
 
 ENG_30 = { 30 31 32 33 34 35 } #Saskatchewan
 
-ENG_36 = { 36 37 38 39 40 41 42 } #Manitoba
+ENG_36 = { 42 36 37 38 39 40 41 } #Manitoba
 
 CAN_46 = { 46 50 51 57 55 56 52 53 54 } #Southern Ontario
 
@@ -194,9 +194,9 @@ BEL_394 = { 394 392 393 395 398 } #Wallonia
 
 ### France
 
-FRA_399 = { 399 400 401 402 2570 } #Picardie
+FRA_399 = { 403 405 406 408 402 2570 } #Picardie
 
-FRA_404 = { 404 403 405 406 408 } #Champagne
+FRA_404 = { 399 400 401 404 } #Nord-Pas-De-Calais/Artois
 
 FRA_411 = { 411 413 407 414 432 } #Franche-Comté
 
@@ -355,7 +355,7 @@ AUS_771 = { 771 772 773 775 776 } #Croatia
 
 AUS_777 = { 779 793 777 } #Slavonia
 
-AUS_780 = { 780 781 782 2582 774 } #Dalmatia
+AUS_780 = { 780 781 782 774 } #Dalmatia
 
 AUS_2538 = { 2538 791 792 } #Vojvodina
 
@@ -395,7 +395,7 @@ TUR_788 = { 783 787 789 788 786 785 784 } #Bosnia
 
 SER_794 = { 794 797 795 796 } #Northern Serbia
 
-MON_2582 = { 2583 2569 2577 800 } #Montenegro
+MON_2582 = { 2583 2569 2577 800 2582 } #Montenegro
 
 TUR_803 = { 803 804 798 802 799 } #Southern Serbia
 
@@ -504,7 +504,7 @@ YEM_1178 = { 1178 1179 1180 } #Sanaa
 
 KOK_1190 = { 1189 1190 1201 1203 1207 1208 } #Kirghizia
 
-KHI_1191 = { 1191 1192 1195 1198 1199 1200 1202 } #Uzbekia
+KHI_1191 = { 1191 1192 1195 1198 1199 1200 1202 29 } #Uzbekia
 
 AFG_1209 = { 1209 1217 1216 1210 } #Pashtunistan
 

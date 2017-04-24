@@ -482,7 +482,45 @@ country_event = {
 				secede_province = THIS
 			}
 		}
-		LSK = { primary_culture = THIS }
+		
+		random_owned = { limit = { owner = { NOT = { primary_culture = japanese } } }
+			owner = {
+				1 = { change_province_name = "Sitka" }
+				2 = { change_province_name = "Juneau" }
+				3 = { change_province_name = "Kenai" }
+				4 = { change_province_name = "Kodiak" }
+				2599 = { change_province_name = "Fairbanks" }
+				2599 = { change_province_name = "Tok" }
+			}
+		}
+		
+		random_owned = { limit = { owner = { primary_culture = japanese } }
+			owner = {
+				1 = { change_province_name = "Shitoka" }
+				2 = { change_province_name = "Juno" }
+				3 = { change_province_name = "Ankarejji" }
+				4 = { change_province_name = "Yakutato" }
+				2631 = { change_province_name = "Beseru" }
+				2599 = { change_province_name = "Feabankusu" }
+				2599 = { change_province_name = "Howaitohosu" }
+			}
+		}
+		
+		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = catholic } } } LSK = { religion = catholic } }
+		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = protestant } } } LSK = { religion = protestant } }
+		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = orthodox } } } LSK = { religion = orthodox } }
+		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = mormon } } } LSK = { religion = mormon } }
+		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = coptic } } } LSK = { religion = coptic } }
+		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = sunni } } } LSK = { religion = sunni } }
+		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = shiite } } } LSK = { religion = shiite } }
+		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = shinto } } } LSK = { religion = shinto } }
+		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = mahayana } } } LSK = { religion = mahayana } }
+		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = gelugpa } } } LSK = { religion = gelugpa } }
+		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = theravada } } } LSK = { religion = theravada } }
+		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = hindu } } } LSK = { religion = hindu } }
+		random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = sikh } } } LSK = { religion = sikh } }
+		random_owned = { limit = { owner = { tag = ISR } } LSK = { religion = jewish } }
+		random_owned = { limit = { owner = { tag = OMA } } LSK = { religion = ibadi } }
 	}
 }
 

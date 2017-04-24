@@ -360,6 +360,7 @@ country_event = {
 	
 	trigger = {
 	NOT = { year = 1860 }
+	ARC = { exists = yes }
 	tag = URU
 	election = no
 	ruling_party_ideology = liberal
@@ -401,7 +402,7 @@ country_event = {
 			attacker_goal = { casus_belli = humiliate }
 			defender_goal = { casus_belli = humiliate }
 			call_ally = yes
-			}
+		}
 			
 		ENG = {
 			 casus_belli = {

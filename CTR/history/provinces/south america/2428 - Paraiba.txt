@@ -2,7 +2,6 @@ owner = BRZ
 controller = BRZ
 add_core = BRZ
 add_core = PNB
-add_core = CEQ
 trade_goods = fruit
 terrain = farmlands
 life_rating = 35

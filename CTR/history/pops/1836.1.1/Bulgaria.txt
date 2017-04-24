@@ -187,6 +187,12 @@
 		religion = jewish
 		size = 5
 	}
+	
+	farmers = {
+		culture = romanian
+		religion = orthodox
+		size = 2000
+	}
 
 	artisans = {
 		culture = sephardic

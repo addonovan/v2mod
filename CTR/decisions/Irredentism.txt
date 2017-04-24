@@ -1009,9 +1009,9 @@ political_decisions = {
 		effect = {
 			set_country_flag = claimed_transnitria
 			random_list = {
-				34 = { badboy = 6 }
-				33 = { badboy = 8 }
-				33 = { badboy = 10 }
+				34 = { badboy = 3 }
+				33 = { badboy = 4 }
+				33 = { badboy = 5 }
 			}
 			RUS_968 = { add_core = ROM }
 		}
@@ -1045,6 +1045,42 @@ political_decisions = {
 			497 = { add_core = CAT }
 			495 = { add_core = CAT }
 			496 = { add_core = CAT }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	claim_tisza = {
+		picture = romanians_marching
+		potential = {
+			tag = ROM
+			NOT = { has_country_flag = claimed_tisza }
+		}
+		
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+			war_policy = jingoism
+			is_greater_power = yes
+			owns = 651
+			owns = 647
+			owns = 652
+			owns = 653
+			owns = 664
+			792 = { any_pop = { culture = romanian } }
+		}
+		
+		effect = {
+			set_country_flag = claimed_tisza
+			random_list = {
+				34 = { badboy = 5 }
+				33 = { badboy = 8 }
+				33 = { badboy = 10 }
+			}
+			648 = { add_core = ROM }
+			650 = { add_core = ROM }
+			649 = { add_core = ROM }
+			792 = { add_core = ROM }
+			795 = { add_core = ROM }
 		}
 		ai_will_do = { factor = 1 }
 	}

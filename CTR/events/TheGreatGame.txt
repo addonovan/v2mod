@@ -24,6 +24,10 @@ country_event = {
 				civilized = no
 				is_vassal = no
 				OR = {
+					NOT = { has_country_flag = border_incident_UK  }
+					ENG = { ai = yes }
+				}
+				OR = {
 					neighbour = ENG
 					any_neighbor_country = { vassal_of = ENG }
 				}
@@ -37,6 +41,10 @@ country_event = {
 				exists = yes
 				civilized = no
 				is_vassal = no
+				OR = {
+					NOT = { has_country_flag = border_incident_UK  }
+					ENG = { ai = yes }
+				}
 				OR = {
 					neighbour = ENG
 					any_neighbor_country = { vassal_of = ENG }
@@ -52,6 +60,10 @@ country_event = {
 				civilized = no
 				is_vassal = no
 				OR = {
+					NOT = { has_country_flag = border_incident_UK  }
+					ENG = { ai = yes }
+				}
+				OR = {
 					neighbour = ENG
 					any_neighbor_country = { vassal_of = ENG }
 				}
@@ -65,6 +77,10 @@ country_event = {
 				exists = yes
 				civilized = no
 				is_vassal = no
+				OR = {
+					NOT = { has_country_flag = border_incident_UK  }
+					ENG = { ai = yes }
+				}
 				neighbour = ENG
 				neighbour = RUS
 				NOT = {
@@ -77,6 +93,10 @@ country_event = {
 				exists = yes
 				civilized = no
 				is_vassal = no
+				OR = {
+					NOT = { has_country_flag = border_incident_UK  }
+					ENG = { ai = yes }
+				}
 				OR = {
 					neighbour = ENG
 					any_neighbor_country = { vassal_of = ENG }
@@ -92,6 +112,10 @@ country_event = {
 				civilized = no
 				is_vassal = no
 				OR = {
+					NOT = { has_country_flag = border_incident_UK  }
+					ENG = { ai = yes }
+				}
+				OR = {
 					neighbour = ENG
 					any_neighbor_country = { vassal_of = ENG }
 				}
@@ -106,6 +130,10 @@ country_event = {
 				civilized = no
 				is_vassal = no
 				OR = {
+					NOT = { has_country_flag = border_incident_UK  }
+					ENG = { ai = yes }
+				}
+				OR = {
 					neighbour = ENG
 					any_neighbor_country = { vassal_of = ENG }
 				}
@@ -119,6 +147,10 @@ country_event = {
 				exists = yes
 				civilized = no
 				is_vassal = no
+				OR = {
+					NOT = { has_country_flag = border_incident_UK  }
+					ENG = { ai = yes }
+				}
 				OR = {
 					neighbour = ENG
 					any_neighbor_country = { vassal_of = ENG }
@@ -135,6 +167,10 @@ country_event = {
 				civilized = no
 				is_vassal = no
 				OR = {
+					NOT = { has_country_flag = border_incident_UK  }
+					ENG = { ai = yes }
+				}
+				OR = {
 					neighbour = ENG
 					any_neighbor_country = { vassal_of = ENG }
 				}
@@ -148,6 +184,10 @@ country_event = {
 				exists = yes
 				civilized = no
 				is_vassal = no
+				OR = {
+					NOT = { has_country_flag = border_incident_UK  }
+					ENG = { ai = yes }
+				}
 				OR = {
 					neighbour = ENG
 					any_neighbor_country = { vassal_of = ENG }
@@ -248,6 +288,7 @@ country_event = {
 				}
 				NOT = {
 					has_country_modifier = border_incident
+					has_country_flag = border_incident_UK 
 					in_sphere = THIS
 					truce_with = THIS
 				}
@@ -266,6 +307,7 @@ country_event = {
 				type = great_game_cb
 				months = 36
 			}
+			set_country_flag = border_incident_UK 
 		}
 		ai_chance = {
 			factor = 80
@@ -369,6 +411,10 @@ country_event = {
 					neighbour = RUS
 					any_neighbor_country = { vassal_of = RUS }
 				}
+				OR = {
+					NOT = { has_country_flag = border_incident_RUS  }
+					RUS = { ai = yes }
+				}
 				NOT = {
 					has_country_modifier = border_incident
 					in_sphere = THIS
@@ -382,6 +428,10 @@ country_event = {
 				OR = {
 					neighbour = RUS
 					any_neighbor_country = { vassal_of = RUS }
+				}
+				OR = {
+					NOT = { has_country_flag = border_incident_RUS  }
+					RUS = { ai = yes }
 				}
 				NOT = {
 					has_country_modifier = border_incident
@@ -397,6 +447,10 @@ country_event = {
 					neighbour = RUS
 					any_neighbor_country = { vassal_of = RUS }
 				}
+				OR = {
+					NOT = { has_country_flag = border_incident_RUS  }
+					RUS = { ai = yes }
+				}
 				NOT = {
 					has_country_modifier = border_incident
 					in_sphere = THIS
@@ -410,6 +464,10 @@ country_event = {
 				OR = {
 					neighbour = RUS
 					any_neighbor_country = { vassal_of = RUS }
+				}
+				OR = {
+					NOT = { has_country_flag = border_incident_RUS  }
+					RUS = { ai = yes }
 				}
 				NOT = {
 					has_country_modifier = border_incident
@@ -425,6 +483,10 @@ country_event = {
 					neighbour = RUS
 					any_neighbor_country = { vassal_of = RUS }
 				}
+				OR = {
+					NOT = { has_country_flag = border_incident_RUS  }
+					RUS = { ai = yes }
+				}
 				NOT = {
 					has_country_modifier = border_incident
 					in_sphere = THIS
@@ -437,6 +499,10 @@ country_event = {
 				is_vassal = no
 				neighbour = ENG
 				neighbour = RUS
+				OR = {
+					NOT = { has_country_flag = border_incident_RUS  }
+					RUS = { ai = yes }
+				}
 				NOT = {
 					has_country_modifier = border_incident
 					in_sphere = THIS
@@ -451,6 +517,10 @@ country_event = {
 					neighbour = RUS
 					any_neighbor_country = { vassal_of = RUS }
 				}
+				OR = {
+					NOT = { has_country_flag = border_incident_RUS  }
+					RUS = { ai = yes }
+				}
 				NOT = {
 					has_country_modifier = border_incident
 					in_sphere = THIS
@@ -461,6 +531,10 @@ country_event = {
 				exists = yes
 				civilized = no
 				is_vassal = no
+				OR = {
+					NOT = { has_country_flag = border_incident_RUS  }
+					RUS = { ai = yes }
+				}
 				OR = {
 					neighbour = RUS
 					any_neighbor_country = { vassal_of = RUS }
@@ -476,6 +550,10 @@ country_event = {
 				civilized = no
 				is_vassal = no
 				OR = {
+					NOT = { has_country_flag = border_incident_RUS  }
+					RUS = { ai = yes }
+				}
+				OR = {
 					neighbour = RUS
 					any_neighbor_country = { vassal_of = RUS }
 				}
@@ -489,6 +567,10 @@ country_event = {
 				exists = yes
 				civilized = no
 				is_vassal = no
+				OR = {
+					NOT = { has_country_flag = border_incident_RUS  }
+					RUS = { ai = yes }
+				}
 				OR = {
 					neighbour = RUS
 					any_neighbor_country = { vassal_of = RUS }
@@ -505,6 +587,10 @@ country_event = {
 				civilized = no
 				is_vassal = no
 				OR = {
+					NOT = { has_country_flag = border_incident_RUS  }
+					RUS = { ai = yes }
+				}
+				OR = {
 					neighbour = RUS
 					any_neighbor_country = { vassal_of = RUS }
 				}
@@ -518,6 +604,10 @@ country_event = {
 				exists = yes
 				civilized = no
 				is_vassal = no
+				OR = {
+					NOT = { has_country_flag = border_incident_RUS  }
+					RUS = { ai = yes }
+				}
 				OR = {
 					neighbour = RUS
 					any_neighbor_country = { vassal_of = RUS }
@@ -612,6 +702,7 @@ country_event = {
 				}
 				NOT = {
 					has_country_modifier = border_incident
+					has_country_flag = border_incident_RUS 
 					in_sphere = THIS
 					truce_with = THIS
 				}
@@ -630,6 +721,7 @@ country_event = {
 				type = great_game_cb
 				months = 36
 			}
+			set_country_flag = border_incident_RUS
 		}
 		ai_chance = {
 			factor = 80
@@ -740,6 +832,7 @@ country_event = {
 		war = no
 		civilized = no
 		is_vassal = no
+		
 		ENG = { is_greater_power = yes }
 		RUS = { is_greater_power = yes }
 		NOT = {
@@ -747,10 +840,22 @@ country_event = {
 			has_country_modifier = border_incident
 		}
 		OR = {
-			neighbour = ENG
-			neighbour = RUS
-			any_neighbor_country = { vassal_of = ENG }
-			any_neighbor_country = { vassal_of = RUS }
+			AND = {
+				neighbour = ENG
+				NOT = { has_country_flag = border_incident_UK }
+			}
+			AND = {
+				neighbour = RUS
+				NOT = { has_country_flag = border_incident_RUS }
+			}
+			AND = {
+				any_neighbor_country = { vassal_of = ENG }
+				NOT = { has_country_flag = border_incident_UK }
+			}
+			AND = {
+				any_neighbor_country = { vassal_of = RUS }
+				NOT = { has_country_flag = border_incident_RUS }
+			}
 		}
 		OR = {
 			RUS = {
