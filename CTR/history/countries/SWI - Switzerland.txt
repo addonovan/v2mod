@@ -1,5 +1,9 @@
 capital = 605
 primary_culture = swiss
+accepted_culture = swiss_german
+accepted_culture = swiss_french
+accepted_culture = swiss_italian
+accepted_culture = romansch
 religion = protestant
 government = democracy
 plurality = 25.0
@@ -33,7 +37,6 @@ debt_law = debtors_prisons
 penal_system = incarceration
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
-border_policy = open_borders
 
 ruling_party = SWI_conservative
 last_election = 1835.1.1
@@ -73,8 +76,6 @@ piston_steam_engine = 1
 mechanical_production = 1
 mechanized_mining = 1
 basic_chemistry = 1
-puddling = 1
-high_pressure_steam_engine = 1
 
 #Inventions
 authoritarianism = yes
@@ -91,4 +92,5 @@ nonstate_consciousness = 1
 
 oob = "SWI_oob.txt"
 decision = declare_neutrality
+decision = 1836_switzerland_setup
 

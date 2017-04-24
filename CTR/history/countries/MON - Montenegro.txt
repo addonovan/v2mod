@@ -1,5 +1,5 @@
 capital = 2583
-primary_culture = serb
+primary_culture = montenegrin
 religion = orthodox
 government = theocracy
 plurality = 25.0
@@ -7,7 +7,7 @@ nationalvalue = nv_autocracy
 literacy = 0.04
 non_state_culture_literacy = 0.01
 civilized = yes
-prestige = 4
+prestige = 1
 
 
 # Political reforms
@@ -35,7 +35,6 @@ debt_law = peonage
 penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
-border_policy = open_borders
 
 ruling_party = MON_conservative
 upper_house = {

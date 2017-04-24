@@ -1,6 +1,9 @@
 capital = 300
 primary_culture = british
+culture = scottish
+culture = welsh
 culture = anglo_canadian
+culture = anglo-irish
 culture = australian
 religion = protestant
 government = hms_government
@@ -38,7 +41,6 @@ debt_law = debtors_prisons
 penal_system = colonial_transportation
 child_labor = child_labor_restricted
 citizens_rights = primary_culture_only
-border_policy = open_borders
 
 # Technologies
 post_napoleonic_thought = 1
@@ -108,8 +110,8 @@ govt_flag = {
 }
 
 foreign_investment = {
-	BEL = 20000
-	POR = 40000
+	BEL = 10000
+	POR = 30000
 	DEN = 2000
 }
 
