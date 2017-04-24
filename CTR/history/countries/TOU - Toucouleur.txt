@@ -33,7 +33,8 @@ school_reforms = no_schools
 conscription = no_draft
 debt_law = peonage
 penal_system = capital_punishment
-child_labor = child_labor_legalcitizens_rights = primary_culture_only
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
 border_policy = open_borders
 
 ruling_party = SOK_reactionary
@@ -47,14 +48,3 @@ upper_house = {
 	communist = 0
 }
 
-
-1861.1.1 = {
-
-foreign_weapons = yes_foreign_weapons
-
-# Technologies
-flintlock_rifles = 1
-
-# Inventions
-
-}

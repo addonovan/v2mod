@@ -1,5 +1,6 @@
 import os
 import os.path
+import shutil
 
 def match_brace( text, start ):
     brace_count = 1 # we've counted the opening brace
@@ -68,3 +69,11 @@ def explore_folder( folder ):
 
 explore_folder( "..\\CTR\\history\\countries" )
 explore_folder( "..\\CTR\\history\\provinces" )
+
+print( "Removing 1861 pop history..." )
+shutil.rmtree( "..\\CTR\\history\\pops\\1861.4.14" )
+print( "    Complete" )
+
+print( "Removing 1861 unit history..." )
+shutil.rmtree( "..\\CTR\\history\\units\\1861" )
+print( "    Complete" )
