@@ -1,5 +1,8 @@
 capital = 608
 primary_culture = swiss
+accepted_culture = swiss_german
+accepted_culture = swiss_french
+accepted_culture = swiss_italian
 religion = protestant
 government = hms_government
 plurality = 25.0
@@ -30,7 +33,8 @@ school_reforms = no_schools
 conscription = mandatory_service
 debt_law = debtors_prisons
 penal_system = incarceration
-child_labor = child_labor_legalcitizens_rights = primary_culture_only
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
 
 ruling_party = SWI_conservative
 last_election = 1835.1.1
