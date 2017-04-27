@@ -4454,42 +4454,68 @@ conquest = {
 			}
 		}
 
+		#  a civilized country can be conquested if it:
+		# - has fewer than 5 (excl) provinces
+		# - has 1 state (4 if we are fascist)
+		# - have fewer than 125,000 pops
+		# - is civilized (or we are not)
+		AND = {
+			# either they're civilized, or we are not
+			# this prevents conquesting uncivs
+			OR = {
+				civilized = yes
+				THIS = { civilized = no }
+			}
+
+			OR = {
+				NOT = { num_of_cities = 5 }
+
+				# 1 state (or up to 4 if fascist)
+				OR = {
+					NOT = { number_of_states = 2 } # <2 states (i.e. 1)
+					AND = {
+						NOT = { number_of_states = 5 } # <5 states (i.e. <=4)
+						THIS = { government = fascist_dictatorship }
+					}
+				}
+
+				NOT = { total_pops = 125000 }
+			}
+		}
+
+		# we cannot annex vassals, nor can vassals annex their superiors
 		NOT = { is_our_vassal = THIS }
+		is_vassal = no
+		
+		# we must border the given country, via land or water
 		OR = {
 			AND = { 
 				THIS = { num_of_ports = 1 } 
 				num_of_ports = 1
 			}
 			neighbour = THIS
-			AND = { war_with = THIS ai = no }
 		}
-		OR = {
-			THIS = { civilized = no }
-			civilized = yes
-		}
-		OR = {
-			NOT = {
-				any_state = {
-					is_colonial = no
-					NOT = { any_owned_province = { is_capital = yes } }
-				}
-			}
-			AND = {
-				THIS = { government = fascist_dictatorship }
-				NOT = { number_of_states = 4 }
-			}
-		}
-		is_vassal = no
+
+		# neither we nor they can be neutral
 		NOT = { has_country_modifier = neutrality }
 		THIS = { NOT = { has_country_modifier = neutrality } }
+
+		# if we have the no_more_war modifier, we can't use this unless we're already at war
 		OR = {
 			war_with = THIS
 			THIS = { NOT = { has_country_modifier = no_more_war } }
 		}
+
+		# unless we're fascist or communist, we must either:
+		# - already be at war
+		# - relation must be lower than 0
+		# - be a human player
 		OR = {
 			THIS = { government = fascist_dictatorship }
 			THIS = { government = proletarian_dictatorship }
+
 			war_with = THIS
+			
 			NOT = { relation = { who = THIS value = 0 } }
 			THIS = { ai = no }
 		}
