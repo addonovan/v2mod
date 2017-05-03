@@ -1,8 +1,9 @@
 capital = 608
 primary_culture = swiss
-accepted_culture = swiss_german
-accepted_culture = swiss_french
-accepted_culture = swiss_italian
+accepted_culture = german
+accepted_culture = french
+accepted_culture = north_italian
+accepted_culture = romansh
 religion = protestant
 government = hms_government
 plurality = 25.0
