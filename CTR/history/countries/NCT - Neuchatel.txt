@@ -1,6 +1,6 @@
 capital = 608
 primary_culture = swiss
-accepted_culture = german
+accepted_culture = south_german
 accepted_culture = french
 accepted_culture = north_italian
 accepted_culture = romansh
