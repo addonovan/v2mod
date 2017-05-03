@@ -17,6 +17,7 @@ daimlers_automobile = {
 				invention = edison_light_bulb
 			}
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = daimlers_automobile } }
 	}
 	effect = {
 		activate_building = automobile_factory 
@@ -41,6 +42,7 @@ wright_n_langleys_aeroplanes = {
 				invention = edison_light_bulb
 			}
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = wright_n_langleys_aeroplanes } }
 	}
 	effect = {
 		activate_building = aeroplane_factory 
@@ -60,6 +62,7 @@ tractors = {
 			factor = 2
 			economic_policy = laissez_faire
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = tractors } }
 	}
 	effect = {
 		rgo_goods_output = { cotton = 0.05 }
@@ -84,6 +87,7 @@ direct_current = {
 			factor = 2
 			ruling_party_ideology = liberal
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = direct_current } }
 	}
 	effect = {
 		rgo_output = 0.05
@@ -102,6 +106,7 @@ alternating_current = {
 			factor = 3
 			invention = direct_current
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = alternating_current } }
 	}
 	effect = {
 		rgo_output = 0.05
@@ -120,6 +125,7 @@ polyphase_system = {
 			factor = 2
 			average_consciousness = 3
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = polyphase_system } }
 	}
 	effect = {
 		rgo_output = 0.05
@@ -139,6 +145,7 @@ sharp_n_roberts_power_loom = {
 			factor = 2
 			stock_exchange = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = sharp_n_roberts_power_loom } }
 	}
 	effect = {
 		factory_goods_throughput = { fabric = 0.05 }
@@ -159,6 +166,7 @@ jacquard_power_loom = {
 			factor = 2
 			invention = insurance_companies
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = jacquard_power_loom } }
 	}
 	effect = {
 		#rgo_goods_output = { wool = 0.05 }
@@ -178,6 +186,7 @@ mechanical_saw = {
 			factor = 2
 			organized_factories = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = mechanical_saw } }
 	}
 	effect = {
 		rgo_goods_output = { timber = 0.2 }
@@ -196,6 +205,7 @@ mechanical_precision_saw = {
 			factor = 2
 			high_pressure_steam_engine = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = mechanical_precision_saw } }
 	}
 	effect = {
 		rgo_goods_output = { timber = 0.3 }
@@ -213,6 +223,7 @@ hussey_n_mccormicks_reaping_machine = {
 			factor = 2
 			invention = work_specialization
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = hussey_n_mccormicks_reaping_machine } }
 	}
 	effect = {
 		rgo_goods_output = { grain = 0.2 }	#0.2
@@ -232,6 +243,7 @@ pitts_threshing_machine = {
 			factor = 2
 			high_pressure_steam_engine = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = pitts_threshing_machine } }
 	}
 	effect = {
 		rgo_goods_output = { grain = 0.2 } #0.2
@@ -251,6 +263,7 @@ mechanized_slaughtering_block = {
 			factor = 2
 			hot_blast = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = mechanized_slaughtering_block } }
 	}
 	effect = {
 		rgo_goods_output = { cattle = 0.1 } #0.2
@@ -270,6 +283,7 @@ precision_work = {
 			factor = 2
 			early_railroad = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = precision_work } }
 	}
 	effect = {
 		factory_goods_output = {
@@ -295,6 +309,7 @@ machine_tools = {
 			factor = 2
 			early_railroad = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = machine_tools } }
 	}
 	effect = {
 		factory_goods_output = { machine_parts = 0.02 }
@@ -313,6 +328,7 @@ whitney_n_colts_standardized_small_arms = {
 			factor = 2
 			invention = manifest_destiny
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = whitney_n_colts_standardized_small_arms } }
 	}
 	effect = {
 		factory_goods_output = {
@@ -332,6 +348,7 @@ food_packing_system = {
 			factor = 2
 			invention = limited_partnership_company
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = food_packing_system } }
 	}
 	effect = {
 		factory_goods_output = {
@@ -351,6 +368,7 @@ integral_distillery_process = {
 			factor = 2
 			market_structure = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = integral_distillery_process } }
 	}
 	effect = {
 		factory_goods_output = {
@@ -370,6 +388,7 @@ jiggs = {
 			factor = 2
 			invention = sequence_planning
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = jiggs } }
 	}
 	effect = {
 		factory_goods_output = {
@@ -392,6 +411,7 @@ dobby_loom = {
 			factor = 2
 			invention = insurance_companies
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = dobby_loom } }
 	}
 	effect = {
 		factory_goods_throughput = { fabric = 0.05 }
@@ -412,6 +432,7 @@ steam_powered_silk_reels = {
 			factor = 2
 			invention = insurance_companies
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = steam_powered_silk_reels } }
 	}
 	effect = {
 		rgo_goods_output = { silk = 0.4 }
@@ -430,6 +451,7 @@ lancashire_loom = {
 			factor = 2
 			invention = inventory_planning
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = lancashire_loom } }
 	}
 	effect = {
 		factory_goods_output = { fabric = 0.05 }
@@ -448,6 +470,7 @@ electric_machinery = {
 			factor = 2
 			invention = machine_tools
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = electric_machinery } }
 	}
 	effect = {
 		factory_cost = 0.05
@@ -466,6 +489,7 @@ oil_pumping_machinery = {
 			factor = 2
 			bessemer_process = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = oil_pumping_machinery } }
 	}
 	effect = {
 		rgo_goods_output = { oil = 0.1 }
@@ -483,6 +507,7 @@ drying_techniques = {
 			factor = 2
 			invention = industrial_rnd_investments
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = drying_techniques } }
 	}
 	effect = {
 		rgo_goods_output = { fish = 0.2 } #0.3
@@ -507,6 +532,7 @@ stiff_plastic_brickmaking_machine = {
 			factor = -6
 			NOT = { private_banks = 1 }
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = stiff_plastic_brickmaking_machine } }
 	}
 	effect = { factory_goods_output = { cement = 0.1 } }
 }
@@ -524,6 +550,7 @@ fordism = {
 			factor = 2
 			invention = distribution_channels
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = fordism } }
 	}
 	effect = {
 		factory_goods_output = {
@@ -566,6 +593,7 @@ industrialized_armament_industry = {
 			factor = 2
 			invention = whitney_n_colts_standardized_small_arms
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = industrialized_armament_industry } }
 	}
 	effect = {
 		factory_goods_output = {
@@ -594,6 +622,7 @@ refrigerator_technology = {
 			factor = 2
 			integral_rail_system = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = refrigerator_technology } }
 	}
 	effect = {
 		rgo_goods_output = { cattle = 0.1 }
@@ -616,6 +645,7 @@ northrop_power_loom = {
 			factor = 2
 			invention = lighting
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = northrop_power_loom } }
 	}
 	effect = {
 		factory_goods_output = { fabric = 0.05 }
@@ -638,6 +668,7 @@ ammunition_production = {
 			factor = 2
 			army_professionalism = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = ammunition_production } }
 	}
 	effect = {
 		activate_building = ammunition_factory 
@@ -655,6 +686,7 @@ small_arms_production = {
 			factor = 2
 			early_railroad = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = small_arms_production } }
 	}
 	effect = {
 		activate_building = small_arms_factory
@@ -672,6 +704,7 @@ explosives_production = {
 			factor = 2
 			invention = nitroglycerin
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = explosives_production } }
 	}
 	effect = {
 		activate_building = explosives_factory 
@@ -689,6 +722,7 @@ artillery_production = {
 			factor = 2
 			iron_muzzle_loaded_artillery = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = artillery_production } }
 	}
 	effect = {
 		activate_building = artillery_factory 
@@ -707,6 +741,7 @@ pit_coal = {
 			factor = 2
 			early_railroad = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = pit_coal } }
 	}
 	effect = {
 		rgo_goods_output = { coal = 0.5 }
@@ -724,6 +759,7 @@ coke = {
 			factor = 2
 			early_railroad = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = coke } }
 	}
 	effect = {
 		rgo_goods_output = { coal = 0.5 }
@@ -742,6 +778,7 @@ advanced_ore_roasting_processes = {
 			factor = 2
 			inorganic_chemistry = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = advanced_ore_roasting_processes } }
 	}
 	effect = {
 		rgo_goods_output = {
@@ -761,6 +798,7 @@ advanced_ore_grinding_processes = {
 			factor = 2
 			organized_factories = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = advanced_ore_grinding_processes } }
 	}
 	effect = {
 		rgo_goods_output = {
@@ -780,6 +818,7 @@ advanced_ore_smelting_processes = {
 			factor = 2
 			iron_railroad = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = advanced_ore_smelting_processes } }
 	}
 	effect = {
 		rgo_goods_output = {
@@ -801,6 +840,7 @@ bessemer_steel = {
 			factor = 2
 			steel_breech_loaded_artillery = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = bessemer_steel } }
 	}
 	effect = {
 		factory_goods_throughput = { steel = 0.01 }
@@ -819,6 +859,7 @@ martin_steel = {
 			factor = 2
 			steel_railroad = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = martin_steel } }
 	}
 	effect = {
 		factory_goods_output = { steel = 0.01 }
@@ -836,6 +877,7 @@ thomas_steel = {
 			factor = 2
 			advanced_metallurgy = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = thomas_steel } }
 	}
 	effect = {
 		factory_goods_output = { steel = 0.01 }
@@ -854,6 +896,7 @@ electric_rolling_techniques = {
 			factor = 2
 			invention = thomas_steel
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = electric_rolling_techniques } }
 	}
 	effect = {
 		factory_goods_output = { steel = 0.02 }
@@ -871,6 +914,7 @@ steel_alloys = {
 			factor = 2
 			inorganic_chemistry = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = steel_alloys } }
 	}
 	effect = {
 		rgo_goods_output = { precious_metal = 0.05 }
@@ -893,6 +937,7 @@ rotary_kiln = {
 			factor = -6
 			NOT = { private_banks = 1 }
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = rotary_kiln } }
 	}
 	effect = { factory_goods_output = { cement = 0.1 } }
 }
@@ -909,6 +954,7 @@ stainless_steel = {
 			factor = 2
 			assembly_line = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = stainless_steel } }
 	}
 	effect = {
 		factory_goods_output = { steel = 0.02 }
@@ -930,6 +976,7 @@ combat_medicine = {
 			factor = 2
 			military_statistics = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = combat_medicine } }
 	}
 	effect = {
 		land_attrition = -0.05 
@@ -948,6 +995,7 @@ aerial_bacteria_and_antiseptic_principle = {
 			factor = 2
 			empiricism = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = aerial_bacteria_and_antiseptic_principle } }
 	}
 	effect = {
 		land_attrition = -0.05  
@@ -967,6 +1015,7 @@ vaccination = {
 			factor = 2
 			naval_plans = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = vaccination } }
 	}
 	effect = {
 		land_attrition = -0.05 
@@ -986,6 +1035,7 @@ chemotherapy = {
 			factor = 2
 			market_structure = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = chemotherapy } }
 	}
 	effect = {
 		land_attrition = -0.05  
@@ -1020,6 +1070,7 @@ clinical_thermometers_and_binaural_stethoscopes = {
 			factor = 2
 			organized_factories = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = clinical_thermometers_and_binaural_stethoscopes } }
 	}
 	effect = {
 		pop_growth = 0.0001
@@ -1037,6 +1088,7 @@ prophylaxis_against_malaria = {
 			factor = 3
 			colonial_nation = yes
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = prophylaxis_against_malaria } }
 	}
 	effect = {
 		land_attrition = -0.05 
@@ -1056,6 +1108,7 @@ pressure_chambers_for_thorax_surgery = {
 			factor = 2
 			puddling = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = pressure_chambers_for_thorax_surgery } }
 	}
 	effect = {
 		shared_prestige = 10
@@ -1079,6 +1132,7 @@ germ_theory = {
 			factor = 2
 			invention = aerial_bacteria_and_antiseptic_principle
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = germ_theory } }
 	}
 	effect = {
 		pop_growth = 0.0002
@@ -1097,6 +1151,7 @@ artificial_fertilizers = {
 			factor = 2
 			invention = hussey_n_mccormicks_reaping_machine
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = artificial_fertilizers } }
 	}
 	effect = {
 		rgo_goods_output = { cotton = 0.05 }
@@ -1122,6 +1177,7 @@ nitroglycerin = {
 			factor = 2
 			scientific_management = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = nitroglycerin } }
 	}
 	effect = {
 		factory_goods_output = { explosives = 0.02 }
@@ -1139,6 +1195,7 @@ chemical_wood_pulp_process = {
 			factor = 2
 			invention = industrial_rnd_investments
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = chemical_wood_pulp_process } }
 	}
 	effect = {
 		factory_goods_output = {
@@ -1158,6 +1215,7 @@ rubber_vulcanization = {
 			factor = 2
 			business_banks = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = rubber_vulcanization } }
 	}
 	effect = {
 		rgo_goods_output = {
@@ -1177,6 +1235,7 @@ catalytic_fermentative_process = {
 			factor = 2
 			scientific_management = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = catalytic_fermentative_process } }
 	}
 	effect = {
 		factory_goods_output = {
@@ -1197,6 +1256,7 @@ synthetic_dye = {
 			factor = 2
 			management_strategy = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = synthetic_dye } }
 	}
 	effect = {
 		activate_building = dye_factory 
@@ -1214,6 +1274,7 @@ gaslights = {
 			factor = 2
 			investment_banks = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = gaslights } }
 	}
 	effect = {
 		factory_throughput = 0.05
@@ -1231,6 +1292,7 @@ carbon_soil_enrichment = {
 			factor = 2
 			invention = capital_for_investors
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = carbon_soil_enrichment } }
 	}
 	effect = {
 		rgo_goods_output = { cotton = 0.05 }
@@ -1254,6 +1316,7 @@ cracking = {
 			factor = 2
 			management_strategy = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = cracking } }
 	}
 	effect = {
 		activate_building = fuel_refinery 
@@ -1272,6 +1335,7 @@ x_rays = {
 			factor = 2
 			advanced_metallurgy = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = x_rays } }
 	}
 	effect = {
 		pop_growth = 0.0002
@@ -1290,6 +1354,7 @@ edison_light_bulb = {
 			factor = 2
 			electrical_power_generation = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = edison_light_bulb } }
 	}
 	effect = {
 		activate_building = electric_gear_factory 
@@ -1313,6 +1378,7 @@ bell_n_greys_telephones = {
 				invention = edison_light_bulb
 			}
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = bell_n_greys_telephones } }
 	}
 	effect = {
 		activate_building = telephone_factory 
@@ -1334,6 +1400,7 @@ electrical_lighting = {
 			factor = 2
 			electrical_power_generation = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = electrical_lighting } }
 	}
 	effect = {
 		factory_throughput = 0.05
@@ -1353,6 +1420,7 @@ rayon = {
 			factor = 2
 			mutual_funds = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = rayon } }
 	}
 	effect = {
 		factory_goods_output = {
@@ -1372,6 +1440,7 @@ bakelite = {
 			factor = 2
 			time_saving_measures = 1
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = bakelite } }
 	}
 	effect = {
 		factory_goods_output = {
@@ -1395,6 +1464,7 @@ vacuum_tube = {
 			factor = 5
 			invention = alternating_current
 		}			
+		modifier = { factor = 5  any_neighbor_country = { invention = vacuum_tube } }
 	}
 	effect = {
 		factory_goods_output = { radio = 0.03 } 
@@ -1407,6 +1477,7 @@ tulls_seed_drill = {
 	limit = { piston_steam_engine = 1 }
 	chance = {
 		base = 6
+		modifier = { factor = 5  any_neighbor_country = { invention = tulls_seed_drill } }
 	}
 	effect = {
 		rgo_goods_output = { grain = 0.1 }
@@ -1482,6 +1553,7 @@ rotherham_plough = {
 	limit = { high_pressure_steam_engine = 1 }
 	chance = {
 		base = 6
+		modifier = { factor = 5  any_neighbor_country = { invention = rotherham_plough } }
 	}
 	effect = {
 		rgo_goods_output = { grain = 0.2 }
@@ -1499,6 +1571,7 @@ cotton_gin = {
 	}
 	chance = {
 		base = 6
+		modifier = { factor = 5  any_neighbor_country = { invention = cotton_gin } }
 	}
 	effect = {
 		rgo_goods_output = { cotton = 0.5 }
@@ -1517,6 +1590,7 @@ telephone_switchboard = {
 			factor = 5
 			invention = edison_light_bulb
 		}			
+		modifier = { factor = 5  any_neighbor_country = { invention = telephone_switchboard } }
 	}
 	effect = {
 		factory_goods_output = {

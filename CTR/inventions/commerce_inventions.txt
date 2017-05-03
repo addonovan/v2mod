@@ -14,6 +14,7 @@ multitude_of_financial_instruments = {
 			factor = 2
 			trade_policy = free_trade
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = multitude_of_financial_instruments } }
 	}
 	effect = {
 		tax_eff = 1 
@@ -34,6 +35,7 @@ insurance_companies = {
 			factor = 2
 			slavery = no_slavery
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = insurance_companies } }
 	}
 	effect = {
 		tax_eff = 1 
@@ -54,6 +56,7 @@ regulated_buying_and_selling_of_stocks = {
 			factor = 1
 			economic_policy = state_capitalism
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = regulated_buying_and_selling_of_stocks } }
 	}
 	effect = {
 		tax_eff = 1 
@@ -73,6 +76,7 @@ liquidation_of_assets = {
 			factor = 2
 			trade_policy = protectionism
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = liquidation_of_assets } }
 	}
 	effect = {
 		factory_cost = -0.01
@@ -91,6 +95,7 @@ capital_for_investors = {
 			factor = 1
 			ruling_party_ideology = conservative
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = capital_for_investors } }
 	}
 	effect = {
 		factory_cost = -0.01 
@@ -109,6 +114,7 @@ distribution_channels = {
 			factor = 1
 			economic_policy = laissez_faire
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = distribution_channels } }
 	}
 	effect = {
 		factory_cost = -0.05
@@ -128,6 +134,7 @@ industrial_rnd_investments = {
 			factor = 2
 			trade_policy = protectionism
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = industrial_rnd_investments } }
 	}
 	effect = {
 		factory_cost = -0.01
@@ -146,6 +153,7 @@ industrial_production_investments = {
 			factor = 1
 			trade_policy = free_trade
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = industrial_production_investments } }
 	}
 	effect = {
 		factory_cost = -0.01
@@ -164,6 +172,7 @@ industrial_distribution_investments = {
 			factor = 1
 			ruling_party_ideology = liberal
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = industrial_distribution_investments } }
 	}
 	effect = {
 		factory_cost = -0.01
@@ -187,6 +196,7 @@ private_bank_monitoring = {
 			factor = 1
 			nationalvalue = nv_order
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = private_bank_monitoring } }
 	}
 	effect = {
 		tax_eff = 1 
@@ -207,6 +217,7 @@ market_behaviour_monitoring = {
 			factor = 1
 			ruling_party_ideology = socialist
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = market_behaviour_monitoring } }
 	}
 	effect = {
 		tax_eff = 1 
@@ -226,6 +237,7 @@ buying_on_margin = {
 			factor = 1
 			nationalvalue = nv_liberty
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = buying_on_margin } }
 	}
 	effect = {
 		factory_cost = -0.01
@@ -245,6 +257,7 @@ silver_standard = {
 			factor = 1
 			economic_policy = interventionism
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = silver_standard } }
 	}
 	effect = {
 		tax_eff = 3 
@@ -263,6 +276,7 @@ decimal_monetary_system = {
 			factor = 1
 			economic_policy = interventionism
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = decimal_monetary_system } }
 	}
 	effect = {
 		tax_eff = 3 
@@ -282,6 +296,7 @@ double_standard = {
 			factor = 3
 			average_consciousness = 3
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = double_standard } }
 	}
 	effect = {
 		tax_eff = 2 
@@ -300,6 +315,7 @@ fixed_intramonetary_exchange_rates = {
 			factor = 1
 			economic_policy = planned_economy
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = fixed_intramonetary_exchange_rates } }
 	}
 	effect = {
 		tax_eff = 1 
@@ -323,6 +339,7 @@ gold_standard = {
 			factor = 3
 			economic_policy = laissez_faire
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = gold_standard } }
 	}
 	effect = {
 		tax_eff = 3 
@@ -345,6 +362,7 @@ international_monetary_exchange_rates = {
 			factor = 2
 			is_greater_power = yes
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = international_monetary_exchange_rates } }
 	}
 	effect = {
 		tax_eff = 1 
@@ -364,6 +382,7 @@ state_bond_monetary_mechanism = {
 			factor = 1
 			economic_policy = interventionism
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = state_bond_monetary_mechanism } }
 	}
 	effect = {
 		tax_eff = 1 
@@ -386,6 +405,7 @@ interest_inflation_weapon = {
 			factor = 1
 			trade_policy = protectionism
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = interest_inflation_weapon } }
 	}
 	effect = {
 		tax_eff = 1 
@@ -405,6 +425,7 @@ hyperinflation = {
 			factor = 2
 			war_exhaustion = 4
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = hyperinflation } }
 	}
 	core_pop_consciousness_modifier = 0.01
 	effect = {
@@ -425,6 +446,7 @@ john_ramsay_mcculloch = {
 			factor = 2
 			is_greater_power = yes
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = john_ramsay_mcculloch } }
 	}
 	effect = {
 		activate_building = furniture_factory
@@ -443,6 +465,7 @@ nassau_william_sr = {
 			factor = 1
 			ruling_party_ideology = liberal
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = nassau_william_sr } }
 	}
 	effect = {
 		activate_building = paper_mill 
@@ -461,6 +484,7 @@ james_mill = {
 			factor = 1
 			ruling_party_ideology = liberal
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = james_mill } }
 	}
 	effect = {
 		activate_building = luxury_furniture_factory 
@@ -482,6 +506,7 @@ john_elliot_cairnes = {
 			factor = 1
 			trade_unions = all_trade_unions
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = john_elliot_cairnes } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -502,6 +527,7 @@ robert_torrens = {
 			factor = 1
 			ruling_party_ideology = liberal
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = robert_torrens } }
 	}
 	effect = {
 		permanent_prestige = 1
@@ -522,6 +548,7 @@ john_stuart_mill = {
 			factor = 1
 			ruling_party_ideology = liberal
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = john_stuart_mill } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -568,6 +595,7 @@ pierre_joseph_proudhon = {
 			factor = 2
 			invention = collectivism
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = pierre_joseph_proudhon } }
 	}
 	effect = {
 		permanent_prestige = 1  
@@ -633,6 +661,7 @@ karl_marx = {
 			factor = 2
 			invention = collectivism
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = karl_marx } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -692,6 +721,7 @@ friedrich_engels = {
 			factor = 1
 			economic_policy = planned_economy
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = friedrich_engels } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -720,6 +750,7 @@ eduard_bernstein = {
 			factor = 1
 			nationalvalue = nv_order
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = eduard_bernstein } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -746,6 +777,7 @@ sidney_webb = {
 			factor = 2
 			economic_policy = state_capitalism
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = sidney_webb } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -770,6 +802,7 @@ karl_kautsky = {
 			factor = 2
 			economic_policy = state_capitalism
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = karl_kautsky } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -790,6 +823,7 @@ jean_jaures = {
 			factor = 2
 			ruling_party_ideology = socialist
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = jean_jaures } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -811,6 +845,7 @@ friedrich_list = {
 			factor = 1
 			economic_policy = state_capitalism
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = friedrich_list } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -831,6 +866,7 @@ wilhelm_roscher = {
 			factor = 1
 			nationalvalue = nv_order
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = wilhelm_roscher } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -851,6 +887,7 @@ bruno_hildebrand = {
 			factor = 1
 			religious_policy = pluralism
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = bruno_hildebrand } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -871,6 +908,7 @@ karl_knies = {
 			factor = 2
 			ruling_party_ideology = conservative
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = karl_knies } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -891,6 +929,7 @@ gustav_von_schmoller = {
 			factor = 2
 			prestige = 30
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = gustav_von_schmoller } }
 	}
 	effect = {
 		permanent_prestige = 1  
@@ -911,6 +950,7 @@ adolph_wagner = {
 			factor = 2
 			nationalvalue = nv_order
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = adolph_wagner } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -931,6 +971,7 @@ william_cunningham = {
 			factor = 2
 			nationalvalue = nv_liberty
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = william_cunningham } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -952,6 +993,7 @@ johann_heinrich_von_thunen = {
 			factor = 1
 			economic_policy = interventionism
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = johann_heinrich_von_thunen } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -972,6 +1014,7 @@ leon_walras = {
 			factor = 1
 			nationalvalue = nv_equality
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = leon_walras } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -993,6 +1036,7 @@ stanley_jevons = {
 			factor = 1
 			nationalvalue = nv_order
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = stanley_jevons } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -1014,6 +1058,7 @@ carl_menger = {
 			factor = 2
 			nationalvalue = nv_liberty
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = carl_menger } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -1035,6 +1080,7 @@ thorstein_veblen = {
 			factor = 2
 			economic_policy = state_capitalism
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = thorstein_veblen } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -1056,6 +1102,7 @@ alfred_marshall = {
 			factor = 2
 			nationalvalue = nv_liberty
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = alfred_marshall } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -1077,6 +1124,7 @@ augustin_cournot = {
 			factor = 2
 			nationalvalue = nv_equality
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = augustin_cournot } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -1098,6 +1146,7 @@ jules_dupuit = {
 			factor = 3
 			average_consciousness = 3
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = jules_dupuit } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -1119,6 +1168,7 @@ vilfredo_pareto = {
 			factor = 1
 			ruling_party_ideology = liberal
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = vilfredo_pareto } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -1140,6 +1190,7 @@ knut_wicksell = {
 			factor = 3
 			nationalvalue = nv_liberty
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = knut_wicksell } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -1161,6 +1212,7 @@ irving_fischer = {
 			factor = 2
 			economic_policy = interventionism
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = irving_fischer } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -1182,6 +1234,7 @@ joseph_schumpeter = {
 			factor = 2
 			trade_policy = free_trade
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = joseph_schumpeter } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -1203,6 +1256,7 @@ eugen_von_bohm_bawerk = {
 			factor = 2
 			trade_policy = free_trade
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = eugen_von_bohm_bawerk } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -1227,6 +1281,7 @@ john_maynard_keynes = {
 			factor = 2
 			economic_policy = state_capitalism
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = john_maynard_keynes } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -1248,6 +1303,7 @@ richard_kahn = {
 			factor = 2
 			economic_policy = interventionism
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = richard_kahn } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -1273,6 +1329,7 @@ ludwig_von_mises = {
 			factor = 1
 			prestige = 10
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = ludwig_von_mises } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -1294,6 +1351,7 @@ friedrich_hayek = {
 			factor = 2
 			ruling_party_ideology = socialist
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = friedrich_hayek } }
 	}
 	effect = {
 		permanent_prestige = 1 
@@ -1322,6 +1380,7 @@ polypoly_structure = {
 			factor = 2
 			nationalvalue = nv_liberty
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = polypoly_structure } }
 	}
 	effect = {
 		factory_input = -0.02
@@ -1349,6 +1408,7 @@ oligopoly_structure = {
 			factor = 2
 			ruling_party_ideology = conservative
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = oligopoly_structure } }
 	}
 	effect = {
 		factory_output = 0.02
@@ -1376,6 +1436,7 @@ monopoly_structure = {
 			factor = 2
 			economic_policy = state_capitalism
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = monopoly_structure } }
 	}
 	effect = {
 		factory_throughput = 0.05
@@ -1395,6 +1456,7 @@ limited_partnership_company = {
 			factor = 2
 			is_greater_power = yes
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = limited_partnership_company } }
 	}
 	effect = {
 		tax_eff = 1 
@@ -1413,6 +1475,7 @@ joint_stock_company = {
 			factor = 2
 			ruling_party_ideology = liberal
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = joint_stock_company } }
 	}
 	effect = {
 		tax_eff = 1 
@@ -1435,6 +1498,7 @@ patent = {
 			factor = 2
 			ruling_party_ideology = liberal
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = patent } }
 	}
 	effect = {
 		factory_cost = -0.03
@@ -1457,6 +1521,7 @@ trademark = {
 			factor = 2
 			prestige = 10
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = trademark } }
 	}
 	effect = {
 		factory_cost = -0.02 
@@ -1480,6 +1545,7 @@ anti_trust_laws = {
 			factor = 2
 			nationalvalue = nv_equality
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = anti_trust_laws } }
 	}
 	effect = {
 		tax_eff = 1 
@@ -1498,6 +1564,7 @@ financial_regulations = {
 			factor = 2
 			trade_policy = protectionism
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = financial_regulations } }
 	}
 	effect = {
 		tax_eff = 1 
@@ -1516,6 +1583,7 @@ banking_regulations = {
 			factor = 2
 			ruling_party_ideology = socialist
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = banking_regulations } }
 	}
 	effect = {
 		tax_eff = 1 
@@ -1535,6 +1603,7 @@ working_board_of_directors = {
 			factor = 2
 			economic_policy = laissez_faire
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = working_board_of_directors } }
 	}
 	effect = {
 		factory_cost = -0.01
@@ -1553,6 +1622,7 @@ bankruptcy_proceedings = {
 			factor = 2
 			ruling_party_ideology = liberal
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = bankruptcy_proceedings } }
 	}
 	effect = {
 		factory_cost = -0.01 
@@ -1571,6 +1641,7 @@ annual_report_proceedings = {
 			factor = 2
 			ruling_party_ideology = conservative
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = annual_report_proceedings } }
 	}
 	effect = {
 		factory_cost = -0.01
@@ -1590,6 +1661,7 @@ priming_the_pump_ = {
 			factor = 2
 			ruling_party_ideology = socialist
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = priming_the_pump_ } }
 	}
 	effect = {
 		loan_interest = -0.005
@@ -1608,6 +1680,7 @@ mixed_economy = {
 			factor = 2
 			ruling_party_ideology = liberal
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = mixed_economy } }
 	}
 	effect = {
 		loan_interest = -0.005
@@ -1626,6 +1699,7 @@ centralized_economic_planning = {
 			factor = 3
 			economic_policy = planned_economy
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = centralized_economic_planning } }
 	}
 	effect = {
 		factory_cost = -0.01
@@ -1648,6 +1722,7 @@ autarky = {
 		#	factor = 100
 		#	stupidity = yes
 		#}
+		modifier = { factor = 5  any_neighbor_country = { invention = autarky } }
 	}
 	effect = {
 		loan_interest = -0.005
@@ -1677,6 +1752,7 @@ import_substitution_industrialization = {
 			factor = 1
 			trade_policy = protectionism
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = import_substitution_industrialization } }
 	}
 	effect = {
 		activate_building = synthetic_oil_factory
@@ -1696,6 +1772,7 @@ work_classification = {
 			factor = 2
 			ruling_party_ideology = liberal
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = work_classification } }
 	}
 	effect = {
 		factory_output = 0.01
@@ -1718,6 +1795,7 @@ work_specialization = {
 			factor = 2
 			trade_policy = free_trade
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = work_specialization } }
 	}
 	effect = {
 		factory_output = 0.01
@@ -1740,6 +1818,7 @@ work_control_and_hierarchy = {
 			factor = 2
 			trade_policy = free_trade
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = work_control_and_hierarchy } }
 	}
 	effect = {
 		factory_output = 0.01
@@ -1759,6 +1838,7 @@ sequence_planning = {
 			factor = 2
 			ruling_party_ideology = conservative
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = sequence_planning } }
 	}
 	effect = {
 		factory_output = 0.01
@@ -1777,6 +1857,7 @@ inventory_planning = {
 			factor = 2
 			trade_policy = free_trade
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = inventory_planning } }
 	}
 	effect = {
 		factory_output = 0.01
@@ -1795,6 +1876,7 @@ quality_assurance_procedure = {
 			factor = 2
 			average_consciousness = 4
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = quality_assurance_procedure } }
 	}
 	effect = {
 		factory_output = 0.01
@@ -1814,6 +1896,7 @@ time_studies = {
 			factor = 2
 			ruling_party_ideology = socialist
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = time_studies } }
 	}
 	effect = {
 		factory_output = 0.01
@@ -1832,6 +1915,7 @@ time_clock = {
 			factor = 2
 			average_consciousness = 2
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = time_clock } }
 	}
 	effect = {
 		factory_output = 0.025
@@ -1850,6 +1934,7 @@ lighting = {
 			factor = 2
 			economic_policy = laissez_faire
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = lighting } }
 	}
 	effect = {
 		factory_output = 0.025
@@ -1871,6 +1956,7 @@ old_style_family_business = {
 				average_consciousness = 3
 			}
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = old_style_family_business } }
 	}
 	effect = {
 		factory_input = -0.01
@@ -1889,6 +1975,7 @@ anynomous_investor_business = {
 			factor = 2
 			economic_policy = state_capitalism
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = anynomous_investor_business } }
 	}
 	effect = {
 		factory_input = -0.01 
@@ -1907,6 +1994,7 @@ marketized_smallholder_business = {
 			factor = 2
 			ruling_party_ideology = liberal
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = marketized_smallholder_business } }
 	}
 	effect = {
 		factory_input = -0.01
@@ -1926,6 +2014,7 @@ i_scientific_management = {
 			factor = 2
 			average_consciousness = 3
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = i_scientific_management } }
 	}
 	effect = {
 		factory_output = 0.01
@@ -1944,6 +2033,7 @@ human_resource_development = {
 			factor = 2
 			trade_unions = all_trade_unions
 		}
+		modifier = { factor = 5  any_neighbor_country = { invention = human_resource_development } }
 	}
 	effect = {
 		factory_output = 0.01
