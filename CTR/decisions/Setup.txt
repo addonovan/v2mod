@@ -1314,9 +1314,9 @@ political_decisions = {
 		effect = {
 			any_pop = { limit = { culture = ashkenazi } literacy = 0.70 }
 			any_pop = { limit = { culture = romansh } literacy = 0.70 }
-			any_pop = { limit = { culture = swiss_german } literacy = 0.70 }
-			any_pop = { limit = { culture = swiss_french } literacy = 0.70 }
-			any_pop = { limit = { culture = swiss_italian } literacy = 0.70 }
+			any_pop = { limit = { culture = south_german } literacy = 0.70 }
+			any_pop = { limit = { culture = french } literacy = 0.70 }
+			any_pop = { limit = { culture = north_italian } literacy = 0.70 }
 		}
 	}
 	
