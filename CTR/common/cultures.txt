@@ -176,48 +176,6 @@ pan_swiss = {
 		"von Donatz" "von Salis-Soglio" "von Steiger" "von Tavel" Wille Celio Cotti Fogliardi Motta Zeni
 		Ador Calonder Chaudet Comtesse "de Prangins" Dufour Fornerod Guisan Ruchet Ruchonnet }
 	}
-	swiss_french = { 
-		color = {40 40 190}
-		first_names = { Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
-		Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
-		François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
-		Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
-		Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas }
-		
-		last_names = { Anthoine "Baraguey d'Hilliers" Bazaine Billot Bonaparte Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
-		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle" 
-		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
-		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
-		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant }
-	}	
-	swiss_german = {
-		color = { 150 110 110 }
-		first_names = { Adolf Albrecht Alexander Alfons Alois Anton Arthur Bernhard Christian
-		Edmund Eduard Engelbert Ernst Erwin Ferdinand Franz Friedrich Gebhard Gerhard Gottfried
-		Günther Gustav Heinrich Hermann Horst Jakob Joachim Johann Joseph
-		Julius Karl Konrad Kurt Leonhard Leopold Lorenz Lothar Ludwig Maximilian
-		Michael Otto Reinhold Rudolf Stefan Theodor Viktor Walter Werner Wilhelm }
-		
-		last_names = { Beck-Rzikowsky Blos Dankl Eisner Geiss Goering Hainisch Haus Held Hellpach
-		Hoffmann Hummel Köhler Mergenthaler Miklas Remmele Schmitt Schobber Seitz Steeb
-		Stolzer Trunk "von Baden" "von Benedek" "von Böhm-Ermolli" "von Brudermann" "von Clam-Gallas" "von der Tann" "von Dietrich" "von Gablenz"
-		"von Grünne" "von Habsburg" "von Hartmann" "von Haynau" "von Hess" "von Hohenhausen" "d'Aspre von Hoobreuk" "von Hortstein" "von Hötzendorf" "von Kirbach"
-		"von Kobratin" "von Schönburg" "von Tegetthoff" "von Uchatius" "von Wittelsbach" "von Württemberg" "von Zahringen" Wagner Wittmann "zu Hohenlohe" }
-	}
-	swiss_italian = { 
-		color = { 150 220 170 }
-		first_names = { Alessandro Alfonso Ambrogio Amedeo Andrea Angelo Antonio Benito Camillo Carlo
-		Cesare Costanzo Davide Enrico Ettore Fabrizio Faustino Federico Felice Ferdinando
-		Fiorenzo Francesco Gaetano Gennaro Girolamo Giulio Giuseppe Guglielmo Innocenzo Leopoldo
-		Luigi Marco Massimo Matteo Nicola Oreste Paolo Pasquale Pietro Prospero
-		Raffaele Roberto Ruggiero Silvio Simone Tancredi Ugo Umberto Vincenzo Vittorio }
-		
-		last_names = { Acton Albricci Badoglio Baldissera Baratieri Bava-Beccaris Cadorna Cagni Canevaro Capello
-		Caviglia Ceccherini Cialdini Cusani d'Absburgo-Toscana d'Austria-Este Dezza "di Borbone di Parma" "di Robilant" "di Savoia"
-		"di Savoia-Aosta" Emo Fanti Fara Filomarino Garibaldi Giardino Govone "La Màrmora" Mambretti 
-		Menabrea Orengo "Pacoret de Saint Bon" Pallavicino Pecori-Giraldi "Pellion di Persano" Pelloux Perruchetti Pianelli Porro
-		Presbitero Ramorino Ricotti-Magnani Sacchi Saletta Sanna Solari "Thaon di Revel" Vaccari Zupelli }
-	}
 	romansh = { 
 		color = { 120 140 110 }
 		first_names = { Alessandro Alfonso Ambrogio Amedeo Andrea Angelo Antonio Benito Camillo Carlo

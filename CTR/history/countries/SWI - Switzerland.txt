@@ -1,9 +1,9 @@
 capital = 605
 primary_culture = swiss
-accepted_culture = swiss_german
-accepted_culture = swiss_french
-accepted_culture = swiss_italian
-accepted_culture = romansch
+culture = south_german
+culture = french
+culture = north_italian
+culture = romansh
 religion = protestant
 government = democracy
 plurality = 25.0
