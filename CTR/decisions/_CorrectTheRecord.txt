@@ -31,37 +31,4 @@ political_decisions = {
         }
     }
 
-    # Remove the partitioning flags from this country, if we have them and
-    # aren't at war.
-    end_partition = {
-
-        picture = build_the_kiel_canal
-        alert = yes
-        news = no
-
-        # If we still have the leading partition flag for some reason,
-        # let's do something about it
-        potential = {
-            OR = {
-                has_country_flag = leading_partition
-                has_country_flag = under_partition
-            }
-            war = no
-        }
-
-        allow = {}
-
-        # Remove the under partition flag from us
-        effect = {
-            clr_country_flag = leading_partition
-            clr_country_flag = under_partition
-        }
-
-        # The AI will always choose this decision
-        ai_will_do = {
-            factor = 1
-        }
-
-    }
-
 }
