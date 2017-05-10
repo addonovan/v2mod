@@ -204,16 +204,16 @@ country_event = {
 		add_tax_relative_income = -31
 	}
 
-	# Divert some funds their way
+	# Spare the funds we can
 	option = {
 		name = "ctr_79002_opt2"
 
 		# Lose 10 days of tax income (were it completely maxed out)
 		add_tax_relative_income = -10
 
-		# go into a temporary cooldown
+		# Go into a cooldown for a little while
 		add_country_modifier = {
-			name = ctr_cooldown
+			name = ctr_delayed
 			duration = -1
 		}
 		remove_country_modifier = correcting_the_record
@@ -228,5 +228,30 @@ country_event = {
 			duration = 180
 		}
 		remove_country_modifier = correcting_the_record
+	}
+}
+
+country_event = {
+	id = 79003
+	title = "ctr_79003_title"
+	desc = "ctr_79003_desc"
+
+	trigger = {
+		has_country_modifier = ctr_delayed
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	# Good to hear!
+	option = {
+		name = "ctr_79003_opt1"
+
+		remove_country_modifier = ctr_delayed
+		add_country_modifier = {
+			name = correcting_the_record
+			duration = -1
+		}
 	}
 }

@@ -8,6 +8,10 @@
 ctr_cooldown = {
 }
 
+# This is just to show the user what's going on
+ctr_delayed = {
+}
+
 # Correcting the record has a hit of
 #     -10% tax efficiency
 #     -5% casus belli genration rate
