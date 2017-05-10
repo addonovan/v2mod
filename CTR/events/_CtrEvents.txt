@@ -238,6 +238,13 @@ country_event = {
 		# lose 62 days of tax income (were it completely maxed out)
 		add_tax_relative_income = -62
 
+		any_pop = {
+			limit = {
+				type = bureaucrat
+			}
+			money = 5000
+		}
+
 		add_country_modifier = {
 			name = funds_diverted
 			duration = 180
@@ -250,6 +257,13 @@ country_event = {
 
 		# Lose 20 days of tax income (were it completely maxed out)
 		add_tax_relative_income = -20
+
+		any_pop = {
+			limit = {
+				type = bureaucrat
+			}
+			money = 1670
+		}
 
 		# Go into a cooldown for a little while
 		add_country_modifier = {
