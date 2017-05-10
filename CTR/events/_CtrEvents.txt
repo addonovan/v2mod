@@ -196,6 +196,28 @@ country_event = {
 	title = "ctr_79002_title"
 	desc = "ctr_79002_desc"
 
+	mean_time_to_happen = {
+		months = 6
+
+		# 300% more likely if >5 million
+		modifier = {
+			factor = 3
+			money = 5000000
+		}
+
+		# 200% more likely if >1 million
+		modifier = {
+			factor = 2
+			money = 1000000
+		}
+
+		# 100% more likely if >0.5 million
+		modifier = {
+			factor = 1
+			money = 500000
+		}
+	}
+
 	# Yes, give them everything they need
 	option = {
 		name = "ctr_79002_opt1"
