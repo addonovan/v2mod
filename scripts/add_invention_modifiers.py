@@ -94,7 +94,7 @@ while True:
 			modifier = military_modifier
 
 		print( "Parsing {}".format( file ) )
-		content = search_file( file )
+		content = search_file( file, modifier )
 
 		print( "Updating file" )
 		with open( file, 'w+' ) as f:
