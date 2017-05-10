@@ -293,5 +293,10 @@ country_event = {
 			name = correcting_the_record
 			duration = -1
 		}
+
+		add_country_modifier = {
+			name = funds_diverted
+			duration = 60
+		}
 	}
 }
