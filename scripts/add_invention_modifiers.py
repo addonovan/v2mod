@@ -4,8 +4,8 @@ from os.path import isfile
 r_invention = re.compile( '^([a-zA-z]*?) = {' )
 r_rename = re.compile( '\$NAME\$' )
 
-nonmilitary_modifier = "\tmodifier = { factor = 5  any_neighbor_country = { invention = $NAME$ } }\n"
-military_modifier = "\tmodifier = { factor = 1 war = yes }\n"
+nonmilitary_modifier = "\tmodifier = { factor = 2  any_neighbor_country = { invention = $NAME$ } }\n"
+military_modifier = "\tmodifier = { factor = 1  war = yes  any_greater_power = { war_with = THIS } }\n"
 
 def is_block_start( text ):
 	result = r_invention.search( text )
@@ -99,6 +99,8 @@ while True:
 		print( "Updating file" )
 		with open( file, 'w+' ) as f:
 			f.write( content )
+
+		print( "" )
 
 	else:
 		print( "That's not an existing file" )
