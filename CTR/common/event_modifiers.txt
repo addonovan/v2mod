@@ -5,14 +5,14 @@
 ###CTR Modifiers
 
 # Correcting the record has a hit of
-#    -10% tax efficiency
+#     -10% tax efficiency
 #     -5% casus belli genration rate
 # For
-#    -0.2 infamy/month
+#    -0.4 infamy/month
 correcting_the_record = {
 	tax_efficiency = -0.10
 	cb_generation_speed_modifier = -0.05
-	badboy = -0.7
+	badboy = -0.4
 
 	icon = 5 # green paper
 }
