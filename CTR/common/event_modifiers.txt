@@ -12,6 +12,10 @@ ctr_cooldown = {
 ctr_delayed = {
 }
 
+# ^ Ditto ^
+funds_diverted = {
+}
+
 # Correcting the record has a hit of
 #     -10% tax efficiency
 #     -5% casus belli genration rate

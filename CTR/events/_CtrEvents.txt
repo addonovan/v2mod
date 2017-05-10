@@ -204,6 +204,7 @@ country_event = {
 
 	trigger = {
 		has_country_modifier = correcting_the_record
+		NOT = { has_country_modifier = funds_diverted }
 	}
 
 	mean_time_to_happen = {
@@ -234,6 +235,11 @@ country_event = {
 
 		# lose 62 days of tax income (were it completely maxed out)
 		add_tax_relative_income = -62
+
+		add_country_modifier = {
+			name = funds_diverted
+			duration = 180
+		}
 	}
 
 	# Spare the funds we can
