@@ -185,8 +185,48 @@ country_event = {
 
 	# I'm sure they did not intend for this
 	option = {
-		name = "ctr_79002_opt2"
+		name = "ctr_79001_opt2"
 
 		prestige = -25
+	}
+}
+
+country_event = {
+	id = 79002
+	title = "ctr_79002_title"
+	desc = "ctr_79002_desc"
+
+	# Yes, give them everything they need
+	option = {
+		name = "ctr_79002_opt1"
+
+		# lose 31 days of tax income (were it completely maxed out)
+		add_tax_relative_income = -31
+	}
+
+	# Divert some funds their way
+	option = {
+		name = "ctr_79002_opt2"
+
+		# Lose 10 days of tax income (were it completely maxed out)
+		add_tax_relative_income = -10
+
+		# go into a temporary cooldown
+		add_country_modifier = {
+			name = ctr_cooldown
+			duration = -1
+		}
+		remove_country_modifier = correcting_the_record
+	}
+
+	# This operation has grown too expensive
+	option = {
+		name = "ctr_79002_opt3"
+
+		add_country_modifier = {
+			name = ctr_cooldown
+			duration = 180
+		}
+		remove_country_modifier = correcting_the_record
 	}
 }
