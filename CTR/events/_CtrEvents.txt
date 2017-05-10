@@ -37,17 +37,17 @@ country_event = {
 			administration_spending = 1
 		}
 
-		# Being at war in this time period will make the event 50% less likely to happen
+		# 20% more likely when not at war
 
 		modifier = {
-			factor = -0.5
-			war = yes
+			factor = 0.20
+			war = no
 		}
 
-		# Uncivs have a 25% penalty
+		# 25% bonus for civilized countries
 
 		modifier = {
-			factor = -0.25
+			factor = 0.25
 			civilized = no
 		}
 
@@ -297,6 +297,33 @@ country_event = {
 		add_country_modifier = {
 			name = funds_diverted
 			duration = 60
+		}
+	}
+}
+
+country_event = {
+	id = 79004
+	title = "ctr_79004_title"
+	desc = "ctr_79004_desc"
+	picture = "CTR_event"
+	news = no
+
+	trigger = {
+		has_country_modifier = correcting_the_record
+		NOT = { badboy = 0.04 } # less than 4% of the infamy limit
+	}
+
+	option = {
+		name = "ctr_79004_opt1"
+	}
+
+	option = {
+		name = "ctr_79004_opt2"
+
+		remove_country_modifier = correcting_the_record
+		add_country_modifier = {
+			name = ctr_cooldown
+			duration = 180
 		}
 	}
 }
