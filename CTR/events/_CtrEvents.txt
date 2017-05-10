@@ -204,28 +204,27 @@ country_event = {
 
 	trigger = {
 		has_country_modifier = correcting_the_record
-		NOT = { has_country_modifier = funds_diverted }
 	}
 
 	mean_time_to_happen = {
 		months = 8
 
-		# 30% more likely if >5 million
+		# 15% more likely if >5 million
 		modifier = {
-			factor = 0.30
+			factor = 0.15
 			money = 5000000
 		}
 
-		# 20% more likely if >1 million
+		# 10% more likely if >1 million
 		modifier = {
-			factor = 0.20
+			factor = 0.10
 			money = 1000000
 			NOT = { money = 5000000 }
 		}
 
-		# 10% more likely if >0.5 million
+		# 5% more likely if >0.5 million
 		modifier = {
-			factor = 0.10
+			factor = 0.05
 			money = 500000
 			NOT = { money = 1000000 }
 		}
@@ -243,11 +242,6 @@ country_event = {
 				type = bureaucrat
 			}
 			money = 5000
-		}
-
-		add_country_modifier = {
-			name = funds_diverted
-			duration = 180
 		}
 	}
 
@@ -308,11 +302,6 @@ country_event = {
 		add_country_modifier = {
 			name = correcting_the_record
 			duration = -1
-		}
-
-		add_country_modifier = {
-			name = funds_diverted
-			duration = 60
 		}
 	}
 }
