@@ -14,6 +14,7 @@ political_decisions = {
                 OR = {
                     has_country_modifier = correcting_the_record
                     has_country_modifier = ctr_cooldown
+                    has_country_modifier = ctr_delayed
                 }
             }
         }
