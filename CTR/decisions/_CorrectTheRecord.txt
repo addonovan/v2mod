@@ -11,7 +11,11 @@ political_decisions = {
         potential = {
             ai = no
             NOT = {
-                has_country_modifier = correcting_the_record
+                OR = {
+                    has_country_modifier = correcting_the_record
+                    has_country_modifier = ctr_cooldown
+                    has_country_modifier = ctr_delayed
+                }
             }
         }
 
@@ -21,47 +25,39 @@ political_decisions = {
         }
 
         effect = {
-            badboy = -4 # immediately lose 4 infamy
+            badboy = -2 # immediately lose 2 infamy
             treasury = -50000
 
             add_country_modifier = {
                 name = correcting_the_record
-                duration = 365
+                duration = -1
             }
         }
     }
 
-    # Remove the partitioning flags from this country, if we have them and
-    # aren't at war.
-    end_partition = {
+    stop_ctr = {
+        picture = "CTR_decision"
 
-        picture = build_the_kiel_canal
-        alert = yes
+        alert = no
         news = no
 
-        # If we still have the leading partition flag for some reason,
-        # let's do something about it
         potential = {
-            OR = {
-                has_country_flag = leading_partition
-                has_country_flag = under_partition
-            }
-            war = no
+            has_country_modifier = correcting_the_record
         }
 
-        allow = {}
+        allow = {
+            has_country_modifier = correcting_the_record
+        }
 
-        # Remove the under partition flag from us
         effect = {
-            clr_country_flag = leading_partition
-            clr_country_flag = under_partition
+            remove_country_modifier = correcting_the_record
+            
+            # cool down for 180 days, you can't start it again until then
+            add_country_modifier = {
+                name = ctr_cooldown
+                duration = 180
+            }
         }
-
-        # The AI will always choose this decision
-        ai_will_do = {
-            factor = 1
-        }
-
     }
 
 }
