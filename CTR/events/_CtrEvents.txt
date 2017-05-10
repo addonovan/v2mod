@@ -200,16 +200,16 @@ country_event = {
 	option = {
 		name = "ctr_79002_opt1"
 
-		# lose 31 days of tax income (were it completely maxed out)
-		add_tax_relative_income = -31
+		# lose 62 days of tax income (were it completely maxed out)
+		add_tax_relative_income = -62
 	}
 
 	# Spare the funds we can
 	option = {
 		name = "ctr_79002_opt2"
 
-		# Lose 10 days of tax income (were it completely maxed out)
-		add_tax_relative_income = -10
+		# Lose 20 days of tax income (were it completely maxed out)
+		add_tax_relative_income = -20
 
 		# Go into a cooldown for a little while
 		add_country_modifier = {
