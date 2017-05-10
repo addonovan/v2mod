@@ -11,7 +11,10 @@ political_decisions = {
         potential = {
             ai = no
             NOT = {
-                has_country_modifier = correcting_the_record
+                OR = {
+                    has_country_modifier = correcting_the_record
+                    has_country_modifier = ctr_cooldown
+                }
             }
         }
 
@@ -27,6 +30,31 @@ political_decisions = {
             add_country_modifier = {
                 name = correcting_the_record
                 duration = -1
+            }
+        }
+    }
+
+    stop_ctr = {
+        picture = "CTR_decision"
+
+        alert = no
+        news = no
+
+        potential = {
+            has_country_modifier = correcting_the_record
+        }
+
+        allow = {
+            has_country_modifier = correcting_the_record
+        }
+
+        effect = {
+            remove_country_modifier = correcting_the_record
+            
+            # cool down for 180 days, you can't start it again until then
+            add_country_modifier = {
+                name = ctr_cooldown
+                duration = 180
             }
         }
     }
