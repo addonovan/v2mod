@@ -2,6 +2,8 @@ country_event = {
 	id = 79000
 	title = "ctr_79000_title"
 	desc = "ctr_79000_desc"
+	picture = "CTR_event"
+	news = no
 
 	trigger = {
 		has_country_modifier = correcting_the_record
@@ -100,6 +102,8 @@ country_event = {
 	id = 79001
 	title = "ctr_79001_title"
 	desc = "ctr_79001_desc"
+	picture = "CTR_event"
+	news = no
 
 	is_triggered_only = yes
 
@@ -195,6 +199,8 @@ country_event = {
 	id = 79002
 	title = "ctr_79002_title"
 	desc = "ctr_79002_desc"
+	picture = "CTR_event"
+	news = no
 
 	trigger = {
 		has_country_modifier = correcting_the_record
@@ -261,6 +267,8 @@ country_event = {
 	id = 79003
 	title = "ctr_79003_title"
 	desc = "ctr_79003_desc"
+	picture = "CTR_event"
+	news = no
 
 	trigger = {
 		has_country_modifier = ctr_delayed
