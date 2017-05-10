@@ -207,23 +207,23 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 6
+		months = 8
 
-		# 300% more likely if >5 million
+		# 30% more likely if >5 million
 		modifier = {
-			factor = 3
+			factor = 0.30
 			money = 5000000
 		}
 
-		# 200% more likely if >1 million
+		# 20% more likely if >1 million
 		modifier = {
-			factor = 2
+			factor = 0.20
 			money = 1000000
 		}
 
-		# 100% more likely if >0.5 million
+		# 10% more likely if >0.5 million
 		modifier = {
-			factor = 1
+			factor = 0.10
 			money = 500000
 		}
 	}
