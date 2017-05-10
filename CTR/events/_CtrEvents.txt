@@ -51,7 +51,7 @@ country_event = {
 
 	}
 
-	# Why should I care about the $ADJ$?
+	# Target them
 	option = {
 		name = "ctr_79000_opt1"
 
