@@ -196,6 +196,10 @@ country_event = {
 	title = "ctr_79002_title"
 	desc = "ctr_79002_desc"
 
+	trigger = {
+		has_country_modifier = correcting_the_record
+	}
+
 	mean_time_to_happen = {
 		months = 6
 
