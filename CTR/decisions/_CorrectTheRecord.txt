@@ -21,12 +21,12 @@ political_decisions = {
         }
 
         effect = {
-            badboy = -4 # immediately lose 4 infamy
+            badboy = -2 # immediately lose 2 infamy
             treasury = -50000
 
             add_country_modifier = {
                 name = correcting_the_record
-                duration = 365
+                duration = -1
             }
         }
     }
