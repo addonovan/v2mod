@@ -1,0 +1,192 @@
+country_event = {
+	id = 79000
+	title = "ctr_79000_title"
+	desc = "ctr_79000_desc"
+
+	trigger = {
+		has_country_modifier = correcting_the_record
+	}
+
+	mean_time_to_happen = {
+		months = 6
+
+		# Every 25% of administrative spending will make the event 35% more likely to happen 
+
+		modifier = {
+			factor = 0.35
+			administration_spending = 0.25
+			NOT = { administration_spending = 0.50 }
+		}
+
+		modifier = {
+			factor = 0.70
+			administration_spending = 0.50
+			NOT = { administration_spending = 0.75 }
+		}
+
+		modifier = {
+			factor = 1.05
+			administration_spending = 0.75
+			NOT = { administration_spending = 1 }
+		}
+
+		modifier = {
+			factor = 1.40
+			administration_spending = 1
+		}
+
+		# Being at war in this time period will make the event 50% less likely to happen
+
+		modifier = {
+			factor = -0.5
+			war = yes
+		}
+
+		# Uncivs have a 25% penalty
+
+		modifier = {
+			factor = -0.25
+			civilized = no
+		}
+
+	}
+
+	# Why should I care about the $ADJ$?
+	option = {
+		name = "ctr_79000_opt1"
+
+		badboy = -3
+
+		random_country = {
+			badboy = 2
+
+			random_list = {
+
+				50 = {
+					relation = {
+						who = THIS
+						value = -50
+					}
+				}
+
+				25 = {
+					relation = {
+						who = THIS
+						value = -75
+					}
+					prestige = -15
+				}
+
+				25 = {
+					relation = {
+						who = THIS
+						value = -400
+					}
+
+					country_event = 79001
+				}
+			}
+		}
+	}
+
+	# Perhaps we should find another target
+	option = {
+		name = "ctr_79000_opt2"
+	}
+
+}
+
+country_event = {
+	id = 79001
+	title = "ctr_79001_title"
+	desc = "ctr_79001_desc"
+
+	is_triggered_only = yes
+
+	# We will not stand for this!
+	option = {
+		name = "ctr_79001_opt1"
+
+		# Gain a Cut Down To Size cb against gp's and sp's
+		random_owned = {
+			limit = {
+				FROM = {
+					OR = {
+						is_greater_power = yes
+						is_secondary_power = yes
+					}
+				}
+			}
+
+			THIS = {
+				casus_belli = {
+					target = FROM
+					type = cut_down_to_size
+					months = 3
+				}
+			}
+		}
+
+		# Gain a Humiliate CB against "civilized" countries
+		random_owned = {
+			limit = {
+				FROM = {
+					is_greater_power = no
+					is_secondary_power = no
+					civilized = yes
+				}
+			}
+
+			THIS = {
+				casus_belli = {
+					target = FROM
+					type = humiliate
+					months = 3
+				}
+			}
+		}
+
+		# Gain a "demand concession" against an unciv with >=2 states
+		random_owned = {
+			limit = {
+				FROM = {
+					civilized = no
+					number_of_states = 2
+				}
+			}
+
+			THIS = {
+				casus_belli = {
+					target = FROM
+					type = demand_concession_casus_belli
+					months = 3
+				}
+			}
+		}
+
+		# Gain a "establish protectorate" against an unciv with 1 state
+		random_owned = {
+			limit = {
+				FROM = {
+					civilized = no
+					NOT = { number_of_states = 2 }
+				}
+			}
+
+			THIS = {
+				casus_belli = {
+					target = FROM
+					type = establish_protectorate_casus_belli
+					months = 3
+				}
+			}
+		}
+	}
+
+	# I'm sure they did not intend for this
+	option = {
+		name = "ctr_79002_opt2"
+
+		prestige = -25
+	}
+}
