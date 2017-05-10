@@ -15,7 +15,6 @@ declaration_of_the_rights_of_man = {
 			factor = -9
 			civilized = no
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = declaration_of_the_rights_of_man } }
 	}
 	effect = {
 		rebel_org_gain = {
@@ -50,7 +49,6 @@ caste_privileges = {
 			factor = 5
 			year = 1855
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = caste_privileges } }
 	}
 	effect = {
 		rebel_org_gain = {
@@ -78,7 +76,6 @@ sati_abolished = {
 			factor = 5
 			year = 1860
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = sati_abolished } }
 	}
 	effect = {
 		rebel_org_gain = {
@@ -105,7 +102,6 @@ pig_fat_cartridges = {
 			factor = 5
 			year = 1865
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = pig_fat_cartridges } }
 	}
 	effect = {
 		rebel_org_gain = {
@@ -136,7 +132,6 @@ spirit_of_freedom = {
 			factor = -12
 			civilized = no
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = spirit_of_freedom } }
 	}
 	effect = {
 		rebel_org_gain = {
@@ -165,7 +160,6 @@ carlism = {
 			factor = 2
 			NOT = { government = absolute_monarchy }
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = carlism } }
 	}
 	effect = {
 		rebel_org_gain = {
@@ -229,7 +223,6 @@ the_dark_continent = {
 			is_greater_power = no
 			is_secondary_power = no
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = the_dark_continent } }
 	}
 	effect = {
 		colonial_life_rating = -5

@@ -19,7 +19,6 @@ romanticist_literature = {
 				invention = romanticist_music
 			}
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = romanticist_literature } }
 	}
 	effect = {
 		shared_prestige = 5 
@@ -45,7 +44,6 @@ romanticist_art = {
 				invention = romanticist_music
 			}
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = romanticist_art } }
 	}
 	effect = {
 		shared_prestige = 5  
@@ -71,7 +69,6 @@ romanticist_music = {
 				invention = romanticist_literature
 			}
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = romanticist_music } }
 	}
 	effect = {
 		shared_prestige = 5 
@@ -98,7 +95,6 @@ realist_literature = {
 				invention = realist_music
 			}
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = realist_literature } }
 	}
 	effect = {
 		shared_prestige = 10 
@@ -124,7 +120,6 @@ realist_art = {
 				invention = realist_music
 			}
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = realist_art } }
 	}
 	effect = {
 		shared_prestige = 10 
@@ -146,7 +141,6 @@ realist_music = {
 			factor = 2
 			idealism = 1
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = realist_music } }
 	}
 	effect = {
 		shared_prestige = 10 
@@ -169,7 +163,6 @@ impressionist_literature = {
 			factor = 2
 			positivism = 1
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = impressionist_literature } }
 	}
 	effect = {
 		shared_prestige = 15 
@@ -191,7 +184,6 @@ impressionist_art = {
 			factor = 2
 			ideological_thought = 1
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = impressionist_art } }
 	}
 	effect = {
 		shared_prestige = 15
@@ -213,7 +205,6 @@ impressionist_music = {
 			factor = 2
 			empiricism = 1
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = impressionist_music } }
 	}
 	effect = {
 		shared_prestige = 15 
@@ -237,7 +228,6 @@ expressionist_literature = {
 			experimental_psychology = 1
 		}
 			
-		modifier = { factor = 5  any_neighbor_country = { invention = expressionist_literature } }
 	}
 	effect = {
 		shared_prestige = 20 
@@ -259,7 +249,6 @@ expressionist_art = {
 			factor = 2
 			nationalism_n_imperialism = 1
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = expressionist_art } }
 	}
 	effect = {
 		shared_prestige = 20 
@@ -281,7 +270,6 @@ expressionist_music = {
 			factor = 2
 			phenomenology_n_hermeneutic = 1
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = expressionist_music } }
 	}
 	effect = {
 		shared_prestige = 20 
@@ -304,7 +292,6 @@ avantgarde_literature = {
 			factor = 2
 			anti__rationalism = 1
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = avantgarde_literature } }
 	}
 	effect = {
 		shared_prestige = 25 
@@ -326,7 +313,6 @@ avantgarde_art = {
 			factor = 2
 			social_alienation = 1
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = avantgarde_art } }
 	}
 	effect = {
 		shared_prestige = 25
@@ -348,7 +334,6 @@ avantgarde_music = {
 			factor = 2
 			invention = jazz
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = avantgarde_music } }
 	}
 	effect = {
 		shared_prestige = 25 
@@ -367,7 +352,6 @@ surrealism = {
 			factor = 2
 			invention = dogma_of_violence
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = surrealism } }
 	}
 	effect = {
 		shared_prestige = 25 
@@ -386,7 +370,6 @@ modern_design = {
 			factor = 2
 			invention = sociology
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = modern_design } }
 	}
 	effect = {
 		shared_prestige = 25 
@@ -405,7 +388,6 @@ jazz = {
 			factor = 2
 			invention = biased_multiculturalism
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = jazz } }
 	}
 	effect = {
 		shared_prestige = 25 
@@ -428,7 +410,6 @@ socialist_realism = {
 			factor = 2
 			invention = dogma_of_mass_action
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = socialist_realism } }
 	}
 	effect = {
 		shared_prestige = 25 
@@ -448,7 +429,6 @@ neokantian_idealism = {
 			factor = 2
 			functionalism = 1
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = neokantian_idealism } }
 	}
 	effect = {
 		shared_prestige = 5 
@@ -467,7 +447,6 @@ hegelian_idealism = {
 			factor = 2
 			phenomenalism = 1
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = hegelian_idealism } }
 	}
 	effect = {
 		shared_prestige = 5 
@@ -486,7 +465,6 @@ proto_existentialism = {
 			factor = 2
 			functionalism = 1
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = proto_existentialism } }
 	}
 	effect = {
 		shared_prestige = 5 
@@ -506,7 +484,6 @@ pragmatism = {
 			factor = 2
 			positivism = 1
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = pragmatism } }
 	}
 	effect = {
 		shared_prestige = 10 
@@ -525,7 +502,6 @@ i_empiricism = {
 			factor = 2
 			scientific_management = 1
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = i_empiricism } }
 	}
 	effect = {
 		shared_prestige = 10 
@@ -549,7 +525,6 @@ i_analytic_philosophy = {
 			factor = 1
 			plurality = 5
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = i_analytic_philosophy } }
 	}
 	effect = {
 		shared_prestige = 15 
@@ -568,7 +543,6 @@ modern_logics = {
 			factor = 2
 			state_n_government = 1
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = modern_logics } }
 	}
 	effect = {
 		shared_prestige = 15 
@@ -587,7 +561,6 @@ logical_positivism = {
 			factor = 2
 			biologism = 1
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = logical_positivism } }
 	}
 	effect = {
 		shared_prestige = 15 
@@ -606,7 +579,6 @@ philosophy_of_language = {
 			factor = 2
 			nationalism_n_imperialism = 1
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = philosophy_of_language } }
 	}
 	effect = {
 		shared_prestige = 15
@@ -626,7 +598,6 @@ phenomenology = {
 			factor = 2
 			social_science = 1
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = phenomenology } }
 	}
 	effect = {
 		shared_prestige = 20 
@@ -645,7 +616,6 @@ hermeneutics = {
 			factor = 2
 			invention = darwinism
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = hermeneutics } }
 	}
 	effect = {
 		shared_prestige = 20 
@@ -665,7 +635,6 @@ existentialism = {
 			factor = 2
 			invention = dogma_of_violence
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = existentialism } }
 	}
 	effect = {
 		shared_prestige = 25 
@@ -684,7 +653,6 @@ nihilism_and_the_will = {
 			factor = 2
 			invention = social_anthropology
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = nihilism_and_the_will } }
 	}
 	effect = {
 		shared_prestige = 25 
@@ -703,7 +671,6 @@ futurism = {
 			factor = 2
 			synthetic_polymers = 1
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = futurism } }
 	}
 	effect = {
 		shared_prestige = 25 
@@ -722,7 +689,6 @@ quantum_theory = {
 			factor = 2
 			invention = phenomenology
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = quantum_theory } }
 	}
 	effect = {
 		shared_prestige = 25
@@ -746,7 +712,6 @@ darwinism = {
 			factor = 1
 			invention = philosophy_of_language
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = darwinism } }
 	}
 	effect = {
 		education_efficiency = 0.50
@@ -765,7 +730,6 @@ social_darwinism = {
 			factor = 2
 			invention = national_fraternity
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = social_darwinism } }
 	}
 	effect = {
 		war_exhaustion = -0.05
@@ -785,7 +749,6 @@ sociology = {
 			factor = 2
 			scientific_management = 1
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = sociology } }
 	}
 	core_pop_consciousness_modifier = 0.01
 }
@@ -802,7 +765,6 @@ social_psychology = {
 			factor = 2
 			behaviorism = 1
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = social_psychology } }
 	}
 	core_pop_consciousness_modifier = 0.01
 }
@@ -823,7 +785,6 @@ political_science = {
 			factor = 1
 			naval_directionism = 1
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = political_science } }
 	}
 	core_pop_consciousness_modifier = 0.01
 }
@@ -840,7 +801,6 @@ social_anthropology = {
 			factor = 2
 			assembly_line = 1
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = social_anthropology } }
 	}
 	effect = {
 		colonial_prestige = 0.1 
@@ -860,7 +820,6 @@ the_revolt_of_the_masses = {
 			factor = 2
 			great_war_experience = 1
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = the_revolt_of_the_masses } }
 	}
 	effect = {
 		plurality = 0.10
@@ -880,7 +839,6 @@ the_decline_of_the_west_and_the_lost_generation = {
 			factor = 2
 			invention = mission_to_civilize
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = the_decline_of_the_west_and_the_lost_generation } }
 	}
 	core_pop_consciousness_modifier = 0.05
 }
@@ -898,7 +856,6 @@ paternalism = {
 			factor = 2
 			vote_franschise = landed_voting
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = paternalism } }
 	}
 	org_regain = 0.05
 	effect = {
@@ -920,7 +877,6 @@ constitutionalism = {
 		}
 		
 
-		modifier = { factor = 5  any_neighbor_country = { invention = constitutionalism } }
 	}
 	effect = {
 		plurality = 0.05
@@ -947,7 +903,6 @@ atheism = {
 			factor = 2
 			pro_atheism = 20
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = atheism } }
 	}
 	effect = {
 		plurality = 0.05
@@ -976,7 +931,6 @@ egalitarianism = {
 				ruling_party_ideology = conservative
 			}
 		}		
-		modifier = { factor = 5  any_neighbor_country = { invention = egalitarianism } }
 	}
 	effect = {
 		plurality = 0.05
@@ -998,7 +952,6 @@ rationalism = {
 			factor = 2
 			average_consciousness = 1
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = rationalism } }
 	}
 	effect = {
 		plurality = 0.05
@@ -1023,7 +976,6 @@ authoritarianism = {
 					}
 				}
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = authoritarianism } }
 	}
 	core_pop_consciousness_modifier = -0.02
 	effect = {
@@ -1051,7 +1003,6 @@ hierarchical_order = {
 			factor = 2
 			government = prussian_constitutionalism
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = hierarchical_order } }
 	}
 		core_pop_militancy_modifier = -0.01
 		core_pop_consciousness_modifier = 0.01
@@ -1083,7 +1034,6 @@ traditionalism = {
 			factor = 1
 			government = prussian_constitutionalism
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = traditionalism } }
 	}
 	core_pop_consciousness_modifier = -0.01
 	effect = {
@@ -1107,7 +1057,6 @@ political_religion = {
 			factor = -3
 			religious_policy = pro_atheism
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = political_religion } }
 	}
 	political_reform_desire = 0.1
 }
@@ -1127,7 +1076,6 @@ individualism = {
 			factor = 1
 			average_consciousness = 2
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = individualism } }
 	}
 	effect = {
 		plurality = 0.05
@@ -1153,7 +1101,6 @@ secularization = {
 				ruling_party_ideology = liberal
 			}
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = secularization } }
 	}
 	effect = {
 		plurality = 0.05
@@ -1175,7 +1122,6 @@ social_conscience = {
 			factor = 3
 			average_consciousness = 2
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = social_conscience } }
 	}
 	effect = {
 		plurality = 0.05
@@ -1198,7 +1144,6 @@ collectivism = {
 			factor = 1
 			ruling_party_ideology = socialist
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = collectivism } }
 	}
 	effect = {
 		plurality = 0.05
@@ -1224,7 +1169,6 @@ determinism = {
 			factor = 1
 			tech_school = culture_tech_school
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = determinism } }
 	}
 	effect = {
 		plurality = 0.05
@@ -1250,7 +1194,6 @@ social_justice = {
 				ruling_party_ideology = socialist
 			}
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = social_justice } }
 	}
 	effect = {
 		plurality = 0.05
@@ -1352,7 +1295,6 @@ national_fraternity = {
 			factor = 2
 			prestige = 200
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = national_fraternity } }
 	}
 	effect = {
 		war_exhaustion = -0.05
@@ -1376,7 +1318,6 @@ biased_multiculturalism = {
 			factor = 1
 			nationalvalue = nv_order
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = biased_multiculturalism } }
 	}
 	effect = {
 		colonial_migration = 0.05
@@ -1402,7 +1343,6 @@ manifest_destiny = {
 			factor = 2
 			ruling_party_ideology = liberal
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = manifest_destiny } }
 	}
 	effect = {
 		war_exhaustion = -0.05
@@ -1425,7 +1365,6 @@ expansionism = {
 			factor = 2
 			badboy = 1
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = expansionism } }
 	}
 	effect = {
 		war_exhaustion = -0.05
@@ -1469,7 +1408,6 @@ mission_to_civilize = {
 				invention = mission_to_civilize
 			}
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = mission_to_civilize } }
 	}
 	effect = {
 		diplomatic_points = 0.2
@@ -1492,7 +1430,6 @@ separatism = {
 			factor = 2
 			average_consciousness = 2
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = separatism } }
 	}
 	effect = {
 		seperatism = 0.5
@@ -1517,7 +1454,6 @@ dogma_of_violence = {
 			factor = 2
 			nationalvalue = nv_order
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = dogma_of_violence } }
 	}
 	effect = {
 		enable_crime = anarchic_bomb_throwers
@@ -1536,7 +1472,6 @@ dogma_of_mass_action = {
 			factor = 3
 			ruling_party_ideology = socialist
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = dogma_of_mass_action } }
 	}
 	effect = {
 		rebel_org_gain = {
@@ -1565,7 +1500,6 @@ terrorism = {
 			factor = -1
 			nationalvalue = nv_liberty
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = terrorism } }
 	}
 	effect = {
 		enable_crime = terrorist_cells 
@@ -1596,7 +1530,6 @@ secret_police = {
 			factor = 2
 			nationalvalue = nv_order
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = secret_police } }
 	}
 	effect = {
 		rebel_org_gain = {
@@ -1623,7 +1556,6 @@ womens_suffrage_movement = {
 			factor = 3
 			ruling_party_ideology = liberal
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = womens_suffrage_movement } }
 	}
 	effect = {
 		mobilisation_economy_impact = -0.2
@@ -1649,7 +1581,6 @@ rhetoric_of_hate = {
 			factor = -1
 			nationalvalue = nv_liberty
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = rhetoric_of_hate } }
 	}
 	effect = {
 		war_exhaustion = -0.05
@@ -1669,7 +1600,6 @@ nostalgic_romanticism = {
 			factor = 1
 			is_greater_power = yes
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = nostalgic_romanticism } }
 	}
 	effect = {
 		war_exhaustion = -0.05
@@ -1692,7 +1622,6 @@ anti_egalitarianism = {
 			factor = 3
 			ruling_party_ideology = reactionary
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = anti_egalitarianism } }
 	}
 	effect = {
 		war_exhaustion = -0.05
@@ -1712,7 +1641,6 @@ vangaurd_party = {
 			factor = 2
 			ruling_party_ideology = communist
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = vangaurd_party } }
 	}
 	effect = {
 		rebel_org_gain = {
@@ -1778,7 +1706,6 @@ the_doctrine_of_fascism = {
 			factor = 3
 			average_militancy = 4
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = the_doctrine_of_fascism } }
 	}
 	effect = {
 		rebel_org_gain = {
@@ -1800,7 +1727,6 @@ paramilitary_groups = {
 			factor = 2
 			average_militancy = 3
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = paramilitary_groups } }
 	}
 	effect = {
 		rebel_org_gain = {
@@ -1825,7 +1751,6 @@ the_police_state = {
 			factor = 2
 			nationalvalue = nv_order
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = the_police_state } }
 	}
 	effect = {
 		rebel_org_gain = {
@@ -1854,7 +1779,6 @@ mass_advertising = {
 			factor = 1
 			government = hms_government
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = mass_advertising } }
 	}
 	effect = {
 		education_efficiency = 0.25
@@ -1879,7 +1803,6 @@ national_radio_networks = {
 			factor = -3
 			NOT = { invention = vacuum_tube }
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = national_radio_networks } }
 	}
 	effect = { 
 		activate_building = radio_factory 
@@ -1900,7 +1823,6 @@ the_talkies = {
 			factor = 2
 			average_consciousness = 3
 		}
-		modifier = { factor = 5  any_neighbor_country = { invention = the_talkies } }
 	}
 	effect = {
 		shared_prestige = 20
