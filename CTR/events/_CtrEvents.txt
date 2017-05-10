@@ -220,12 +220,14 @@ country_event = {
 		modifier = {
 			factor = 0.20
 			money = 1000000
+			NOT = { money = 5000000 }
 		}
 
 		# 10% more likely if >0.5 million
 		modifier = {
 			factor = 0.10
 			money = 500000
+			NOT = { money = 1000000 }
 		}
 	}
 
