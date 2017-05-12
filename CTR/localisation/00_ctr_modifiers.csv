@@ -6,3 +6,5 @@ ctr_delayed;CTR Delayed;;;;;;;;;;;;;x
 ctr_delayed_desc;Our Correct The Record campaign has encountered a problem and has been delayed for an indefinite amount of time.;;;;;;;;;;;;;x
 ctr_cooldown;CTR Cooldown;;;;;;;;;;;;;x
 ctr_cooldown_desc;You can’t start a CTR campaign while this is still here. This is just a mechanic, don’t worry about it.;;;;;;;;;;;;;x
+taxation_unconstitutional;Income Taxes Unconstitutional;;;;;;;;;;;;;x
+taxation_unconstitutional_desc;Our Constitution does not allow the federal government to exact an income tax on its citizenry. Our income can only come from two places: tariffs and excise taxes (generally on whiskey and other alcoholic drinks).;;;;;;;;;;;;;x
