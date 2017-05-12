@@ -1123,6 +1123,11 @@ political_decisions = {
 				literacy = -0.99 
 			}
 			any_pop = { limit = { has_pop_religion = catholic } literacy = -0.1 }
+
+			add_country_modifier = {
+				name = taxation_unconstitutional
+				duration = -1
+			}
 		}
 	}
 	

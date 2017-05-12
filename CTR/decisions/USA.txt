@@ -1,0 +1,72 @@
+
+political_decisions = {
+
+	revenue_act = {
+		picture = revenue_act
+		
+		potential = {
+			tag = USA
+			exists = CSA
+			NOT = { has_country_flag = revenue_act_passed }
+		}
+
+		allow = {
+			tag = USA
+			exists = CSA
+			war_with = CSA
+		}
+
+		effect = {
+			set_country_flag = revenue_act_passed
+			
+			add_country_modifier = {
+				name = revenue_act
+				duration = 730
+			}
+
+			any_pop = {
+				limit = {
+					strata = rich
+				}
+				consciousness = 2
+			}
+
+			any_pop = {
+				limit = {
+					strata = middle
+				}
+				consciousness = 1
+			}
+		}
+
+	}
+
+	sixteenth_amendment = {
+		picture = amendment_xvi
+
+		potential = {
+			tag = USA
+			OR = {
+				has_country_flag = revenue_act_passed
+				year = 1900
+			}
+		}
+
+		allow = {
+			tag = USA
+			AND = {
+				OR = {
+					has_country_flag = revenue_act_passed
+					year = 1900
+				}
+				modern_central_bank_system = 1
+			}
+		}
+
+		effect = {
+			remove_country_modifier = taxation_unconstitutional
+		}
+
+	}
+
+}
