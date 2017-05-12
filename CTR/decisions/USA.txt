@@ -52,12 +52,12 @@ political_decisions = {
 
 		allow = {
 			tag = USA
-			OR = {
-				has_country_flag = revenue_act_passed
-				AND = {
+			AND = {
+				OR = {
+					has_country_flag = revenue_act_passed
 					year = 1900
-					modern_central_bank_system = 1
 				}
+				modern_central_bank_system = 1
 			}
 		}
 
