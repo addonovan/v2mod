@@ -1123,18 +1123,6 @@ political_decisions = {
 				literacy = -0.99 
 			}
 			any_pop = { limit = { has_pop_religion = catholic } literacy = -0.1 }
-
-			remove_country_modifier = in_bankrupcy
-
-			add_country_modifier = {
-				name = us_bankruptcy
-				duration = 365
-			}
-
-			add_country_modifier = {
-				name = income_tax_unconstitutional
-				duration = -1
-			}
 		}
 	}
 	
