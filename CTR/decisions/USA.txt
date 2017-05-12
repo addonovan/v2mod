@@ -2,7 +2,8 @@
 political_decisions = {
 
 	revenue_act = {
-
+		picture = revenue_act
+		
 		potential = {
 			tag = USA
 			exists = CSA
