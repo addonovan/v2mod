@@ -44,15 +44,25 @@ political_decisions = {
 
 		potential = {
 			tag = USA
+			OR = {
+				has_country_flag = revenue_act_passed
+				year = 1900
+			}
 		}
 
 		allow = {
 			tag = USA
-
+			OR = {
+				has_country_flag = revenue_act_passed
+				AND = {
+					year = 1900
+					modern_central_bank_system = 1
+				}
+			}
 		}
 
 		effect = {
-
+			remove_country_modifier = taxation_unconstitutional
 		}
 
 	}
