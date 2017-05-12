@@ -35,6 +35,16 @@ national_embarassment = {
 	icon = 16 # red guns
 }
 
+# The Revenue Act of 1861
+# - 5% max tax increase
+# - 1% bonus tax increase
+revenue_act = {
+	max_tax = 0.05
+	tax_efficiency = 0.01
+
+	icon = 5 # green paper
+}
+
 ###HPM Modifiers
 
 plantation = {

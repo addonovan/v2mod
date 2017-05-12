@@ -1,6 +1,45 @@
 
 political_decisions = {
 
+	revenue_act = {
+
+		potential = {
+			tag = USA
+			exists = CSA
+			NOT = { has_country_flag = revenue_act_passed }
+		}
+
+		allow = {
+			tag = USA
+			exists = CSA
+			war_with = CSA
+		}
+
+		effect = {
+			set_country_flag = revenue_act_passed
+			
+			add_country_modifier = {
+				name = revenue_act
+				duration = 730
+			}
+
+			any_pop = {
+				limit = {
+					strata = rich
+				}
+				consciousness = 2
+			}
+
+			any_pop = {
+				limit = {
+					strata = middle
+				}
+				consciousness = 1
+			}
+		}
+
+	}
+
 	sixteenth_amendment = {
 
 		potential = {
@@ -9,9 +48,11 @@ political_decisions = {
 
 		allow = {
 			tag = USA
+
 		}
 
 		effect = {
+
 		}
 
 	}
