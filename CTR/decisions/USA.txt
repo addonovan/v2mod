@@ -41,6 +41,7 @@ political_decisions = {
 	}
 
 	sixteenth_amendment = {
+		picture = amendment_xvi
 
 		potential = {
 			tag = USA
