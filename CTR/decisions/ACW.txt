@@ -1675,8 +1675,8 @@ political_decisions = {
 				}
 				life_rating = 5
 			}
-			43 = { change_province_name = "Dallas" life_rating = 5 }
-			134 = { change_province_name = "Abilene" }
+			43 = { change_province_name = "Tyler" }
+			134 = { change_province_name = "Dallas" life_rating = 5 }
 			135 = { change_province_name = "Lubbock" }
 			92 = { change_province_name = "Coeur D'Alene" }
 			93 = { change_province_name = "Pocatello" }

@@ -1,6 +1,7 @@
 owner = FRA
 controller = FRA
 add_core = FRA
+add_core = OCC
 trade_goods = coal
 life_rating = 33
 railroad = 1
@@ -14,4 +15,3 @@ state_building = {
 	building = steel_factory
 	upgrade = yes
 }
-1861.1.1 = { railroad = 2 }

@@ -14,14 +14,3 @@ party_loyalty = {
 	loyalty_value = 25
 }
 
-
-1861.1.1 = {
-	controller = CSA
-	owner = CSA
-	add_core = CSA
-	state_building = {
-		level = 1
-		building = lumber_mill
-		upgrade = yes
-	}
-}

@@ -10,6 +10,7 @@ schrapnel_standard_design = {
 			factor = 3
 			great_war_experience = 1
 		}
+		modifier = { factor = 2  any_neighbor_country = { invention = schrapnel_standard_design } }
 	}
 	effect = {
 		artillery = {
@@ -30,6 +31,7 @@ barbed_wire_defense = {
 			factor = 3
 			great_war_experience = 1
 		}
+		modifier = { factor = 2  any_neighbor_country = { invention = barbed_wire_defense } }
 	}
 	effect = {
 		infantry = {
@@ -66,6 +68,7 @@ helmet_mass_production = {
 			factor = 3
 			great_war_experience = 1
 		}
+		modifier = { factor = 2  any_neighbor_country = { invention = helmet_mass_production } }
 	}
 	effect = {
 		soldier_to_pop_loss = 0.01
@@ -96,6 +99,7 @@ camouflage_uniforms = {
 			factor = 3
 			great_war_experience = 1
 		}
+		modifier = { factor = 2  any_neighbor_country = { invention = camouflage_uniforms } }
 	}
 	effect = {
 		soldier_to_pop_loss = 0.01

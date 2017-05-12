@@ -4,15 +4,23 @@
 
 ###CTR Modifiers
 
+# This is just for mechanics, to prevent spamming the event
+ctr_cooldown = {
+}
+
+# This is just to show the user what's going on
+ctr_delayed = {
+}
+
 # Correcting the record has a hit of
-#    -10% tax efficiency
+#     -10% tax efficiency
 #     -5% casus belli genration rate
 # For
-#    -0.2 infamy/month
+#    -0.4 infamy/month
 correcting_the_record = {
 	tax_efficiency = -0.10
 	cb_generation_speed_modifier = -0.05
-	badboy = -0.7
+	badboy = -0.4
 
 	icon = 5 # green paper
 }
@@ -25,6 +33,16 @@ national_embarassment = {
 	mobilisation_size = -0.80
 
 	icon = 16 # red guns
+}
+
+# The Revenue Act of 1861
+# - 5% max tax increase
+# - 1% bonus tax increase
+revenue_act = {
+	max_tax = 0.05
+	tax_efficiency = 0.01
+
+	icon = 5 # green paper
 }
 
 ###HPM Modifiers
@@ -1273,8 +1291,8 @@ gold_rush_country = {
 }
 
 gold_rush = {
-	immigrant_attract = 3		#300%
-	life_rating = 0.5
+	immigrant_attract = 5		#500%
+	life_rating = 0.75
 	icon = 11
 }
 

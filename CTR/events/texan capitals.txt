@@ -1,0 +1,163 @@
+# The New Capital
+country_event = {
+	id = 78500
+	title = "ctr_78500_title"
+	desc = "ctr_78500_desc"
+
+	trigger = {
+		tag = TEX
+		exists = yes
+		war = no
+		capital = 132
+
+		NOT = { has_country_flag = columbia_not_renamed }
+		NOT = { has_country_flag = columbia_renamed }
+		NOT = { has_country_flag = capital_final }
+	}
+
+	mean_time_to_happen = {
+		days = 14
+	}
+
+	# The capital should be in Houston
+	option = {
+		name = "ctr_78500_opt1"
+
+		132 = {
+			change_province_name = "Houston"
+		}
+
+		prestige = 5
+
+		set_country_flag = columbia_renamed
+	}
+
+	# Keep it in Columbia
+	option = {
+		name = "ctr_78500_opt2"
+		prestige = 2
+		set_country_flag = columbia_not_renamed
+	}
+}
+
+# The New Capital
+country_event = {
+	id = 78501
+	title = "ctr_78501_title"
+	desc = "ctr_78501_desc"
+
+	trigger = {
+		tag = TEX
+		exists = yes
+		war = no
+		capital = 132
+		year = 1838
+
+		NOT = { has_country_flag = columbia_not_renamed }
+		NOT = { has_country_flag = capital_moved_to_austin }
+	}
+
+	mean_time_to_happen = {
+		days = 14
+	}
+
+	# Move the capital to Austin
+	option = {
+		name = "ctr_78501_opt1"
+
+		133 = {
+			change_province_name = "Austin"
+		}
+		capital = 133
+		prestige = 5
+
+		add_country_modifier = {
+			name = national_confusion
+			duration = 120
+		}
+	}
+
+	# Let us honor Stephen F. Austin
+	option = {
+		name = "ctr_78501_opt2"
+
+		133 = {
+			change_province_name = "Austin"
+		}
+		prestige = 5
+	}
+
+	# No! Our capital is fine as it is
+	option = {
+		name = "ctr_78501_opt3"
+	}
+}
+
+# The New Capital
+country_event = {
+	id = 78502
+	title = "ctr_78502_title"
+	desc = "ctr_78502_desc"
+
+	trigger = {
+		tag = TEX
+		exists = yes
+		war = no
+		capital = 133
+		year = 1840
+
+		NOT = { has_country_flag = capital_final }
+	}
+
+	# This capital suits Texas well
+	option = {
+		name = "ctr_78502_opt1"
+
+		set_country_flag = capital_final
+		prestige = 3
+	}
+
+	# No! It shall be in Houston!
+	option = {
+		name = "ctr_78502_opt2"
+
+		capital = 132
+		add_country_modifier = {
+			name = national_confusion
+			duration = 120
+		}
+	}
+}
+
+country_event = {
+	id = 78503
+	title = "ctr_78501_title"
+	desc = "ctr_78501_desc"
+
+	trigger = {
+		tag = TEX
+		exists = yes
+		war = no
+		capital = 132
+		year = 1842
+
+		NOT = { has_country_flag = cpaital_final }
+	}
+
+	option = {
+		name = "ctr_78501_opt1"
+
+		capital = 133
+		add_country_modifier = {
+			name = national_confusion
+			duration = 120
+		}
+	}
+
+	option = {
+		name = "ctr_78501_opt3"
+
+		set_country_flag = capital_final
+	}
+
+}

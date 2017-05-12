@@ -567,9 +567,9 @@ acquire_core_state = {
 	
 	on_add = {
 		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
+			from = pro_military 
+			to = jingoism
+			value = 0.10
 		}
 	}
 	
@@ -644,9 +644,9 @@ acquire_all_cores = {
 	
 	on_add = {
 		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
+			from = pro_military 
+			to = jingoism
+			value = 0.10
 		}
 	}
 	
@@ -743,9 +743,9 @@ restore_austrian_empire = {
 	
 	on_add = {
 		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
+			from = pro_military 
+			to = jingoism
+			value = 0.10
 		}
 	}
 }
@@ -840,7 +840,7 @@ colonial_reconquest_cb = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.1
+			value = 0.01
 		}
 	}
 }
@@ -924,9 +924,9 @@ restore_america = {
 	
 	on_add = {
 		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
+			from = pro_military 
+			to = jingoism
+			value = 0.10
 		}
 	}
 }
@@ -1296,7 +1296,7 @@ annex_core_country = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.10
 		}
 	}
 }
@@ -1362,7 +1362,7 @@ add_to_sphere = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.10
 		}
 	}
 }
@@ -1420,7 +1420,7 @@ unification_humiliate_cb = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.1
+			value = 0.05
 		}
 	}
 }
@@ -1490,7 +1490,7 @@ unification_GP_humiliate = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.10
 		}
 	}
 	
@@ -1558,7 +1558,7 @@ unification_release_puppet_cb = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.10
 		}
 	}
 }
@@ -1619,7 +1619,7 @@ unification_add_to_sphere = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.10
 		}
 	}
 }
@@ -1707,7 +1707,7 @@ take_from_sphere = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.10
 		}
 	}
 }
@@ -2060,7 +2060,7 @@ free_peoples = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.10
 		}
 	}
 	
@@ -2329,7 +2329,7 @@ liberate_country = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.10
 		}
 	}
 	
@@ -2430,7 +2430,7 @@ free_allied_cores = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.10
 		}
 	}
 	
@@ -2576,7 +2576,7 @@ free_balkans = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.10
 		}
 	}
 }
@@ -2726,7 +2726,7 @@ monroe_doctrine = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.10
 		}
 	}
 }
@@ -2806,7 +2806,7 @@ oriental_crisis = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.10
 		}
 	}
 }
@@ -2870,7 +2870,7 @@ release_puppet = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.10
 		}
 	}
 }
@@ -2948,7 +2948,7 @@ release_puppet_AI = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.10
 		}
 	}
 }
@@ -3004,7 +3004,7 @@ gunboat = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.10
 		}
 	}
 	
@@ -3077,7 +3077,7 @@ cut_down_to_size = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.10
 		}
 	}
 	
@@ -3226,7 +3226,7 @@ great_game_cb = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.05
 		}
 	}
 	
@@ -3318,7 +3318,7 @@ restore_british_raj = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.15
 		}
 	}
 	
@@ -3413,7 +3413,7 @@ humiliate = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.10
 		}
 	}
 	
@@ -3511,7 +3511,7 @@ place_in_the_sun = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.05
 		}
 	}
 }
@@ -3721,7 +3721,7 @@ acquire_state = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.10
 		}
 	}
 }
@@ -3854,7 +3854,7 @@ china_acquire_state = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.10
+			value = 0.05
 		}
 	}
 }
@@ -3936,7 +3936,7 @@ sahel_jihad_cb = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.10
 		}
 	}
 }
@@ -4088,7 +4088,7 @@ demand_concession_casus_belli = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.1
+			value = 0.05
 		}
 	}
 	
@@ -4232,7 +4232,7 @@ demand_concession_NI_casus_belli = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.1
+			value = 0.05
 		}
 	}
 	
@@ -4371,7 +4371,7 @@ demand_concession_BC_casus_belli = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.1
+			value = 0.05
 		}
 	}
 	
@@ -4425,9 +4425,9 @@ rude_boy = {
 	
 	on_add = {
 		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.1
+			from = pro_military 
+			to = jingoism
+			value = 0.10
 		}
 	}
 }
@@ -4454,42 +4454,68 @@ conquest = {
 			}
 		}
 
+		#  a civilized country can be conquested if it:
+		# - has fewer than 5 (excl) provinces
+		# - has 1 state (4 if we are fascist)
+		# - have fewer than 125,000 pops
+		# - is civilized (or we are not)
+		AND = {
+			# either they're civilized, or we are not
+			# this prevents conquesting uncivs
+			OR = {
+				civilized = yes
+				THIS = { civilized = no }
+			}
+
+			OR = {
+				NOT = { num_of_cities = 5 }
+
+				# 1 state (or up to 4 if fascist)
+				OR = {
+					NOT = { number_of_states = 2 } # <2 states (i.e. 1)
+					AND = {
+						NOT = { number_of_states = 5 } # <5 states (i.e. <=4)
+						THIS = { government = fascist_dictatorship }
+					}
+				}
+
+				NOT = { total_pops = 125000 }
+			}
+		}
+
+		# we cannot annex vassals, nor can vassals annex their superiors
 		NOT = { is_our_vassal = THIS }
+		is_vassal = no
+		
+		# we must border the given country, via land or water
 		OR = {
 			AND = { 
 				THIS = { num_of_ports = 1 } 
 				num_of_ports = 1
 			}
 			neighbour = THIS
-			AND = { war_with = THIS ai = no }
 		}
-		OR = {
-			THIS = { civilized = no }
-			civilized = yes
-		}
-		OR = {
-			NOT = {
-				any_state = {
-					is_colonial = no
-					NOT = { any_owned_province = { is_capital = yes } }
-				}
-			}
-			AND = {
-				THIS = { government = fascist_dictatorship }
-				NOT = { number_of_states = 4 }
-			}
-		}
-		is_vassal = no
+
+		# neither we nor they can be neutral
 		NOT = { has_country_modifier = neutrality }
 		THIS = { NOT = { has_country_modifier = neutrality } }
+
+		# if we have the no_more_war modifier, we can't use this unless we're already at war
 		OR = {
 			war_with = THIS
 			THIS = { NOT = { has_country_modifier = no_more_war } }
 		}
+
+		# unless we're fascist or communist, we must either:
+		# - already be at war
+		# - relation must be lower than 0
+		# - be a human player
 		OR = {
 			THIS = { government = fascist_dictatorship }
 			THIS = { government = proletarian_dictatorship }
+
 			war_with = THIS
+			
 			NOT = { relation = { who = THIS value = 0 } }
 			THIS = { ai = no }
 		}
@@ -4634,7 +4660,7 @@ conquest = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.10
 		}
 	}
 	
@@ -4731,7 +4757,7 @@ annex_africa = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.1
+			value = 0.05
 		}
 	}
 }
@@ -4815,7 +4841,7 @@ annex_africa_full = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.1
+			value = 0.05
 		}
 	}
 }
@@ -4943,7 +4969,7 @@ establish_protectorate_casus_belli = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.1
+			value = 0.05
 		}
 	}
 }
@@ -5056,7 +5082,7 @@ establish_protectorate_NI_casus_belli = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.1
+			value = 0.05
 		}
 	}
 }
@@ -5167,7 +5193,7 @@ establish_protectorate_BC_casus_belli = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.1
+			value = 0.05
 		}
 	}
 }
@@ -5198,7 +5224,7 @@ status_quo = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.10
 		}
 	}
 	
@@ -5246,7 +5272,7 @@ cut_down_to_size_boxer = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.10
 		}
 	}
 	
@@ -5317,7 +5343,7 @@ make_puppet = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.10
 		}
 	}
 	
@@ -5371,8 +5397,8 @@ become_independent = {
 	
 	on_add = {
 		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
+			from = pro_military 
+			to = jingoism
 			value = 0.25
 		}
 		add_war_goal = {
@@ -5433,7 +5459,7 @@ uninstall_communist_gov_cb = {
 		move_issue_percentage = {
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.10
 		}
 	}
 }
@@ -5903,7 +5929,7 @@ acquire_substate_region = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.10
 		}
 	}
 }
@@ -5938,7 +5964,7 @@ colonial_competition = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.05
 		}
 	}
 }
@@ -6017,7 +6043,7 @@ dismantle_forts = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.25
+			value = 0.10
 		}
 	}
 
@@ -6259,7 +6285,7 @@ treaty_port_casus_belli = {
 		move_issue_percentage = { 
 			from = jingoism 
 			to = pro_military
-			value = 0.1
+			value = 0.05
 		}
 	}
 	

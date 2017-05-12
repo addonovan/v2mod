@@ -1,12 +1,15 @@
 capital = 608
 primary_culture = swiss
+culture = south_german
+culture = french
+culture = north_italian
+culture = romansh
 religion = protestant
 government = hms_government
 plurality = 25.0
 nationalvalue = nv_order
 literacy = 0.8
 civilized = yes
-prestige = 5
 
 # Political reforms
 slavery = no_slavery
@@ -31,8 +34,8 @@ school_reforms = no_schools
 conscription = mandatory_service
 debt_law = debtors_prisons
 penal_system = incarceration
-child_labor = child_labor_legalcitizens_rights = primary_culture_only
-border_policy = open_borders
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
 
 ruling_party = SWI_conservative
 last_election = 1835.1.1
