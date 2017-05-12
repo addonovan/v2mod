@@ -1,0 +1,19 @@
+
+political_decisions = {
+
+	sixteenth_amendment = {
+
+		potential = {
+			tag = USA
+		}
+
+		allow = {
+			tag = USA
+		}
+
+		effect = {
+		}
+
+	}
+
+}
