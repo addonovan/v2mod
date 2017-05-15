@@ -10,7 +10,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 3
+		months = 6
 
 		# Every 25% of administrative spending will make the event 35% more likely to happen 
 
