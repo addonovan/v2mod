@@ -38,14 +38,6 @@ ctr_79001_title;Diplomatic Insult;;;;;;;;;;;;;x
 ctr_79001_desc;Recently a diplomat from $FROMCOUNTRY$ has insinuated that we were responsible for their infamous deeds. This of course is very foolish, but many other countries have already believe them over us. This could warrant retaliation on our end.;;;;;;;;;;;;;x
 ctr_79001_opt1;We will not stand for this!;;;;;;;;;;;;;x
 ctr_79001_opt2;I’m sure they didn’t intend this;;;;;;;;;;;;;x
-ctr_79002_title;Impasse at CTR HQ;;;;;;;;;;;;;x
-ctr_79002_desc;Our Correct the Record campaign has hit an impasse. They are unable to continue doing their job without additional funding to alleviate this problem. They are requesting a rather large amount of money to solve this issue, should we divert the money to them, or should we just cancel the plan?;;;;;;;;;;;;;x
-ctr_79002_opt1;Yes, give them everything they need;;;;;;;;;;;;;x
-ctr_79002_opt2;Spare the funds we can;;;;;;;;;;;;;x
-ctr_79002_opt3;No, this operation has grown too expensive;;;;;;;;;;;;;x
-ctr_79003_title;CTR Resumes;;;;;;;;;;;;;x
-ctr_79003_desc;Our Correct the Record campaign has fixed the problems preventing it from continuing its job, the diligent bureaucrats will now resume right where they left off, improving our foreign image.;;;;;;;;;;;;;x
-ctr_79003_opt1;Good to hear!;;;;;;;;;;;;;x
 ctr_79004_title;CTR Complete;;;;;;;;;;;;;x
 ctr_79004_desc;Our Correct the Record campaign has been successful! Our misdeeds have either been long since forgotten by the world, or we have shifted the blame onto someone else. Either way, we no longer need to fund this campaign.;;;;;;;;;;;;;x
 ctr_79004_opt1;Keep funding it anyways;;;;;;;;;;;;;x
