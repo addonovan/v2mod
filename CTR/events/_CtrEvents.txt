@@ -318,6 +318,10 @@ country_event = {
 		NOT = { badboy = 0.04 } # less than 4% of the infamy limit
 	}
 
+	mean_time_to_happen = {
+		days = 1
+	}
+
 	option = {
 		name = "ctr_79004_opt1"
 	}
