@@ -12,6 +12,13 @@ country_event = {
 	mean_time_to_happen = {
 		months = 6
 
+		# > 50% infamy will give a 50% bonus
+
+		modifier = {
+			factor = 0.50
+			badboy = 0.50
+		}
+
 		# Every 25% of administrative spending will make the event 35% more likely to happen 
 
 		modifier = {
