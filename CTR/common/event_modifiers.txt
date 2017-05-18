@@ -4,6 +4,11 @@
 
 ###CTR Modifiers
 
+taxation_unconstitutional = {
+	max_tax = -0.40
+	max_tariff = 0.20
+}
+
 # This is just for mechanics, to prevent spamming the event
 ctr_cooldown = {
 }
