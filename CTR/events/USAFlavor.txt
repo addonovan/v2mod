@@ -8,7 +8,16 @@ country_event = {
 
 	trigger = {
 		tag = USA
-		NOT = { government = republic }
+		OR = {
+			NOT = {
+				OR = {
+					government = democracy
+					government = bourgeois_dictatorship
+				}
+			}
+
+			ideology = reactionary
+		}
 		has_country_modifier = taxation_unconstitutional
 	}
 
