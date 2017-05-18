@@ -3,7 +3,31 @@
 #
 # Effects are fully scriptable here.
 
-### Other stuff
+### CTR
+
+# If you got unlucky and broke the infamy limit a TON
+# and also go the "No more war" modifier, but you're
+# either have an alliance with or a truce with all great
+# powers, then most of the effects of no_more_war (at least,
+# in respect to war exhaustion) will be removed.
+excessive_war_exhaustion = {
+	trigger = {
+		has_country_modifier = bad_badboy
+		has_country_modifier = no_more_war
+		war = no
+
+		# we only care about what great powers and secondary powers think
+		# of us really
+		any_greater_power = {
+			OR = {
+				truce_with = THIS
+				alliance_with = THIS
+			}
+		}
+	}
+
+	war_exhaustion = -0.45
+}
 
 ai_usa_taxation = {
 	trigger = {
@@ -14,6 +38,8 @@ ai_usa_taxation = {
 
 	max_tariff = 0.10
 }
+
+### Other stuff
 
 the_british_raj = {
 	trigger = {
