@@ -3,6 +3,13 @@
 #
 # Effects are fully scriptable here.
 
+### CTR
+
+taxation_unconstitutional = {
+	max_tax = -0.45
+	max_tariff = 0.75
+}
+
 ### Other stuff
 
 the_british_raj = {
