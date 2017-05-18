@@ -5,6 +5,16 @@
 
 ### Other stuff
 
+ai_usa_taxation = {
+	trigger = {
+		tag = USA
+		ai = yes
+		has_country_modifier = taxation_unconstitutional
+	}
+
+	max_tariff = 0.10
+}
+
 the_british_raj = {
 	trigger = {
 		OR = {
