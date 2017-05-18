@@ -16,9 +16,12 @@ excessive_war_exhaustion = {
 		has_country_modifier = no_more_war
 		war = no
 
+		# we only care about what great powers and secondary powers think
+		# of us really
 		any_greater_power = {
 			OR = {
 				truce_with = THIS
+				alliance_with = THIS
 			}
 		}
 	}
